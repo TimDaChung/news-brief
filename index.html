@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日新聞 Brief · 2026-04-22</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --card: #1a2028;
+    --card-hover: #222a34;
+    --border: #2a3441;
+    --text: #e6edf3;
+    --text-dim: #8b949e;
+    --text-faint: #6e7681;
+    --accent: #58a6ff;
+    --tag-work: #ff7b72;
+    --tag-industry: #ffa657;
+    --tag-strategy: #79c0ff;
+    --tag-work-bg: rgba(255, 123, 114, 0.12);
+    --tag-industry-bg: rgba(255, 166, 87, 0.12);
+    --tag-strategy-bg: rgba(121, 192, 255, 0.12);
+    --callout-bg: rgba(121, 192, 255, 0.06);
+    --callout-border: rgba(121, 192, 255, 0.25);
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #fafafa;
+      --card: #ffffff;
+      --card-hover: #f6f8fa;
+      --border: #d0d7de;
+      --text: #1f2328;
+      --text-dim: #57606a;
+      --text-faint: #8c959f;
+      --accent: #0969da;
+      --tag-work: #cf222e;
+      --tag-industry: #bc4c00;
+      --tag-strategy: #0969da;
+      --tag-work-bg: rgba(207, 34, 46, 0.08);
+      --tag-industry-bg: rgba(188, 76, 0, 0.08);
+      --tag-strategy-bg: rgba(9, 105, 218, 0.08);
+      --callout-bg: rgba(9, 105, 218, 0.04);
+      --callout-border: rgba(9, 105, 218, 0.2);
+    }
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 16px; }
+
+  body {
+    font-family: "PingFang TC", "Microsoft JhengHei", "Noto Sans TC",
+                 -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 32px 24px 80px;
+    min-height: 100vh;
+  }
+
+  .container { max-width: 1400px; margin: 0 auto; }
+
+  header {
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing: -0.02em;
+  }
+
+  .meta-line {
+    color: var(--text-dim);
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .meta-line .pill {
+    background: var(--card);
+    padding: 4px 10px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    font-size: 12px;
+  }
+
+  /* ===== 今日必看 ===== */
+  .must-read {
+    background: linear-gradient(135deg, var(--tag-work-bg), transparent);
+    border: 1px solid var(--tag-work-bg);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 28px;
+  }
+
+  .must-read-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--tag-work);
+    letter-spacing: 0.1em;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+  }
+
+  .must-read-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+
+  @media (max-width: 800px) {
+    .must-read-grid { grid-template-columns: 1fr; }
+  }
+
+  .must-read-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: background 0.15s ease, transform 0.15s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .must-read-item:hover {
+    background: var(--card-hover);
+    transform: translateY(-1px);
+    border-color: var(--tag-work);
+  }
+
+  .must-read-item .num {
+    font-size: 11px;
+    color: var(--tag-work);
+    font-weight: 700;
+  }
+
+  .must-read-item .must-title {
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .must-read-item .must-hint {
+    font-size: 12px;
+    color: var(--text-dim);
+    line-height: 1.5;
+  }
+
+  /* ===== 篩選列 ===== */
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+    padding: 12px 16px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    position: sticky;
+    top: 8px;
+    z-index: 10;
+    backdrop-filter: blur(8px);
+  }
+
+  .chip {
+    font-family: inherit;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    padding: 5px 12px;
+    border-radius: 16px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+  }
+
+  .chip:hover {
+    color: var(--text);
+    border-color: var(--text-dim);
+  }
+
+  .chip.active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .chip.active { background: var(--accent); color: #0f1419; }
+  }
+
+  .chip .chip-count {
+    margin-left: 4px;
+    opacity: 0.7;
+    font-size: 11px;
+  }
+
+  .search-input {
+    flex: 1;
+    min-width: 180px;
+    font-family: inherit;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 13px;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+
+  .search-input:focus { border-color: var(--accent); }
+
+  .legend {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 11px;
+    color: var(--text-faint);
+    margin-left: auto;
+  }
+
+  @media (max-width: 700px) {
+    .legend { width: 100%; margin-left: 0; margin-top: 4px; }
+  }
+
+  /* ===== 主體 ===== */
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  @media (max-width: 900px) {
+    main { grid-template-columns: 1fr; gap: 24px; }
+    body { padding: 24px 16px 60px; }
+    h1 { font-size: 24px; }
+  }
+
+  section h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--text);
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  section h2 .count {
+    font-size: 13px;
+    color: var(--text-faint);
+    font-weight: 400;
+  }
+
+  .news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .news-list.empty::after {
+    content: '這個篩選下沒有新聞';
+    display: block;
+    padding: 32px 16px;
+    text-align: center;
+    color: var(--text-faint);
+    font-size: 13px;
+    border: 1px dashed var(--border);
+    border-radius: 8px;
+  }
+
+  article {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    transition: background 0.15s ease, border-color 0.15s ease;
+    position: relative;
+  }
+
+  article[data-category="work"] {
+    border-left: 3px solid var(--tag-work);
+    padding-left: 18px;
+  }
+
+  article:hover {
+    background: var(--card-hover);
+    border-color: color-mix(in srgb, var(--accent) 30%, var(--border));
+  }
+
+  article[data-category="work"]:hover {
+    border-color: var(--tag-work);
+  }
+
+  article.hidden { display: none; }
+
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    letter-spacing: 0.02em;
+  }
+
+  .tag-work { background: var(--tag-work-bg); color: var(--tag-work); }
+  .tag-industry { background: var(--tag-industry-bg); color: var(--tag-industry); }
+  .tag-strategy { background: var(--tag-strategy-bg); color: var(--tag-strategy); }
+
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 4px;
+    color: var(--text);
+  }
+
+  article[data-category="work"] .title { font-size: 17px; }
+
+  .orig-title {
+    font-size: 12px;
+    color: var(--text-faint);
+    line-height: 1.4;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+
+  .summary {
+    font-size: 14px;
+    color: var(--text-dim);
+    line-height: 1.65;
+    margin-bottom: 10px;
+  }
+
+  .impact {
+    background: var(--callout-bg);
+    border-left: 3px solid var(--callout-border);
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    border-radius: 0 6px 6px 0;
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--text);
+  }
+
+  .impact-label {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+    margin-right: 6px;
+  }
+
+  .footer-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--text-faint);
+    flex-wrap: wrap;
+  }
+
+  .footer-meta .sep { opacity: 0.5; }
+
+  .footer-meta a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s ease;
+  }
+
+  .footer-meta a:hover { border-color: var(--accent); }
+
+  .copy-btn {
+    margin-left: auto;
+    font-family: inherit;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+  }
+
+  .copy-btn:hover {
+    color: var(--text);
+    border-color: var(--accent);
+    background: var(--card-hover);
+  }
+
+  .copy-btn.copied {
+    color: #7ce38b;
+    border-color: #7ce38b;
+  }
+
+  footer.page-footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-size: 12px;
+    color: var(--text-faint);
+    line-height: 1.7;
+  }
+
+  footer.page-footer code {
+    background: var(--card);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 11px;
+  }
+
+  /* ===== Toast ===== */
+  .toast {
+    position: fixed;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: var(--text);
+    color: var(--bg);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s, transform 0.2s;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    z-index: 100;
+  }
+
+  .toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>每日新聞 Brief</h1>
+  <div class="meta-line">
+    <span class="pill">涵蓋日期：2026-04-22（週三）</span>
+    <span>更新：2026-04-23</span>
+    <span id="totals">台港澳 6 則 · 國際 9 則</span>
+  </div>
+</header>
+
+<!-- 今日必看 -->
+<section class="must-read">
+  <div class="must-read-title">🎯 今日必看 · 3 則</div>
+  <div class="must-read-grid">
+    <a class="must-read-item" href="#must-1">
+      <span class="num">01</span>
+      <span class="must-title">OpenAI 推 ChatGPT Workspace Agents</span>
+      <span class="must-hint">Codex 驅動的企業共享代理——你值得週末試玩</span>
+    </a>
+    <a class="must-read-item" href="#must-2">
+      <span class="num">02</span>
+      <span class="must-title">Google Cloud Next 2026 發表第八代 TPU</span>
+      <span class="must-hint">統一 AI 堆疊，影響未來 12 個月 LLM 接入選擇</span>
+    </a>
+    <a class="must-read-item" href="#must-3">
+      <span class="num">03</span>
+      <span class="must-title">Anthropic 2027 年啟用 Broadcom TPU</span>
+      <span class="must-hint">算力競賽白熱化，Claude 降價或擴容可期</span>
+    </a>
+  </div>
+</section>
+
+<!-- 篩選列 -->
+<div class="filters">
+  <button class="chip active" data-filter="all">全部 <span class="chip-count">15</span></button>
+  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">4</span></button>
+  <button class="chip" data-filter="industry">📊 產業視野 <span class="chip-count">7</span></button>
+  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">4</span></button>
+  <input type="search" class="search-input" placeholder="搜尋標題或摘要…" id="search">
+  <div class="legend">
+    <span>🎯 工作直擊</span>
+    <span>📊 產業視野</span>
+    <span>🌏 策略背景</span>
+  </div>
+</div>
+
+<main>
+
+<!-- 台港澳 -->
+<section>
+  <h2>台港澳 <span class="count" data-count="tw">6 則</span></h2>
+  <div class="news-list" data-region="tw">
+
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">香港證監會發布「代幣化資產二級市場交易」監管框架</div>
+      <div class="summary">SFC 正式公布框架，納入投資者保護機制，為代幣化產品二級交易建立制度基礎。CEO 梁鳳儀稱此為「香港建構完整數位資產生態系的又一里程碑」。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>香港在穩定幣（2025 年 8 月 Stablecoins Ordinance 生效後）→ 代幣化資產的制度推進速度超前多數亞洲市場，影響未來遊戲跨境支付、代幣化虛擬貨幣、公司架構選址。</div>
+      <div class="footer-meta">
+        <span>2026-04-22</span>
+        <span class="sep">·</span>
+        <span>Asia Asset Management</span>
+        <span class="sep">·</span>
+        <a href="https://www.asiaasset.com/digital-assets/hong-kong-unveils-framework-for-secondary-trading-of-tokenised-assets/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">台股創新高 37,978 點；台積電單日漲 3.22%，Q1 淨利年增 58%</div>
+      <div class="summary">TAIEX 上漲 413 點、1.1% 寫歷史新高，由科技股帶動。台積電 Q1 2026 營收 359 億美元，AI 晶片需求驅動，公司上修 2026 全年營收成長超過 30%。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>台廠 AI 基礎設施景氣延續，帶動整體科技業加薪與挖角壓力，間接影響手遊公司人才成本。</div>
+      <div class="footer-meta">
+        <span>2026-04-22</span>
+        <span class="sep">·</span>
+        <span>TradingKey / Bloomberg</span>
+        <span class="sep">·</span>
+        <a href="https://www.tradingkey.com/news/market-movers/261811534-market-movers-tsm-20260422" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">美國眾院預定表決 MATCH Act，加嚴對中晶片設備出口管制</div>
+      <div class="summary">4 月 22 日美國眾院委員會預計表決 MATCH Act，針對中國競爭對手使用的晶片製造設備祭出更嚴出口限制。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>若通過，中國 AI 算力瓶頸加深 → 米哈遊等中廠雲端成本上揚 → 可能壓縮其對外擴張，對台廠出海反而是短期利多；但也讓台灣在地緣夾縫中壓力更大。</div>
+      <div class="footer-meta">
+        <span>2026-04-22</span>
+        <span class="sep">·</span>
+        <span>綜合外電</span>
+        <span class="sep">·</span>
+        <a href="https://www.tradecomplianceresourcehub.com/2026/04/19/trump-2-0-tariff-tracker/" target="_blank" rel="noopener noreferrer">相關追蹤</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">AI PCB 族群：台光電、台燿、金像電、臻鼎、聯茂外資目標價齊揚</div>
+      <div class="summary">因 AI 伺服器、高階載板需求，外資連續上修 AI PCB 概念股目標價。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>AI 基建熱度溢出到上游，但對手遊端並無直接影響——這類新聞作為產業景氣溫度計即可，別被股市話題綁架產品決策。</div>
+      <div class="footer-meta">
+        <span>2026-04-20</span>
+        <span class="sep">·</span>
+        <span>科技新報</span>
+        <span class="sep">·</span>
+        <a href="https://finance.technews.tw/2026/04/20/ai-pcb-design/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">HBM 缺貨 2026 年仍無解，DRAM/NAND 產能被結構性擠壓</div>
+      <div class="summary">AI 需求把記憶體產能擠到 HBM，傳統 DRAM/NAND 供應緊張將延續至 2026 全年。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>手機儲存成本（NAND）可能上揚 → 玩家換機周期拉長 → 舊機型支援更重要；同時雲端遊戲 / 雲端 AI 服務成本難降，影響商業模式試算。</div>
+      <div class="footer-meta">
+        <span>2026-04-21</span>
+        <span class="sep">·</span>
+        <span>工商時報</span>
+        <span class="sep">·</span>
+        <a href="https://www.ctee.com.tw/news/20260421700185-439901" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">2025 台灣手遊營收榜：博弈遊戲 + 韓日廠商主導，中國手遊僅剩 4 名</div>
+      <div class="summary">AppMagic 統計：台廠博弈《星城》《包你發》霸前段班；韓國 NCSOFT《天堂》系列拿下 #2、#4；日系《寶可夢 TCG Pocket》《三國志·戰略版》上榜；中國手遊占比從往年大幅萎縮。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>Gamesofa 所在的休閒／博弈賽道結構性看好——開發成本低、可跨市場、不受中國版號卡脖子。這是產品策略的關鍵背景。</div>
+      <div class="footer-meta">
+        <span>近期</span>
+        <span class="sep">·</span>
+        <span>自由財經</span>
+        <span class="sep">·</span>
+        <a href="https://ec.ltn.com.tw/article/paper/1715891" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- 國際 -->
+<section>
+  <h2>國際 <span class="count" data-count="intl">9 則</span></h2>
+  <div class="news-list" data-region="intl">
+
+    <article id="must-2" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">Google Cloud Next 2026 登場：發表第八代 TPU + 統一 AI 技術堆疊</div>
+      <div class="orig-title">Google Cloud Next 2026 unveils 8th-gen TPU and unified AI stack</div>
+      <div class="summary">4/22 在拉斯維加斯舉行，Google Cloud 宣布新一代 TPU 與多項代理式（agentic）技術創新。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>若公司後端 / AI 輔助工具用 Google Cloud，此次技術堆疊整合會影響未來 12 個月的 LLM 接入選擇（尤其 agentic workflow 的標準化）。</div>
+      <div class="footer-meta">
+        <span>2026-04-22</span>
+        <span class="sep">·</span>
+        <span>綜合外電</span>
+        <span class="sep">·</span>
+        <a href="https://technews.tw/" target="_blank" rel="noopener noreferrer">相關追蹤</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+    <article id="must-3" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">Anthropic 宣布 2027 年啟用 Broadcom × Alphabet 合資的多 GW TPU</div>
+      <div class="orig-title">Anthropic Just Announced Huge News for Alphabet and Broadcom</div>
+      <div class="summary">Anthropic（Claude 開發商）宣布 2027 年起將採用多 GW 級新世代 TPU，由 Broadcom 與 Alphabet 合資開發。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>Anthropic 與 OpenAI 算力競賽白熱化 → Claude 系列降價 / 大幅擴容的可能性升高，對用 Claude Code 的你是好消息。</div>
+      <div class="footer-meta">
+        <span>2026-04-22</span>
+        <span class="sep">·</span>
+        <span>The Motley Fool</span>
+        <span class="sep">·</span>
+        <a href="https://www.fool.com/investing/2026/04/22/anthropic-just-announced-huge-news-for-alphabet-an/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+    <article id="must-1" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">OpenAI 推出 ChatGPT Workspace Agents：Codex 驅動的企業共享代理</div>
+      <div class="orig-title">OpenAI announces workspace agents in ChatGPT</div>
+      <div class="summary">允許團隊建立由 Codex 驅動、可共享的 AI 代理處理複雜任務，OpenAI 稱之為「GPTs 的進化版」。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>企劃部署「共享 agent」給全組使用的場景成真——如自動化競品監測、每日數值報告、企劃文件審閱。值得試玩。</div>
+      <div class="footer-meta">
+        <span>2026-04-22</span>
+        <span class="sep">·</span>
+        <span>OpenAI / 綜合</span>
+        <span class="sep">·</span>
+        <a href="https://llm-stats.com/ai-news" target="_blank" rel="noopener noreferrer">追蹤頁</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+    <article data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">OpenAI 承諾 15 億美元投入企業 AI PE 合資項目</div>
+      <div class="orig-title">OpenAI Pledges $1.5 Billion to PE Enterprise AI Project</div>
+      <div class="summary">OpenAI 初始投入 5 億美元股權，未來可追加 10 億。目標在企業 AI 銷售戰線超車 Anthropic。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>OpenAI 與 Anthropic 的企業市場爭奪直接影響定價——未來 6–12 個月企業 API 價格戰機率升高。</div>
+      <div class="footer-meta">
+        <span>2026-04-22</span>
+        <span class="sep">·</span>
+        <span>PYMNTS</span>
+        <span class="sep">·</span>
+        <a href="https://www.pymnts.com/artificial-intelligence-2/2026/openai-pledges-1-5-billion-to-pe-enterprise-ai-project/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Google Chrome Enterprise 加入 Gemini「Auto Browse」自動瀏覽</div>
+      <div class="orig-title">Google brings Gemini-powered 'auto browse' to Chrome for enterprise</div>
+      <div class="summary">讓員工自動化瀏覽器任務：資料查詢、表格填寫、內部報表整理。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>browser agent 正式產品化——遊戲產業「自動跑競品畫面截圖 / 自動監控官網改版」這類低技術需求可直接接入，企劃也能用。</div>
+      <div class="footer-meta">
+        <span>2026-04-22</span>
+        <span class="sep">·</span>
+        <span>綜合外電</span>
+        <span class="sep">·</span>
+        <a href="https://llm-stats.com/ai-news" target="_blank" rel="noopener noreferrer">追蹤頁</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Google 發表 AI 代理矩陣，正面挑戰 OpenAI 與 Anthropic</div>
+      <div class="orig-title">Google Releases New AI Agents to Challenge OpenAI and Anthropic</div>
+      <div class="summary">配合 Cloud Next 2026 推出完整 agent 產品線。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>三強鼎立（OpenAI / Anthropic / Google）已實質形成——未來選型不是「哪個最強」，而是「哪個綁定成本最低」。</div>
+      <div class="footer-meta">
+        <span>2026-04-22</span>
+        <span class="sep">·</span>
+        <span>Bloomberg</span>
+        <span class="sep">·</span>
+        <a href="https://www.bloomberg.com/news/articles/2026-04-22/google-releases-new-ai-agents-to-challenge-openai-and-anthropic" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">半導體指數寫下史上最長連漲紀錄，AI 需求再推升</div>
+      <div class="orig-title">AI Boom Has Chipmaker Stocks Nearing Longest Streak of Daily Gains</div>
+      <div class="summary">Micron +6%、AMD +4%、Broadcom +4%；TSMC 上修 2026 展望。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>AI 泡沫論逐漸被產能實績壓制——AI 基建這輪不是曇花，企劃做三年產品路線圖時可把「AI 工具穩定強化」當前提。</div>
+      <div class="footer-meta">
+        <span>2026-04-22</span>
+        <span class="sep">·</span>
+        <span>Bloomberg / 24/7 Wall St</span>
+        <span class="sep">·</span>
+        <a href="https://www.bloomberg.com/news/articles/2026-04-22/chipmakers-on-track-for-longest-ever-rally-amid-ai-optimism" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">南韓半導體紅利分配爭議：工會施壓三星、SK 海力士「分享利潤」</div>
+      <div class="orig-title">Chip Workers Press Samsung, SK Hynix to Share the Profits</div>
+      <div class="summary">AI 記憶體短缺讓兩巨頭獲利暴增，工會要求重新分配；Bloomberg 形容為「南韓學到大家在乎別人的錢」。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>韓系大廠的用人成本與內部壓力升高 → 可能影響其遊戲子業務（NCSOFT、Netmarble 等）的投資節奏與挖角策略。</div>
+      <div class="footer-meta">
+        <span>2026-04-22</span>
+        <span class="sep">·</span>
+        <span>Bloomberg</span>
+        <span class="sep">·</span>
+        <a href="https://www.bloomberg.com/news/newsletters/2026-04-22/chip-workers-press-samsung-sk-hynix-to-share-the-profits" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Bandai Namco：悟空 SS4（Daima）加入《七龍珠 FighterZ》付費 DLC</div>
+      <div class="orig-title">Bandai Namco adds Goku SS4 (Daima) to Dragon Ball FighterZ as paid DLC</div>
+      <div class="summary">4/22 上架。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>純粹觀察日系大廠 IP 運營節奏——老 IP 以角色 DLC 形式延長生命週期，成本低、變現高，是博弈／休閒類之外的另一種 LiveOps 模型。</div>
+      <div class="footer-meta">
+        <span>2026-04-22</span>
+        <span class="sep">·</span>
+        <span>Gaming 綜合</span>
+        <span class="sep">·</span>
+        <a href="https://gamerant.com/gaming/" target="_blank" rel="noopener noreferrer">相關追蹤</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="page-footer">
+  <p><strong>篩選準則</strong>：結構變化 &gt; 單一事件 · 原始資料 &gt; 二手報導 · 與你工作相關 &gt; 一般熱度 · 避開紅媒（人民日報／新華社／環球時報／大公文匯等）與純口水新聞。</p>
+  <p style="margin-top:8px;">路徑：<code>C:\Users\Tim\Documents\news-brief\index.html</code>　·　產出：news-brief skill 自動生成　·　下次更新會直接覆蓋本頁</p>
+</footer>
+
+</div>
+
+<div class="toast" id="toast">已複製到剪貼簿</div>
+
+<script>
+(function () {
+  const articles = document.querySelectorAll('article');
+  const chips = document.querySelectorAll('.chip');
+  const searchInput = document.getElementById('search');
+  const toast = document.getElementById('toast');
+
+  let currentFilter = 'all';
+  let currentKeyword = '';
+
+  function applyFilters() {
+    let twVisible = 0, intlVisible = 0;
+    articles.forEach(a => {
+      const cat = a.dataset.category;
+      const matchCat = currentFilter === 'all' || cat === currentFilter;
+      const text = a.textContent.toLowerCase();
+      const matchKw = !currentKeyword || text.includes(currentKeyword);
+      const show = matchCat && matchKw;
+      a.classList.toggle('hidden', !show);
+      if (show) {
+        const region = a.closest('.news-list').dataset.region;
+        if (region === 'tw') twVisible++;
+        else if (region === 'intl') intlVisible++;
+      }
+    });
+    document.querySelector('[data-count="tw"]').textContent = twVisible + ' 則';
+    document.querySelector('[data-count="intl"]').textContent = intlVisible + ' 則';
+    document.getElementById('totals').textContent = '台港澳 ' + twVisible + ' 則 · 國際 ' + intlVisible + ' 則';
+
+    document.querySelectorAll('.news-list').forEach(list => {
+      const visible = list.querySelectorAll('article:not(.hidden)').length;
+      list.classList.toggle('empty', visible === 0);
+    });
+  }
+
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      currentFilter = chip.dataset.filter;
+      applyFilters();
+    });
+  });
+
+  searchInput.addEventListener('input', (e) => {
+    currentKeyword = e.target.value.toLowerCase().trim();
+    applyFilters();
+  });
+
+  // 複製摘要
+  function showToast(msg) {
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(showToast._t);
+    showToast._t = setTimeout(() => toast.classList.remove('show'), 1800);
+  }
+
+  document.querySelectorAll('.copy-btn').forEach(btn => {
+    btn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const article = btn.closest('article');
+      const title = article.querySelector('.title').textContent.trim();
+      const origEl = article.querySelector('.orig-title');
+      const orig = origEl ? origEl.textContent.trim() : '';
+      const summary = article.querySelector('.summary').textContent.trim();
+      const impactEl = article.querySelector('.impact');
+      const impactRaw = impactEl ? impactEl.textContent.trim() : '';
+      const impact = impactRaw.replace(/^對你的意義\s*/, '');
+      const linkEl = article.querySelector('.footer-meta a');
+      const link = linkEl ? linkEl.href : '';
+      const source = article.querySelectorAll('.footer-meta span')[2]?.textContent.trim() || '';
+      const date = article.querySelector('.footer-meta span')?.textContent.trim() || '';
+
+      const text = [
+        `*${title}*`,
+        orig ? `_${orig}_` : null,
+        '',
+        summary,
+        impact ? `\n💡 對你的意義：${impact}` : null,
+        '',
+        `📅 ${date}　📰 ${source}`,
+        link ? `🔗 ${link}` : null
+      ].filter(Boolean).join('\n');
+
+      try {
+        await navigator.clipboard.writeText(text);
+        btn.classList.add('copied');
+        btn.textContent = '✓ 已複製';
+        showToast('已複製到剪貼簿');
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          btn.textContent = '📋 複製';
+        }, 1800);
+      } catch (err) {
+        showToast('複製失敗，請手動選取');
+      }
+    });
+  });
+
+  // 必看連結點擊時平滑捲動（+ 短暫 highlight）
+  document.querySelectorAll('.must-read-item').forEach(item => {
+    item.addEventListener('click', (e) => {
+      const href = item.getAttribute('href');
+      if (!href || !href.startsWith('#')) return;
+      e.preventDefault();
+      const target = document.querySelector(href);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        target.style.transition = 'box-shadow 0.3s';
+        target.style.boxShadow = '0 0 0 2px var(--tag-work)';
+        setTimeout(() => target.style.boxShadow = '', 1500);
+      }
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
