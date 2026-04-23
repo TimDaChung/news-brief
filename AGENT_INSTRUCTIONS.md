@@ -60,17 +60,31 @@
 
 **今日必看 3 則**：從 🎯 類別挑 3 則（若 🎯 不足 3 則用 📊 補），放在網頁頂部置頂區，給 `id="must-1|2|3"`，主列表對應 article 也用同樣 id。
 
-### Step 4 · 生成 HTML（**關鍵：讀現有 index.html 當模板**）
+### Step 4 · 生成 HTML（**關鍵：HTML 只有 ~330 行，CSS/JS 在外部檔**）
 
-1. `Read` 當前 `index.html`，擷取它的整體結構（CSS、JS、date-nav、filters、must-read 區塊、article 卡片樣式、footer）
-2. **保留**：所有 CSS、JS、date-nav 的 DOM 結構（功能會自動運作）
-3. **替換**：
-   - `<title>` 和 `<meta name="brief-date">` 的日期改為 `TARGET_DATE`
-   - `.meta-line` 裡的日期 pill、更新日期、總計數
-   - `.must-read` 區塊的 3 張小卡
-   - `.filters` 的 chip 計數
-   - 左右兩欄的 `<article>` 卡片列表
-4. 從 `index.html` 抽出 `meta[name="brief-date"]` 當前值，記為 `OLD_DATE`
+**重要背景**：CSS 已獨立為 `style.css`、JS 已獨立為 `app.js`。**Agent 完全不用碰這兩個檔**——只會在 HTML 裡看到：
+```html
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+```
+**保留這兩行即可，不要展開成 inline**。
+
+流程：
+1. `Read` 當前 `index.html`（只有 ~330 行，輕量）
+2. 從當前 `index.html` 抽出 `meta[name="brief-date"]` 值，記為 `OLD_DATE`
+3. **保留不動**的區塊：
+   - `<head>` 整段（含 `<link rel="stylesheet" href="style.css">`）
+   - `<nav class="date-nav">` 整段（JS 會自己填）
+   - `.filters` 整段 DOM 結構（chip 計數由 JS 動態更新，但初始值要對）
+   - `<script src="app.js"></script>` + 頁面結尾
+4. **替換**的內容：
+   - `<title>` 和 `<meta name="brief-date">` 改為 `TARGET_DATE`
+   - `.meta-line` 的日期 pill、更新日期、總計數
+   - `.must-read-grid` 裡的 3 張 `.must-read-item`
+   - `.filters` 裡每個 `.chip` 的 `.chip-count`（`全部 N`、`🎯 N`、`📊 N`、`🌏 N`）
+   - 左右兩欄的 `<article>` 卡片列表（`data-region="tw"` / `data-region="intl"`）
+   - `<section>` 欄標題的 `.count`
+5. 輸出時用 **`Write` 工具一次寫入完整 `index.html`**（≤ 400 行應該 OK）
 
 ### Step 5 · 7 天歷史保留
 
@@ -119,11 +133,13 @@ git push
 
 ## 關鍵原則
 
-- **HTML 模板必須讀現有 index.html**：不要自己從頭寫，會漏掉 date-nav、filters、JS 等重要結構
+- **CSS / JS 絕對不要展開成 inline**：保留 `<link>` 和 `<script src>` 外部引用就好
+- **HTML 模板必須讀現有 index.html**：不要自己從頭寫，會漏掉 date-nav、filters 等重要結構
 - **訊號優先於數量**：某區新聞少寧可留 5 則，不要湊到 10 則
 - **翻譯盡量貼原意**：國際新聞同時保留原文標題（給 `.orig-title`）
 - **「對你的意義」是精華**：這一段給 Tim 獨特價值，不能省略或敷衍
 - **跨日以 UTC 為準**：避免時區混淆（台北 08:30 = UTC 00:30）
+- **新增檔案時先檢查**：若 `style.css` 或 `app.js` 不存在（理論上不會）立即停止並回報，不要自行重建
 
 ## 失敗回退
 
