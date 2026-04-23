@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="brief-date" content="{{DATE}}">
+<title>每日新聞 Brief · {{DATE}}</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="date-nav" aria-label="日期切換">
+  <a class="date-btn" id="prev-day" href="#" title="前一天">◀</a>
+  <select class="date-select" id="date-select" aria-label="選擇日期">
+    <option value="{{DATE}}">{{DATE}}（{{WEEKDAY}}）</option>
+  </select>
+  <a class="date-btn" id="next-day" href="#" title="後一天">▶</a>
+  <a class="date-btn latest-btn" href="./" title="跳到最新">🏠 最新</a>
+</nav>
+
+<header>
+  <h1>每日新聞 Brief</h1>
+  <div class="meta-line">
+    <span class="pill" id="current-date-pill">涵蓋日期：{{DATE}}（{{WEEKDAY}}）</span>
+    <span>更新：{{UPDATE_DATE}}</span>
+    <span id="totals">台港澳 {{TW_COUNT}} 則 · 國際 {{INTL_COUNT}} 則</span>
+  </div>
+</header>
+
+<section class="must-read">
+  <div class="must-read-title">🎯 今日必看 · {{MUST_READ_COUNT}} 則</div>
+  <div class="must-read-grid">
+{{MUST_READ_ITEMS}}
+  </div>
+</section>
+
+<div class="filters">
+  <button class="chip active" data-filter="all">全部 <span class="chip-count">{{TOTAL_COUNT}}</span></button>
+  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">{{WORK_COUNT}}</span></button>
+  <button class="chip" data-filter="industry">📊 產業視野 <span class="chip-count">{{INDUSTRY_COUNT}}</span></button>
+  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">{{STRATEGY_COUNT}}</span></button>
+  <input type="search" class="search-input" placeholder="搜尋標題或摘要…" id="search">
+  <div class="legend">
+    <span>🎯 工作直擊</span>
+    <span>📊 產業視野</span>
+    <span>🌏 策略背景</span>
+  </div>
+</div>
+
+<main>
+
+<section>
+  <h2>台港澳 <span class="count" data-count="tw">{{TW_COUNT}} 則</span></h2>
+  <div class="news-list" data-region="tw">
+{{TW_ARTICLES}}
+  </div>
+</section>
+
+<section>
+  <h2>國際 <span class="count" data-count="intl">{{INTL_COUNT}} 則</span></h2>
+  <div class="news-list" data-region="intl">
+{{INTL_ARTICLES}}
+  </div>
+</section>
+
+</main>
+
+<footer class="page-footer">
+  <p><strong>篩選準則</strong>：結構變化 &gt; 單一事件 · 原始資料 &gt; 二手報導 · 與你工作相關 &gt; 一般熱度 · 避開紅媒（人民日報／新華社／環球時報／大公文匯等）與純口水新聞。</p>
+</footer>
+
+</div>
+
+<div class="toast" id="toast">已複製到剪貼簿</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
