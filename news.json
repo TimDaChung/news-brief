@@ -1,177 +1,116 @@
 {
-  "date": "2026-04-22",
-  "weekday": "週三",
+  "date": "2026-04-23",
+  "weekday": "週四",
   "must_read": [
     {
-      "title": "OpenAI 推 ChatGPT Workspace Agents",
-      "hint": "Codex 驅動的企業共享代理——你值得週末試玩",
+      "title": "OpenAI 發布 GPT-5.5：幻覺率降 60%，六週一版衝刺超級應用",
+      "hint": "AI 工具軍備競賽再升一級，產品規劃師的日常工作流即將被重新定義",
       "article_id": "must-1"
     },
     {
-      "title": "Google Cloud Next 2026 發表第八代 TPU",
-      "hint": "統一 AI 堆疊，影響未來 12 個月 LLM 接入選擇",
+      "title": "Anthropic Mythos AI 遭未授權存取，零日漏洞攻擊能力引爆資安警報",
+      "hint": "頂尖 AI 的真實攻擊力已到前國家網路主任公開示警的程度",
       "article_id": "must-2"
     },
     {
-      "title": "Anthropic 2027 年啟用 Broadcom TPU",
-      "hint": "算力競賽白熱化，Claude 降價或擴容可期",
+      "title": "Google Cloud Next 2026：Gemini Enterprise Agent 平台上線，$7.5 億夥伴計畫",
+      "hint": "AI 代理從技術演示進入企業標配，多代理工作流工具組合即將成熟",
       "article_id": "must-3"
     }
   ],
   "tw": [
     {
+      "id": "tw-1",
       "category": "strategy",
-      "title": "香港證監會發布「代幣化資產二級市場交易」監管框架",
-      "summary": "SFC 正式公布框架，納入投資者保護機制，為代幣化產品二級交易建立制度基礎。CEO 梁鳳儀稱此為「香港建構完整數位資產生態系的又一里程碑」。",
-      "impact": "香港在穩定幣（2025 年 8 月 Stablecoins Ordinance 生效後）→ 代幣化資產的制度推進速度超前多數亞洲市場，影響未來遊戲跨境支付、代幣化虛擬貨幣、公司架構選址。",
-      "date": "2026-04-22",
-      "source": "Asia Asset Management",
-      "link": "https://www.asiaasset.com/digital-assets/hong-kong-unveils-framework-for-secondary-trading-of-tokenised-assets/"
+      "title": "香港 SFC 裁定：PwC 須賠恒大少數股東 HK$10 億，另繳 HK$3 億罰款",
+      "summary": "香港 SFC 與 PwC 就恒大 2019–2020 年財報不實達成和解，PwC 支付 HK$10 億賠償少數股東並繳 HK$3 億罰款，同時接受六個月禁止承接新上市客戶審計工作。SFC 稱此為「首次由審計師為已解散公司向受損股東直接賠償」。",
+      "impact": "監管問責新標準確立：香港稽查力道不因恒大已倒閉而收斂，對任何在港融資、上市或持有香港法人實體的台灣遊戲公司，財務合規要求會更嚴格，內部審計品質與外部核數師選擇都需重新評估。",
+      "date": "2026-04-23",
+      "source": "Bloomberg / SFC",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-23/pwc-agrees-to-pay-166-million-to-close-evergrande-probe-in-hk",
+      "link_text": "原文連結"
     },
     {
+      "id": "tw-2",
       "category": "industry",
-      "title": "台股創新高 37,978 點;台積電單日漲 3.22%,Q1 淨利年增 58%",
-      "summary": "TAIEX 上漲 413 點、1.1% 寫歷史新高,由科技股帶動。台積電 Q1 2026 營收 359 億美元,AI 晶片需求驅動,公司上修 2026 全年營收成長超過 30%。",
-      "impact": "台廠 AI 基礎設施景氣延續,帶動整體科技業加薪與挖角壓力,間接影響手遊公司人才成本。",
-      "date": "2026-04-22",
-      "source": "TradingKey / Bloomberg",
-      "link": "https://www.tradingkey.com/news/market-movers/261811534-market-movers-tsm-20260422"
+      "title": "台灣 TAGE 2026 開展：IGS 鈊象電子展示授權「教父」博奕機台與新型射擊街機",
+      "summary": "台灣電子遊戲機國際產業展（TAGE）4/23–25 於台北世貿一館舉行，IGS 鈊象電子展出授權好萊塢 IP「教父」主題機台、新型槍戰街機、大型摩托機，以及多款家庭抽獎彩票機。",
+      "impact": "博奕娛樂硬體廠商的 UI 設計邏輯（每日任務、隨機抽獎、IP 授權換皮）與手遊高度重疊，可作為機制設計參考；同時顯示台灣娛樂機台廠商正積極以 IP 授權降低研發風險，對手遊的 IP 合作策略有借鑑意義。",
+      "date": "2026-04-23",
+      "source": "PChome 新聞",
+      "link": "https://news.pchome.com.tw/game/ldplayer/20260422/index-77684230842496345104.html",
+      "link_text": "原文連結"
     },
     {
+      "id": "tw-3",
       "category": "strategy",
-      "title": "美國眾院預定表決 MATCH Act,加嚴對中晶片設備出口管制",
-      "summary": "4 月 22 日美國眾院委員會預計表決 MATCH Act,針對中國競爭對手使用的晶片製造設備祭出更嚴出口限制。",
-      "impact": "若通過,中國 AI 算力瓶頸加深 → 米哈遊等中廠雲端成本上揚 → 可能壓縮其對外擴張,對台廠出海反而是短期利多;但也讓台灣在地緣夾縫中壓力更大。",
-      "date": "2026-04-22",
-      "source": "綜合外電",
-      "link": "https://www.tradecomplianceresourcehub.com/2026/04/19/trump-2-0-tariff-tracker/",
-      "link_text": "相關追蹤"
-    },
-    {
-      "category": "industry",
-      "title": "AI PCB 族群:台光電、台燿、金像電、臻鼎、聯茂外資目標價齊揚",
-      "summary": "因 AI 伺服器、高階載板需求,外資連續上修 AI PCB 概念股目標價。",
-      "impact": "AI 基建熱度溢出到上游,但對手遊端並無直接影響——這類新聞作為產業景氣溫度計即可,別被股市話題綁架產品決策。",
-      "date": "2026-04-20",
-      "source": "科技新報",
-      "link": "https://finance.technews.tw/2026/04/20/ai-pcb-design/"
-    },
-    {
-      "category": "strategy",
-      "title": "HBM 缺貨 2026 年仍無解,DRAM/NAND 產能被結構性擠壓",
-      "summary": "AI 需求把記憶體產能擠到 HBM,傳統 DRAM/NAND 供應緊張將延續至 2026 全年。",
-      "impact": "手機儲存成本(NAND)可能上揚 → 玩家換機周期拉長 → 舊機型支援更重要;同時雲端遊戲 / 雲端 AI 服務成本難降,影響商業模式試算。",
-      "date": "2026-04-21",
-      "source": "工商時報",
-      "link": "https://www.ctee.com.tw/news/20260421700185-439901"
-    },
-    {
-      "category": "industry",
-      "title": "2025 台灣手遊營收榜:博弈遊戲 + 韓日廠商主導,中國手遊僅剩 4 名",
-      "summary": "AppMagic 統計:台廠博弈《星城》《包你發》霸前段班;韓國 NCSOFT《天堂》系列拿下 #2、#4;日系《寶可夢 TCG Pocket》《三國志·戰略版》上榜;中國手遊占比從往年大幅萎縮。",
-      "impact": "Gamesofa 所在的休閒/博弈賽道結構性看好——開發成本低、可跨市場、不受中國版號卡脖子。這是產品策略的關鍵背景。",
-      "date": "近期",
-      "source": "自由財經",
-      "link": "https://ec.ltn.com.tw/article/paper/1715891"
+      "title": "中國兩會提案「數碼成年」：16 歲以下禁獨立開社群帳號、14 歲以下禁遊戲帳號",
+      "summary": "2026 年全國兩會提案建議設立 16 歲「數碼成年」門檻：14 歲以下完全禁止開設遊戲帳號；14–16 歲需監護人書面同意並通過雙重實名核實；配合現行「週末限玩 3 小時」與全面掃臉驗證機制。",
+      "impact": "若通過，中國手遊未成年玩家的准入門檻將達到史上最嚴，直接壓縮低齡用戶池；台灣廠商進軍中國市場需重新評估用戶年齡結構對 LTV 與充值收入的影響，原本靠未成年玩家驅動的留存機制可能需要全面改造。",
+      "date": "2026-03-10",
+      "source": "unwire.hk",
+      "link": "https://unwire.hk/2026/03/10/china-16-age-social-media-ban-proposal/fun-tech/",
+      "link_text": "原文連結"
     }
   ],
   "intl": [
     {
-      "id": "must-2",
+      "id": "must-1",
       "category": "work",
-      "title": "Google Cloud Next 2026 登場:發表第八代 TPU + 統一 AI 技術堆疊",
-      "orig_title": "Google Cloud Next 2026 unveils 8th-gen TPU and unified AI stack",
-      "summary": "4/22 在拉斯維加斯舉行,Google Cloud 宣布新一代 TPU 與多項代理式(agentic)技術創新。",
-      "impact": "若公司後端 / AI 輔助工具用 Google Cloud,此次技術堆疊整合會影響未來 12 個月的 LLM 接入選擇(尤其 agentic workflow 的標準化)。",
-      "date": "2026-04-22",
-      "source": "綜合外電",
-      "link": "https://technews.tw/",
-      "link_text": "相關追蹤"
+      "title": "OpenAI 發布 GPT-5.5（代號 Spud）：幻覺率降 60%，指向 AI 超級應用",
+      "orig_title": "OpenAI Releases GPT-5.5, Bringing Company One Step Closer to an AI 'Super App'",
+      "summary": "OpenAI 4/23 發布 GPT-5.5（代號「Spud」），距 GPT-5.4 僅六週。SWE-bench 88.7%、MMLU 92.4%，幻覺率較前代降 60%；能以更少 token 處理多步驟自主工作流。API 定價翻倍至 $5/M input、$30/M output，向 Plus 及以上用戶全面開放。",
+      "impact": "六週一版的發布節奏代表 AI 工具選型必須比以往更頻繁地重新評估；幻覺率大幅下降讓 GPT-5.5 更適合文件撰寫、競品分析等對準確性要求高的產品規劃任務，值得立即更新現有工作流測試。",
+      "date": "2026-04-23",
+      "source": "TechCrunch / Axios / Bloomberg",
+      "link": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+      "link_text": "原文連結"
+    },
+    {
+      "id": "must-2",
+      "category": "strategy",
+      "title": "Anthropic Mythos AI 遭 Discord 群組未授權存取，具備零日漏洞利用能力",
+      "orig_title": "Unauthorized Group Gains Access to Anthropic's Exclusive Cyber Tool Mythos",
+      "summary": "Anthropic 確認調查：Claude Mythos Preview（4/7 發布，被官方描述為「太危險不能公開」）遭一 Discord 群組透過第三方供應商共用帳號取得存取權，並持續使用數週。Mythos 在測試中被發現能識別並利用主流作業系統和瀏覽器的零日漏洞。",
+      "impact": "AI 安全邊界正式被突破：頂尖 AI 模型的攻擊能力已引發美國前國家網路安全主任公開警告「我們還沒準備好」；遊戲公司後台、用戶資料庫、支付系統面對 AI 輔助攻擊的脆弱性必須重新審視，資安投入不能再被當作成本壓縮項。",
+      "date": "2026-04-23",
+      "source": "TechCrunch / Fortune / CBS News",
+      "link": "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
+      "link_text": "原文連結"
     },
     {
       "id": "must-3",
       "category": "work",
-      "title": "Anthropic 宣布 2027 年啟用 Broadcom × Alphabet 合資的多 GW TPU",
-      "orig_title": "Anthropic Just Announced Huge News for Alphabet and Broadcom",
-      "summary": "Anthropic(Claude 開發商)宣布 2027 年起將採用多 GW 級新世代 TPU,由 Broadcom 與 Alphabet 合資開發。",
-      "impact": "Anthropic 與 OpenAI 算力競賽白熱化 → Claude 系列降價 / 大幅擴容的可能性升高,對用 Claude Code 的你是好消息。",
+      "title": "Google Cloud Next 2026：Gemini Enterprise Agent Platform 上線，$7.5 億夥伴計畫啟動",
+      "orig_title": "Google Cloud Next 2026: AI Agents, A2A Protocol, Workspace Studio, and the Full-Stack Bet",
+      "summary": "Google 於 Cloud Next 2026（4/22）推出 Gemini Enterprise Agent Platform（Vertex AI 進化版），含 Agent Designer、長效代理、技能市集；同步宣布 $7.5 億合作夥伴生態加速基金；Google 自身調查顯示 89% 企業已部署 AI 代理，平均每家運行 12 個。",
+      "impact": "AI 代理從「技術預覽」正式進入企業標準工具鏈，市場研究→競品分析→文件生成的多代理協作工作流即將成熟；三強（OpenAI / Anthropic / Google）鼎立下，選型關鍵已從「誰最強」轉為「哪個綁定成本最低」。",
       "date": "2026-04-22",
-      "source": "The Motley Fool",
-      "link": "https://www.fool.com/investing/2026/04/22/anthropic-just-announced-huge-news-for-alphabet-an/"
-    },
-    {
-      "id": "must-1",
-      "category": "work",
-      "title": "OpenAI 推出 ChatGPT Workspace Agents:Codex 驅動的企業共享代理",
-      "orig_title": "OpenAI announces workspace agents in ChatGPT",
-      "summary": "允許團隊建立由 Codex 驅動、可共享的 AI 代理處理複雜任務,OpenAI 稱之為「GPTs 的進化版」。",
-      "impact": "企劃部署「共享 agent」給全組使用的場景成真——如自動化競品監測、每日數值報告、企劃文件審閱。值得試玩。",
-      "date": "2026-04-22",
-      "source": "OpenAI / 綜合",
-      "link": "https://llm-stats.com/ai-news",
-      "link_text": "追蹤頁"
+      "source": "The Next Web / Bloomberg / Google Cloud Blog",
+      "link": "https://thenextweb.com/news/google-cloud-next-ai-agents-agentic-era",
+      "link_text": "原文連結"
     },
     {
       "category": "work",
-      "title": "OpenAI 承諾 15 億美元投入企業 AI PE 合資項目",
-      "orig_title": "OpenAI Pledges $1.5 Billion to PE Enterprise AI Project",
-      "summary": "OpenAI 初始投入 5 億美元股權,未來可追加 10 億。目標在企業 AI 銷售戰線超車 Anthropic。",
-      "impact": "OpenAI 與 Anthropic 的企業市場爭奪直接影響定價——未來 6–12 個月企業 API 價格戰機率升高。",
-      "date": "2026-04-22",
-      "source": "PYMNTS",
-      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/openai-pledges-1-5-billion-to-pe-enterprise-ai-project/"
+      "title": "Apple 中國 App Store 抽成首次降至 25%，年省開發者約 $8.73 億",
+      "orig_title": "Apple Lowers App Store Cut to 25% from 30% in China to Fend Off Local Regulators",
+      "summary": "受中國監管機構壓力，Apple 自 3/15 起將中國 App Store 標準抽成從 30% 降至 25%，訂閱續訂抽成從 15% 降至 12%；此為 Apple 在中國市場首次主動調降費率，預估每年為中國開發者節省約 $8.73 億。",
+      "impact": "Apple 在中國的讓步比 EU DMA 強制降費更具里程碑意義，說明中國監管壓力正成為可與 EU 比肩的平台政策槓桿；台灣手遊廠商如在中國 App Store 上架，25% 抽成讓毛利直接改善 5 個百分點，值得更新財務模型。",
+      "date": "2026-03-15",
+      "source": "Bloomberg / MacRumors / TechCrunch",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-13/apple-lowers-app-store-cut-to-25-from-30-in-china-to-fend-off-local-regulators",
+      "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "Google Chrome Enterprise 加入 Gemini「Auto Browse」自動瀏覽",
-      "orig_title": "Google brings Gemini-powered 'auto browse' to Chrome for enterprise",
-      "summary": "讓員工自動化瀏覽器任務:資料查詢、表格填寫、內部報表整理。",
-      "impact": "browser agent 正式產品化——遊戲產業「自動跑競品畫面截圖 / 自動監控官網改版」這類低技術需求可直接接入,企劃也能用。",
-      "date": "2026-04-22",
-      "source": "綜合外電",
-      "link": "https://llm-stats.com/ai-news",
-      "link_text": "追蹤頁"
-    },
-    {
-      "category": "industry",
-      "title": "Google 發表 AI 代理矩陣,正面挑戰 OpenAI 與 Anthropic",
-      "orig_title": "Google Releases New AI Agents to Challenge OpenAI and Anthropic",
-      "summary": "配合 Cloud Next 2026 推出完整 agent 產品線。",
-      "impact": "三強鼎立(OpenAI / Anthropic / Google)已實質形成——未來選型不是「哪個最強」,而是「哪個綁定成本最低」。",
-      "date": "2026-04-22",
-      "source": "Bloomberg",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-22/google-releases-new-ai-agents-to-challenge-openai-and-anthropic"
-    },
-    {
-      "category": "industry",
-      "title": "半導體指數寫下史上最長連漲紀錄,AI 需求再推升",
-      "orig_title": "AI Boom Has Chipmaker Stocks Nearing Longest Streak of Daily Gains",
-      "summary": "Micron +6%、AMD +4%、Broadcom +4%;TSMC 上修 2026 展望。",
-      "impact": "AI 泡沫論逐漸被產能實績壓制——AI 基建這輪不是曇花,企劃做三年產品路線圖時可把「AI 工具穩定強化」當前提。",
-      "date": "2026-04-22",
-      "source": "Bloomberg / 24/7 Wall St",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-22/chipmakers-on-track-for-longest-ever-rally-amid-ai-optimism"
-    },
-    {
-      "category": "strategy",
-      "title": "南韓半導體紅利分配爭議:工會施壓三星、SK 海力士「分享利潤」",
-      "orig_title": "Chip Workers Press Samsung, SK Hynix to Share the Profits",
-      "summary": "AI 記憶體短缺讓兩巨頭獲利暴增,工會要求重新分配;Bloomberg 形容為「南韓學到大家在乎別人的錢」。",
-      "impact": "韓系大廠的用人成本與內部壓力升高 → 可能影響其遊戲子業務(NCSOFT、Netmarble 等)的投資節奏與挖角策略。",
-      "date": "2026-04-22",
-      "source": "Bloomberg",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-04-22/chip-workers-press-samsung-sk-hynix-to-share-the-profits"
-    },
-    {
-      "category": "industry",
-      "title": "Bandai Namco:悟空 SS4(Daima)加入《七龍珠 FighterZ》付費 DLC",
-      "orig_title": "Bandai Namco adds Goku SS4 (Daima) to Dragon Ball FighterZ as paid DLC",
-      "summary": "4/22 上架。",
-      "impact": "純粹觀察日系大廠 IP 運營節奏——老 IP 以角色 DLC 形式延長生命週期,成本低、變現高,是博弈/休閒類之外的另一種 LiveOps 模型。",
-      "date": "2026-04-22",
-      "source": "Gaming 綜合",
-      "link": "https://gamerant.com/gaming/",
-      "link_text": "相關追蹤"
+      "title": "Nintendo Switch 2 在日本突破 500 萬台，Wk16 週銷仍遙遙領先",
+      "orig_title": "Nintendo Switch 2 Has Surpassed 5 Million Units Sold in Japan",
+      "summary": "Switch 2 截至 4 月初已在日本突破 500 萬台銷量，3 月單月銷售 448,494 台；Wk16（4/13–4/19）日台韓三地週銷榜 Switch 2 仍大幅領先 PS5 和 Xbox Series。",
+      "impact": "Switch 2 平台用戶基數快速成熟，現在是評估手遊移植 Switch 2 可行性的最佳時間窗口；同時代表跨平台（手遊→主機）用戶遷移路徑比預期更具規模，值得將 Switch 2 版本納入 2026–2027 產品路線圖討論。",
+      "date": "2026-04-09",
+      "source": "My Nintendo News / Perfectly Nintendo",
+      "link": "https://mynintendonews.com/2026/04/09/japan-nintendo-switch-2-has-surpassed-5-million-units-sold/",
+      "link_text": "原文連結"
     }
   ]
 }
