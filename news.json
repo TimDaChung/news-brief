@@ -1,133 +1,102 @@
 {
-  "date": "2026-04-25",
-  "weekday": "週六",
+  "date": "2026-04-26",
+  "weekday": "週日",
   "must_read": [
     {
-      "title": "全球逾四成遊戲開發者因 AI 衝擊萌生退意",
-      "hint": "GDC 2026 調查：52% 認為 AI 帶來負面影響，職涯焦慮轉化為人才結構動盪",
+      "title": "日本 MSCA 強制開放第三方支付，手遊廠商繞過 App Store 30% 抽成有法可循",
+      "hint": "全球最強平台開放法規已生效，日本市場直付通道建設的時機窗口已開",
       "article_id": "must-1"
     },
     {
-      "title": "OpenAI 推出 GPT-5.5：1M Context + 原生 Agentic 工作流",
-      "hint": "首個完整重訓基礎模型，整份 GDD 單次輸入分析成為現實",
+      "title": "OpenAI Sora 今日正式下線，視頻生成工作流需即刻確認替代方案",
+      "hint": "4 月 26 日起 Sora Web/App 停服，API 延至 9 月，需即日評估 Runway／Kling／Veo 2",
       "article_id": "must-2"
     },
     {
-      "title": "英國 CMA App Store 改革：Apple/Google 公平上架承諾已生效",
-      "hint": "全球 30% 抽成結構鬆動在即，2026 下半年最值得追蹤的手遊結構變化",
+      "title": "Google 宣布投資 Anthropic 最高 400 億美元，Claude 財務穩定性獲最大規模背書",
+      "hint": "Anthropic 年化收入 300 億美元、估值 3,500 億，Claude API 長期可用性風險大降",
       "article_id": "must-3"
     }
   ],
   "tw": [
     {
-      "id": "must-1",
-      "category": "work",
-      "title": "全球逾四成遊戲開發者萌生退意：AI 衝擊超越裁員成頭號威脅",
-      "summary": "GDC 2026 產業狀況報告顯示，52% 遊戲從業者認為 AI 正帶來負面影響（較 2025 年的 30% 增加 22 個百分點），44% 考慮離開遊戲業。視覺藝術與技術美術（64%）、遊戲設計（63%）、程式設計（59%）三大職類感受威脅最高；2022–2026 年全行業累計裁員近 4.5 萬人，僅 45% 被裁者找到新工作。",
-      "impact": "對你的意義：同事的職涯焦慮將直接影響團隊士氣與人才流動率。產品企劃本身非受替代威脅最高的職類，但視覺外包成本下降、藝術人員流動加劇，意味著開發資源結構正在重新洗牌。理解 AI 在視覺／設計／程式各環節的「可替代邊界」，有助於與開發夥伴討論資源配置與時程預估，也是評估外包策略的重要前提。",
-      "date": "2026-04-25",
-      "source": "TechNews 科技新報",
-      "link": "https://technews.tw/2026/04/25/ai-in-game-development-what-it-means-for-developers-in-2026/",
-      "link_text": "原文連結"
-    },
-    {
       "category": "industry",
-      "title": "經濟部「智慧創新大賞」頒獎：龔明鑫宣布下階段聚焦百工百業 AI 落地",
-      "summary": "第二屆 Best AI Awards 於 4 月 25 日在台北南港舉行，36 國 1,487 隊報名，國際參賽隊伍較首屆倍增，百大獲獎含台達電、耐能（Kneron）等；經濟部長龔明鑫表示已輔導逾 2,600 家企業導入 AI，建立 23 大關鍵產業應用模型，現階段聚焦 Agentic AI 與 Edge AI。",
-      "impact": "對你的意義：政府透過競賽與資金推動 AI 工具進入製造、醫療等傳統產業，遊戲業雖非焦點，但台灣 AI 工具供應鏈（推論晶片、輕量模型、端側 AI）正快速成熟，未來整合至遊戲 QA、美術外包等工作流的技術障礙將持續降低。Edge AI 成熟後也可能帶來手機端 on-device AI 的新玩法機會。",
+      "title": "台積電市值突破 1.8 兆美元，超越 Meta 與沙烏地阿美，躍居全球第七",
+      "summary": "台積電本週市值突破 1.8 兆美元，先後超越 Meta 與沙烏地阿拉伯國家石油公司，成為全球市值第七大企業；台灣整體股市市值已超過英國逼近加拿大。市場預估 2026 年 AI 基礎建設支出達 6,600 億美元，台積電掌握全球逾九成先進製程產能及 CoWoS 封裝技術。",
+      "impact": "對你的意義：台積電強勢市值反映 AI 算力需求的超高確定性，但也加劇高階晶片的稀缺。對手遊企劃的直接意義在於：旗艦機晶片供貨受台積電產能分配影響，高端裝置普及速度可能放緩——規劃遊戲效能規格時，需在旗艦體驗與中端機相容性之間保持彈性，避免過度依賴高端設備特效來驅動玩家決策。",
+      "date": "2026-04-26",
+      "source": "Newtalk 新聞",
+      "link": "https://newtalk.tw/news/view/2026-04-26/1031819",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "work",
+      "title": "遊戲開發商導入 AI 測試與效能分析工具，QA 週期縮短 30–40%",
+      "summary": "國內媒體報導遊戲開發商開始系統性導入 AI 自動化測試與效能分析工具，涵蓋崩潰偵測、幀率瓶頸定位與使用者體驗回歸測試；部分工具可自動生成測試腳本，QA 週期縮短 30–40%。",
+      "impact": "對你的意義：AI QA 工具降低了測試成本但也改變版本驗收節奏——如果合作的開發商已採用，預期 bug 回報速度加快、版本更新頻率提高，排程規劃需相應調整。若開發商尚未導入，可主動詢問計畫，這將影響未來合作的工時估算與外包 QA 策略，也是評估開發夥伴技術成熟度的新指標。",
       "date": "2026-04-25",
-      "source": "中央社 CNA",
-      "link": "https://www.cna.com.tw/news/afe/202604250172.aspx",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "中國網易配合未成年法規：勞動節假期遊戲可玩時段公告",
-      "summary": "依中國國家新聞出版署規定，網易公告 2026 年勞動節（5/1–5/5 及 5/8、5/10）未成年人可於每日 20:00–21:00 體驗遊戲 1 小時，5/9（補班工作日）不得上線。現行規定僅允許週五、六、日及法定節假日各 1 小時，其餘時段一律禁止。",
-      "impact": "對你的意義：中國未成年保護框架已全面落地且嚴格執行。規劃向中國大陸發行手遊時，需在節假日活動設計、推送策略與 ARPU 預估中明確排除未成年流量貢獻，並確認帳號實名認證系統符合要求，否則合規成本將大幅墊高上架門檻。",
-      "date": "2026-04-22",
-      "source": "台灣資本期貨 Breaking News",
-      "link": "https://www.capitalfutures.com.tw/zh-tw/financial/breakingnewsarticle?contentid=c26042200823",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "香港金管局核發首批穩定幣牌照：匯豐、渣打旗下 Anchorpoint 入選",
-      "summary": "香港金管局（HKMA）4 月 10 日核發首批穩定幣發行商牌照，授予匯豐銀行與渣打旗下 Anchorpoint（含 Animoca Brands 參股）；兩者均計劃發行港幣掛鉤穩定幣，前者預計 2026 H2 推出，後者 Q2 分階段上線。牌照附帶全球最嚴格 KYC 要求（HK$8,000 以上轉帳須確認身份）。",
-      "impact": "對你的意義：香港穩定幣框架以銀行機構背書，若日後台廠手遊佈局港幣市場或涉及跨境充值結算，匯豐／渣打的合規穩定幣基礎設施將是最安全的切入路徑。短期對現有業務影響有限，但框架成熟後可能影響遊戲支付與玩家充值通道的設計選型。",
-      "date": "2026-04-10",
-      "source": "Bloomberg",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-10/hsbc-stanchart-get-first-hong-kong-stablecoin-issuer-licenses",
+      "source": "PChome Online 新聞",
+      "link": "https://news.pchome.com.tw/science/sunmedia/20260425/index-77711254302070329005.html",
       "link_text": "原文連結"
     }
   ],
   "intl": [
     {
+      "id": "must-1",
+      "category": "work",
+      "title": "日本 MSCA 對遊戲發行商的實質影響：第三方支付合法化、側載正式開放",
+      "orig_title": "Japan's Mobile Software Competition Act: Legal Implications for Game Publishers",
+      "summary": "日本《移動軟體競爭法》（MSCA）已於 2025 年 12 月 18 日正式生效，Apple 與 Google 被指定為「特定軟體業者」，須開放側載、允許第三方支付、提供瀏覽器選擇畫面；JFTC 已對 Google 發出停業令（限制搜尋專屬協議），違規可處相關業務營業額 20% 的行政罰鍰。遊戲發行商現可在日本市場合法建立直接支付通道，繞過 App Store 的 30% 抽成。",
+      "impact": "對你的意義：日本是亞洲最高 ARPU 手遊市場，MSCA 讓廠商首度可合法建立直付通道，潛在可節省 15–25% 平台抽成（扣除 payment processor 費用後）。法規已生效，不是未來規劃——若公司有日本市場佈局，現在就需評估：建立直付系統的合規成本（KYC 機制、退款處理）vs. 抽成節省，哪個更划算？這也是觀察台、港未來立法方向的指標案例。",
+      "date": "近期",
+      "source": "Appcharge Blog",
+      "link": "https://www.appcharge.com/blog/japan-mobile-software-competition-act-legal-implications-for-game-publishers",
+      "link_text": "原文連結"
+    },
+    {
       "id": "must-2",
       "category": "work",
-      "title": "OpenAI 推出 GPT-5.5：首個完整重訓基礎模型，原生 Agentic 工作流",
-      "orig_title": "OpenAI announces GPT-5.5, its latest artificial intelligence model",
-      "summary": "GPT-5.5 代號「Spud」於 4 月 23 日發布，為 GPT-4.5 以來首個完全重訓的基礎模型；支援 1M token 上下文窗口，原生 computer-use 能力，API 定價 $5/$30 per M tokens。GPT-5.5 取代 GPT-5.4 成為 ChatGPT 與 Codex 預設模型，距 GPT-5.4 發布僅六週，AI 模型競賽明顯提速。",
-      "impact": "對你的意義：1M context 代表可以單次輸入完整遊戲設計文件（GDD）、用戶調查資料或多版本劇本進行全局分析，徹底改變以往分段餵入再整合的工作流。定價與 Claude Sonnet 相近，可直接作為交叉驗證工具；原生 computer-use 能力也讓自動化遊戲測試腳本的搭建門檻大幅降低。",
-      "date": "2026-04-23",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/04/23/openai-announces-latest-artificial-intelligence-model.html",
+      "title": "OpenAI Sora 4 月 26 日正式下線，視頻生成工作流需確認替代方案",
+      "orig_title": "What to know about the Sora discontinuation",
+      "summary": "OpenAI Sora 網頁版與 App 版於 2026 年 4 月 26 日停止服務，Sora API 將延至 9 月 24 日停用；用戶須在停服前匯出已生成內容。OpenAI 未說明明確替代產品，暗示視頻生成能力將整合進其他產品線。",
+      "impact": "對你的意義：若工作流程中有使用 Sora 生成遊戲宣傳影片、概念動態稿或過場動畫分鏡，今日起已無法繼續存取——需立即確認有無未匯出的重要素材。替代方案評估：Runway Gen-3（最成熟）、Kling（中文支援較好）、Google Veo 2（高品質但門檻高）；若有 API 依賴則有約 5 個月緩衝期。OpenAI 聚焦 GPT-5.5 與 Codex，視頻生成路線圖待觀察。",
+      "date": "2026-04-26",
+      "source": "OpenAI Help Center",
+      "link": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
       "link_text": "原文連結"
     },
     {
       "id": "must-3",
-      "category": "work",
-      "title": "英國 CMA App Store 改革生效：Apple/Google 公平上架承諾已落地，ITIF 提交意見",
-      "orig_title": "Comments to UK CMA Regarding Recent Developments in Relation to Apple's and Google's App Store Rules",
-      "summary": "Apple 與 Google 於 2 月承諾改善 App Store 公平性的措辭自 4 月 1 日起正式生效，包含「依公平、客觀、透明原則審核和排名 App」；CMA 徵集意見已於 4 月 22 日截止，智庫 ITIF 於 4 月 24 日提交意見，建議 CMA 避免跟隨 EU DMA 走向重監管，並承認防導流條款具有反搭便車功能。",
-      "impact": "對你的意義：公平上架承諾生效代表刻意壓低競爭方 App 曝光的做法受到約束，中小型手遊取得商店曝光的機會更平等。CMA 若進一步要求開放外部支付連結，全球 30% 抽成結構將面臨實質鬆動——這是 2026 年下半年最值得追蹤的手遊產業結構變化，建議提前規劃「允許外部支付」情境對現有付費設計的影響。",
+      "category": "strategy",
+      "title": "Google 宣布投資 Anthropic 最高 400 億美元，估值 3,500 億、年化收入突破 300 億",
+      "orig_title": "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
+      "summary": "Google 母公司 Alphabet 宣布投資 Anthropic 最多 400 億美元（先付 100 億，其餘視里程碑達成）；Anthropic 估值達 3,500 億美元，本月年化收入突破 300 億美元（去年底約 90 億）。同期 Amazon 亦追加投資至 250 億美元，Claude Code 成為主要成長動能。",
+      "impact": "對你的意義：Google 以 400 億美元押注 Claude，Anthropic 財務穩定性獲最大科技公司背書，Claude API 的長期可用性風險大幅降低，對日常倚賴 Claude 的工作流是正向訊號。但雙方戰略深度綁定，Anthropic 的定價與功能路線將更強烈地受 Google 生態影響——需持續追蹤 Claude 與 Gemini 的功能分化，以及 Google 是否藉此持股強化企業客戶對 Vertex AI 的依賴。",
       "date": "2026-04-24",
-      "source": "ITIF / UK CMA",
-      "link": "https://itif.org/publications/2026/04/24/comments-uk-cma-recent-developments-apple-google-app-store-rules/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "work",
-      "title": "Google Cloud Next 2026：A2A 協議 v1.0 進入生產、Gemini Agent 平台統一 Vertex AI",
-      "orig_title": "Google Cloud Next 2026: AI agents, A2A protocol, Workspace Studio, and the full-stack bet against OpenAI and Anthropic",
-      "summary": "Google 將 Vertex AI 更名為 Gemini Enterprise Agent Platform，A2A（Agent-to-Agent）協議 v1.0 已在 150 個組織生產環境運行，允許 Salesforce、ServiceNow、Workday 等 AI 代理無縫協作交接任務；同步推出 Workspace Studio 無代碼代理構建器及 ADK v1.0 穩定版。Model Garden 含 200+ 模型包括 Anthropic Claude。",
-      "impact": "對你的意義：A2A 協議讓不同廠商的 AI 代理可以無縫協同，意味著未來的遊戲開發工作流中，Claude（劇情／企劃）、GPT-5.5（代碼）、Gemini（圖像）可以模組化各司其職，而不必鎖定單一平台。提前了解 A2A 架構有助於設計更靈活的 AI 輔助工作流，也是未來企業採購 AI 工具的議價依據。",
-      "date": "2026-04-22",
-      "source": "The Next Web",
-      "link": "https://thenextweb.com/news/google-cloud-next-ai-agents-agentic-era",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "Meta 宣布裁員 10%（8,000 人）：AI 效率驅動，5 月執行、資本支出飆升 87%",
-      "orig_title": "Meta Tells Staff It Will Cut 10% of Jobs in Push for Efficiency",
-      "summary": "Meta 宣布 5 月裁員約 8,000 人（10% 員工），並凍結約 6,000 個空缺；2026 年資本支出上調至 1,350 億美元（年增 87%），全部用於 AI 基礎設施與「超級智慧」實驗室。裁員預計可節省每年逾 5 億美元成本。科技業 2026 年整體裁員規模已超越 2025 年。",
-      "impact": "對你的意義：Meta 砍人換 AI 算力是全球科技業結構調整的代表案例。Meta Ads 是手遊買量的主力渠道之一，工程人力壓縮短期內可能影響廣告產品迭代速度；中長期須關注「超級智慧」方向是否帶來推薦系統優化或全新廣告格式，這將直接影響手遊 UA 成本與策略。",
-      "date": "2026-04-23",
-      "source": "Bloomberg",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "Netmarble《RF Online Next》開放全球預購，PC + 手機跨平台 6/18 全球上線",
-      "orig_title": "Netmarble's RF Online Next is coming to the global market with registrations open today",
-      "summary": "Netmarble 宣布科幻 MMORPG《RF Online Next》4 月 22 日開放全球預購（Google Play、App Store、Epic Games），預計 6 月 18 日全球上線，支援 PC 與手機跨平台同步進度。繼韓國、日本、台灣版本成功後推向全球，主打 Biosuit 職業切換系統與 MAU 大型戰場。",
-      "impact": "對你的意義：韓系大廠以成熟 MMORPG IP 重製後走 PC + 手機跨平台路線，是目前最主流的全球化策略之一。RF Online Next 的全球首週留存數據（預計 7 月初可見）將是「老 IP 重製 × 跨平台」策略 ROI 的重要樣本；建議對照其台灣區表現，作為本地手遊 IP 策略的參考依據。",
-      "date": "2026-04-22",
-      "source": "Massively Overpowered",
-      "link": "https://massivelyop.com/2026/04/22/netmarbles-rf-online-next-is-coming-to-the-global-market-with-registrations-open-today/",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
       "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "Anthropic Claude Mythos 限定 50 家機構試用：自主發現 17 年 CVE 漏洞，聚焦網路安全防禦",
-      "orig_title": "Anthropic is giving some firms early access to Claude Mythos to bolster cybersecurity defenses",
-      "summary": "Anthropic 最強模型 Claude Mythos Preview 透過 Project Glasswing 向約 50 家機構（含 Amazon、Apple、Google、Microsoft、Nvidia）以邀請制開放，專注網路安全防禦；模型可自主識別並利用 17 年前的 FreeBSD RCE 漏洞（CVE-2026-4747）。Anthropic 年化營收突破 300 億美元（去年底約 90 億）。",
-      "impact": "對你的意義：Mythos 暫不開放公開 API，Tim 日常工作目前無法直接使用。但「Anthropic 把最強模型限制在防禦性安全場景」這一決策值得記住：代表 AI 自動攻擊能力邊界已被內部確認，後續合規要求可能影響遊戲業使用 AI 進行安全測試的方式。Anthropic 300 億美元年化收入代表財務健康，現有 Claude API 服務穩定性有充分保障。",
-      "date": "2026-04-07",
-      "source": "Fortune",
-      "link": "https://fortune.com/2026/04/07/anthropic-claude-mythos-model-project-glasswing-cybersecurity/",
+      "title": "美中貿易戰升溫：USTR Section 301 調查啟動，中國以稀土管制與反調查反制",
+      "orig_title": "US-China Relations in 2026: What to Watch",
+      "summary": "美國貿易代表辦公室（USTR）對中國及另外 15 國啟動 Section 301 調查，中國商務部隨即啟動兩項反調查並警告若調查繼續將恢復稀土出口管制；當前中美有效關稅率仍約 30%（今年高點曾達 125%），原定 3 月的川習北京峰會已延至 5 月。兩國同時各自構建多邊貿易聯盟，脫鉤進入實際執行階段。",
+      "impact": "對你的意義：稀土管制若恢復，手機晶片與 AR/VR 裝置元件成本將再度攀升，旗艦機定價可能上調，進而延長玩家換機週期、壓縮高端裝置普及率。中美脫鉤持續深化，台廠若有中國市場佈局（版號申請、聯合開發）需評估政治風險對時程的影響；若主攻非中市場，當前格局則可能為台廠帶來競爭優勢。",
+      "date": "近期",
+      "source": "China Briefing",
+      "link": "https://www.china-briefing.com/news/us-china-relations-in-2026-what-to-watch/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "NCsoft 拚 Aion 2 全球服、Netmarble 排隊 8 款遊戲：韓系大廠全力出海",
+      "orig_title": "Korean game companies zero in on global market",
+      "summary": "NCsoft 2026 年主力推進 Aion 2 全球服務，並布局手遊休閒 M&A 平台；Netmarble 列出 8 款發行計畫，含《Game of Thrones: Kingsroad》（H1，PC+手機）與《Seven Deadly Sins: Origin》（H2，主機），主攻西方市場。兩家公司共同策略：成熟 IP 改製 × 跨平台同步——以 MMORPG 留存韓國忠實用戶，並以 IP 授權遊戲打入西方市場。",
+      "impact": "對你的意義：韓系大廠的 2026 出海策略以「成熟 IP 授權改製」而非原創新 IP 為主，反映全球市場對熟悉感的偏好持續高於新奇感。對台廠的啟示：若有強 IP 授權機會（動漫、影視），改製的市場容忍度仍高；NCsoft/Netmarble 的西方市場首週留存數據（預計 7 月可見）將是「韓式 MMORPG 全球化」策略 ROI 的重要樣本，建議屆時對照追蹤。",
+      "date": "近期",
+      "source": "Korea Herald",
+      "link": "https://www.koreaherald.com/article/10402202",
       "link_text": "原文連結"
     }
   ]
