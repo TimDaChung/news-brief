@@ -1,114 +1,84 @@
 {
-  "date": "2026-04-28",
-  "weekday": "週二",
+  "date": "2026-04-30",
+  "weekday": "週四",
   "must_read": [
-    { "title": "Apple 強制 iOS 26 SDK：今起新版 App 不合規即無法上架", "hint": "開發流程若未升級 Xcode 26，遊戲下次更新將直接被拒", "article_id": "must-1" },
-    { "title": "Google 接手五角大廈 AI 合約，Anthropic 被列供應鏈風險", "hint": "AI 倫理邊界重畫，Claude 工具穩定性與商業風險需同步評估", "article_id": "must-2" },
-    { "title": "Red Desert 26 天狂銷 500 萬份，NCSOFT Q1 營收年增 44%", "hint": "韓廠新 IP 大作引爆爆炸性首月效果，競品格局值得深追", "article_id": "must-3" }
+    { "title": "Apple 外部支付費用之爭：九巡撤銷暫停令，案件退回地院", "hint": "手遊 IAP 抽成結構可能迎來最大一次重寫機會", "article_id": "must-1" },
+    { "title": "Anthropic 最強模型 Mythos 只給 50 家企業，不公開發布", "hint": "前沿 AI 工具正式走入閉門精英圈，開放時代告一段落", "article_id": "must-2" },
+    { "title": "Google 追投 Anthropic 最高 400 億美元，AI 雙寡頭格局加速", "hint": "Google-Anthropic vs. Microsoft-OpenAI，供應商選邊站時機到了", "article_id": "must-3" }
   ],
   "tw": [
     {
-      "category": "strategy",
-      "title": "台積電 Q1 2026 季報創歷史高：AI 加速器 CAGR 上修至 56–59%",
-      "summary": "台積電第一季合併營收達 357 億美元，年增 35.1%，創歷史新高；毛利率升至 66.2%。AI 加速器晶片長期年複合成長率由 50% 上修至 56–59%，Q2 展望年增 29–34%。法說會強調 Agentic AI 帶動算力需求進一步升級。",
-      "impact": "對你的意義：AI 算力需求上修幅度超預期，大廠仍在加速投入 AI 基礎建設；遊戲 AI 工具的算力成本中期持續壓縮，但優質算力搶位競爭也更激烈，現在鎖定工具鏈比之後搶更有利。",
-      "date": "2026-04-16",
-      "source": "科技新報",
-      "link": "https://finance.technews.tw/2026/04/13/tsmc-released-its-first-quarter-financial-report-on-the-16th/"
-    },
-    {
       "category": "industry",
-      "title": "香港 SFC 完成虛擬資產交易商諮詢，2026 年目標送審立法",
-      "summary": "香港財庫局及證監會完成虛擬資產交易商與託管人制度諮詢，計畫在 2026 年修訂《打擊洗錢及恐怖分子資金籌集條例》，將交易商、託管人、顧問及管理服務納入牌照制度，完成虛擬資產監管框架全覆蓋。",
-      "impact": "對你的意義：港府持續推進加密資產監管正軌，若有 NFT 或區塊鏈遊戲計畫在港落地，需預留牌照申請週期；監管框架明確後，機構資金進場意願可望提升，Web3 遊戲在港的合規路徑逐漸清晰。",
-      "date": "近期",
-      "source": "Gibson Dunn",
-      "link": "https://www.gibsondunn.com/hong-kong-concludes-consultations-on-regulation-of-virtual-asset-dealing-and-custodian-services-with-yet-more-to-come/"
+      "title": "台達電 2026 Q1 毛利率 37% 創高，AI 資料中心帶動營收年增 34.5%",
+      "summary": "台達電 2026 年第一季合併營收年增 34.5%，毛利率達 37%，主要來自 Meta、Amazon、Google、Microsoft 等超大規模客戶的 AI 資料中心電源訂單持續放量，AI 相關產品出貨比重持續攀升，每股盈餘 7.91 元創歷史新高。",
+      "impact": "對你的意義：台灣 AI 供應鏈的景氣溫度計。台達電拿到的訂單量直接反映全球 AI 算力軍備競賽強度——算力越旺，AI 工具成本才有機會持續下降，進而影響遊戲 AI 製作流程普及速度與採購時機。",
+      "date": "2026-04-30",
+      "source": "TechNews 科技新報",
+      "link": "https://finance.technews.tw/2026/04/30/delta-financial-report/"
     },
     {
-      "category": "work",
-      "title": "中國五一假期未成年遊戲窗口確認：每日限 20–21 時共 1 小時",
-      "summary": "依中國國家新聞出版署要求，2026 年五一勞動節假期期間，未成年玩家每日僅可在晚間 20 時至 21 時體驗網路遊戲，每日上限 1 小時，與平日週末規定相同。五一假期連假自 5 月 1 日起。",
-      "impact": "對你的意義：若有面向中國市場的手遊，五一假期最佳活動觸達窗口極窄（每日僅 1 小時）；活動倒計時、推播通知與首充誘因設計均需集中在 20–21 時，超出此時段的觸達效率大幅打折。",
-      "date": "2026-04-22",
-      "source": "capitalfutures.com.tw",
-      "link": "https://www.capitalfutures.com.tw/zh-tw/financial/breakingnewsarticle?contentid=c26042200823"
+      "category": "strategy",
+      "title": "香港 SFC 啟動代幣化投資產品二級交易試驗框架，首階段聚焦貨幣市場基金",
+      "summary": "香港證監會 4 月 20 日發布通函，允許持牌 VATP 對 SFC 核准代幣化開放式基金提供 24/7 二級市場交易服務，首波限於貨幣市場基金（AUM 已達港幣 107 億元），配套 CrypTech 監管科技平台同步推進，為全球首個「平台＋產品＋監理科技」三位一體框架。",
+      "impact": "對你的意義：香港正在建立全球首創的代幣化金融基礎建設。若台灣遊戲公司未來考慮在港引入代幣化資產模型或融資結構，此框架將是合規參考基準；也反映監管態度正從「禁止」轉向「規範後允許」，Web3 遊戲在港的合規路徑逐漸清晰。",
+      "date": "2026-04-20",
+      "source": "Prokopiev Law / Caproasia",
+      "link": "https://www.prokopievlaw.com/post/hong-kong-sfc-launches-secondary-trading-framework-for-tokenised-investment-products-in-april-2026"
     }
   ],
   "intl": [
     {
       "id": "must-1",
       "category": "work",
-      "title": "Apple 強制 iOS 26 SDK 今日生效：所有 App Store 新提交須用 Xcode 26",
-      "orig_title": "Apple Mandates iOS 26 SDK for All App Store Submissions Starting April 28, 2026",
-      "summary": "自 2026 年 4 月 28 日起，提交至 App Store Connect 的所有新版本 App 與遊戲，必須以 iOS 26 / iPadOS 26 SDK（即 Xcode 26）建置，否則直接拒審。此要求不影響既有上架版本，但任何下次更新均須遵守。以 iOS 26 SDK 建置的 App，原生 UI 元件將自動套用全新「Liquid Glass」視覺風格。",
-      "impact": "對你的意義：遊戲的下次版本更新（無論大小更新）必須先升級至 Xcode 26；「Liquid Glass」預設啟用可能改變遊戲內原生 UI 元件外觀，需盡早在 TestFlight 環境驗證視覺衝突，避免緊急修補耽誤排期。",
-      "date": "2026-04-28",
-      "source": "Apple Developer / 9to5Mac",
-      "link": "https://developer.apple.com/news/?id=ueeok6yw",
-      "link_text": "Apple 官方公告"
-    },
-    {
-      "category": "industry",
-      "title": "Apple+Google 加州 BASED Act 訴訟早一步分析：平台自我偏好規定短期不變",
-      "orig_title": "Apple and Google Crush California BASED Act (SB 1074) That Would Have Banned App Store Self-Preferencing",
-      "summary": "加州 SB 1074《BASED Act》（禁止大型數位平台在自有 App Store 偏好自家應用）於 4 月 20 日在州參議院委員會投票遭否決。Apple 與 Google 透過加州商業會議等遊說組織發動大規模反制，提案人形容為「大浪攻勢」，Apple 2025 全年遊說費用達創紀錄 1000 萬美元。",
-      "impact": "對你的意義：App Store 搜尋排序與推薦演算法短期不受立法約束，第三方遊戲的自然發現規則維持不變；買量與 ASO 仍是手遊取量主路徑。但聯邦層級法案若推進，平台規則可能出現更大幅度重寫，建議持續追蹤。",
-      "date": "2026-04-20",
-      "source": "AppleInsider / Macworld",
-      "link": "https://appleinsider.com/articles/26/04/27/apples-massive-lobbying-effort-saves-it-from-new-app-store-rules"
-    },
-    {
-      "category": "work",
-      "title": "Apple/Google 撤回猶他州 App Store 訴訟，未成年年齡驗證法正式生效且擴大範圍",
-      "orig_title": "Apple, Google Drop Suit Against Utah App Store Verification Act After Legislature Strengthened Law",
-      "summary": "代表 Apple 和 Google 的 CCIA 撤回對猶他州《App Store Accountability Act》的訴訟。猶他州 2026 年立法會期不但未縮減法律，還擴大涵蓋預安裝 App 及法律生效前的既有帳戶。法律現僅允許私人訴訟執法，CCIA 確認無法以政府執法為由抗辯後撤訴。",
-      "impact": "對你的意義：猶他州成為美國未成年保護立法的示範先例，其他州跟進機率升高；若廣泛實施，未成年玩家下載遊戲、同意條款、內購均需家長確認，轉換漏斗設計需提前規劃未成年合規流程。",
-      "date": "2026-04-27",
-      "source": "Deseret News",
-      "link": "https://www.deseret.com/politics/2026/04/27/apple-meta-google-drop-lawsuit-against-utah-app-store-verification-act-after-winning-lawsuit-against-similar-law-in-texas/"
+      "title": "九巡法院撤銷 App Store 暫停令，Apple 外部支付費用之爭重回地院審查",
+      "orig_title": "Apple loses bid to pause App Store fee changes as case heads to Supreme Court",
+      "summary": "美國第九巡迴上訴法院 4 月 29 日撤銷對 Epic v. Apple 裁決的暫停令，裁定 Apple 對外部支付收取 27% 佣金違反法院命令，案件退回地院審查 Apple 可合理收取的費用上限；Apple 表示仍將上訴最高法院，但法院不看好其勝算。",
+      "impact": "對你的意義：這是 App Store 費率結構最接近「外部支付實質免費」的一刻。若最終裁定成立，開發者可透過外連支付繞過 30% 抽成。手遊的 IAP 收入計算模型需全面重估——高 LTV 玩家轉到外部支付後，淨利率可大幅改善，付費機制與定價設計也需同步調整。",
+      "date": "2026-04-29",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/04/29/apple-epic-games-app-store-fees-pause-changes-supreme-court/"
     },
     {
       "id": "must-2",
-      "category": "strategy",
-      "title": "Google 簽署五角大廈機密 AI 合約，Anthropic 拒絕後被美國防部列「供應鏈風險」",
-      "orig_title": "Google Expands Pentagon's Access to Its AI After Anthropic's Refusal",
-      "summary": "美國國防部因 Anthropic 拒絕允許其 AI 用於境內大規模監控及自主武器，將 Anthropic 列為「供應鏈風險」（通常用於外國敵對方），並與 Google 簽署機密合約給予「任何合法用途」的 AI 存取；OpenAI 與 xAI 亦已簽署類似協議。Google 內部逾 950 名員工聯署反對，Anthropic 已取得法院臨時禁令，訴訟持續中。",
-      "impact": "對你的意義：Anthropic（Claude 母公司）陷入與美國政府法律衝突，短期企業端 Claude API 服務不受影響；但若訴訟升級，工具供應穩定性需納入商業風險考量，可同步評估備用 AI 工具鏈（如 Gemini、GPT-4o）以降低單點依賴。",
-      "date": "2026-04-28",
-      "source": "TechCrunch / CNBC / Engadget",
-      "link": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/"
-    },
-    {
-      "category": "strategy",
-      "title": "Google 宣布最高 400 億美元投資 Anthropic，估值 3500 億、年化營收達 300 億美元",
-      "orig_title": "Google Plans to Invest Up to $40 Billion in Anthropic",
-      "summary": "Google（Alphabet）4 月 24 日宣布立即投入 100 億美元現金，Anthropic 達成績效目標後追加最高 300 億美元，估值 3500 億美元。Anthropic 年化營收從 2024 年底 10 億美元飆升至 2026 年 4 月初 300 億美元。Google Cloud 同步提供未來五年 5GW 算力擴充。",
-      "impact": "對你的意義：AI 平台資本進一步向 Google—Anthropic 軸集中，短期強化 Claude 的商業競爭力；但此筆投資含 TPU 算力綁定，長期觀察 Anthropic 是否保持功能中立，對遊戲 AI 工具選型有指標意義。",
-      "date": "2026-04-24",
-      "source": "Bloomberg / CNBC / TechCrunch",
-      "link": "https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html"
-    },
-    {
-      "category": "industry",
-      "title": "Netmarble 科幻 MMORPG「RF Online Next」開放全球預購，PC+手遊跨平台全球公測訂 6/18",
-      "orig_title": "Netmarble Opens Global Pre-Registration for RF Online Next on PC and Mobile",
-      "summary": "Netmarble 旗下以 Unreal Engine 5 重建的科幻 MMORPG《RF Online Next》於 4 月 22 日開放全球預購，在韓國、日本、台灣先行版成功後推向全球，預計 2026 年 6 月 18 日正式公測，同步覆蓋 PC（Netmarble Launcher、Epic Games Store）與 Android / iOS，新增 12 種語言支援。",
-      "impact": "對你的意義：韓廠持續將成功韓日台 IP 推向全球，「PC+手遊跨平台同步上線」已成主流策略；單純手遊的全球化計畫面臨壓力，若未來有海外推廣計畫，需評估 PC 入口配合的可行性以維持競爭力。",
-      "date": "2026-04-22",
-      "source": "Massively Overpowered",
-      "link": "https://massivelyop.com/2026/04/22/netmarbles-rf-online-next-is-coming-to-the-global-market-with-registrations-open-today/"
+      "category": "work",
+      "title": "Anthropic Claude Mythos 限量預覽：只向 50 家機構開放，可自主發現零日漏洞",
+      "orig_title": "Anthropic's Claude Mythos Preview Changes Cyber Calculus",
+      "summary": "Anthropic 透過 Project Glasswing 向約 50 家合作夥伴（含 AWS、Apple、Google、Microsoft、NVIDIA）提供 Claude Mythos 限量預覽，該模型能自主識別並利用所有主流作業系統與瀏覽器的零日漏洞；Anthropic 明確表示 Mythos 不會公開發布，最終將隨 Claude Opus 新款導入安全防護機制再擴大使用範圍。",
+      "impact": "對你的意義：前沿 AI 的「開放時代」正式告一段落。Mythos 代表 AI 能力新基準線，但只有大型機構才能接觸。遊戲公司未來使用最強 AI 工具（程式碼生成、安全審計、NPC 邏輯設計）極可能走向企業授權或 API 限量供應，採購與資格審查成本將上升，應及早評估需求等級。",
+      "date": "2026-04-07",
+      "source": "Fortune",
+      "link": "https://fortune.com/2026/04/07/anthropic-claude-mythos-model-project-glasswing-cybersecurity/"
     },
     {
       "id": "must-3",
+      "category": "strategy",
+      "title": "Google 宣布最高 400 億美元追投 Anthropic，以算力換股權鎖定 AI 陣營",
+      "orig_title": "Google to invest up to $40B in Anthropic in cash and compute",
+      "summary": "Google 宣布對 Anthropic 進行最高 400 億美元投資（先投 100 億現金，績效達標後追加 300 億），同步提供 Google Cloud 與 Broadcom TPU 算力，使 Google 成為 Anthropic 最大外部支持者；Anthropic 年化營收從 2024 年底 10 億美元飆升至 2026 年 4 月的 300 億美元。",
+      "impact": "對你的意義：AI 產業資本集中化加速，Google-Anthropic 對抗 Microsoft-OpenAI 的雙寡頭格局正式成形。遊戲公司在選擇 AI API 供應商時，應及早評估：哪個陣營的定價更透明、SLA 更穩定、對遊戲應用的垂直優化更成熟，以免未來被鎖死在不利條款中。",
+      "date": "2026-04-24",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/"
+    },
+    {
+      "category": "work",
+      "title": "OpenAI 發布 GPT-5.5-Cyber，限定政府與關鍵基礎設施透過 TAC 計畫申請使用",
+      "orig_title": "OpenAI Expands Trusted Access Program With GPT-5.5-Cyber",
+      "summary": "OpenAI 4 月 30 日宣布推出 GPT-5.5-Cyber，專為威脅偵測、漏洞分析與事件應變設計，透過「Trusted Access for Cyber (TAC)」計畫限定政府機關、關鍵基礎設施業者與特定資安廠商申請；內部評估該模型為「高風險」，低於可自主產生零日漏洞的「關鍵」門檻。",
+      "impact": "對你的意義：繼 Anthropic Mythos 之後，OpenAI 也走向「限量高能模型」路線。遊戲公司的滲透測試、資安稽核與 cheating 偵測系統，未來可能透過這類模型大幅提升效率；但採購需資格審查，建議先了解 TAC 申請條件並評估是否符合資格。",
+      "date": "2026-04-30",
+      "source": "Dataconomy",
+      "link": "https://dataconomy.com/2026/04/30/openai-expands-trusted-access-program-with-gpt-5-5-cyber/"
+    },
+    {
       "category": "industry",
-      "title": "Pearl Abyss「Red Desert」26 天售 500 萬份，NCSOFT Q1 營收年增 44%、利益大增 16 倍",
-      "orig_title": "Red Desert, Aion 2 Lift Korean Game Makers' First-Quarter Outlook",
-      "summary": "Pearl Abyss 新作《Red Desert》3 月 20 日上市，首日售 200 萬份、4 天 300 萬、26 天達 500 萬份；Q1 營收預估年增 249%，轉虧為盈。NCSOFT 受《Aion 2》累計破 1,000 億韓元及《Lineage Classic》上市三週破 500 億韓元帶動，Q1 營收預估年增 44%、營業利益年增 1,681%。Netmarble Q1 營收亦預估年增 11%。",
-      "impact": "對你的意義：韓廠靠單一優質新 IP 即可扭轉整年財報，說明玩家仍願為差異化大作重度付費；Aion 2 類型（重度 MMORPG 升級換皮）在韓國本土效果仍強，是台廠評估中重度手遊投資回報率的重要比較基準。",
-      "date": "2026-04-28",
-      "source": "Digital Today Korea",
-      "link": "https://www.digitaltoday.co.kr/en/view/50969/red-desert-aion2-lift-korean-game-makers-q1-results"
+      "title": "騰訊、網易、米哈遊 AI 三強競賽：從底層模型到遊戲內容生成全面開戰",
+      "orig_title": "Who Will Rule the AI Games Era? Tencent, NetEase, and Mihoyo in a Covert Technological Battle",
+      "summary": "騰訊推出混元遊戲視覺生成平台、網易以 AI 實現《蛋仔派對》UGC 內容自動生成、米哈遊重構即時多模態對話敘事邏輯，三家中國遊戲巨頭以不同策略布局 AI 遊戲生成，核心競爭聚焦在內容生產成本壓縮與玩家互動品質提升。",
+      "impact": "對你的意義：中國頭部遊戲公司正用 AI 重寫內容生產效率，尤其是 UGC 創作工具與 NPC 對話系統。若台灣手遊公司不同步跟上 AI 輔助設計流程，在內容量與更新頻率上的差距將加速擴大，這不只是技術議題，更是產品競爭力的生死線。",
+      "date": "近期",
+      "source": "36氪 English",
+      "link": "https://eu.36kr.com/en/p/3394131222956417"
     }
   ]
 }
