@@ -1,84 +1,117 @@
 {
-  "date": "2026-04-30",
-  "weekday": "週四",
+  "date": "2026-05-01",
+  "weekday": "週五",
   "must_read": [
-    { "title": "Apple 外部支付費用之爭：九巡撤銷暫停令，案件退回地院", "hint": "手遊 IAP 抽成結構可能迎來最大一次重寫機會", "article_id": "must-1" },
-    { "title": "Anthropic 最強模型 Mythos 只給 50 家企業，不公開發布", "hint": "前沿 AI 工具正式走入閉門精英圈，開放時代告一段落", "article_id": "must-2" },
-    { "title": "Google 追投 Anthropic 最高 400 億美元，AI 雙寡頭格局加速", "hint": "Google-Anthropic vs. Microsoft-OpenAI，供應商選邊站時機到了", "article_id": "must-3" }
+    { "title": "五角大廈 AI 大單排除 Anthropic", "hint": "Claude 與競品出現陣營分化，AI 工具採購風險值得追蹤", "article_id": "must-1" },
+    { "title": "Apple 外部付款裁定持續有效，上訴最高法院", "hint": "iOS 手遊課金架構結構性轉折點，最高法院是最後戰場", "article_id": "must-2" },
+    { "title": "台積電 Q1 獲利年增 58%，AI 晶片占收入 61%", "hint": "台灣 AI 算力供應鏈穩固，手遊後端建設底座不變", "article_id": "must-3" }
   ],
   "tw": [
     {
+      "id": "must-3",
       "category": "industry",
-      "title": "台達電 2026 Q1 毛利率 37% 創高，AI 資料中心帶動營收年增 34.5%",
-      "summary": "台達電 2026 年第一季合併營收年增 34.5%，毛利率達 37%，主要來自 Meta、Amazon、Google、Microsoft 等超大規模客戶的 AI 資料中心電源訂單持續放量，AI 相關產品出貨比重持續攀升，每股盈餘 7.91 元創歷史新高。",
-      "impact": "對你的意義：台灣 AI 供應鏈的景氣溫度計。台達電拿到的訂單量直接反映全球 AI 算力軍備競賽強度——算力越旺，AI 工具成本才有機會持續下降，進而影響遊戲 AI 製作流程普及速度與採購時機。",
-      "date": "2026-04-30",
-      "source": "TechNews 科技新報",
-      "link": "https://finance.technews.tw/2026/04/30/delta-financial-report/"
+      "title": "台積電 Q1 2026 獲利年增 58%，AI 晶片業務占收入 61%",
+      "summary": "台積電 2026 年第一季淨利年增 58% 創歷史新高，AI 晶片驅動高效能運算部門收入占總營收 61%，全年展望預期成長超 30%，並宣布在台南增設先進製造廠；3nm 晶片占晶圓收入已達 25%。",
+      "impact": "台灣在全球 AI 算力供應鏈的核心地位持續鞏固，為依賴 AI 功能的手遊後端（推薦引擎、即時 NPC 生成）提供穩定底座；台積電持續滿載也代表算力採購短期難以大幅壓價，AI 工具成本下降空間有限。",
+      "date": "2026-04-16",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/04/16/tsmc-q1-profit-58-percent-ai-chip-demand-record.html",
+      "link_text": "原文連結"
     },
     {
+      "id": "tw-2",
+      "category": "work",
+      "title": "數發部獨立遊戲開發補助計畫停辦，預算刪減斷鏈台廠扶植資金",
+      "summary": "數位發展部數位產業署因預算大幅縮減，確定停辦「獨立遊戲開發獎勵暨產品化加值計畫」，影響金額約 1,400 萬元；行銷推廣補助仍保留，文策院國發基金投資管道亦維持開放。",
+      "impact": "台灣獨立遊戲開發的政策資金斷鏈，若有與獨立工作室合作的計畫需同步評估資金缺口；轉介文策院國發基金可作為替代融資路徑，值得在合作談判時主動提醒合作方。",
+      "date": "2025-03-25",
+      "source": "中央社",
+      "link": "https://www.cna.com.tw/news/afe/202503250347.aspx",
+      "link_text": "原文連結"
+    },
+    {
+      "id": "tw-3",
       "category": "strategy",
-      "title": "香港 SFC 啟動代幣化投資產品二級交易試驗框架，首階段聚焦貨幣市場基金",
-      "summary": "香港證監會 4 月 20 日發布通函，允許持牌 VATP 對 SFC 核准代幣化開放式基金提供 24/7 二級市場交易服務，首波限於貨幣市場基金（AUM 已達港幣 107 億元），配套 CrypTech 監管科技平台同步推進，為全球首個「平台＋產品＋監理科技」三位一體框架。",
-      "impact": "對你的意義：香港正在建立全球首創的代幣化金融基礎建設。若台灣遊戲公司未來考慮在港引入代幣化資產模型或融資結構，此框架將是合規參考基準；也反映監管態度正從「禁止」轉向「規範後允許」，Web3 遊戲在港的合規路徑逐漸清晰。",
-      "date": "2026-04-20",
-      "source": "Prokopiev Law / Caproasia",
-      "link": "https://www.prokopievlaw.com/post/hong-kong-sfc-launches-secondary-trading-framework-for-tokenised-investment-products-in-april-2026"
+      "title": "香港 SFC 推動 2026 年虛擬資產交易商及保管人立法",
+      "summary": "香港財庫局與證監會完成諮詢，計劃 2026 年立法規範虛擬資產交易商及保管人，引入反洗錢法規下的正式發牌制度，並推出代幣化基金二級市場交易框架，初期聚焦貨幣市場基金。",
+      "impact": "香港虛擬資產市場走向合規化，為手遊 NFT 或區塊鏈遊戲機制的長遠規劃提供較穩定的法規參考框架；香港有機會成為亞太遊戲公司探索 Web3 遊戲機制的合規測試窗口。",
+      "date": "2025-12-25",
+      "source": "Coindesk",
+      "link": "https://www.coindesk.com/policy/2025/12/25/hong-kong-regulators-target-2026-legislation-for-virtual-asset-dealer-and-custodian-rules",
+      "link_text": "原文連結"
+    },
+    {
+      "id": "tw-4",
+      "category": "work",
+      "title": "中消協警示未成年人大額網遊充值，要求平台強化支付驗證機制",
+      "summary": "中國消費者協會要求遊戲平台對疑似未成年人帳號在充值支付環節設置更明確的提醒與驗證機制，合理限制充值金額；2026 年中國遊戲環境已全面實行實名加動態掃臉認證。",
+      "impact": "涉及中國市場的手遊課金系統需同步強化風控設計；若有合作中國發行商，需確認其未成年保護機制是否達標，否則可能面臨整改或下架風險，應在合規審查清單中列為必查項。",
+      "date": "2026-01-05",
+      "source": "新浪財經",
+      "link": "https://finance.sina.com.cn/roll/2026-01-23/doc-inhifvnk1173405.shtml",
+      "link_text": "原文連結"
     }
   ],
   "intl": [
     {
       "id": "must-1",
-      "category": "work",
-      "title": "九巡法院撤銷 App Store 暫停令，Apple 外部支付費用之爭重回地院審查",
-      "orig_title": "Apple loses bid to pause App Store fee changes as case heads to Supreme Court",
-      "summary": "美國第九巡迴上訴法院 4 月 29 日撤銷對 Epic v. Apple 裁決的暫停令，裁定 Apple 對外部支付收取 27% 佣金違反法院命令，案件退回地院審查 Apple 可合理收取的費用上限；Apple 表示仍將上訴最高法院，但法院不看好其勝算。",
-      "impact": "對你的意義：這是 App Store 費率結構最接近「外部支付實質免費」的一刻。若最終裁定成立，開發者可透過外連支付繞過 30% 抽成。手遊的 IAP 收入計算模型需全面重估——高 LTV 玩家轉到外部支付後，淨利率可大幅改善，付費機制與定價設計也需同步調整。",
-      "date": "2026-04-29",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/04/29/apple-epic-games-app-store-fees-pause-changes-supreme-court/"
+      "category": "strategy",
+      "title": "五角大廈與 7 家科技公司簽署機密 AI 部署協議，唯獨排除 Anthropic",
+      "orig_title": "Pentagon strikes deals with 7 Big Tech companies after shunning Anthropic",
+      "summary": "美國防部 5 月 1 日與 OpenAI、Google、Microsoft、Nvidia、Amazon、SpaceX 及 Reflection 簽署機密 AI 網路部署協議；Anthropic 因堅持軍事用途安全護欄條款，遭 DoD 以「供應鏈風險」為由排除，Anthropic 已對此提起訴訟，聯邦法院曾一度阻止政府的排除行動。",
+      "impact": "AI 商用市場出現明顯陣營分裂：Anthropic 因堅守安全紅線被美最大政府合約排除，Claude 工具的長期採購穩定性需持續觀察；若政府關係緊張持續，可能影響 Anthropic 商業化節奏與 API 定價策略，值得追蹤後續進展。",
+      "date": "2026-05-01",
+      "source": "CNN",
+      "link": "https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic",
+      "link_text": "原文連結"
     },
     {
       "id": "must-2",
       "category": "work",
-      "title": "Anthropic Claude Mythos 限量預覽：只向 50 家機構開放，可自主發現零日漏洞",
-      "orig_title": "Anthropic's Claude Mythos Preview Changes Cyber Calculus",
-      "summary": "Anthropic 透過 Project Glasswing 向約 50 家合作夥伴（含 AWS、Apple、Google、Microsoft、NVIDIA）提供 Claude Mythos 限量預覽，該模型能自主識別並利用所有主流作業系統與瀏覽器的零日漏洞；Anthropic 明確表示 Mythos 不會公開發布，最終將隨 Claude Opus 新款導入安全防護機制再擴大使用範圍。",
-      "impact": "對你的意義：前沿 AI 的「開放時代」正式告一段落。Mythos 代表 AI 能力新基準線，但只有大型機構才能接觸。遊戲公司未來使用最強 AI 工具（程式碼生成、安全審計、NPC 邏輯設計）極可能走向企業授權或 API 限量供應，採購與資格審查成本將上升，應及早評估需求等級。",
-      "date": "2026-04-07",
-      "source": "Fortune",
-      "link": "https://fortune.com/2026/04/07/anthropic-claude-mythos-model-project-glasswing-cybersecurity/"
+      "title": "Apple 敗訴：App Store 外部付款連結 0% 佣金裁定維持，轉戰最高法院",
+      "orig_title": "Apple loses bid to pause App Store fee changes as case heads to Supreme Court",
+      "summary": "Apple 申請暫停「App 可放置外部付款連結且 0% 佣金」裁定遭第九巡迴法院駁回，Apple 宣布將案件上訴至最高法院；現行裁定在最高法院決定是否受理前持續有效，開發者可立即使用外部付款連結。",
+      "impact": "遊戲開發商現可在 iOS app 中放置外部付款連結繞過 30% 抽成——這是手遊課金架構的結構性轉折點。需追蹤最高法院是否受理；若裁定確定，訂閱制或高 ARPU 遊戲的定價策略可大幅調整，實質影響收益可觀。",
+      "date": "2026-04-29",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/04/29/apple-epic-games-app-store-fees-pause-changes-supreme-court/",
+      "link_text": "原文連結"
     },
     {
-      "id": "must-3",
-      "category": "strategy",
-      "title": "Google 宣布最高 400 億美元追投 Anthropic，以算力換股權鎖定 AI 陣營",
+      "id": "intl-3",
+      "category": "industry",
+      "title": "Google 宣布對 Anthropic 投資最高 400 億美元，估值升至 3,800 億",
       "orig_title": "Google to invest up to $40B in Anthropic in cash and compute",
-      "summary": "Google 宣布對 Anthropic 進行最高 400 億美元投資（先投 100 億現金，績效達標後追加 300 億），同步提供 Google Cloud 與 Broadcom TPU 算力，使 Google 成為 Anthropic 最大外部支持者；Anthropic 年化營收從 2024 年底 10 億美元飆升至 2026 年 4 月的 300 億美元。",
-      "impact": "對你的意義：AI 產業資本集中化加速，Google-Anthropic 對抗 Microsoft-OpenAI 的雙寡頭格局正式成形。遊戲公司在選擇 AI API 供應商時，應及早評估：哪個陣營的定價更透明、SLA 更穩定、對遊戲應用的垂直優化更成熟，以免未來被鎖死在不利條款中。",
+      "summary": "Google 宣布對 Anthropic 初期投資 100 億美元（估值 3,800 億美元），達績效門檻後再追加 300 億美元及算力資源；Anthropic 同步與 Broadcom 達成 TPU 供應協議，預計明年起取得 5 GW 算力。",
+      "impact": "Claude 算力供給將大幅擴張，長期有助降低 API 成本、穩定服務可用性；Google 的戰略投資意味 Claude 生態不會被 OpenAI 擠壓，AI 工具多元化格局延續，遊戲 AI 工具選型的議價空間相對增加。",
       "date": "2026-04-24",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/"
+      "link": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "link_text": "原文連結"
     },
     {
-      "category": "work",
-      "title": "OpenAI 發布 GPT-5.5-Cyber，限定政府與關鍵基礎設施透過 TAC 計畫申請使用",
-      "orig_title": "OpenAI Expands Trusted Access Program With GPT-5.5-Cyber",
-      "summary": "OpenAI 4 月 30 日宣布推出 GPT-5.5-Cyber，專為威脅偵測、漏洞分析與事件應變設計，透過「Trusted Access for Cyber (TAC)」計畫限定政府機關、關鍵基礎設施業者與特定資安廠商申請；內部評估該模型為「高風險」，低於可自主產生零日漏洞的「關鍵」門檻。",
-      "impact": "對你的意義：繼 Anthropic Mythos 之後，OpenAI 也走向「限量高能模型」路線。遊戲公司的滲透測試、資安稽核與 cheating 偵測系統，未來可能透過這類模型大幅提升效率；但採購需資格審查，建議先了解 TAC 申請條件並評估是否符合資格。",
-      "date": "2026-04-30",
-      "source": "Dataconomy",
-      "link": "https://dataconomy.com/2026/04/30/openai-expands-trusted-access-program-with-gpt-5-5-cyber/"
+      "id": "intl-4",
+      "category": "strategy",
+      "title": "Trump-習近平 5 月峰會在即，美中高關稅暫停至 11 月、整體仍達 47%",
+      "orig_title": "Trump-Xi Summit 2026: U.S.-China Trade War Tensions and Tariff Talks",
+      "summary": "Trump 計劃 5 月訪中進行 8 年來首次峰會，目前美中高檔互惠關稅暫停至 2026 年 11 月 10 日，整體關稅維持 47%；中方同步對美發起兩項貿易調查，雙邊出口管制仍持續，最高法院 2 月裁定總統不得援引 IEEPA 徵收關稅亦限制了後續加碼空間。",
+      "impact": "關稅暫停期為台廠供應鏈爭取短暫緩衝，但 11 月後走向不確定；中資遊戲公司在美市場的投資擴張意願受壓制，同時也影響台廠赴美合作談判的時間壓力，宜在暫停期內加速佈局。",
+      "date": "2026-05-01",
+      "source": "Atlantic Council",
+      "link": "https://www.atlanticcouncil.org/blogs/new-atlanticist/experts-react/experts-react-what-does-the-trump-xi-meeting-mean-for-trade-technology-security-and-beyond/",
+      "link_text": "原文連結"
     },
     {
+      "id": "intl-5",
       "category": "industry",
-      "title": "騰訊、網易、米哈遊 AI 三強競賽：從底層模型到遊戲內容生成全面開戰",
-      "orig_title": "Who Will Rule the AI Games Era? Tencent, NetEase, and Mihoyo in a Covert Technological Battle",
-      "summary": "騰訊推出混元遊戲視覺生成平台、網易以 AI 實現《蛋仔派對》UGC 內容自動生成、米哈遊重構即時多模態對話敘事邏輯，三家中國遊戲巨頭以不同策略布局 AI 遊戲生成，核心競爭聚焦在內容生產成本壓縮與玩家互動品質提升。",
-      "impact": "對你的意義：中國頭部遊戲公司正用 AI 重寫內容生產效率，尤其是 UGC 創作工具與 NPC 對話系統。若台灣手遊公司不同步跟上 AI 輔助設計流程，在內容量與更新頻率上的差距將加速擴大，這不只是技術議題，更是產品競爭力的生死線。",
-      "date": "近期",
-      "source": "36氪 English",
-      "link": "https://eu.36kr.com/en/p/3394131222956417"
+      "title": "中國遊戲業 2025 年境外收入創歷史新高，米哈遊網易持續在日韓歐美擴張",
+      "orig_title": "China's video game sales reach record in 2025 amid overseas expansion, AI investment",
+      "summary": "中國遊戲業 2025 年整體收入年增 7.7% 創新高，移動遊戲佔 73.3%；米哈遊、騰訊、網易積極在海外市場拓展，Genshin Impact、黑神話等帶動全球化，各大廠同步加碼 AI 研發投入。",
+      "impact": "中資頭部廠商在台灣及日韓市場的競爭強度持續上升，且已具備 AI 輔助製作能力；本土手遊需在差異化（IP、文化深度、機制創新）或中資未覆蓋的市場利基上加深護城河，否則正面競爭將愈發不利。",
+      "date": "2026-04-01",
+      "source": "South China Morning Post",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3337112/chinas-video-game-sales-reach-record-2025-amid-overseas-expansion-ai-investment",
+      "link_text": "原文連結"
     }
   ]
 }
