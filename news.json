@@ -1,90 +1,132 @@
 {
-  "date": "2026-05-02",
-  "weekday": "週六",
+  "date": "2026-05-03",
+  "weekday": "週日",
   "must_read": [
-    { "title": "OpenAI GPT-5.5 正式發布：速度效率雙升，直指遊戲開發輔助", "hint": "模型更直覺、token 耗用更低，AI 輔助設計工具即可升級驗證", "article_id": "must-1" },
-    { "title": "米哈遊 Q1：原神收益退燒，HSR / ZZZ 逆勢接棒", "hint": "旗艦 IP 生命週期衰退數據首度清晰，多 IP 矩陣策略值得拆解", "article_id": "must-2" },
-    { "title": "台灣研擬「N-2」晶片出口限制，保護最先進製程留台", "hint": "地緣籌碼影響 AI 算力成本與供應鏈佈局節奏", "article_id": "must-3" }
+    { "title": "中國5月發放86款遊戲版號，騰訊網易在列", "hint": "版號穩定回歸、頭部廠管線持續充填，台廠競品布局需重新評估", "article_id": "must-1" },
+    { "title": "OpenAI 發布 GPT-5.5：百萬 Token 上下文、原生 Agent 設計", "hint": "遊戲企劃最可用的 AI 工具再升級，agentic workflow 正式成主軸", "article_id": "must-2" },
+    { "title": "中美關稅部分鬆綁；川習會擬5月中旬，市場預期結構性協議", "hint": "供應鏈成本與地緣風險評估的關鍵窗口期，BIS 豁免 11 月到期是硬時間點", "article_id": "must-3" }
   ],
   "tw": [
     {
-      "id": "must-3",
-      "category": "strategy",
-      "title": "台灣研擬「N-2」半導體出口限制：最先進製程只能在台灣量產",
-      "summary": "據報導，台灣當局正考慮修改出口管制規則，從現行「N-1」（落後一代可出口）改為「N-2」（落後兩代才可出口），若通過將限制台積電在美國廠使用最新技術，以保護核心製程留台。",
-      "impact": "對你的意義：台灣以晶片技術作為地緣談判籌碼，短期將增加美廠擴產不確定性；若美方因此延緩台積電海外布局，AI 算力供給集中度反升，推動伺服器端 AI 功能（NPC、推薦引擎）的成本短期難以大幅壓低，AI 工具採購預算規劃需保守估算。",
-      "date": "2026-05-02",
-      "source": "Tom's Hardware",
-      "link": "https://www.tomshardware.com/tech-industry/semiconductors/taiwan-considers-tsmc-export-ban-that-would-prevent-manufacturing-its-newest-chip-nodes-in-u-s-limit-exports-to-two-generations-behind-leading-edge-nodes-could-slow-down-u-s-expansion",
-      "link_text": "原文連結"
-    },
-    {
+      "id": "must-1",
       "category": "work",
-      "title": "中國4月更新未成年遊戲時間管理規範：動態掃臉正式入法強制執行",
-      "summary": "中國主管機關4月22日公告更新未成年人遊戲時間管理細則，正式明確「動態人臉識別」與「實名認證」雙重驗證機制具法律效力，業者不得以技術漏洞規避，違者面臨整改及下架風險；2026年中國遊戲環境已全面實行「全網實名、動態掃臉」。",
-      "impact": "對你的意義：進入中國市場的手遊必須從立項階段即設計合規的身份核驗與時限架構；且此類強制規範有向台港澳延伸的趨勢，建議企劃書中預留未成年保護合規章節，與發行方確認技術接入方案。",
-      "date": "2026-04-22",
-      "source": "Capital Futures",
-      "link": "https://www.capitalfutures.com.tw/zh-tw/financial/breakingnewsarticle?contentid=c26042200823",
-      "link_text": "原文連結"
+      "title": "中國5月發放86款遊戲版號，騰訊網易在列",
+      "summary": "中國國家新聞出版署5月發放86款國產遊戲版號，騰訊、網易均有作品獲批，版號發放已回歸每月穩定節奏。",
+      "impact": "對你的意義：版號穩定月均發放代表頭部廠管線持續充填、市場競爭將進一步加劇；台廠若考慮進軍中國市場，需提前評估版號申請難度與大廠擠壓空間，也要確認審批期程與產品生命週期的配合是否仍成立。",
+      "date": "2026-05-03",
+      "source": "Yahoo 財經",
+      "link": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E5%9C%8B5%E6%9C%88%E7%89%88%E8%99%9F%E4%B8%8B%E7%99%BC-86%E6%AC%BE%E5%9C%8B%E7%94%A2%E9%81%8A%E6%88%B2%E7%8D%B2%E6%89%B9-%E9%A8%B0%E8%A8%8A-%E7%B6%B2%E6%98%93%E5%9C%A8%E5%88%97-015812283.html"
+    },
+    {
+      "category": "industry",
+      "title": "台積電 Q1 2026 營收 359 億美元年增 35%；CoWoS 封裝供需缺口延伸至年底",
+      "summary": "台積電 Q1 2026 營收 359 億美元（YoY +35%）、淨利年增 58%，創歷史新高；2nm 量產爬坡中，CoWoS 先進封裝容量仍有約 20% 缺口，NVIDIA 需求無法完全滿足；全年資本支出維持 520–560 億美元。",
+      "impact": "對你的意義：AI 算力短期不會大量溢出——CoWoS 持續吃緊代表 GPU 出貨受限，雲端遊戲的 AI NPC、即時生成等重算力功能的規模化時間點因此延後；企劃不宜把「算力無限且低廉」設為 2026 年底前的核心假設，AI 功能的成本估算要保守。",
+      "date": "2026-04-16",
+      "source": "CNBC / AlphaPilot",
+      "link": "https://www.cnbc.com/2026/04/16/taiwan-semi-tsm-asml-stock-earnings-ai-chips.html"
     },
     {
       "category": "strategy",
-      "title": "香港 SFC 放行永續合約及比特幣抵押融資，亞太 Web3 遊戲法規窗口成形",
-      "summary": "香港證監會行政總裁梁鳳儀2月宣布，SFC 正研擬允許持牌虛擬資產平台提供永續合約服務，並首度認可比特幣與以太幣作為融資抵押品（初期限專業投資者），香港虛擬資產監管體系持續向合規化、機構化推進。",
-      "impact": "對你的意義：香港持續推進虛擬資產合規化，若公司有計劃探索 NFT 道具或區塊鏈遊戲機制，香港是目前亞太區最具可操作性的法規測試場；建議追蹤 SFC 正式指引上線時間，以決定是否啟動概念驗證或選擇香港作為首批市場。",
-      "date": "2026-02-12",
-      "source": "UNWIRE.PRO",
-      "link": "https://unwire.pro/2026/02/12/hk-sfc-crypto-perpetual-contracts/news/",
-      "link_text": "原文連結"
+      "title": "台灣《人工智慧基本法》1月生效；數位部兩年內需完成法規盤點，NT$100億新創投資啟動",
+      "summary": "《人工智慧基本法》於 2026 年 1 月 14 日正式生效，揭示七大原則（含隱私、安全、可問責），數位部須在兩年內完成相關法規修正；MODA 同步啟動 NT$100 億 AI 新創投資計畫，另有 NT$200 億機器人中心計畫。",
+      "impact": "對你的意義：台灣首部 AI 治理框架上路，未來遊戲中 AI 生成內容（AIGC）、AI 客服、玩家行為分析均可能進入「高風險 AI」監管視野；企劃現在就應開始追蹤風險分級框架定義，提前在產品規格中設計可稽核機制，以免未來因法規變動被迫大幅改版。",
+      "date": "2026-01-14",
+      "source": "IAPP / Meta-Intelligence",
+      "link": "https://iapp.org/news/a/taiwan-s-strategic-leap-into-ai-enacting-the-ai-basic-act-to-foster-innovation-governance"
+    },
+    {
+      "category": "strategy",
+      "title": "香港 SFC 公布 2026–2028 策略重點：虛擬資產交易商立法、穩定幣牌照首批",
+      "summary": "香港跨機構督導小組公布 2026–2028 策略重點，虛擬資產交易商及託管人將納入 AML/CTF 立法框架，並預計年內公布首批穩定幣發行商牌照，香港定位為亞太最完整數位資產監管中心。",
+      "impact": "對你的意義：若考慮以穩定幣橋接遊戲內資產或做跨境點數兌換，香港將是亞太區最可行的合規落地點；同時也代表鏈遊、NFT 類設計若不進牌照框架，法律風險將顯著上升——企劃在設計任何鏈上經濟機制前，需先確認香港合規路徑的可行性與成本。",
+      "date": "2026-04-15",
+      "source": "香港SFC",
+      "link": "https://apps.sfc.hk/edistributionWeb/gateway/TC/news-and-announcements/news/doc?refNo=26PR15"
     }
   ],
   "intl": [
     {
-      "id": "must-1",
-      "category": "work",
-      "title": "OpenAI 發布 GPT-5.5：推理更直覺、Token 耗用更低，朝「AI 超級應用」整合",
-      "orig_title": "OpenAI releases GPT-5.5, bringing company one step closer to an AI 'super app'",
-      "summary": "OpenAI 4月23日正式發布 GPT-5.5，稱其為「最聰明、最直覺的模型」。GPT-5.5 完成同等任務所需 Token 顯著低於前代，在程式撰寫、資料分析、線上研究、跨工具自動化作業上大幅提升，並全面向 ChatGPT Plus/Pro/Business/Enterprise 開放。",
-      "impact": "對你的意義：GPT-5.5 Token 效率提升意味著 API 使用成本降低；可立即測試用於遊戲劇情生成、GDD 草稿撰寫、平衡計算腳本等工作流程。若效果符合預期，可在下季預算前鎖定更低的 AI 工具成本，也建議評估 ChatGPT 版本是否從 GPT-5 升級。",
-      "date": "2026-04-23",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "騰訊將 WeChat 接入 OpenClaw AI Agent：10 億用戶可語音指令跨小程序執行任務",
-      "orig_title": "Tencent Connects WeChat's Billion Users to OpenClaw AI Agent",
-      "summary": "騰訊3月22日宣布將 OpenClaw AI Agent 框架深度整合至 WeChat，ClawBot 作為聯絡人入駐讓超過10億月活用戶可透過對話指令完成跨 Mini Program 的任務鏈（訂票、電商、企業工作流等），WeChat 正式從通訊工具轉型為 AI Agent 基礎設施層。",
-      "impact": "對你的意義：若公司手遊在中國有 WeChat Mini Program 入口，AI Agent 整合將改變玩家召回路徑——對話即可直接觸發推送、登入、購買流程；競品可能率先利用此管道降低流失率，建議評估是否同步接入相關 API 或納入中國版路線圖。",
-      "date": "2026-03-23",
-      "source": "Technology.org",
-      "link": "https://www.technology.org/2026/03/23/tencent-connects-wechats-billion-users-to-openclaw-ai-agent/",
-      "link_text": "原文連結"
-    },
-    {
       "id": "must-2",
-      "category": "industry",
-      "title": "米哈遊 Q1 2026 抽卡收益榜：原神衰退，星穹鐵道與絕區零雙雙成長",
-      "orig_title": "The Most Profitable Gacha Games of March 2026: Genshin Impact Revenue Fell, While HSR and ZZZ's Increased",
-      "summary": "2026年3月全球抽卡遊戲收益排行出爐，原神較去年同期明顯下滑，米哈遊旗下星穹鐵道（HSR）與絕區零（ZZZ）逆勢成長；多 IP 矩陣策略顯示老 IP 生命週期進入衰退期、新 IP 接棒效果持續發揮。",
-      "impact": "對你的意義：原神從巔峰到衰退的收益曲線是同類旗艦 IP 成熟期最具參考價值的數據基準；米哈遊以新IP接棒延續 ARPU 的模式已獲驗證，值得評估公司現有 IP 的週期位置，以及是否需提前孵育新 IP 或加強版本更新頻率來延緩衰退曲線。",
-      "date": "2026-04-07",
-      "source": "iXBT Games",
-      "link": "https://ixbt.games/en/news/2026/04/07/nazvany-samye-pribylnye-gaca-igry-marta-2026-u-genshin-impact-upali-doxody-a-u-hsr-i-zzz-vyrosli.html",
-      "link_text": "原文連結"
+      "category": "work",
+      "title": "OpenAI 發布 GPT-5.5：百萬 Token 上下文、原生 Agent 設計，上架 Amazon Bedrock",
+      "orig_title": "OpenAI announces GPT-5.5, its latest artificial intelligence model",
+      "summary": "OpenAI 4 月 23 日發布 GPT-5.5，支援 100 萬 token 上下文、圖片輸入、built-in 電腦操控、MCP 整合與網路搜尋；同步上架 Amazon Bedrock，並推出 GPT-5.5 Pro 與 Thinking 版本。",
+      "impact": "對你的意義：百萬 token 上下文可一次性餵入完整 GDD 讓模型跨章節輔助決策；原生 computer use + MCP 讓 AI 可直接操作設計工具或查資料庫，從靈感到驗證的時間將大幅壓縮。現在是重新評估 AI 輔助企劃工作流程的好時機，建議安排一週試用評估。",
+      "date": "2026-04-23",
+      "source": "CNBC / OpenAI",
+      "link": "https://www.cnbc.com/2026/04/23/openai-announces-latest-artificial-intelligence-model.html"
+    },
+    {
+      "id": "must-3",
+      "category": "strategy",
+      "title": "中美關稅部分鬆綁；川習峰會擬5月中旬，BIS 出口管制豁免延至11月",
+      "orig_title": "US to lower China tariffs as part of trade war truce; Trump-Xi summit mid-May",
+      "summary": "美中協議將芬太尼相關關稅從 20% 降至 10%，中國商品整體關稅降至約 47%；川習峰會擬 5 月中旬舉行，外界預期可能達成更持久貿易協議；BIS 附屬實體出口管制豁免已確定延至 2026 年 11 月。",
+      "impact": "對你的意義：峰會若順利落地，遊戲硬體（主機、手機晶片、伺服器）供應鏈成本有機會進一步緩解；BIS 豁免 11 月到期是硬時間點，台廠或日商在中國的 AI 技術部署計畫需在此前完成合規評估，不能再拖；建議把 11 月設為相關決策的 deadline。",
+      "date": "2026-05-02",
+      "source": "Supply Chain Dive / Tax Foundation",
+      "link": "https://www.supplychaindive.com/news/us-china-trade-truce-donald-trump-xi-jinping-apec/804233/"
+    },
+    {
+      "category": "strategy",
+      "title": "Google 承諾投資 Anthropic 最高 400 億美元；估值達 3500 億美元",
+      "orig_title": "Google to invest up to $40B in Anthropic in cash and compute",
+      "summary": "Google 承諾以 3500 億美元估值立即投入 100 億美元給 Anthropic，另有 300 億美元視績效達成後跟進；Anthropic 年化營收已突破 300 億美元（2025 年底約 90 億美元）。",
+      "impact": "對你的意義：Google-Anthropic 深度整合使 Claude 在 GCP/Vertex AI 上的算力保障大幅增強，API 長期可靠性提升；對遊戲開發者而言，Anthropic Claude API 現在值得正式列入 AI 工具選型清單，穩定性與成本可預期性均已有充分保障。",
+      "date": "2026-04-24",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/"
+    },
+    {
+      "category": "strategy",
+      "title": "五角大廈 AI 合約排除 Anthropic；NSA 據報秘密採購未公開的 Mythos 網戰模型",
+      "orig_title": "Pentagon clears 8 tech firms to deploy their AI on its classified networks",
+      "summary": "美國國防部與 AWS、Google、Microsoft、NVIDIA、OpenAI、SpaceX 等 8 家廠商簽訂分類網路 AI 部署合約，唯 Anthropic 因堅持安全護欄遭排除；但 NSA 據報已秘密使用 Anthropic 未公開的「Mythos」網路戰模型。",
+      "impact": "對你的意義：OpenAI 在政府/企業採購場景短期佔優；Anthropic 安全優先路線短期犧牲政府合約，但 NSA 秘密採購顯示技術仍被高度認可。B2B 工具選型參考：有政府/合規客戶的企業，OpenAI 整合阻力較小；重視 AI 安全品牌定位的場景，Anthropic 仍有獨特地位。",
+      "date": "2026-05-01",
+      "source": "Breaking Defense / CNN Business",
+      "link": "https://breakingdefense.com/2026/05/pentagon-clears-7-tech-firms-to-deploy-their-ai-on-its-classified-networks/"
     },
     {
       "category": "industry",
-      "title": "NC（前NCSoft）公布2030年戰略：目標 3.6 兆韓元營收，全面告別 MMORPG 依賴",
-      "orig_title": "NCSoft Targets $3.6B Revenue by 2030, Pivots Away from MMORPG",
-      "summary": "改名 NC 的前NCSoft 3月13日公布2030年策略方向：目標達成 3.6 兆韓元（約54億美元）營收，轉型三條路線——手遊休閒化、舊IP換皮延伸（含 Lineage 系列）、全新IP孵化，以擺脫 Lineage 高度依賴。2024年公司陷入虧損後，此為最大規模策略轉型宣示。",
-      "impact": "對你的意義：韓國最大 MMORPG 廠商宣告放棄重度路線，直接進入休閒與新 IP 戰場，競爭壓力將向中輕度題材延伸。同時 MMORPG 題材可能出現短暫真空，若公司有重度 IP 策略可評估是否趁勢鞏固；也需留意 NC 新品發布節奏，預計2026下半年起將密集上市。",
-      "date": "2026-03-13",
-      "source": "Seoul Economic Daily",
-      "link": "https://en.sedaily.com/technology/2026/03/13/ncsoft-targets-36b-revenue-by-2030-pivots-away-from-mmorpg",
-      "link_text": "原文連結"
+      "title": "Google Gemini Enterprise 發布 Agent 電商框架；Walmart、Target、Shopify 整合通用商業協定（UCP）",
+      "orig_title": "Google puts Gemini Enterprise at the heart of the new agentic taskforce for enterprise automation",
+      "summary": "Google 4 月 22 日發布 Gemini Enterprise for CX 及通用商業協定（UCP），讓 AI Agent 可直接在 Gemini 介面完成購物結帳；Walmart、Target、Shopify、Etsy 等已整合，UCP 定位為開放產業標準。",
+      "impact": "對你的意義：Agentic commerce 正重塑玩家在 App 外的消費行為——未來玩家可能透過 Gemini Agent 直接購買遊戲點數或訂閱包，而無需打開 App；企劃需思考如何在 AI Agent 決策框架內讓產品被「看見」，遊戲道具的描述可機讀性（structured data）將成為新的優化指標。",
+      "date": "2026-04-22",
+      "source": "SiliconANGLE / The Register",
+      "link": "https://siliconangle.com/2026/04/22/google-puts-gemini-enterprise-heart-new-agentic-taskforce-enterprise-automation/"
+    },
+    {
+      "category": "industry",
+      "title": "任天堂 Switch 2 日本累積銷量破 515 萬台；《Pokémon Pokopia》3月單月帶動 44.8 萬台",
+      "orig_title": "Nintendo Switch 2 Sales Surge in March 2026 Driven by Pokemon Pokopia",
+      "summary": "Nintendo Switch 2 上市 44 週在日本累計售出 515 萬台，較 Switch 1 同期領先 12%；3 月因《Pokémon Pokopia》上市，單月銷售 44.8 萬台，居各平台之冠，成為年度最大單月銷售高峰。",
+      "impact": "對你的意義：Switch 2 硬體基礎已確立，次世代主機戰進入 IP 驅動階段；Pokémon 帶動的硬體爆發再次印證「強 IP × 新硬體首發」的乘數效應。企劃值得評估旗下 IP 是否具備搶佔 Switch 2 平台首發窗口的條件，同時追蹤台系發行商是否有相關接洽機會。",
+      "date": "2026-04-20",
+      "source": "InGameNews / VGChartz",
+      "link": "https://www.ingamenews.com/2026/04/nintendo-switch-2-sales-surge-in-march.html"
+    },
+    {
+      "category": "industry",
+      "title": "任天堂宣布退出中國，結束與騰訊十年主機合作",
+      "orig_title": "Nintendo's Strategic Retreat in China and the Future of Console Gaming Partnerships",
+      "summary": "任天堂於 2026 年正式退出中國市場，終止與騰訊長達十年的主機業務合作，主因為監管壓力與地緣貿易政策衝擊。",
+      "impact": "對你的意義：日系主機在中國的存在感進一步弱化，中國主機市場將更集中在索尼/本土廠商；台廠若有依賴任天堂-騰訊管道的中國發行計畫，需立即重新評估替代渠道。同時再次印證跨境遊戲業務的地緣政治風險仍在持續上升中，中國市場佈局需保留更多彈性。",
+      "date": "近期",
+      "source": "AInvest",
+      "link": "https://www.ainvest.com/news/nintendo-strategic-retreat-china-future-console-gaming-partnerships-2508/"
+    },
+    {
+      "category": "work",
+      "title": "Apple EU App Store 費率轉型 CTC 制度；UK CMA 同步審查蘋果谷歌平台規則",
+      "orig_title": "Comments to UK CMA Regarding Recent Developments in Relation to Apple's and Google's App Store Rules",
+      "summary": "Apple 在 EU 將 Core Technology Fee (CTF) 轉換為 Core Technology Commission (CTC)；ITIF 4 月 24 日向英國 CMA 提交評論，就 Apple/Google App Store 最新規則表態；開發者批評 Apple 仍未完全符合 DMA 要求；Google Play 訂閱費率也在同步調整。",
+      "impact": "對你的意義：平台費率在 EU 與英國雙線持續受壓，Apple/Google 將持續被迫讓步；台廠如在 EU 有發行，需重新確認 CTC 制度下的實際費率結構，尤其訂閱制遊戲的長期費率計算方式可能改變，會直接影響 LTV 模型與定價策略，建議近期與發行商法務確認最新條款。",
+      "date": "2026-04-24",
+      "source": "ITIF / Apple Developer",
+      "link": "https://itif.org/publications/2026/04/24/comments-uk-cma-recent-developments-apple-google-app-store-rules/"
     }
   ]
 }
