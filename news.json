@@ -1,102 +1,93 @@
 {
-  "date": "2026-05-04",
-  "weekday": "週一",
+  "date": "2026-05-05",
+  "weekday": "週二",
   "must_read": [
-    { "title": "Anthropic 聯手 Blackstone/Goldman $15億創企業AI服務公司，OpenAI同日複製布局", "hint": "AI工具從「按月訂閱」升格為「嵌入式企業顧問」，手遊產業AI導入的採購模式即將轉型", "article_id": "must-1" },
-    { "title": "歐盟財長施壓 Anthropic 開放 Mythos 模型，AI高端工具地緣管制正式浮上檯面", "hint": "AI工具訪問權開始與政治掛鉤，企業採購策略需納入地緣合規維度", "article_id": "must-2" },
-    { "title": "Netmarble 2025全年盈利大增68%，韓廠自有IP轉型策略正式驗證可行", "hint": "降低授權依賴、自主IP全球化的財務模型首度跑通，可直接作為台廠IP策略對標", "article_id": "must-3" }
+    { "title": "Anthropic五年承諾2000億美元砸向Google雲端與晶片", "hint": "AI算力軍備競賽升溫，Claude生態系地位進一步確立", "article_id": "must-1" },
+    { "title": "Apple向最高法院申請緊急暫停，App Store外部支付手續費命運再生變數", "hint": "手遊抽成比例仍懸而未決，企劃現在就該評估自建支付流程可行性", "article_id": "must-2" },
+    { "title": "郭明錤：OpenAI加速AI手機研發，最快2027年推出", "hint": "AI原生手機若成真，手遊設計與平台生態需提前布局", "article_id": "must-3" }
   ],
   "tw": [
     {
+      "id": "must-3",
+      "category": "strategy",
+      "title": "郭明錤：OpenAI加速AI手機研發，最快2027年推出",
+      "summary": "知名蘋果供應鏈分析師郭明錤發表報告，指OpenAI正積極加快AI手機硬體開發計畫，最樂觀估計2027年正式上市。",
+      "impact": "對你的意義：AI原生手機若成真，手遊玩家的主要遊玩裝置生態將出現質變；企劃現在應評估語音互動、AI感知能力能否嵌入遊戲設計，提前在產品路線圖中預留AI手機適配節點，否則上市後再追將落後半個產品週期。",
+      "date": "2026-05-05",
+      "source": "流動日報",
+      "link": "https://www.newmobilelife.com/2026/05/05/openai-ai-phone-launch-2027/"
+    },
+    {
       "category": "industry",
-      "title": "台積電五座2奈米廠同步放量，2026至2028產能複合成長70%",
-      "summary": "台積電確認五座2nm廠於2026年同步投產，三年2奈米產能年複合成長率達70%；美國亞利桑那廠2026年產出較上年增加80%，熊本廠增加1.3倍；全年資本支出維持560億美元上緣。",
-      "impact": "對你的意義：AI算力基礎設施快速擴張，終端AI應用（含遊戲AI NPC、即時個性化）的可行時程比預期更快到來；遊戲規格書中涉及AI功能的「算力成本」假設可調整為更樂觀情境，但短期CoWoS封裝缺口仍在，大規模雲端AI部署要保守。",
-      "date": "2026-04-28",
-      "source": "TechNews 科技新報",
-      "link": "https://technews.tw/2026/04/28/tsmc-5-2nm-fabs-ramp-up-70-percent-3-year-capacity-growth/"
+      "title": "AI光互連商機擴大，台灣半導體廠憑垂直整合優勢跨界搶市",
+      "summary": "AI伺服器需求帶動光互連技術商機，美系業者加速東南亞外包佈局，台灣科技廠憑藉「晶圓代工到系統整合」垂直能力，正跨界切入AI供應鏈更高附加價值環節。",
+      "impact": "對你的意義：台灣AI硬體供應鏈持續強化，長期有利AI運算成本下行，中小型遊戲開發商使用AI輔助工具的費用空間將逐步擴大；但東南亞替代效應預示硬體利潤競爭加劇，需觀察是否影響台廠研發再投入。",
+      "date": "2026-05-05",
+      "source": "TechNews科技新報",
+      "link": "https://technews.tw/2026/05/05/ai-optical-interconnect-drives-us-firms-southeast-asia-outsourcing-tech-semiconductor-cross-industry-expansion"
     },
     {
       "category": "strategy",
-      "title": "金管會2026年聚焦資安強化與金融數位治理，Fintech合規趨嚴",
-      "summary": "金管會主委彭金隆宣示2026年以安全與發展並進為原則，持續推動金融市場數位化並強化資安監理架構；虛擬資產與Fintech相關法規整合列入年度重點。",
-      "impact": "對你的意義：台灣金融監管精細化進程加速，手遊內購、儲值及虛擬點數等支付機制若串接本地金融機構，合規要求可能趨嚴；建議提前確認支付合作夥伴的監管進度，避免被動調整支付串接設計影響上線時程。",
-      "date": "2026-04-01",
-      "source": "CIO Taiwan",
-      "link": "https://www.cio.com.tw/106344"
-    },
-    {
-      "category": "industry",
-      "title": "2026全球遊戲市場回暖，本土化精品休閒遊戲成新增長引擎",
-      "summary": "2026年全球遊戲市場顯著復甦，「輕量化＋高品質」休閒遊戲成市場焦點；AI工具普及使中小型開發團隊得以提升美術精細度，「本土化精品」策略在玩家黏著度與商業化上躍居上位。",
-      "impact": "對你的意義：小而精的開發路線成本效益窗口正在打開，AI工具降低精品門檻是結構性機會；對手遊企劃而言，現在是重新審視低門檻AI輔助原型測試的好時機，搶在競爭對手之前跑通「快速迭代＋本土化」流程。",
-      "date": "2026-04-30",
-      "source": "蕃新聞",
-      "link": "https://n.yam.com/Article/20260430473034"
-    },
-    {
-      "category": "industry",
-      "title": "數位部GameWorks Lab 2026孵化計畫開放申請，協助獨立遊戲全球上市",
-      "summary": "數位部GameWorks Lab 2026孵化計畫正式開放申請，入選團隊可獲製作人一對一陪跑協助，預計協助3款作品於2026年內完成全球上市。",
-      "impact": "對你的意義：政府孵化資源直接支援全球化發行，是低成本進入海外市場的值得追蹤路徑；若旗下有獨立遊戲或輕量化企劃，可評估申請資格；同時觀察入選作品類型有助判斷主管機關對台灣遊戲出海的政策偏好方向。",
-      "date": "2026-04-24",
-      "source": "PChome 新聞",
-      "link": "https://news.pchome.com.tw/game/gamer/20260424/index-77702785986838203104.html"
+      "title": "香港SFC擬2026年立法，規管虛擬資產交易商與託管人",
+      "summary": "香港財庫局與證監會完成公眾諮詢並公布結論，計畫2026年向立法會提交虛擬資產交易商及數位資產託管人監管法案，正式建立持牌制度。",
+      "impact": "對你的意義：香港正構建更完善的數位資產合規框架；若日後遊戲內道具NFT化或有意進入香港市場，合規成本與授權時程需提前評估，否則可能錯失政策視窗；台廠關注這個框架也有助於預判台灣主管機關的後續跟進方向。",
+      "date": "近期",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/policy/2025/12/25/hong-kong-regulators-target-2026-legislation-for-virtual-asset-dealer-and-custodian-rules"
     }
   ],
   "intl": [
     {
       "id": "must-1",
       "category": "work",
-      "title": "Anthropic 聯手 Blackstone/Goldman/H&F 成立15億美元企業AI服務公司；OpenAI同日宣布類似布局",
-      "orig_title": "Anthropic teams with Goldman, Blackstone and others on $1.5 billion AI venture targeting PE-owned firms",
-      "summary": "Anthropic 5月4日宣布與Blackstone、Hellman & Friedman、Goldman Sachs共同成立企業AI服務新公司，承諾資本約15億美元；工程師將嵌入中型企業重新設計工作流。同日，OpenAI亦透露正與TPG、Bain Capital籌組結構相似的企業AI服務合資公司。",
-      "impact": "對你的意義：AI工具採購模式正從「按月訂閱API」升格為「嵌入式AI顧問服務」，頂尖AI能力將透過服務公司包裝賣給企業，定價與合約結構全面改變。手遊公司若有系統性AI轉型需求，未來的採購路徑和長期成本結構將與現在截然不同，是時候開始評估企業AI服務的長期預算規劃框架。",
-      "date": "2026-05-04",
-      "source": "CNBC / TechCrunch",
-      "link": "https://www.cnbc.com/2026/05/04/anthropic-goldman-blackstone-ai-venture.html"
+      "title": "Anthropic承諾五年投2000億美元購買Google雲端與晶片",
+      "orig_title": "Anthropic Commits to Spending $200 Billion on Google's Cloud and Chips",
+      "summary": "據《The Information》報導，Anthropic已與Google簽訂五年協議，承諾採購2000億美元的Google Cloud服務及TPU晶片容量；加上Google先前宣布的400億美元投資，雙方綁定程度大幅深化，Anthropic佔Google揭露營收積壓比例超過40%。",
+      "impact": "對你的意義：Claude系列模型的算力支撐將大幅擴充，未來12至18個月API能力與回應品質提升可預期；作為產品企劃，現在是評估將Claude嵌入遊戲設計流程、玩家客服或AI內容生成工作流的好時機，且長期授權成本有望隨規模效應下降。",
+      "date": "2026-05-05",
+      "source": "Reuters / US News",
+      "link": "https://www.usnews.com/news/top-news/articles/2026-05-05/anthropic-commits-to-spending-200-billion-on-googles-cloud-and-chips-the-information-reports"
     },
     {
       "id": "must-2",
-      "category": "strategy",
-      "title": "歐盟財長施壓 Anthropic 開放 Mythos AI 模型，AI工具地緣管制正式浮上檯面",
-      "orig_title": "Anthropic Faces EU Pressure to Open Mythos AI Model to European Companies",
-      "summary": "歐盟財長在布魯塞爾Eurogroup峰會前公開要求Anthropic開放Mythos模型給歐洲企業，以防數位防禦能力落後美國同業；Mythos已展示識別數千個關鍵零日漏洞的能力，目前僅限12家安全夥伴使用。",
-      "impact": "對你的意義：高端AI模型訪問權開始與地緣政治掛鉤，「哪個國家的企業能用哪種AI」正成為監管議題。今天Mythos是安全領域，明天可能延伸至生成式AI商業應用；企業AI工具採購策略需納入「地緣合規」維度，提早評估替代方案的可行性，不能只看功能與價格。",
+      "category": "work",
+      "title": "Apple向最高法院申請緊急暫停，App Store外部支付手續費命運未定",
+      "orig_title": "Apple Files for Supreme Court Stay in Epic Case Over Off-App Store Commission Dispute",
+      "summary": "蘋果於5月4日向美國最高法院提出緊急申請，要求暫停第九巡迴上訴法院裁定；若申請失敗，案件將發回地區法院重新計算蘋果可向App Store外購買收取的佣金比例。蘋果目前對App Store外連結購買收取零費率，此申請意在維持現狀直到最高法院最終裁決。",
+      "impact": "對你的意義：這場訴訟的結果決定手遊開發商能否大規模繞過App Store直接向玩家收費，省下最多30%抽成；若蘋果最終敗訴，iOS收益結構可能大幅改善，但自建支付流程有轉換成本，企劃現在應啟動可行性評估，避免競爭對手搶先部署。",
       "date": "2026-05-04",
-      "source": "Bloomberg",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-04/euro-finance-chiefs-want-mythos-ai-access-to-prepare-defenses"
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/05/04/apple-files-for-supreme-court-stay-in-epic-case-over-off-app-store-commission-dispute/"
     },
     {
-      "id": "must-3",
-      "category": "industry",
-      "title": "Netmarble 2025全年盈利大增68%，自有IP轉型策略財務模型正式驗證",
-      "orig_title": "New releases lift Korean game makers as IP strategy pays off",
-      "summary": "Netmarble 2025年預計營收2.79兆韓元（年增4.7%），營業利潤年增68%；自有IP新作《Vampyr》及《Seven Knights Re:Birth Global》為主要驅動力，授權IP依賴度顯著降低，毛利結構改善。",
-      "impact": "對你的意義：韓廠自有IP路線的財務模型已清楚驗證可行，獲利彈性遠高於授權遊戲。台廠若仍在評估是否投入自有IP培育，Netmarble案例提供了清晰對照基準——關鍵問題已從「值不值得」轉移為「初期投入多少、何時能全球化變現」，建議以此框架重新檢視現有IP戰略。",
-      "date": "2026-01-02",
-      "source": "UPI",
-      "link": "https://www.upi.com/Top_News/World-News/2026/01/02/game-industry-estimates/6981767400296/"
+      "category": "strategy",
+      "title": "川習峰會5月登場，美暫緩中國晶片新關稅",
+      "orig_title": "Trump-Xi Summit 2026: US-China Trade War Tensions and Tariff Talks",
+      "summary": "川普計畫5月訪問中國，進行第二任期首次對中訪問；美中貿易關稅目前維持10%（90天緩衝期延至8月），美方同步暫緩加徵新一輪對中晶片關稅，談判氣氛相對和緩。",
+      "impact": "對你的意義：峰會若達成具體協議，台灣半導體出口管制壓力短期可能減輕，有利AI伺服器供應鏈穩定與算力成本控制；但美中關係仍高度脆弱，企劃層面需持續追蹤晶片管制走向，因為這直接影響AI開發工具的取得成本與長期可用性。",
+      "date": "2026-05-05",
+      "source": "The Diplomat",
+      "link": "https://thediplomat.com/2026/05/the-real-role-of-a-trump-xi-meeting/"
     },
     {
       "category": "industry",
-      "title": "NCSoft《Aion 2》帶動公司扭虧為盈，韓廠競相加速全球化布局",
-      "orig_title": "Korean game companies zero in on global market",
-      "summary": "NCSoft 2025年預估營業利潤150億韓元，終結IPO以來首度虧損；《Aion 2》強勢表現是主因；韓國遊戲廠商整體以全球化定價和深度本地化策略搶攻海外，用戶取得成本年增22%。",
-      "impact": "對你的意義：MMORPG大作仍能翻轉公司財務，但韓廠競相全球化使亞洲市場獲客成本大幅上升。台廠若規劃海外擴張，CAC效益需以「韓廠競爭加劇後」的現實重算，並評估入場資源門檻是否仍具優勢，避免以舊市場假設做出過樂觀的ROI預測。",
-      "date": "2026-01-02",
+      "title": "NetEase 5月停止資助Nagoshi Studio，《龍之幫》開發陷危機",
+      "orig_title": "NetEase to Stop Funding Nagoshi Studio in May, Gang of Dragon in Jeopardy",
+      "summary": "網易宣布5月起停止金援如龍之父名越稔洋創立的Nagoshi Studio，原因是《龍之幫》完成還需追加70億日圓（約4440萬美元），且已開發逾四年，網易不願繼續投入；Studio目前正急尋新金主，若失敗唯有買回IP才能自救。",
+      "impact": "對你的意義：中國遊戲大廠撤出日本工作室投資的趨勢日益明顯（繼Ouka Studio後再添一例），顯示中日遊戲合作的財務風險高於以往預估；若未來有計畫與日本IP或工作室聯合開發，合約中應要求嚴格的里程碑付款機制與IP資產保全條款。",
+      "date": "2026-05-05",
+      "source": "Gematsu",
+      "link": "https://www.gematsu.com/2026/03/netease-games-to-stop-funding-nagoshi-studio-in-may"
+    },
+    {
+      "category": "industry",
+      "title": "NCSOFT更名「NC」，從韓式手機MMORPG轉型布局全球主機遊戲",
+      "orig_title": "NCSoft Rebrands as NC, Pivots from Korean Mobile MMORPG to Global Console Strategy",
+      "summary": "韓國遊戲大廠NCSOFT於4月2日正式更名為NC，同步宣示戰略轉型：從以韓國市場為主的手機MMORPG路線，轉向針對全球受眾的高品質主機遊戲，旗艦IP《天堂》之外將積極開發新IP。",
+      "impact": "對你的意義：韓國三大遊戲廠之一自我確認手機MMORPG市場天花板；若NC旗下遊戲陸續轉向主機，韓系手遊在MMORPG品類的競爭壓力將減輕，台灣廠商可評估是否有機會填補空缺，或趁勢強化自身在手機MMORPG的差異化定位。",
+      "date": "2026-04-02",
       "source": "Korea Herald",
       "link": "https://www.koreaherald.com/article/10402202"
-    },
-    {
-      "category": "industry",
-      "title": "Licensing Expo 2026：遊戲品牌跨界授權加速，Supercell、Ubisoft領銜討論IP擴展新模式",
-      "orig_title": "Gaming's Expanding Influence: Licensing Expo 2026 to Host Panel on How Gaming Brands Are Shaping Mainstream Entertainment",
-      "summary": "Licensing Expo 2026宣布5月20日舉辦遊戲品牌跨界授權論壇，CD PROJEKT RED、Ubisoft、Supercell等領銜討論遊戲IP如何超越主機平台連結一般消費者；全球遊戲市場2030年預估達5,051億美元。",
-      "impact": "對你的意義：遊戲IP跨界授權（玩具、影視、時尚）已成主要廠商的標準成長路線；手遊企劃若正在開發具文化延展性的核心IP，應從立項階段就預留授權商品設計的可能性——Supercell的Clash IP是行動遊戲IP授權的最佳示範，值得深入拆解其授權策略的時間軸。",
-      "date": "2026-05-04",
-      "source": "GlobeNewsWire",
-      "link": "https://www.globenewswire.com/news-release/2026/05/04/3286448/0/en/gaming-s-expanding-influence-licensing-expo-2026-to-host-panel-on-how-gaming-brands-are-shaping-mainstream-entertainment.html"
     }
   ]
 }
