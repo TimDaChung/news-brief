@@ -1,133 +1,121 @@
 {
-  "date": "2026-05-08",
-  "weekday": "週五",
+  "date": "2026-05-09",
+  "weekday": "週六",
   "must_read": [
-    {
-      "title": "Anthropic Claude Mythos：AI自主找到17年舊漏洞，未公開發布",
-      "hint": "史上最強AI資安模型問世，產業和政府搶先評估，開發者安全門檻全面提高",
-      "article_id": "must-1"
-    },
-    {
-      "title": "蘋果歐盟App Store廢核心技術費改5% CTC，日本替代市集已上線",
-      "hint": "手遊抽成結構今年起實質重寫，進軍EU和日本市場的成本模型需全面重算",
-      "article_id": "must-2"
-    },
-    {
-      "title": "Nintendo Switch 2首年銷量1986萬台，任天堂下調明年展望",
-      "hint": "史上最強硬體開局但次年預測驟降，2026年是台廠上架Switch 2的最佳視窗",
-      "article_id": "must-3"
-    }
+    { "title": "美中關稅日內瓦大逆轉：90天停火，主稅率從145%降至30%", "hint": "貿易戰90天休兵，台廠供應鏈重組視窗打開", "article_id": "must-1" },
+    { "title": "金管會把AI Agent納入金融指引：高風險決策恐禁全自動", "hint": "台灣首次把代理式AI列入監管框架，影響企業AI導入決策", "article_id": "must-2" },
+    { "title": "OpenAI推出GPT-5.5：編碼與Codex整合強化，向付費用戶開放", "hint": "可立刻升級測試的AI工具更新", "article_id": "must-3" }
   ],
   "tw": [
     {
-      "category": "industry",
-      "title": "世界先進：AI需求強勁，新加坡廠第一期產能已全數預售一空",
-      "summary": "世界先進（VIS）5月8日法說會指出，新加坡VSMC 12吋廠第一期月產4.4萬片的產能已被客戶全數包下，預計提早於2028年達到滿載。AI相關營收占比已從去年個位數躍升至今年雙位數，HPC業務今年成長兩倍。",
-      "impact": "手遊雲端伺服器和AI推論晶片的供應能力直接依賴這條供應鏈——產能提早鎖滿意味著台廠AI算力基礎設施的搶位窗口正在縮短，未來雲算力租用成本走勢值得密切追蹤。",
-      "date": "2026-05-08",
-      "source": "TechNews 科技新報 / 中央社",
-      "link": "https://technews.tw/2026/05/08/vis-talk-about-2026-and-q2/",
+      "id": "must-2",
+      "category": "work",
+      "title": "金管會把AI Agent納入金融指引：高風險決策恐禁全自動",
+      "summary": "金管會主委彭金隆2026年5月7日在立法院財委會表示，將把「可程式化AI」、「代理AI（AI Agent）」、「AI風險分類」納入金融業AI指引，高風險金融決策可能禁止全自動執行。",
+      "impact": "台灣首個涵蓋AI Agent的監管框架即將成型。若公司在台有金融相關業務或使用AI自動化決策，需提前了解法遵邊界；手遊內的充值建議或AI定價系統若被認定「高風險」，未來可能需加入人工審核環節。",
+      "date": "2026-05-07",
+      "source": "經濟日報",
+      "link": "https://money.udn.com/money/story/5613/9486443",
       "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "金管會彭金隆：6月底前說明比特幣ETF立場，虛擬資產專法草案已送立法院",
-      "summary": "金管會主委彭金隆5月7日在立法院承諾，將於2026年6月底前對外說明比特幣ETF是否開放的評估結果。虛擬資產服務法草案已由行政院審議通過並函送立法院，初步規劃優先開放「債券」與「黃金」進行代幣化試驗。",
-      "impact": "台灣虛擬資產監管框架進入立法衝刺期，遊戲內NFT和代幣化道具的合規要求將隨之明確化；若比特幣ETF開放，加密原生玩家的消費力也可能向遊戲生態圈移轉，是中長期市場機會的前哨訊號。",
+      "title": "金管會承諾6月底前說明台灣比特幣ETF立場",
+      "summary": "金管會主委彭金隆回應立委質詢，承諾將在2026年6月底前對外說明比特幣ETF可行性評估結果；目前機構及專業投資人已可透過台灣券商複委託購買境外比特幣ETF，累計成交額逼近新台幣百億元。",
+      "impact": "虛擬資產ETF若向散戶開放，將帶動台灣玩家對Web3遊戲資產的認知與接受度，是手遊虛擬資產玩法（NFT、代幣獎勵）的政策前哨站，6月公告值得持續追蹤。",
       "date": "2026-05-08",
-      "source": "區塊客",
+      "source": "區塊客 Blockcast",
       "link": "https://blockcast.it/2026/05/08/taiwan-regulator-to-reveal-bitcoin-etf-stance-by-late-june/",
       "link_text": "原文連結"
     },
     {
-      "category": "strategy",
-      "title": "金管會研擬AI監理框架，AI Agent首次納入規範範圍",
-      "summary": "金管會正研訂AI監理框架，將AI Agent技術首次明確納入金融業監理指引範疇，此為台灣主管機關首次正式回應自主AI代理人行為的監理需求。",
-      "impact": "雖直接針對金融業，但確立了政府對AI Agent的監理態度——若日後延伸至遊戲業（客服Bot、AI NPC、自動付費代理），可提早參考此框架做好合規設計，避免被動修改產品功能。",
-      "date": "2026-05-07",
-      "source": "大紀元",
-      "link": "https://www.epochtimes.com/b5/26/5/7/n14758846.htm",
+      "category": "industry",
+      "title": "台積電Q1 2026單季營收357億美元、年增35%，HPC佔比首破61%",
+      "summary": "台積電2026年第一季合併營收約357億美元，年增35%，創單季歷史新高；高效能運算（HPC）平台佔整體營收比例首度突破61%，AI晶片訂單強勁推動3奈米持續擴產。",
+      "impact": "台積電全力押注AI伺服器晶片，遊戲主機GPU的製程排程受到擠壓；AI伺服器需求攀升也將間接推高手遊雲端運算長期成本，供應鏈預算應納入晶片通膨因子。",
+      "date": "2026-04-22",
+      "source": "BusinessNext 數位時代",
+      "link": "https://www.bnext.com.tw/article/90771/tsmc-q1-2026-earnings-ai-demand-3nm-expansion",
       "link_text": "原文連結"
     },
     {
-      "category": "strategy",
-      "title": "香港SFC推進虛擬資產全面立法，2026年提交立法會審議",
-      "summary": "香港財庫局與證監會（SFC）已完成虛擬資產交易商和託管人監管立法建議的公眾諮詢總結，計劃2026年內將完整立法草案提交立法會。2月起已允許持牌平台向專業投資人提供保證金和永久合約產品。",
-      "impact": "香港作為大中華圈遊戲NFT和代幣化活動的重要市場窗口，監管框架完成後遊戲公司在港發行代幣相關產品的合規路徑將明確化，現在是提前評估和佈局的好時機。",
-      "date": "2026-05-08",
-      "source": "SFC / KuCoin News",
-      "link": "https://www.kucoin.com/news/flash/hong-kong-plans-2026-legislation-to-regulate-virtual-asset-traders-and-custodians",
+      "category": "industry",
+      "title": "AI周邊IC需求爆發，成熟製程晶圓代工醞釀漲價最高10%",
+      "summary": "TrendForce指出，AI伺服器帶動電源管理IC需求激增，全球前十大晶圓代工8吋產能利用率預計逼近90%；UMC、VIS、PSMC等成熟製程廠已醞釀每片晶圓漲價最高10%，終端IC設計廠商成本隨之上移。",
+      "impact": "成熟製程漲價將推高手機SoC、遊戲機控制器等零組件成本，終端裝置硬體漲價壓力浮現。中低端玩家裝置換機週期若拉長，手遊中高畫質需求預測與裝置滲透率規劃需同步修正。",
+      "date": "2026-05-07",
+      "source": "TechNews 科技新報",
+      "link": "https://technews.tw/2026/05/07/major-manufacturers-production-cuts-ai-peripheral-ic-demand-surge-mature-foundry-price-hikes/",
       "link_text": "原文連結"
     }
   ],
   "intl": [
     {
       "id": "must-1",
-      "category": "work",
-      "title": "Anthropic Claude Mythos Preview：AI自主找到FreeBSD 17年舊漏洞，未公開發布",
-      "orig_title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative",
-      "summary": "Anthropic發布Claude Mythos Preview，在軟體工程、數學、長文脈推理和網路安全方面大幅超越Opus 4.7。模型已自主識別並利用FreeBSD一個存在17年的遠端代碼執行漏洞，在所有主要作業系統和瀏覽器中發現大量高危漏洞。因安全疑慮暫不公開，啟動Project Glasswing產業聯盟，限制性開放給40多個關鍵軟體組織。",
-      "impact": "這代表AI輔助程式碼安全已進入新閾值——遊戲後端、支付模組、用戶資料保護都將面臨更高水準的自動化攻擊威脅；若能取得早期存取，Mythos級工具同時也能大幅提升開發效率和程式碼品質。建議密切追蹤Project Glasswing開放時程。",
-      "date": "2026-04-07",
-      "source": "TechCrunch / Anthropic",
-      "link": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "must-2",
-      "category": "work",
-      "title": "蘋果歐盟App Store廢除核心技術費，改為5% CTC；日本替代市集元月上線",
-      "orig_title": "App Store Fees and Commission Rates in 2026: Apple EU DMA Changes",
-      "summary": "2026年1月起，蘋果廢除歐盟舊版核心技術費（€0.50/裝置），改為統一5%的Core Technology Commission（CTC）。美國方面，Epic v. Apple案後開發者已可使用外部支付連結且不支付佣金。日本的Epic Games Store和AltStore已於2026年1月正式上線，提供替代發行管道。",
-      "impact": "手遊台廠進軍歐盟和日本市場的平台成本模型今年起需全面重算：歐盟透過替代支付可大幅降低抽成、日本替代市集若規模成熟將成為繞過30%抽成的新選項。現在是重新評估定價策略和市場優先順序的時機。",
-      "date": "2026-01-01",
-      "source": "FunnelFox / Neon Commerce",
-      "link": "https://blog.funnelfox.com/apple-app-store-fees-2026-eu-dma/",
+      "category": "strategy",
+      "title": "美中關稅日內瓦大逆轉：90天停火，主稅率從145%降至30%",
+      "orig_title": "U.S. and China slash tariffs after Geneva talks: 90-day truce, main rate drops from 145% to 30%",
+      "summary": "美中兩國在日內瓦周末談判後達成臨時協議：美國對中國進口主稅率從145%降至30%，中國對美商品關稅從125%降至10%，協議有效期90天，雙方同時建立貿易磋商機制。",
+      "impact": "90天視窗是重新評估供應鏈佈局的關鍵期。台廠若有中美兩端採購（硬體元件、美國雲端服務），可暫緩漲價壓力；手遊若計劃進入美國市場，地緣政治風險短期緩解，是加速佈局的視窗期，但需注意90天後的不確定性。",
+      "date": "2026-05-09",
+      "source": "NBC News",
+      "link": "https://www.nbcnews.com/business/business-news/us-china-trade-talks-geneva-rcna205931",
       "link_text": "原文連結"
     },
     {
       "id": "must-3",
-      "category": "industry",
-      "title": "Nintendo Switch 2首年銷量達1986萬台，任天堂下調FY27展望至1650萬",
-      "orig_title": "As Nintendo Switch 2 Nears 20 Million Units Sold, The Company Expects Sales To Decline Next Fiscal Year",
-      "summary": "任天堂公布FY2026財報（截至2026年3月31日）：Switch 2首年銷量達1986萬台，超越修正後預期的1900萬台，創歷代硬體最強開局，同期軟體銷量4871萬套。然而任天堂預測FY2027銷量將降至1650萬台，理由是銷量高度集中在發售年。",
-      "impact": "Switch 2首年爆量但次年預測驟降，意味著硬體週期正進入傳統第二年回落模式——對計劃開發Switch 2移植或新作的台廠來說，2026年是最大安裝基礎成長視窗，應優先搶在這一年上市而非等到2027年。",
-      "date": "2026-05-08",
-      "source": "Game Informer / Nintendo Life",
-      "link": "https://gameinformer.com/2026/05/08/as-nintendo-switch-2-nears-20-million-units-sold-the-company-expects-sales-to-decline",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "Anthropic估值或達9000億美元超越OpenAI，擬啟動500億美元融資",
-      "orig_title": "Anthropic Valuation Could Eclipse OpenAI in $50 Billion Funding Round",
-      "summary": "Anthropic正考慮500億美元新融資輪，若成功估值將達9000億美元，超越OpenAI的8520億。年化收入預計很快突破450億美元（較2025年底的90億大幅成長），Google已承諾先投入100億、後續再加300億美元。",
-      "impact": "AI供應商估值持續重估，背後是Claude API使用量的爆炸性成長——若你的產品或工具鏈依賴Anthropic服務，現在是評估供應商集中風險和長期定價穩定性的好時機。",
-      "date": "2026-05-07",
-      "source": "PYMNTS / TechCrunch",
-      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-valuation-could-eclipse-openai-50-billion-dollar-funding-round/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "美中關稅延長至2026年11月，實際稅負仍達47%；Trump-Xi峰會5月中旬將登場",
-      "orig_title": "US-China tactical deal: Tariffs, tech, and rare earths — a tactical truce, not a strategic shift",
-      "summary": "美中雙邊關稅已於2025年11月從125%降至10%並延長一年至2026年11月，但加計Section 301等舊有關稅後實際總稅負仍約47%。Trump-Xi峰會預計5月中旬舉行，可能討論更長期協議；稀土和AI晶片出口管制仍是核心談判籌碼。",
-      "impact": "台廠供應鏈和遊戲伺服器硬體採購短期相對穩定，但47%實際稅負仍高；若5月峰會達成重大突破（尤其是AI晶片出口管制鬆綁），台廠在中美之間的運營成本可能顯著改變，需密切關注峰會結果。",
-      "date": "2026-05-08",
-      "source": "Coface / Supply Chain Dive",
-      "link": "https://www.coface.com/news-economy-and-insights/us-china-trade-agreement-a-tactical-truce-not-a-strategic-shift",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "美國CAISI與Google、微軟、xAI簽AI模型評估協議，建立政府准入審查機制",
-      "orig_title": "Trump admin moves further into AI oversight, will test Google, Microsoft and xAI models",
-      "summary": "美國人工智慧標準創新中心（CAISI）宣布與Google DeepMind、微軟和xAI簽署協議，允許政府在模型公開發布前進行安全評估。此前已有OpenAI和Anthropic的協議，並已依商務部長指令重新談判。",
-      "impact": "美國正建立政府主導的AI模型准入評估體系——短期對遊戲業影響有限，但預示未來AI工具（遊戲AI、NPC生成器、自動化客服）可能面臨更嚴格合規要求，值得追蹤後續法規走向並提前納入產品設計考量。",
-      "date": "2026-05-05",
+      "category": "work",
+      "title": "OpenAI推出GPT-5.5：編碼能力與Codex整合強化，向付費用戶開放",
+      "orig_title": "OpenAI announces GPT-5.5 with enhanced coding, computer use, and Codex integration",
+      "summary": "OpenAI正式發布GPT-5.5，主打更強的編碼能力、電腦操作（computer use）以及深度研究功能，目前向Plus、Pro、Business及Enterprise用戶逐步開放，同時整合進Codex平台。",
+      "impact": "對產品企劃的日常影響立竿見影：GPT-5.5的Codex整合讓「自然語言→原型程式碼」流程更快；競品分析、GDD撰寫、數據摘要等高頻任務可立即受益，本週值得升級測試並與現有工作流程對比。",
+      "date": "2026-04-23",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
+      "link": "https://www.cnbc.com/2026/04/23/openai-announces-latest-artificial-intelligence-model.html",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "work",
+      "title": "Google I/O 2026定5月19日登場：Gemini 4預計整合影片生成與Agentic助理",
+      "orig_title": "Google I/O 2026 on May 19: Gemini 4 expected with video generation and agentic 'Remy' assistant",
+      "summary": "Google I/O 2026定於5月19日登場，預計發布Gemini 4模型，整合圖像與影片生成能力；同步亮相的有Workspace Intelligence（AI自動取用Gmail、日曆、Drive上下文）及新版Agent「Remy」。",
+      "impact": "Gemini 4若正式整合Workspace，將大幅降低企劃在Google Docs/Sheets裡使用AI的門檻；影片生成能力對手遊宣傳影片草稿、遊戲截圖編排的工作流程有直接加速潛力，5月19日直播值得安排時間觀看。",
+      "date": "2026-05-08",
+      "source": "PCWorld",
+      "link": "https://www.pcworld.com/article/3134059/gemini-may-finally-leap-out-of-the-chatbox-at-google-i-o.html",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "Google宣布對Anthropic追加投資至400億美元，估值達3,500億",
+      "orig_title": "Google to invest up to $40 billion in Anthropic, valuing AI firm at $350 billion",
+      "summary": "Google母公司Alphabet承諾對Anthropic投資最多400億美元（現投100億，後續300億依里程碑觸發），Anthropic估值達3,500億美元；此交易讓Anthropic在Google雲端算力上形成深度綁定。",
+      "impact": "Anthropic的Claude系列是重要的企劃AI工具候選；Google這筆投資意味著Claude在Google Cloud上的可用性將提升，企業採用Claude的基礎設施成本可能下降，在AI工具採購決策與比較評估中值得納入考量。",
+      "date": "2026-04-24",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "韓國NCSoft正式改名NC，宣告從手機MMORPG轉型主機與全球IP",
+      "orig_title": "NCsoft rebrands to NC, pivots from Korean mobile MMORPG to console titles and global IP expansion",
+      "summary": "NCSoft於2026年4月2日正式更名為NC，同步宣告戰略轉型：從韓國本土手機MMORPG轉向高品質主機遊戲，並計劃將旗艦IP《Throne and Liberty》推向國際市場。",
+      "impact": "韓系大廠帶頭轉向主機與全球市場，暗示純手機MMORPG在韓國市場的天花板已現。台廠若與韓廠競爭相同玩家群，主機跨平台是無法迴避的長期趨勢，競品主機化時程需重新評估。",
+      "date": "2026-04-02",
+      "source": "The Korea Herald",
+      "link": "https://www.koreaherald.com/article/10402202",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "CSIS調查：56%半導體廠商出口許可等逾180天，部分超300天",
+      "orig_title": "CSIS survey: 56% of semiconductor firms face 180+ day U.S. export license review, one-third wait over 300 days",
+      "summary": "CSIS 2026年3月對半導體及資訊科技廠商調查發現，56%遭遇超過180天的出口許可審查；超過33%等待逾300天，54%因此損失商機，顯示美國出口管制行政瓶頸嚴峻。",
+      "impact": "出口管制拖累效應持續，對依賴美國技術授權的台廠（採購美國AI晶片、雲端服務授權）構成潛在供應鏈風險；若手遊AI算力來自美國廠商，應提前評估合規審查的時間成本並建立備援方案。",
+      "date": "2026-03-01",
+      "source": "CSIS",
+      "link": "https://www.csis.org/analysis/reining-export-control-arms-race",
       "link_text": "原文連結"
     }
   ]
