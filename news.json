@@ -1,121 +1,131 @@
 {
-  "date": "2026-05-11",
-  "weekday": "週一",
+  "date": "2026-05-12",
+  "weekday": "週二",
   "must_read": [
-    { "title": "Google Play 廢除 30% 抽成，降至 20%，部分最低 15%", "hint": "直接改變手遊 Android 收益分潤計算，定價與訂閱方案需重新試算", "article_id": "must-1" },
-    { "title": "Trump-Xi 北京峰會（5/13-15）前夕：科技管制、稀土、關稅全在談判桌", "hint": "峰會結果左右台廠出海中國版號申請與 AI 晶片供應鏈走向", "article_id": "must-2" },
-    { "title": "OpenAI 開放 GPT-5.5-Cyber 給歐盟；Anthropic Mythos 仍限 40 個組織", "hint": "頭部 AI 廠商監管合作策略分歧，影響企業採購新模型的可及性", "article_id": "must-3" }
+    { "title": "日本手遊平台解禁：Epic Store 上線、第三方支付全面啟動", "hint": "日本手遊市場第三方支付正式開放，台廠發日版遊戲商業模式須重評", "article_id": "must-1" },
+    { "title": "香港立法會審議有獎遊戲牌照及網吧新規，抽卡類比效應需追蹤", "hint": "HK 有獎遊戲立法走向恐成亞洲抽卡監管先例，需追蹤措辭走向", "article_id": "must-2" },
+    { "title": "川普啟程赴北京峰會，貿易關稅與台灣均列議程", "hint": "中美峰會結果牽動科技出口管制走向，供應鏈與台積電風險需密切追蹤", "article_id": "must-3" }
   ],
   "tw": [
     {
-      "category": "industry",
-      "title": "金管會規劃將 AI Agent 納入金融業 AI 指引，代理 AI 風險分類首度立規",
-      "summary": "金管會計畫把「可程式化 AI」與「代理 AI（AI Agent）」納入金融業 AI 指引，並建立 AI 風險分類框架，配合 2026 年金融數位治理布局推進。",
-      "impact": "對你的意義：AI Agent 從技術流行語變成有官方監理框架的工具類別，遊戲業在對接金融支付、客服 Bot 或自動化商業決策時，將面臨更明確的合規要求，提前評估工具選用的合規路徑有助降低後續風險。",
-      "date": "2026-05-07",
-      "source": "台灣大紀元",
-      "link": "https://www.epochtimes.com/b5/26/5/7/n14758846.htm",
-      "link_text": "原文連結"
-    },
-    {
+      "id": "must-2",
       "category": "work",
-      "title": "數位部數位產業署擴大「獨立遊戲開發獎勵計畫」，接力式資金支援強化台灣原生 IP",
-      "summary": "數位發展部數位產業署以獎勵方式協助獨立遊戲開發者在不同研發階段籌措資金，目標加速台灣原生創作內容的產製與產品化。",
-      "impact": "對你的意義：政府資金正在系統性扶植台灣獨立 IP，對產品企劃而言既是潛在 IP 授權合作標的，也是觀察台灣原生遊戲題材生態圈健康度的指標計畫，值得定期追蹤入選名單。",
-      "date": "近期",
-      "source": "數位發展部數位產業署",
-      "link": "https://digiplus.adi.gov.tw/plan_detail_7.html",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "台灣《虛擬資產服務法》草案版本分歧，穩定幣儲備與利息規範是最終談判焦點",
-      "summary": "金管會主委赴立法院財政委員會報告，指出《虛擬資產服務法》草案中穩定幣儲備比率與是否允許計息為主要分歧，立法完成後將另訂授權子法開放申請。",
-      "impact": "對你的意義：穩定幣合法化進程將影響台灣手遊虛擬貨幣、道具交易與跨境支付的法律邊界；需追蹤後續授權子法是否明確將遊戲點數或代幣化道具納入規範範圍。",
-      "date": "2026-05-09",
-      "source": "區塊客 Blockcast",
-      "link": "https://blockcast.it/2026/05/09/taiwan-says-stablecoin-reserves-interest-rules-key-to-crypto-law/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "work",
-      "title": "香港立法會 5/11 討論夾娃娃機與有獎遊戲場所牌照新規，涉及未成年保護與防沉迷機制",
-      "summary": "香港民政及文化體育事務局向立法會提交討論文件，擬將夾娃娃機等有獎娛樂遊戲設備納入更嚴格的牌照框架，要求場所張貼成癮警示，並重新檢討自 2000 年起未調整的牌照費。",
-      "impact": "對你的意義：抽卡與有獎機制長期被類比為「數位夾娃娃機」，香港此次若通過立法，可能成為其他地區收緊手遊抽卡監管的參考先例；特別需注意文件對「保底機制」與「獎品等值計算」的措辭走向。",
+      "title": "香港立法會審議有獎娛樂遊戲牌照及網吧規管新框架",
+      "summary": "香港立法會民政及文化體育事務委員會於 5 月 11 日審議「有獎娛樂遊戲牌照及網吧規管安排」討論文件，擬將夾娃娃機等有獎遊戲設備納入更嚴格牌照框架，要求場所張貼成癮警示，並重新檢討自 2000 年起未調整的牌照費。",
+      "impact": "對你的意義：抽卡與有獎機制長期被類比為「數位夾娃娃機」，香港若通過立法，可能成為其他地區收緊手遊抽卡監管的參考先例；特別需注意後續文件對「保底機制」與「獎品等值計算」的措辭走向。",
       "date": "2026-05-11",
-      "source": "AGB Brief",
-      "link": "https://agbrief.com/news/hong-kong/10/05/2026/hong-kongs-claw-machine-boom-has-a-gambling-problem/",
-      "link_text": "原文連結"
+      "source": "香港立法會",
+      "link": "https://www.legco.gov.hk/yr2026/chinese/panels/ha/papers/ha20260511cb3-397-3-c.pdf",
+      "link_text": "立法會文件"
     },
     {
       "category": "strategy",
-      "title": "香港 SFC 推出 VATP 代幣化資產交易框架，貨幣市場基金首批上鏈",
-      "summary": "香港證監會公布 VATP 代幣化資產二級市場買賣與認購贖回框架，首批標的為貨幣市場基金，框架未來擴展至股票、債券、ETF 等所有授權產品。",
-      "impact": "對你的意義：香港正建構「鏈上金融」基礎設施，為遊戲虛擬資產往合規方向轉化提供了監管參考架構；短期對手遊直接影響有限，但若公司有 Web3 遊戲企劃，此框架是落地路徑的重要參照。",
+      "title": "英特爾搶攻 AI 代工市場，傳川普施壓特斯拉棄台積電",
+      "summary": "報導指川普政府向特斯拉施壓，要求將 AI 晶片代工從台積電轉至英特爾，英特爾藉此試圖重返 AI 晶片代工競爭，台積電股價應聲下跌。",
+      "impact": "對你的意義：台積電地緣政治風險重新浮現；若大型科技客戶被迫政治性轉單，台灣半導體生態系全球競爭力將面臨新壓力，遊戲 AI 算力長期成本走勢亦需重新評估。",
+      "date": "2026-05-12",
+      "source": "TechNews 科技新報",
+      "link": "https://technews.tw/2026/05/12/intel-ai-chips-tesla-ai6-5"
+    },
+    {
+      "category": "industry",
+      "title": "Cadence × 台積電擴大 AI 半導體合作，N2 至 A14 全製程覆蓋",
+      "summary": "EDA 龍頭 Cadence 宣布擴大與台積電的長期合作，加速 AI 半導體創新，涵蓋 N3、N2、A16 及 A14 先進製程節點。",
+      "impact": "對你的意義：EDA 工具與晶圓廠深度整合代表台積電在 AI 晶片設計流程的話語權持續增強；長期而言，遊戲 AI 運算基礎設施的硬體成本走勢與此類合作直接相關。",
+      "date": "2026-05-12",
+      "source": "TechNews 科技新報",
+      "link": "https://technews.tw/2026/05/12/cadence-partners-with-tsmc-to-expand-ai-semiconductor-innovation"
+    },
+    {
+      "category": "industry",
+      "title": "應材與台積電進駐矽谷 EPIC 中心，攻次世代材料製程",
+      "summary": "應用材料（Applied Materials）宣布與台積電合作，共同在斥資 50 億美元的矽谷 EPIC 中心推動材料工程創新，研發次世代半導體製程所需材料與設備。",
+      "impact": "對你的意義：台積電研發重心延伸至矽谷，有助鞏固美國政治支持；先進製程競爭已從成本轉向材料基礎創新，台灣半導體生態優勢短期難以被複製。",
+      "date": "2026-05-12",
+      "source": "TechNews 科技新報",
+      "link": "https://technews.tw/2026/05/12/applied-material-with-tsmc-at-epic-center/"
+    },
+    {
+      "category": "industry",
+      "title": "台灣數位產業署推獨立遊戲開發補助暨產品化加值計畫",
+      "summary": "數位發展部數位產業署推出「獨立遊戲開發獎勵暨產品化加值計畫」，提供開發獎勵與投資兩種資金管道，協助獨立開發者從製作到上市全流程。",
+      "impact": "對你的意義：政府資金進場扶持獨立遊戲，代表台灣產業政策正補強原創 IP 薄弱的結構問題；對中小型開發者是可申請資源，長期可能帶動更多本土新 IP 進入市場，改變競爭生態。",
+      "date": "近期",
+      "source": "數位產業署",
+      "link": "https://moda.gov.tw/ADI/news/latest-news/12378"
+    },
+    {
+      "category": "strategy",
+      "title": "香港 SFC 啟動 VATP 代幣化交易框架，範圍擴及所有授權金融產品",
+      "summary": "香港證監會公布 VATP（虛擬資產交易平台）代幣化資產交易框架，首批上線貨幣市場基金，未來將擴及股票、債券、ETF 等所有授權產品在鏈上代幣化交易。",
+      "impact": "對你的意義：香港持續搶建 Web3 金融基礎設施；此框架為遊戲內虛擬資產（NFT、代幣）與合規金融市場接軌提供監管路線圖，若未來開放遊戲資產代幣化，將是重大政策轉機。",
       "date": "2026-04-20",
       "source": "鏈新聞 ABMedia",
-      "link": "https://abmedia.io/hk-sfc-vatp-tokenized-asset-trading-framework-2026",
-      "link_text": "原文連結"
+      "link": "https://abmedia.io/hk-sfc-vatp-tokenized-asset-trading-framework-2026"
     }
   ],
   "intl": [
     {
       "id": "must-1",
       "category": "work",
-      "title": "Google Play 廢除 30% 抽成制，降至 20%，部分情境最低 15%",
-      "orig_title": "Google ends its 30 percent app store fee and welcomes third-party app stores",
-      "summary": "Google 正式取消 Play Store 30% 交易抽成，改為 20%（一般情況），參與 App Experience Program 的新安裝或訂閱滿一年可降至 15%；同步開放第三方 App Store 進駐。",
-      "impact": "對你的意義：Android 平台分潤成本直接降低，若主要收入來自訂閱或持續獲取新用戶，毛利率理論上可提升 5-15 個百分點。現在是重新試算 Android 定價策略與訂閱方案 ROI 的最佳時機。",
-      "date": "近期",
-      "source": "Engadget",
-      "link": "https://www.engadget.com/apps/google-ends-its-30-percent-app-store-fee-and-welcomes-third-party-app-stores-185248647.html",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "must-2",
-      "category": "strategy",
-      "title": "Trump-Xi 北京峰會（5/13-15）前夕：科技管制、稀土出口、關稅全在談判桌",
-      "orig_title": "From Singapore to Brussels, world leaders eye Trump-Xi summit from afar",
-      "summary": "Trump 將於 5/13-15 訪問北京，為美國總統近九年來首度訪中，峰會議題涵蓋半導體出口管制、稀土反制措施、現行關稅安排（延至 2026/11），以及 AI 競爭框架；外界普遍預期主要成果是「穩定關係」而非重大突破。",
-      "impact": "對你的意義：若峰會鬆動出口管制或稀土限制，短期有利 AI 晶片與伺服器供應鏈；若氣氛緊張，台廠出海中國市場的版號審批週期與資金匯回風險將上升。本週需密切跟進峰會後公報措辭。",
-      "date": "2026-05-11",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/05/11/trump-xi-summit-beijing-global-leaders-iran-war-taiwan-strait-of-hormuz-.html",
-      "link_text": "原文連結"
+      "title": "日本手遊平台解禁：Epic Store 上線、第三方支付全面啟動",
+      "orig_title": "Japan MSCA in Effect: Epic Games Store Launches, Alternative Payments Open to All App Categories",
+      "summary": "日本《手機軟體競爭促進法》（MSCA）2025 年 12 月 18 日生效後，Epic Games Store 於 2026 年 1 月登陸 iOS，蘋果與 Google 均須允許第三方支付及替代應用商店，開發者可完全繞開平台內購系統。",
+      "impact": "對你的意義：日本手遊市場（全球第三大）現在允許開發者自建直接付費漏斗，平台抽成可從 30% 壓低至接近 0%；在日本發行遊戲的台廠應立即評估是否切換支付方案，此政策未來可能擴散至其他亞洲市場。",
+      "date": "2026-01-01",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2025/12/18/apple-opens-up-its-app-store-to-competition-in-japan/"
     },
     {
       "id": "must-3",
-      "category": "industry",
-      "title": "OpenAI 開放 GPT-5.5-Cyber 給歐盟；Anthropic Mythos 仍限約 40 個組織存取",
-      "orig_title": "OpenAI to give EU access to new cyber model but Anthropic still holding out on Mythos",
-      "summary": "OpenAI 宣布歐盟企業、政府機構及 EU AI Office 可取得 GPT-5.5-Cyber；Anthropic 的 Mythos 仍採嚴格限制存取策略，僅約 40 個組織可用。英國 AI 安全研究所測試顯示 Mythos 模擬企業攻擊成功率略優於 GPT-5.5（3/10 vs 2/10）。",
-      "impact": "對你的意義：兩大 AI 廠走向「開放合作 vs 嚴格管控」截然不同策略——若未來將 AI 工具導入歐洲業務，OpenAI 更積極的合規姿態代表可及性更高；Anthropic 的限制策略則意味著頂尖模型的企業採購門檻仍高，值得追蹤 Mythos 何時開放一般 API。",
-      "date": "2026-05-11",
+      "category": "strategy",
+      "title": "川普啟程赴北京峰會，貿易關稅與台灣均列核心議題",
+      "orig_title": "Trump-Xi Summit 2026: Trade, Taiwan, and Iran on the Agenda as Leaders Meet in Beijing",
+      "summary": "美國總統川普 5 月 12 日啟程赴北京與習近平舉行峰會，議題涵蓋貿易關稅延續、台灣、伊朗局勢；蘋果 Tim Cook、特斯拉 Elon Musk、波音等科技 CEO 同行，代表團陣容龐大。",
+      "impact": "對你的意義：峰會結果將直接影響中美科技出口管制走向與關稅架構；若達成延長貿易和解，台積電地緣政治風險短期降低，反之若衝突再起，供應鏈重組壓力升溫，台廠研發與採購策略均需因應。",
+      "date": "2026-05-12",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
-      "link_text": "原文連結"
+      "link": "https://www.cnbc.com/2026/05/12/trump-xi-china-trade-iran-taiwan.html"
     },
     {
       "category": "industry",
-      "title": "Google 偵測並阻止駭客利用 AI 模型規劃大規模零日漏洞利用行動",
-      "orig_title": "Google says it likely thwarted effort by hacker group to use AI for 'mass exploitation event'",
-      "summary": "Google Threat Intelligence Group 報告指出，有高信心確認某犯罪組織使用 AI 模型找到並計劃利用一個零日漏洞發動大規模攻擊行動，因 Google 提前偵測而可能受阻。",
-      "impact": "對你的意義：AI 輔助攻擊已從概念進入實際威脅場景，遊戲公司的玩家帳號資料庫、支付資訊與後台伺服器是重點目標；資安預算與 SOC 監控應將「AI 加速攻擊」列為優先防禦情境，並評估現有漏洞掃描頻率是否足夠。",
-      "date": "2026-05-11",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker-group-use-ai-mass-exploitation-event.html",
-      "link_text": "原文連結"
+      "title": "Nintendo Switch 2 近 2000 萬台銷售背後：FY27 展望下修、多國漲價",
+      "orig_title": "Nintendo FY2026 Results: Switch 2 at 19.86M Units, FY27 Forecast Lowered, Price Hike Planned",
+      "summary": "任天堂公布 FY2026 財報，Switch 2 自 2025 年 6 月上市後累計銷售 1986 萬台，但 FY2027 銷售預估下修至 1650 萬台，並計畫在美國等多國調漲 Switch 2 售價。",
+      "impact": "對你的意義：Switch 2 首年衝量後進入放緩期，任天堂主動下修並漲價，代表主機市場正探測定價天花板；手遊開發者可藉此評估跨平台發行吸引力與玩家付費意願的上限參考值。",
+      "date": "2026-05-08",
+      "source": "Nintendo Life",
+      "link": "https://www.nintendolife.com/news/2026/05/switch-2-has-sold-just-shy-of-20-million-units-nintendo-lowers-fy27-forecast"
     },
     {
-      "category": "work",
-      "title": "Apple 歐盟 DMA 新費用架構：支付路徑與用戶類型決定實際抽成，部分情境總成本反高於舊制",
-      "orig_title": "App Store Fees and Commission Rates in 2026: Apple EU Changes",
-      "summary": "歐盟 DMA 實施後，Apple 以多層費用架構取代統一 30% 抽成，費率由支付方式、用戶是新客或回購客、是否使用 App Store 服務組合決定；部分採用替代支付的情境加計「核心技術費」後，實際總成本反高於舊制。",
-      "impact": "對你的意義：若有歐洲市場替代支付計畫，務必先完整模擬費用結構而非只看表面費率；「新用戶免核心技術費」的豁免條件若符合你的拉新模式，可降低歐洲市場 10-15% 分潤成本，值得評估實施可行性。",
+      "category": "industry",
+      "title": "OpenAI 對歐盟開放 GPT-5.5-Cyber，Anthropic Mythos 限量上線",
+      "orig_title": "OpenAI Gives EU Access to GPT-5.5-Cyber; Anthropic's Mythos Rolls Out to Limited Partners",
+      "summary": "OpenAI 宣布將 GPT-5.5-Cyber 開放給歐盟存取；Anthropic 則將最新的 Mythos 模型以限量形式開放給部分合作夥伴，因安全疑慮暫不大規模釋出；Anthropic 年化收入已突破 300 億美元。",
+      "impact": "對你的意義：主流 AI 模型加速向「專項能力」分化（資安、代碼、推理），企業選用 AI 工具的決策更加複雜；遊戲製作流程導入 AI 輔助時，應依用途分層選型，避免過度依賴單一模型。",
+      "date": "2026-05-11",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html"
+    },
+    {
+      "category": "strategy",
+      "title": "Google 加碼投資 Anthropic 達 400 億美元，AI 算力資本整合加速",
+      "orig_title": "Google to Invest Up to $40B in Anthropic in Cash and Compute",
+      "summary": "Google 宣布最高將對 Anthropic 投資 400 億美元（含現金與算力），Anthropic 年化收入已突破 300 億美元，AI 基礎設施的資本集中化趨勢持續深化。",
+      "impact": "對你的意義：AI 算力生態系正被少數巨頭（Google、Microsoft）的資本包圍，遊戲 AI 工具的長期定價與可用性將受此資本架構左右；現階段應評估核心工具的替換成本與供應商集中風險。",
+      "date": "2026-04-24",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/"
+    },
+    {
+      "category": "strategy",
+      "title": "騰訊、網易重評日本遊戲投資布局，多年投入未能催生爆款",
+      "orig_title": "Tencent, NetEase Rethink Japan Investments After Yielding Few Blockbuster Video Games",
+      "summary": "騰訊與網易對日本遊戲廠商的大規模投資策略正在重新評估，多年布局未能催生足夠的全球爆款遊戲，兩家公司考慮調整日本市場的資本策略。",
+      "impact": "對你的意義：中資縮減對日本工作室的資本支持，可能為其他資本（包括台廠或獨立海外發行商）帶來合作或收購機會；同時反映純 IP 引進策略的侷限性，自主原創 IP 的長期競爭優勢更為重要。",
       "date": "近期",
-      "source": "FunnelFox Blog",
-      "link": "https://blog.funnelfox.com/apple-app-store-fees-2026-eu-dma/",
-      "link_text": "原文連結"
+      "source": "South China Morning Post",
+      "link": "https://www.scmp.com/tech/big-tech/article/3276495/tencent-netease-rethink-japan-investments-after-yielding-few-blockbuster-video-games"
     }
   ]
 }
