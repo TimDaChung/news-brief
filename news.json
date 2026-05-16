@@ -1,20 +1,20 @@
 {
-  "date": "2026-05-14",
-  "weekday": "週四",
+  "date": "2026-05-15",
+  "weekday": "週五",
   "must_read": [
     {
-      "title": "川習北京峰會：美開放Nvidia H200出口中國",
-      "hint": "騰訊、阿里等10家中企獲晶片許可，中國AI算力格局將快速改變",
+      "title": "Apple EU 替代支付費率詳解：遊戲開發者真實成本 23–27%，切換未必划算",
+      "hint": "DMA 看似開放替代支付，但 5% CTC 加上第三方處理費，真實成本比預期複雜得多",
+      "article_id": "intl-2"
+    },
+    {
+      "title": "川習北京峰會 5/15 落幕：H200 零出貨、稀土流量仍低 50%，唯一大單是波音飛機",
+      "hint": "峰會實質結果低於市場預期，AI 晶片出口管制仍是最大懸念，台灣半導體優勢窗口延伸",
       "article_id": "intl-1"
     },
     {
-      "title": "Anthropic估值衝$950B，年化營收已達$440億",
-      "hint": "Claude生態急速商業化，AI工具市場正在贏家收斂，選棧窗口縮小",
-      "article_id": "intl-3"
-    },
-    {
-      "title": "台積電：AI 2030年將佔全球半導體產值55%",
-      "hint": "TSMC技術論壇首席發言：AI取代手機成最大動力，台灣今年新增四座晶圓廠",
+      "title": "任天堂退出中國同步成立台灣子公司，台灣正式成為 Nintendo 區域直營據點",
+      "hint": "Nintendo 「退中進台」代表台灣市場吸引力提升，對手遊玩家時間競爭加劇",
       "article_id": "tw-1"
     }
   ],
@@ -22,120 +22,90 @@
     {
       "id": "tw-1",
       "category": "industry",
-      "title": "台積電2026年技術論壇：AI將在2030年佔全球半導體產值55%，台灣今年新增四廠",
-      "summary": "台積電5月14日在新竹喜來登舉辦年度台灣技術論壇，副共同營運長張曉強表示AI已超越智慧手機成半導體最大成長驅動力，預估2030年全球晶片市場規模達1.5兆美元，AI與HPC佔55%、智慧手機降至20%。台灣2026年將新增4座晶圓廠及2座先進封裝廠，N2量產中，N2P下半年啟動。",
-      "impact": "對你的意義：半導體供應鏈進入AI優先配置，AI推論算力稀缺性仍將持續——對遊戲開發者而言，雲端AI服務成本短期不會大幅下降；台灣晶片產能擴張也代表未來2至3年供給會逐步跟上，現在評估AI工具長期合約成本是合理時機。",
-      "date": "2026-05-14",
-      "source": "Taiwan News / Digitimes",
-      "link": "https://www.taiwannews.com.tw/news/6362348",
-      "link_text": "原文連結"
+      "title": "任天堂中國 eShop 今日（5/15）正式停止，任天堂台灣子公司同步成立",
+      "summary": "任天堂中國版 Nintendo Switch eShop 於 5/15 正式停止下載及序號兌換服務，騰訊十年代理合作走入歷史；與此同時，任天堂在台灣成立本地子公司（Nintendo Taiwan），正式建立台灣區域直營據點。",
+      "impact": "任天堂同步「退中進台」，台灣子公司成立代表 Nintendo 將直接管理台灣的行銷、發行與售後，本地玩家服務品質與遊戲本地化速度有望提升。對手遊公司：Nintendo 加重台灣市場投入，將強化主機玩家黏著度，對手遊的玩家時間爭奪將更激烈，需評估 2026 下半年 Switch 2 大作對手遊留存率的衝擊。",
+      "date": "2026-05-15",
+      "source": "Install Base Forum / Nintendo Life",
+      "link": "https://www.installbaseforum.com/forums/threads/nintendo-eshop-and-online-functionalities-for-nintendo-switch-will-be-terminated-in-2026-in-china-up-nintendo-establishes-nintendo-taiwan.3245/"
     },
     {
       "id": "tw-2",
-      "category": "industry",
-      "title": "任天堂中國eShop 5月15日停止下載，騰訊十年代理正式落幕",
-      "summary": "騰訊代理的中國版Nintendo Switch eShop於5月15日起停止下載與序號兌換服務，3月31日已停止銷售。中國eShop全盛期僅60款遊戲、17款任天堂自家作品，因法規審查限制難以擴大規模。騰訊提供《超級馬力歐 奧德賽》等四款補償遊戲給受影響用戶。",
-      "impact": "對你的意義：主機廠在中國法規壁壘前退出是明確結構訊號——外資主機平台在中國市場的高合規成本使商業模式難以維持；手遊仍是外資廠商進中國的主要可行路徑，但同樣的合規壓力也適用，這個案例是評估中國市場可行性時應納入的警示參考。",
-      "date": "2026-05-15",
-      "source": "Game Developer / Nintendo Life",
-      "link": "https://www.gamedeveloper.com/business/nintendo-will-kill-the-switch-s-chinese-eshop-on-may-2026",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "tw-3",
-      "category": "strategy",
-      "title": "香港SFC開放代幣化基金二級交易，首檔4.5億美元私人信貸基金獲批",
-      "summary": "香港證監會4月20日發布新框架，允許SFC授權投資產品以代幣化形式在持牌虛擬資產交易平台進行二級交易，首批產品為貨幣市場基金。同期首檔代幣化私人信貸基金（4.5億美元，面向亞太區中小企業放貸）獲批，SFC配套推進CrypTech監管科技倡議（AML自動申報、市場操縱偵測）。",
-      "impact": "對你的意義：香港正建立全球最完整的代幣化金融產品合規架構；對遊戲產業的間接意義是虛擬貨幣與遊戲內資產的合規化路徑越來越清晰——若未來有遊戲道具資產化或NFT相關功能需求，香港框架是值得持續追蹤的政策先行指標。",
-      "date": "2026-04-20",
-      "source": "Conventus Law / CoinReporter",
-      "link": "https://conventuslaw.com/featured-content/hong-kong-enters-a-new-era-of-rwa-tokenisation-sfc-opens-secondary-trading-for-tokenised-products/",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "tw-4",
       "category": "work",
-      "title": "中國遊戲全面落地「動態掃臉」實名制，台廠入市技術門檻再升",
-      "summary": "2026年中國遊戲市場已全面實現全網實名認證加動態掃臉驗證機制，適用於所有年齡層的登入場景，並非僅限未成年人防護。未成年人仍被限制每週僅限週五至週日晚間20至21時共3小時的遊戲時間。",
-      "impact": "對你的意義：任何計劃進入中國市場的遊戲產品，技術架構層就需要預留實名驗證API串接與掃臉SDK整合；台灣版與中國版賬號體系必須完全隔離，增加雙版本長期維護成本。若中國市場不在近期計劃內，這個趨勢仍值得記錄作為未來評估中國發行可行性的前提條件清單。",
-      "date": "近期",
-      "source": "A金成工作室 / iThome",
-      "link": "https://donaa.org/dlyxsm/",
-      "link_text": "原文連結"
+      "title": "金管會規劃將 AI Agent 正式納入金融 AI 監理指引草案",
+      "summary": "金管會主委彭金隆 5/7 赴立法院財政委員會報告，宣布規劃將「可程式化 AI」、「代理 AI（AI Agent）」及「AI 風險分類框架」正式納入金融業 AI 監理指引，預計年內完成草案並向業界徵詢。",
+      "impact": "AI Agent 首次進入台灣金融監管框架，代表政府已認定代理型 AI 需要專屬規範。對手遊公司：若產品涉及 AI 客服代理、自動化付款流程或遊戲內虛擬貨幣兌換，後續可能需符合金融 AI 指引；即使現在不直接受管，追蹤草案走向有助提前評估未來合規成本。",
+      "date": "2026-05-07",
+      "source": "台灣大紀元",
+      "link": "https://www.epochtimes.com/b5/26/5/7/n14758846.htm"
     }
   ],
   "intl": [
     {
       "id": "intl-1",
-      "category": "work",
-      "title": "川習北京峰會：美開放Nvidia H200晶片出口，騰訊阿里字節等10家中企獲許可",
-      "orig_title": "Trump-Xi summit revives China tech rally hopes as U.S. reportedly clears Nvidia H200 sales",
-      "summary": "特朗普5月14至15日訪問北京與習近平峰會，美方於峰會同步宣布向約10家中國科技企業（包括阿里巴巴、騰訊、字節跳動、京東）開放Nvidia H200晶片銷售許可。峰會議題涵蓋稀土出口管制鬆綁、AI治理對話框架及台灣問題；Nvidia CEO Jensen Huang應特朗普親邀緊急加入代表團同行。",
-      "impact": "對你的意義：騰訊與阿里獲得H200意味著中國頭部遊戲廠商AI推論能力將大幅提升，國產AI遊戲NPC、生成內容、個人化推薦的技術差距將快速縮小；台灣遊戲廠商在AI工具力上的相對優勢窗口正在壓縮，應加速自家產品AI化進程而非依賴技術領先。",
-      "date": "2026-05-14",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/05/14/trump-xi-meeting-china-stocks-ai-rally.html",
-      "link_text": "原文連結"
+      "category": "strategy",
+      "title": "川習北京峰會 5/15 落幕：H200 晶片零出貨、稀土流量仍低 50%，唯一大單是波音飛機",
+      "orig_title": "Trump-Xi Close Beijing Summit: Warm Rhetoric, Nvidia H200 Deliveries Remain Stalled, Rare-Earth Flows Lag",
+      "summary": "川普 36 小時北京之行 5/15 結束，雖對外稱「解決了很多問題」，但實質結果有限：10 家獲批中企（含騰訊、阿里、字節）的 H200 晶片許可實際零出貨，中國稀土出口仍比管制前低約 50%，AI 治理雙邊框架未簽署；唯一確認的大案是波音飛機採購訂單。",
+      "impact": "峰會結果遠低於半導體市場的樂觀預期，H200 許可到實際出貨仍有很長的路。對台灣產業：供應鏈切割格局短期維持，台廠在 AI 晶片代工的相對優勢窗口延伸。對遊戲產業：中國 AI 算力短期提升不如預期，中國廠商 AI 遊戲的追趕速度將受制約，台廠相對競爭壓力暫緩。",
+      "date": "2026-05-15",
+      "source": "TechTimes / CNBC",
+      "link": "https://www.techtimes.com/articles/316674/20260515/trump-xi-close-beijing-summit-warm-rhetoric-nvidia-h200-deliveries-remain-stalled-rare-earth.htm"
     },
     {
       "id": "intl-2",
-      "category": "strategy",
-      "title": "美中貿易休戰：關稅從145%驟降至30%，科技品暫時解套",
-      "orig_title": "US-China Trade Truce May 12: Tariffs 145% to 30%, Chip Controls on the Table",
-      "summary": "5月12日美中宣布貿易休戰，美對中關稅從145%降至30%，中對美從125%降至10%，為特朗普北京峰會前的外交緩和部署。消費電子、農產品與能源是主要受惠品類，AI晶片出口管制仍在峰會桌上談判。特朗普代表團包含Jensen Huang、Elon Musk與Tim Cook。",
-      "impact": "對你的意義：短期關稅緩和降低台廠中國供應鏈成本，但結構性科技出口管制仍是長期變數；若北京峰會進一步鬆綁AI晶片管制，中國AI消費市場熱度可能快速回升，連帶影響遊戲市場競爭強度——這個訊號值得持續追蹤後續談判結果。",
-      "date": "2026-05-12",
-      "source": "CNBC / Rest of World",
-      "link": "https://www.cnbc.com/2026/05/14/trump-xi-summit-tech-flashpoints.html",
-      "link_text": "原文連結"
+      "category": "work",
+      "title": "Apple EU DMA 替代支付 5% CTC 費率落地：遊戲開發者真實成本 23–27%，切換複雜度大增",
+      "orig_title": "Apple Alternative Payment Fees in 2026: What Game Developers Actually Pay Under EU DMA Rules",
+      "summary": "2026 年 Apple 在歐盟以 5% 核心技術傭金（CTC）取代舊版每次安裝 0.5 歐元費用；選擇替代支付的開發者實際成本 = 5% CTC + 第三方支付處理費（約 3–7%）+ 商家服務費，合計約 23–27%；且一旦啟用替代支付，須移除 App 內 Apple 原生付款入口，兩者不可並存。",
+      "impact": "DMA 看似為開發者提供替代方案，但節省有限（標準費 30%，替代方案約 23–27%），且增加技術複雜度與維護成本。對台灣手遊開發者：若有 iOS 歐盟版，需今年評估切換替代支付是否划算；若年收低於 100 萬美元適用 15% 小型企業計畫，切換替代支付的誘因更低，維持 Apple IAP 可能是更簡單的選擇。",
+      "date": "近期",
+      "source": "Neon Commerce",
+      "link": "https://www.neonpay.com/blog/apple-app-store-alternative-payment-fees-what-developers-pay-in-2026"
     },
     {
       "id": "intl-3",
       "category": "industry",
-      "title": "Anthropic融資$300至500億美元、估值衝$950B，年化營收已達$440億",
-      "orig_title": "Anthropic seeks $50bn at $950bn valuation in 2026",
-      "summary": "Anthropic正談判融資300至500億美元，估值最高達950億美元，超越OpenAI（825億美元）。驅動因素：年化營收從9億美元增至440億美元（主要來自企業客戶），毛利率從38%升至70%以上。Google已承諾最高400億美元投資（4月），Amazon 250億美元在先。",
-      "impact": "對你的意義：Anthropic急速商業化代表Claude API在企業採用上已形成規模，AI工具市場正快速向少數贏家集中；高毛利數字也暗示AI推論成本持續下滑，對開發者是好消息。更關鍵的是：若你們還沒確定主力AI工具棧，競爭格局固化的速度比預期快得多，建議盡快做選型決策。",
-      "date": "2026-05-14",
-      "source": "TechCrunch / Sherwood News",
-      "link": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
-      "link_text": "原文連結"
+      "title": "Google I/O 2026「The Android Show」今晚預告：Android 17、Gemini 4 及代理 AI 框架搶先亮相",
+      "orig_title": "The Android Show I/O Edition Tonight: Android 17, Gemini Intelligence, and Everything Google Is Teasing Before I/O 2026",
+      "summary": "Google I/O 2026 訂於 5/19–20 在山景城舉辦，主題涵蓋 Gemini 4 模型（更快推理、深度整合）、Android 17（Luminous 設計語言）及 Gemini Intelligence 跨 App 代理框架；今晚（5/15）Google 先行舉辦「The Android Show I/O Edition」，提前預覽 Android 17 及 Gemini AI 功能。",
+      "impact": "Google I/O 前夕預告意味重要平台政策即將公布。對手遊公司：Gemini Intelligence 若開放遊戲 API 整合，Android 生態將新增 AI 代理玩法入口；需在 5/19 後立即追蹤新 API 公告，判斷是否提前布局 Android AI 差異化體驗，避免被競品搶先卡位。",
+      "date": "2026-05-15",
+      "source": "TechGenyz / Android Authority",
+      "link": "https://techgenyz.com/android-17-gemini-ai-features-google-io-edition/"
     },
     {
       "id": "intl-4",
       "category": "industry",
-      "title": "Google加速整合Gemini入Android，搶在Apple Intelligence正式亮相前鞏固AI入口",
-      "orig_title": "Google races to put Gemini at the center of Android before Apple's AI reboot",
-      "summary": "Alphabet加速在Android系統整合Gemini Intelligence，使其能跨App操控、讀取螢幕內容並完成跨服務任務（Gmail整理、購物車、訂位等）。主要驅動力是在Apple Intelligence完整版正式發布前搶佔AI手機助手入口地位。",
-      "impact": "對你的意義：iOS與Android的AI助手能力正快速對等，但整合深度不同——若Gemini或Apple Intelligence可在App外代理完成遊戲內任務，未來遊戲UX設計需要考慮AI代理操作的邊界與防護設計；短期更直接的影響是玩家比較不同平台AI體驗的習慣將形成，App體驗品質標準被拉高。",
-      "date": "2026-05-12",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html",
-      "link_text": "原文連結"
+      "title": "Nintendo Switch 2 漲價且仍有未公告大作備妥，5/21 起遊戲陣容接力推出",
+      "orig_title": "Nintendo Switch 2 Raises Prices, Confirms Unannounced Games Ready for 2026 Launch Window",
+      "summary": "Nintendo 宣布以「市場條件改變」與「全球商業環境」為由調漲 Switch 2 硬體售價；5/11 確認已有多款未公告大作備妥年內發行，5/21 起《Yoshi 與神秘之書》及 007 First Light、Tales of Arise 強化版等第三方大作接力上市。",
+      "impact": "主機漲價是全球通膨與供應鏈重組的延伸訊號。對手遊公司：漲價短期可能抑制部分 Switch 2 銷量，將潛在主機玩家留在手遊生態，是短期機會視窗；但 Switch 2 強大陣容將維持既有玩家黏著度，長期仍需注意主機平台吸引力對手遊留存的擠壓效應。",
+      "date": "2026-05-11",
+      "source": "9to5toys / Nintendo Life",
+      "link": "https://9to5toys.com/2026/05/11/nintendo-confirms-un-announced-switch-2-games-already-prepared-for-launch-this-year/"
     },
     {
       "id": "intl-5",
-      "category": "industry",
-      "title": "Anthropic因資安疑慮延遲Mythos模型；OpenAI反向向EU開放GPT-5.5-Cyber",
-      "orig_title": "OpenAI to give EU access to new cyber model but Anthropic still holding out on Mythos",
-      "summary": "Anthropic延遲旗艦模型Mythos上市，原因是擔心攻擊者在漏洞修補前利用其高能力發動網路攻擊；同期OpenAI宣布向EU政府與機構開放GPT-5.5-Cyber變體版本，作為主動合規姿態。兩家公司策略方向分歧：一個謹慎收斂，一個主動擴張政府市場。",
-      "impact": "對你的意義：頂級AI模型正進入「能力強但發布受限」的新循環，表示業界對AI安全的重視程度已升至影響產品節奏的層級；對遊戲開發者而言，若計劃依賴頂級模型做生成內容或NPC對話，需預留模型延遲上市的替案與版本鎖定策略。",
-      "date": "2026-05-11",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
-      "link_text": "原文連結"
+      "category": "strategy",
+      "title": "米哈遊、騰訊、網易展開 AI 遊戲技術暗戰，目標從預設腳本進化為即時動態世界",
+      "orig_title": "miHoYo, Tencent, NetEase Wage Covert AI Race to Build Dynamic Game Worlds Beyond Preset Scripts",
+      "summary": "36Kr 報導，中國三大廠商以高度保密方式各自研發「動態世界」AI 生成技術，目標讓遊戲脫離預設腳本、進化為即時生成的遊戲內容；米哈遊背靠 Genshin Impact 及 Honkai: Star Rail 全球逾 40 億美元年收入作為 AI 研發後盾。",
+      "impact": "中國前三大廠同步押注 AI 動態生成遊戲世界，若技術成熟，將從根本改變內容生產成本結構與玩家期待。台灣手遊公司若仍以「手工設計關卡腳本」為核心競爭力，三至五年內劣勢將明顯放大；現在需評估 AI 生成內容工具的導入時機與規模，尋找差異化切入點。",
+      "date": "近期",
+      "source": "36Kr",
+      "link": "https://eu.36kr.com/en/p/3394131222956417"
     },
     {
       "id": "intl-6",
-      "category": "strategy",
-      "title": "Google威脅情報：駭客已用AI武器化零日漏洞，從發現到部署時間大幅縮短",
-      "orig_title": "Google: Hackers are using AI to weaponize zero-day vulnerabilities",
-      "summary": "Google威脅情報團隊（GTIG）報告指出，攻擊者已使用AI模型找出零日漏洞並立即開發武器化工具，大幅縮短從「漏洞發現」到「攻擊部署」的時間窗口。此報告與Anthropic延遲Mythos發布的決定高度相關，顯示業界對AI被惡意利用的疑慮正影響產品決策。",
-      "impact": "對你的意義：手遊後端API與用戶認證系統面臨的自動化攻擊威脅速度正在加快；AI驅動的漏洞利用已不再是理論——若你們的伺服器有老舊依賴套件或未更新的認證API端點，應立即排入修補優先度，不要等到季度維護週期才處理。",
-      "date": "2026-05-12",
-      "source": "Fortune",
-      "link": "https://fortune.com/2026/05/12/google-hackers-using-ai-to-weaponize-zero-day-vulnerabilities/",
-      "link_text": "原文連結"
+      "category": "industry",
+      "title": "韓國遊戲大廠搶攻全球市場，用戶獲取成本年增 22% 創近年新高",
+      "orig_title": "Korean Game Publishers Accelerate Global Push as User Acquisition Costs Rise 22% YoY to New High",
+      "summary": "Korea Herald 報導，NCSOFT、Netmarble 等韓廠持續強化全球布局，2025 年全行業用戶獲取（UA）成本年增 22%，主要由頭部廠商大規模買量驅動；NCSOFT 非 MMORPG 新作 Project LLL 預計 2026 年進入規模化發行階段。",
+      "impact": "韓廠高強度買量在全球持續推高 CPM，台灣手遊廠商在東南亞、日韓、北美發行時廣告成本需上調 20–25%；同時需強化創意素材差異化，以更高點擊品質取勝，降低對 CPM 通膨的敏感度，避免買量成本侵蝕利潤。",
+      "date": "近期",
+      "source": "Korea Herald",
+      "link": "https://www.koreaherald.com/article/10402202"
     }
   ]
 }
