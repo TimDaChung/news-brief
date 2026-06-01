@@ -1,123 +1,105 @@
 {
-  "date": "2026-05-30",
-  "weekday": "週六",
+  "date": "2026-05-31",
+  "weekday": "週日",
   "must_read": [
     {
-      "title": "Google Play Store 降抽成至 20%，開放第三方商店",
-      "hint": "直接改寫手遊開發者全球分潤結構，比 Apple 更進一步",
+      "title": "Fortnite 六年後重返全球 iOS，Epic 宣告 Apple Tax 最終決戰",
+      "hint": "iOS 手遊分潤格局即將面臨法院裁決，付費流程設計需備案應變",
       "article_id": "must-1"
     },
     {
-      "title": "Anthropic 估值衝 $965B、Opus 4.8 上線、Mythos 即將發布",
-      "hint": "AI 工具層出現根本性跳升，企劃使用 Claude 的天花板大幅提高",
+      "title": "Google Gemini 3.5 Flash 成本砍至同級 1/3，Spark 個人 AI 代理上路",
+      "hint": "AI API 成本持續壓縮，遊戲企劃整合 AI 工具的預算門檻再降",
       "article_id": "must-2"
     },
     {
-      "title": "中國 NPPA 5 月核准 158 款遊戲，騰訊、網易均在列",
-      "hint": "版號發放回穩，大廠優先受惠，中國市場窗口重新打開",
+      "title": "黃仁勳：TSMC 比華為韜定律早掌握 10 年，短期供應鏈無虞",
+      "hint": "中國半導體新路徑若成立，3 年內落差可能大幅縮小——長期需追蹤",
       "article_id": "must-3"
     }
   ],
   "tw": [
     {
       "id": "must-3",
-      "category": "work",
-      "title": "中國 NPPA 5 月核准 158 款遊戲，騰訊、網易均在列",
-      "summary": "國家新聞出版署於 5 月 26 日下發版號，共批准 154 款國產遊戲與 4 款進口遊戲（合計 158 款），騰訊、網易、37 互娛、莉莉絲等主要大廠均有作品獲批；國產批次以手機遊戲為主（135 款），跨平台 17 款，PC 2 款。",
-      "impact": "對你的意義：版號月度發放量回升且大廠名單齊整，代表中國監管態度趨於穩定；若公司有任何中國代理或聯運計畫，此時是重新評估進入時機的關鍵信號——但進口版號僅 4 款，外資進入仍高度受限，需透過中國合作方申請。",
-      "date": "2026-05-26",
-      "source": "Niko Partners",
-      "link": "https://substack.nikopartners.com/p/chinas-nppa-approves-158-video-games",
-      "link_text": "原文連結"
+      "category": "strategy",
+      "title": "黃仁勳評華為「韜定律」：TSMC 早領先 10 年，短期不構成威脅",
+      "summary": "華為於 IEEE ISCAS 發表「韜（τ）定律」，主張以系統訊號延遲取代電晶體縮小作為半導體優化新軸；黃仁勳回應指台積電已掌握相關技術近十年，現有基礎遠比外界認知深厚。研究者指出兩者技術路線本質不同，不應直接類比。",
+      "impact": "對你的意義：短期台灣晶片供應鏈不受影響；但若韜定律被業界採納為標準框架，中國半導體有機會在不突破製程瓶頸的前提下縮短與前沿的距離，預估 2031 年落差可從現在的 5-7 年壓縮至 3 年。這是長期地緣技術風險的早期信號，值得每季追蹤量產進展。",
+      "date": "2026-05-29",
+      "source": "TrendForce",
+      "link": "https://www.trendforce.com/news/2026/05/29/news-nvidia-jensen-huang-calls-huaweis-tau-scaling-law-a-breakthrough-but-sees-no-challenge-to-tsmc/"
     },
     {
       "category": "industry",
-      "title": "台灣 AI 帶動出口暴衝，超額儲蓄首破 9 兆元創新高",
-      "summary": "受 AI 伺服器供應鏈大量拉貨帶動，台灣今年國內投資毛額突破 8 兆元、超額儲蓄首度突破 9 兆元，均創歷史新高；半導體、封裝測試、載板及 AI 伺服器相關廠商積極擴充國內產能。",
-      "impact": "對你的意義：AI 硬體榮景轉化為台灣整體消費信心與廣告主預算，有利手遊廣告投放環境；但相對地，遊戲開發人才市場競爭將持續加劇（科技大廠薪資拉高），招募與留才成本上升需提早布局。",
-      "date": "2026-05-30",
-      "source": "芋傳媒 TaroNews",
-      "link": "https://living.taronews.tw/2026/05/30/1194775/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "仁寶電腦攜手 GMI Cloud 推 Agentic AI 推論平台，Computex 2026 聯合展示",
-      "summary": "仁寶電腦與美國矽谷 AI 基礎架構商 GMI Cloud 宣布策略合作，推出高效能 GPU 伺服器平台 SGX30-2，聚焦大規模 AI 訓練與代理式 AI（Agentic AI）推論部署，將於 COMPUTEX 2026 聯合展出。",
-      "impact": "對你的意義：台灣伺服器廠商快速切入 Agentic AI 基礎設施，代表 AI 推論算力供給持續增加、成本仍在下降路徑上；遊戲 AI NPC、動態敘事生成等應用的落地門檻將隨之進一步降低。",
-      "date": "2026-05-30",
+      "title": "台積電：AI 算力爆發帶動耗電激增，能源效率成下世代晶片核心約束",
+      "summary": "台積電高層於近期技術論壇指出，AI 訓練與推理需求激增使能源效率從次要考量躍升為主要技術限制，未來晶片開發須同步優化算力與能耗比，否則資料中心電力成本將成為商業化瓶頸。",
+      "impact": "對你的意義：能源效率路線確立代表算力單位成本仍有下降空間，有利手遊整合 AI 功能（生成美術、NPC 推理）的長期基礎設施成本；台積電此宣示也意味著 CoWoS 先進封裝與 3D 堆疊將加速演進，雲端 AI API 定價下行趨勢持續。",
+      "date": "2026-05-29",
       "source": "TechNews 科技新報",
-      "link": "https://technews.tw/2026/05/30/compal-electronics-gmi-cloud-announce-partnership-advance-ai-infrastructure-development/",
-      "link_text": "原文連結"
+      "link": "https://technews.tw/2026/05/29/ai-power-consumption-surges-tsmc-energy-efficiency-key-chip-development"
     },
     {
       "category": "strategy",
-      "title": "香港 SFC 發布 VATP 代幣化資產交易框架配套通函",
-      "summary": "香港證監會發布配套通函（26EC22、26EC23），規範持牌虛擬資產交易平台（VATP）對代幣化產品的二級市場交易與一級市場認購，搭配「CrypTech」監管科技倡議，覆蓋 AML 即時監控、市場操縱偵測與網路安全告警。",
-      "impact": "對你的意義：香港持續完善虛擬資產合規框架，是亞太區對代幣化遊戲資產或 NFT 應用最具可操作性的監管環境；若公司未來評估鏈上道具交易或玩家資產所有權設計，香港仍是最穩健的落地選項。",
-      "date": "近期",
-      "source": "鏈新聞 ABMedia",
-      "link": "https://abmedia.io/hk-sfc-vatp-tokenized-asset-trading-framework-2026",
-      "link_text": "原文連結"
+      "title": "台灣智慧機器人研究中心揭牌，政府四年匡列百億元、國發基金十年追加百億",
+      "summary": "「國家智慧機器人研究中心」於 2026 年 4 月 10 日揭牌，聚焦 AI 大腦研發而非傳統機械控制；行政院啟動四年 100 億元科技預算，國發基金另投入十年 100 億元引導民間投資，目標五年內將服務型機器人產值從 40 億元擴大至 500 億元。",
+      "impact": "對你的意義：政府將機器人列為繼半導體之後的下一個 AI 應用端，帶動相關人才與資金向機器人方向流動；AI 工具鏈（視覺生成、對話 NPC、程序關卡設計）的技術外溢效果值得關注，且台灣 AI 工程人才市場競爭將持續加劇，遊戲公司招募成本需提前布局。",
+      "date": "2026-04-10",
+      "source": "經理人月刊",
+      "link": "https://www.managertoday.com.tw/articles/view/72001"
     }
   ],
   "intl": [
     {
       "id": "must-1",
       "category": "work",
-      "title": "Google Play Store 降抽成至 20%，開放第三方商店進駐",
-      "orig_title": "Google ends its 30 percent app store fee and welcomes third-party app stores",
-      "summary": "Google 宣布將 Play Store 開發者抽成從 30% 降至 20%（優質開發者部分案例可至 15%），並推出「Registered App Stores」計畫允許符合資質的第三方商店進駐 Android；EEA、英國、美國 6 月 30 日起生效，日韓年底跟進；源自 2025 年 11 月 Epic 訴訟和解。",
-      "impact": "對你的意義：Android 渠道實質利潤率直接提升 14%，遠比 Apple 的 DMA 讓步幅度更大；在規劃手遊 Android/iOS 收益模型時，需重新評估渠道優先順序——是否將部分行銷資源從 iOS 移往 Android 值得試算，尤其對歐美市場而言。",
-      "date": "近期",
-      "source": "Engadget",
-      "link": "https://www.engadget.com/apps/google-ends-its-30-percent-app-store-fee-and-welcomes-third-party-app-stores-185248647.html",
-      "link_text": "原文連結"
+      "title": "Fortnite 六年後重返全球 iOS App Store，Epic 宣告 Apple Tax 最終決戰",
+      "orig_title": "Fortnite Returns to the App Store Worldwide as Epic Signals 'Final Battle' With Apple",
+      "summary": "Epic Games 於 5 月 19 日將 Fortnite 回歸全球 iOS（除澳洲），明確宣告這是廢除 Apple Tax 的最終法律戰；Apple 向美國最高法院文件中承認「全球監管機構正密切關注此案以評估可收取的佣金率」，使此案成為影響全球 iOS 抽成的關鍵判例。",
+      "impact": "對你的意義：此案判決直接影響 iOS 全球抽成率是否下調、外部連結購買能否免收佣金；若 Epic 勝訴，iOS 手遊開發者可新增低成本付款頁面，徹底改寫 iOS 收益模型——應追蹤判決進展，並提前評估遊戲內加入外部購買連結的備案設計。",
+      "date": "2026-05-19",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/05/19/fortnite-returns-to-app-store-worldwide/"
     },
     {
       "id": "must-2",
       "category": "work",
-      "title": "Anthropic 估值衝 $965B、Claude Opus 4.8 上線、Mythos 數週內全面發布",
-      "orig_title": "Anthropic leapfrogs OpenAI with a record $965 billion valuation, says Mythos is coming in weeks",
-      "summary": "Anthropic 完成 $65B Series H 融資，估值達 $965B 超越 OpenAI 成最高估值 AI 新創，同步發布 Claude Opus 4.8（更低欺騙率、更強安全性），並預告數週內推出具備漏洞鏈式能力的 Mythos 模型；年化營收已達 $47B，從年初 $10B 快速攀升。",
-      "impact": "對你的意義：Opus 4.8 在安全性與可靠性的改進直接影響企劃日常使用 Claude 輔助設計文件、程式腳本的品質穩定性；Mythos 的編程強化能力預計將大幅提升 AI 輔助遊戲工具開發效率，值得在 Mythos 上線後立刻評估工作流程調整空間。",
-      "date": "2026-05-29",
-      "source": "Fortune",
-      "link": "https://fortune.com/2026/05/29/anthropic-raises-65-billion-at-record-965-billion-valuation-promises-mythos-ai-model-in-wide-release-in-coming-weeks-releases-claude-opus-4-8/",
-      "link_text": "原文連結"
+      "title": "Google Gemini 3.5 Flash 成本砍至同級 1/3，Spark 個人 AI 代理正式登場",
+      "orig_title": "Google debuts new AI models, personal AI agents in effort to keep pace with OpenAI and Anthropic",
+      "summary": "Google I/O（5 月 19 日）發布 Gemini 3.5 Flash，成本約為同等前沿模型的 1/2 至 1/3，效能持平但大幅降低 API 費用；同步推出 Gemini Spark——可跨 App 推理的個人 AI 代理，優先開放 AI Ultra 訂閱用戶，下週起逐步擴大。",
+      "impact": "對你的意義：Gemini 3.5 Flash 的激進定價迫使 OpenAI 與 Anthropic 跟進，整體 AI API 成本持續下行有利遊戲整合 AI 功能；Spark 展示了 AI 跨 App 串接的未來形態，遊戲企劃可試驗以代理整合設計文件、玩家反饋分析與版本排程，是近期可立刻試驗的工作流程升級。",
+      "date": "2026-05-19",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html"
     },
     {
-      "category": "strategy",
-      "title": "中美 10% 低關稅延長至 11 月，中方暫停稀有礦物出口管制",
-      "orig_title": "US-China trade truce: 10% tariffs extended to November, China suspends rare mineral export ban",
-      "summary": "美中將 10% 低關稅協議延長至 2026 年 11 月 10 日，中國同步暫停鎵、鍺、銻等雙用途稀有礦物對美出口禁令至年底；雙方「原則上」同意就 300 億美元商品互降關稅展開框架談判，但最終協議仍待簽署。",
-      "impact": "對你的意義：短期貿易環境趨穩有助台廠 AI 伺服器與晶片出口正常運作，維持 AI 基礎設施供應鏈穩定；但協議期限集中年底，下半年地緣不確定性仍高，遊戲公司若有硬體採購或供應商選擇，需在 Q3 前完成評估。",
+      "category": "work",
+      "title": "AI 企業工具定價全面上揚，頭部廠商結束補貼期轉向「價值對等」策略",
+      "orig_title": "AI Prices Are Going Up, Up, Up — And What This Means For Enterprise AI",
+      "summary": "Anthropic、OpenAI 等 AI 廠商正陸續調漲企業版定價，從初期低價搶市轉向強調模型差異化與整合服務價值；同期 Google 以 Gemini 3.5 Flash 維持低價壓制，市場出現高低端明顯分化。",
+      "impact": "對你的意義：AI 工具正在結束初期補貼期，不能再單純比較目前定價——需評估長期價值鎖定風險與替換成本；建議在正式規模部署前確認 SLA 條款與定價保證年限，並保持至少一個備選廠商的評估，以降低單一供應商的議價弱勢。",
       "date": "近期",
-      "source": "China Briefing",
-      "link": "https://www.china-briefing.com/news/us-china-relations-in-the-trump-2-0-implications/",
-      "link_text": "原文連結"
+      "source": "Josh Bersin",
+      "link": "https://joshbersin.com/2026/05/ai-prices-are-going-up-up-up-and-what-this-means-for-enterprise-ai/"
     },
     {
       "category": "industry",
-      "title": "NCsoft Q1 大幅反彈（+43.8%），Netmarble 年收望首破 3 兆韓元",
-      "orig_title": "Red Desert, Aion 2 lift Korean game makers' first-quarter outlook",
-      "summary": "NCsoft Q1 2026 營收 5,181 億韓元（年增 43.8%），營業利益年增逾 1,681% 至 930 億韓元，主因舊 IP 翻新《Aion 2》強勢帶動；Netmarble Q1 營收 6,921 億韓元（+10.9%），獲利回升 45.8%，法人預計全年有望首度突破 3 兆韓元。",
-      "impact": "對你的意義：韓國大廠靠舊 IP 系列化（《Aion 2》）實現利潤大反彈，驗證「常青 IP 二次開發」路線的商業效果；這是很有說服力的案例，可用於評估自有或授權 IP 的開發優先順序，旗艦 IP 續作往往比全新 IP 更具市場確定性。",
-      "date": "近期",
-      "source": "Digital Today",
-      "link": "https://www.digitaltoday.co.kr/en/view/50969/red-desert-aion2-lift-korean-game-makers-q1-results",
-      "link_text": "原文連結"
+      "title": "Netmarble《MONGIL: Star Dive》全球上線，首日韓國 App Store 收益排名第 2",
+      "orig_title": "Netmarble's 'MONGIL: STAR DIVE' Ranks No. 2 in Revenue One Day After Launch",
+      "summary": "Netmarble 動作 RPG《MONGIL: Star Dive》（怪獸收集 × 組隊即時戰鬥）於 4 月 15 日全球上線，上線次日即登韓國 App Store 收益榜第 2、免費榜雙平台第 1；以 Unreal Engine 5 開發，支援 iOS、Android、Epic Games Store 及 PC 四平台同步。",
+      "impact": "對你的意義：韓廠以 UE5 高品質視覺搭配玩家熟悉的怪獸收集機制快速登頂，說明「技術升級 + 玩法熟悉度」仍是有效的市場切入公式；若台廠評估出海東北亞，此作的首日爬榜速度與多平台同步策略是重要基準——IP 授權版本的市場確定性顯著高於全新 IP。",
+      "date": "2026-04-16",
+      "source": "The Elec",
+      "link": "https://www.thelec.net/news/articleView.html?idxno=6628"
     },
     {
       "category": "industry",
-      "title": "NetEase 520 年度發表會：40 款登場，常青遊戲更新主導新作",
-      "orig_title": "NetEase Games 520 annual conference: 40 titles showcased, evergreen game updates dominate",
-      "summary": "網易遊戲於 5 月 20 日舉辦「520 發表會」，展示超過 40 款遊戲，其中僅 4 款為全新作品，其餘聚焦現有常青遊戲的重大更新；同期 NPPA 5 月版號批次亦有網易新遊入列。",
-      "impact": "對你的意義：中國頭部廠商已將重心從新遊密集開發正式轉向「存量精細運營」，以現有遊戲的大版本更新作為主要增長引擎；這與全球手遊市場趨勢高度一致，提醒企劃在版本規劃中需同等重視長線賽季設計與玩家留存機制。",
-      "date": "2026-05-20",
-      "source": "Niko Partners",
-      "link": "https://substack.nikopartners.com/p/chinas-nppa-approves-158-video-games",
-      "link_text": "原文連結"
+      "title": "AI 遊戲暗戰：騰訊推視覺生成平台、網易 AI UGC、米哈遊重構 NPC 對話邏輯",
+      "orig_title": "Who Will Rule the AI Games Era? Tencent, NetEase, and Mihoyo in a Covert Technological Battle",
+      "summary": "中國三大遊戲巨頭各選不同 AI 切入點：騰訊推「混元遊戲視覺生成平台」降低美術資產生產成本、網易《蛋仔派對》以 AI 實現玩家自創關卡、米哈遊以多模態即時對話重構 NPC 敘事邏輯，三家技術策略路線分歧鮮明。",
+      "impact": "對你的意義：中國頭部廠商已將 AI 整合進製作流程的三個不同環節，其中網易的 AI UGC 模式最可能成為手遊下一輪留存創新的主戰場；台廠若仍以傳統人力密集流程開發，半年內競品在生產效率與玩家互動深度上的差距將顯著拉大——建議優先評估美術生成或 NPC 對話哪個環節的 AI 導入 ROI 最高。",
+      "date": "近期",
+      "source": "36Kr",
+      "link": "https://eu.36kr.com/en/p/3394131222956417"
     }
   ]
 }
