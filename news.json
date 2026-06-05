@@ -1,154 +1,133 @@
 {
-  "date": "2026-06-03",
-  "weekday": "週三",
+  "date": "2026-06-04",
+  "weekday": "週四",
   "must_read": [
     {
-      "title": "川普簽 AI 安全行政命令，新模型發布前須提前 30 天接受政府網路安全測試",
-      "hint": "全球 AI 發布節奏的新規則，影響 Claude、GPT 等所有新模型上線時程",
+      "title": "Microsoft 與 Google 正面搶攻 AI 程式碼工具，多強競爭白熱化",
+      "hint": "競爭加速功能迭代並壓低定價，現在是評估換工具、避免過早鎖定的好時機",
       "article_id": "must-1"
     },
     {
-      "title": "Anthropic 推出 Claude 合作夥伴三級分制與 Partner Hub，企業 AI 部署正規化",
-      "hint": "4 萬家企業申請入列，選擇 AI 開發夥伴有了官方認證依據",
+      "title": "Anthropic 秘密申請 IPO，$965B 估值首超 OpenAI",
+      "hint": "Claude 即將上市，商業化壓力將推動 API 定價調整，現有合約值得提前評估鎖定",
       "article_id": "must-2"
     },
     {
-      "title": "微軟 Build 發布自研 AI 編碼模型 MAI-Code-1-Flash，GitHub Copilot 技術自主化",
-      "hint": "微軟切斷對 OpenAI 依賴，同時 Copilot token 計費轉型引爆開發者出走潮",
+      "title": "台積電股東會：AI 晶片供需缺口至少延續至 2027 年",
+      "hint": "算力長期緊缺，遊戲 AI 功能規格不應假設雲端推論成本短期下降",
       "article_id": "must-3"
     }
   ],
   "tw": [
     {
+      "id": "must-3",
       "category": "industry",
-      "title": "COMPUTEX 2026：台積電股價創 2440 元新天價，AI 算力進入商業部署期",
-      "summary": "COMPUTEX 2026（6/2-5）以「AI Together」為主題登場，逾 1,500 家企業、33 國參展；台積電市值達 63.27 兆元。技嘉、英業達、緯穎等系統廠從 AI 伺服器供應商升級為 AI Factory 建置者，競爭焦點轉向建置速度、系統整合與能源效率。",
-      "impact": "對你的意義：台灣確立「AI 基礎建設商業化」核心地位，手遊雲端渲染、AI NPC、邊緣運算成本將持續受惠於台灣供應鏈擴產。AI 工具在台灣的採購與部署速度可能快於預期。",
-      "date": "2026-06-03",
-      "source": "TechOrange",
-      "link": "https://techorange.com/2026/06/03/computex-gigabyte-inventec-wiwynn/",
+      "title": "台積電 2026 股東會：CC Wei 警告 AI 晶片供需缺口將持續至 2027 年以後",
+      "summary": "台積電 CEO 魏哲家於 6 月 4 日股東大會表示，AI 晶片需求將持續超出先進製程供應能力，2026 年先進節點供需缺口估達 25–30%，Q1 2026 營收年增 41% 至 359 億美元，全年美元營收成長指引上調至超過 30%。儘管如此，魏哲家強調台積電不會趁機大幅漲價，以維護長期客戶關係穩定。",
+      "impact": "AI 算力長期緊缺意味雲端推論成本居高不下；遊戲公司導入生成式 NPC、AI 動態內容等功能時，不應假設算力成本將在 1–2 年內顯著回落，需在企劃階段保守估算 AI 功能的長期邊際成本。",
+      "date": "2026-06-04",
+      "source": "Digitimes",
+      "link": "https://www.digitimes.com/news/a20260604VL214/tsmc-capacity-demand-roadmap-2026.html",
       "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "台灣 GDP 上修至 9.64%，AI 供應鏈讓台北成為全球主場",
-      "summary": "台灣政府將 2026 年 GDP 成長預測上修至 9.64%，COMPUTEX 匯聚 33 個國家、超過 1,500 家企業，確立台灣為全球 AI 基礎建設的核心供應鏈節點。",
-      "impact": "對你的意義：台灣科技業景氣強勁，AI 工程師人才競爭加劇，遊戲公司招募薪資壓力上升；但台廠 AI 工具導入速度與意願均高於預期，值得加快內部評估，避免落後同業。",
-      "date": "2026-06-01",
-      "source": "TechOrange",
-      "link": "https://techorange.com/2026/06/01/taiwan-gdp-forcast-raised-to-9-64-computex-global-ai-supply-chain/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "恩智浦 CEO：台灣是 Physical AI 生態系核心，從晶片到機器人缺一不可",
-      "summary": "恩智浦執行長在 COMPUTEX 指出，AI 從雲端模型走向真實世界；台灣具備從晶片設計、先進製造、封裝測試、感測器到工業電腦與機器人的完整 Physical AI 產業鏈。",
-      "impact": "對你的意義：Physical AI（機器人、AR 裝置、車用）正成為下一波主要應用場景，手遊 IP 授權進入 AR 裝置、機器人互動介面的商機正在成形，IP 授權策略中值得預留相關彈性。",
-      "date": "2026-06-03",
-      "source": "經濟日報",
-      "link": "https://money.udn.com/money/story/5612/9543100",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "Arm：AI 記憶體供需緊張持續，Token 生成量成長遠超供給",
-      "summary": "Arm 在 COMPUTEX 指出 AI 供應鏈最大瓶頸是基礎建設與記憶體，Token 生成量的成長速度遠快於供應擴張，短期供應緊張難以緩解。",
-      "impact": "對你的意義：AI NPC、語音合成等雲端推論成本短期不會大幅下降；遊戲 AI 功能若依賴雲端模型，預算需保留記憶體瓶頸帶來的溢價空間，不宜過度樂觀估算成本。",
-      "date": "2026-06-02",
-      "source": "TechNews 科技新報",
-      "link": "https://technews.tw/2026/06/02/arm-computex-2026-qa/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "香港 SFC 籌備全球首個 VATP 代幣化資產交易框架，配套監管科技倡議",
-      "summary": "香港證監會推進全球首個代幣化資產交易平台（VATP）框架，以貨幣市場基金先行，逐步擴至所有授權產品，配套「CrypTech」監管科技倡議，涵蓋自動申報、AML 即時監控與市場操縱偵測。",
-      "impact": "對你的意義：香港正建立虛擬資產監管的標準框架。若未來手遊採用代幣、NFT 等鏈上資產涉及港幣計費，需符合 VATP 框架；這也是台廠布局 Web3 遊戲時最具操作性的合規參考路徑。",
+      "title": "香港 SFC 籌備 VATP 代幣化資產交易框架，貨幣市場基金先行",
+      "summary": "香港證監會宣布規劃全球首個 VATP（虛擬資產交易平台）代幣化資產交易框架，首批開放貨幣市場基金代幣化交易，逐步擴及所有授權產品；同步推進 CrypTech 監管科技計畫，涵蓋自動化申報、反洗錢即時監控與市場操縱偵測。",
+      "impact": "短期對手遊業直接影響有限，但若代幣化遊戲道具在港獲得監管路徑，將成為台港澳業者布局 Web3 遊戲資產的先行試點；有意探索 Web3 賽道的企劃可追蹤 SFC 後續開放節奏，提前了解合規框架。",
       "date": "近期",
       "source": "ABMedia 鏈新聞",
       "link": "https://abmedia.io/hk-sfc-vatp-tokenized-asset-trading-framework-2026",
       "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "金管會 2026 年金融數位治理布局：資安韌性與 AI 監理並進",
+      "summary": "金管會主委彭金隆確立 2026 年「安全與發展並進」原則，重點包括強化金融機構資安韌性、建立 AI 金融服務監理框架，以及持續推動金融市場數位化創新。",
+      "impact": "更嚴格的 AI 金融監理可能提高第三方支付與遊戲點數平台的合規要求；企劃規劃付款流程或洽談支付合作夥伴時，應確認對方已掌握新監理方向，並預留調整空間。",
+      "date": "近期",
+      "source": "CIO Taiwan",
+      "link": "https://www.cio.com.tw/106344",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "數位部推出 2026–2027 獨立遊戲開發獎勵計畫，扶植台灣原創內容",
+      "summary": "數位發展部數位產業署在 DIGITAL+ 平台正式推出 2026–2027「獨立遊戲開發獎勵暨產品化加值計畫」，目標鼓勵獨立遊戲開發者開發多元創意內容，並強化研發成果與目標市場的連結，強化台灣原創遊戲產業能量。",
+      "impact": "政府資金入場扶植獨立遊戲，長期可能催生具市場競爭力的本土競爭者；業者可把握窗口了解補助細節，評估是否有機會與受補助的獨立開發者洽談 IP 合作或發行合作。",
+      "date": "近期",
+      "source": "數位產業署",
+      "link": "https://digiplus.adi.gov.tw/plan_detail_7.html",
+      "link_text": "計畫頁面"
     }
   ],
   "intl": [
     {
       "id": "must-1",
       "category": "work",
-      "title": "川普簽 AI 安全行政命令：各大 AI 廠須自願提前 30 天接受政府網路安全測試",
-      "orig_title": "Trump signs AI safety executive order seeking voluntary review of new models before release",
-      "summary": "川普簽署行政命令，要求 OpenAI、Anthropic、Google 等主要 AI 公司在發布新模型前 30 天，自願提交聯邦機構進行網路安全測試；命令同時要求各機構建立 AI 能力評測基準與「AI 資安資訊交換所」。起因是 Anthropic 4 月因 Mythos Preview 模型具備漏洞利用能力而主動限制發布。",
-      "impact": "對你的意義：這是美國政府首次對 AI 模型發布節奏設立結構性要求。若成為慣例，未來 Claude、GPT 等新版本可能延後上線；AI 工具的升級規劃需預留政府審核緩衝期，不能再假設「發布即可用」。",
-      "date": "2026-06-03",
-      "source": "Technology.org / NPR",
-      "link": "https://www.technology.org/2026/06/03/trump-ai-cybersecurity-testing-executive-order/",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "must-2",
-      "category": "work",
-      "title": "Anthropic 推出 Claude 合作夥伴三級分制與 Partner Hub，企業 AI 部署正規化",
-      "orig_title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
-      "summary": "Anthropic 推出 Claude Partner Network 的 Services Track（Select / Preferred / Global Premier 三級，依認證人數、生產部署量、客戶背書數量分級）與 Claude Partner Hub 門戶；自 3 月啟動以來，逾 4 萬家企業申請，1 萬+ 顧問取得 Claude 認證。",
-      "impact": "對你的意義：若公司計畫引入 AI 顧問或選擇外部 AI 開發夥伴，Claude Partner Hub 可快速核查廠商的實際部署能力與認證資質，避免踩到過度承諾的「AI 顧問」。同時也代表 Anthropic 企業生態系黏性快速建立，Claude 在企業市場的地位日趨鞏固。",
-      "date": "2026-06-03",
-      "source": "Anthropic",
-      "link": "https://www.anthropic.com/news/services-track-partner-hub",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "must-3",
-      "category": "work",
-      "title": "微軟 Build 發布自研 AI 編碼模型 MAI-Code-1-Flash，GitHub Copilot 技術自主化",
-      "orig_title": "Microsoft unveils MAI-Code-1-Flash and MAI-Thinking-1 to reduce OpenAI reliance and power GitHub Copilot",
-      "summary": "微軟在 Build 大會（6/2-3）發布首個自研 AI 編碼模型 MAI-Code-1-Flash 及推理模型 MAI-Thinking-1，整合至 GitHub Copilot 與 VS Code，目標降低對 OpenAI 的依賴並壓低成本；Copilot 新版（Project Polaris）正式版預計 2026 年 8 月上線。",
-      "impact": "對你的意義：AI 編碼工具競爭白熱化——微軟、Google、Anthropic 三方同時加碼。需注意：Copilot 同步推行 token 計費轉型，成本不確定性大增，現在是評估切換 Claude Code 或其他替代工具的好時機。",
-      "date": "2026-06-02",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "GitHub Copilot Token 計費轉型引爆開發者出走潮，AI 編碼工具市場重洗牌",
-      "orig_title": "GitHub Copilot Pricing Shock: Token Billing Shift Triggers Developer Exodus Across AI Coding Industry",
-      "summary": "微軟將 GitHub Copilot 計費從訂閱制改為 token 計費，成本不確定性激發大量開發者轉向 Claude Code、Cursor 等替代工具，AI 編碼工具市場正在快速重組。",
-      "impact": "對你的意義：若公司目前使用 Copilot，需立即評估 token 用量以預估實際成本變化。這個轉型製造了一個視窗期——現在跟工程團隊重新比較各工具的成本效益，比等到帳單來再談更主動。",
-      "date": "近期",
-      "source": "1950.ai",
-      "link": "https://www.1950.ai/post/github-copilot-pricing-shock-why-microsoft-s-token-billing-shift-is-triggering-a-developer-exodus-a",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "Google Gemini 3.5 Flash 加入 AI 編碼競賽，三強鼎立格局成形",
+      "title": "Microsoft 與 Google 正面挑戰 Anthropic 與 OpenAI，AI 程式碼工具大戰開打",
       "orig_title": "Microsoft and Google take on Anthropic and OpenAI in AI coding models",
-      "summary": "Google 5 月發布 Gemini 3.5 Flash 編碼模型，可在自有資料中心運行；Microsoft、Google 雙雙加碼搶攻由 Anthropic Claude Code 與 OpenAI Codex 主導的企業 AI 編碼市場，三強鼎立格局成形。",
-      "impact": "對你的意義：AI 編碼工具競爭加劇對企業用戶有利——功能持續提升、定價競爭壓低成本。建議 Q3 各家功能穩定後再做工具定案，避免現在鎖定後又要切換。",
+      "summary": "Microsoft（Build 大會）與 Google 同步宣布多項 AI 程式碼工具新功能，直接競逐 Claude Code 的市場地位；Anthropic 同期披露 80% 以上程式碼由 Claude 自行生成，進一步刺激競爭加速。",
+      "impact": "AI 程式碼工具進入多強並立階段，功能迭代與定價競爭將大幅加速；現在是評估不同工具的最佳視窗，遊戲開發團隊應避免過早鎖定單一供應商，並留意各平台企業方案的整合成本差異。",
       "date": "2026-06-01",
       "source": "CNBC",
       "link": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
       "link_text": "原文連結"
     },
     {
-      "category": "strategy",
-      "title": "美中 30% 關稅維持，USTR 新一輪 Section 301 調查今夏結案，台灣在列",
-      "orig_title": "US-China trade: 30% tariffs hold as USTR launches new Section 301 investigations targeting Taiwan and others",
-      "summary": "美中維持 30% 綜合關稅（20% 芬太尼 + 10% 互惠），美國貿易代表署 3 月啟動新一輪 Section 301 調查，今夏結案；調查對象包含中國、台灣、東南亞、歐洲等多國，聚焦「製造業結構性過剩產能」。",
-      "impact": "對你的意義：台灣明確被納入 Section 301 調查對象，若涉及出口至美國的遊戲周邊硬體或代工產品，未來可能面臨額外關稅，需在 Q3 結果出爐前提早評估替代供應鏈。",
-      "date": "近期",
-      "source": "JustSecurity / McKinsey",
-      "link": "https://www.justsecurity.org/121725/export-controls-trade-policy-new-terrain/",
+      "id": "must-2",
+      "category": "industry",
+      "title": "Anthropic 秘密申請 IPO，$65B 融資後估值 $965B 首度超越 OpenAI",
+      "orig_title": "Anthropic confidentially files for IPO after raising $65 billion at $965 billion valuation",
+      "summary": "Anthropic 於 6 月 1–2 日秘密向 SEC 提交 IPO 文件，完成 $65B Series H 募資，估值 $965B 首度超越 OpenAI。公司披露年化營收突破 $470 億，Q2 預計達 $109 億，主要成長動力為 Claude Code 及企業 API 服務；目標秋季正式掛牌。",
+      "impact": "Anthropic 上市壓力將加速 Claude 商業化—定價策略可能收緊、功能分層可能加劇。現有 Claude API 或 Claude Code 合約應評估是否在 IPO 前鎖定長期費率；同時也意味 Claude 工具鏈的企業客服與 SLA 將更趨完善。",
+      "date": "2026-06-02",
+      "source": "Fortune",
+      "link": "https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/",
       "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "NCsoft 轉型全球主機遊戲、Netmarble 以 HBO IP 攻西方市場，韓廠策略質變",
-      "orig_title": "Korean game companies zero in on global market with console titles and Western IP strategy",
-      "summary": "NCsoft 從韓國手遊 MMORPG 路線轉向高規格主機遊戲與全球 IP 合作，《Throne and Liberty》加速國際擴張；Netmarble 發布 HBO IP 授權遊戲《Game of Thrones: Kingsroad》（PC+手機），主攻西方玩家。",
-      "impact": "對你的意義：韓國大廠正在放棄「韓式抽卡 MMORPG」模式，轉向 console + 西方 IP 策略。若公司仍依賴傳統韓國代理或仿效韓式設計，競品正在質變，需提前評估差異化路線或非韓 IP 授權機會。",
+      "title": "HoYoverse 宣布新作 Varsapura，以疑似新加坡城市為世界觀，釋出 31 分鐘試玩示範",
+      "orig_title": "HoYoverse officially announces new game Varsapura with 31-minute gameplay demo",
+      "summary": "HoYoverse 正式宣布全新動作冒險遊戲 Varsapura，以疑似以新加坡城市景觀為原型的世界觀設定，同步釋出長達 31 分鐘試玩示範，為米哈遊繼原神、崩鐵、絕區零之後第四款主力 IP。",
+      "impact": "頭部廠商以東南亞城市作為新 IP 核心世界觀，東南亞「在地感」競爭將大幅升溫；台廠規劃出海東南亞時，差異化敘事與在地 IP 合作的重要性比過去更高，需提早布局以對抗 HoYoverse 的敘事優勢。",
       "date": "近期",
-      "source": "Korea Herald",
-      "link": "https://www.koreaherald.com/article/10402202",
+      "source": "GosuGamers",
+      "link": "https://www.gosugamers.net/entertainment/news/77626-hoyoverse-officially-announces-all-new-game-varsapura-with-30-minute-gameplay-demo",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "韓國手遊 UA 成本年增 22%；NCsoft 宣布轉型主機遊戲與全球 IP 授權",
+      "orig_title": "Korean mobile game UA costs rise 22% YoY; NCsoft pivots to console titles and global IP",
+      "summary": "2026 年韓國手遊用戶獲取成本年增 22%，主因 Netmarble、NCsoft 等大廠激烈競標廣告版位所致。NCsoft 同期宣布戰略轉型，由韓國手機 MMORPG 轉向高規格主機遊戲（Throne and Liberty 國際化）及全球 IP 合作。",
+      "impact": "韓系大廠減少手遊廣告投放，短期為台廠在韓日市場提供相對寬鬆的競爭窗口，但 UA 基礎成本基準已大幅提升；規劃韓日出海的行銷預算應上調估算基準，並評估有無機會在 NCsoft 轉型過渡期洽談 IP 合作。",
+      "date": "近期",
+      "source": "Playio Blog",
+      "link": "https://blog.playio.co/korean-mobile-gamer-insights",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "中美關稅框架再整合：最高法院推翻 IEEPA 後改採 Section 122，30% 對中關稅維持",
+      "orig_title": "US Supreme Court voids IEEPA tariffs; Trump adopts Section 122, China tariff held at 30%",
+      "summary": "美最高法院 2 月裁定 IEEPA 關稅違憲，川普依 Trade Act Section 122 改課全球 10% 關稅（維持 150 天）。5 月底中美協議確認維持 30% 對中關稅（20% 芬太尼 + 10% 互惠），更高稅率暫停 60 天。",
+      "impact": "30% 關稅結構維持不變，中美遊戲版權合作的授權金與跨境金流成本基準穩定；若計畫將實體週邊或 IP 授權商品引入美國市場，此稅率仍是重要成本變數，財務模型中應保守估算。",
+      "date": "近期",
+      "source": "Trade Compliance Resource Hub",
+      "link": "https://www.tradecomplianceresourcehub.com/2026/06/03/trump-2-0-tariff-tracker/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "work",
+      "title": "Apple EU 全面改採 CTC 費率制：替代支付鬆綁但合計抽成仍達 20%",
+      "orig_title": "Apple EU App Store transitions to Core Technology Commission model, replacing per-install CTF in 2026",
+      "summary": "自 2026 年 1 月 1 日起，Apple 在 EU 停止舊版 CTF（每安裝 €0.50），全面改採 CTC（數位銷售額 5%），允許 App 內引流至外部替代支付渠道，但含 Store Services Fee 在內的合計抽成仍維持約 20%。",
+      "impact": "高 ARPU 的抽卡遊戲在 20% 費率下利潤壓縮仍大，需重估歐洲定價策略；替代支付合法化則為大廠提供以外部點數卡或直購優惠吸引高價值玩家的新選項，值得評估建置成本相對於省下抽成的回本期。",
+      "date": "2026-01-01",
+      "source": "RevenueCat",
+      "link": "https://www.revenuecat.com/blog/growth/apple-eu-dma-update-june-2025/",
       "link_text": "原文連結"
     }
   ]
