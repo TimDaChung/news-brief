@@ -1,124 +1,143 @@
 {
-  "date": "2026-06-05",
-  "weekday": "週五",
+  "date": "2026-06-06",
+  "weekday": "週六",
   "must_read": [
-    {
-      "title": "Google Play 手遊佣金 6/30 起降至 20%，日韓年底跟進",
-      "hint": "十年來最大費率結構改變，毛利改善 10 個百分點，定價策略需重新評估",
-      "article_id": "intl-1"
-    },
-    {
-      "title": "中消協再度警告網遊平台強化未成年大額充值管控",
-      "hint": "中國市場付費設計合規壓力上升，台廠布局陸市須在企劃階段預留合規成本",
-      "article_id": "tw-3"
-    },
-    {
-      "title": "Nintendo Switch 2 一週年：首四天 350 萬台，日本突破 500 萬",
-      "hint": "主機生態壯大，行動與主機邊界模糊化加速，移植可行性評估已到最後節點",
-      "article_id": "intl-4"
-    }
+    { "title": "Google Play 降抽成至 20%，6/30 起美歐英生效", "hint": "手遊收入結構直接改變，台廠第三季起 Android 可多留約 10 個百分點", "article_id": "must-1" },
+    { "title": "Anthropic：Claude 已撰寫逾 80% 生產程式碼，呼籲全球暫停前沿 AI 開發", "hint": "AI 加速 AI 的遞迴自我改進速度超出預期，現在整合 AI 工具工作流程的優先級應提高", "article_id": "must-2" },
+    { "title": "Switch 2 漲價 ¥10,000 後，日本單週銷量暴跌 87%", "hint": "主機市場對定價極度敏感，用戶可能回流手機平台，手遊迎來意外視窗", "article_id": "must-3" }
   ],
   "tw": [
     {
       "category": "industry",
-      "title": "台積電 CoPoS 先進封裝試驗線 6 月完成，CoWoS/SoIC 年增 80%+ 擴產",
-      "summary": "台積電 CoPoS（面板級封裝）試驗線預計 6 月底全線完工，CoWoS 與 SoIC 先進封裝產能目標 2027 年前年增速率超 80%；先進封裝佔 TSMC 整體收益已突破 10%，3nm 家族產能估 2026 年底超越 5nm 家族。",
-      "impact": "台灣封裝供應鏈進入高速擴張期，算力基礎設施投資尚未到頂；短期內 AI 推論成本不會快速下降，遊戲公司在設計 AI 驅動的動態內容功能時，邊際運算成本應保守估算。",
-      "date": "2026-05-14",
-      "source": "TrendForce / Focus Taiwan",
-      "link": "https://focustaiwan.tw/sci-tech/202605140021"
+      "title": "COMPUTEX 2026 閉幕：NVIDIA × 聯發科 × 台積電 RTX Spark AI PC 晶片揭幕",
+      "summary": "NVIDIA 於 COMPUTEX 2026 發表 RTX Spark 超級晶片，整合 Blackwell RTX GPU 與 Grace CPU，由聯發科協同研發、台積電 3nm 製程打造，搭載 6,144 個 CUDA 核心、最高 128GB 統一記憶體，是 NVIDIA 睽違十餘年再入消費者 Windows PC 市場的里程碑。",
+      "impact": "台積電與聯發科確立台灣在 AI PC 供應鏈的核心地位；AI PC 普及後，本地推理能力將降低手遊 AI NPC 與即時翻譯工具的開發門檻，值得在未來一年追蹤開發者工具的演進速度。",
+      "date": "2026-06-05",
+      "source": "TechNews 科技新報",
+      "link": "https://technews.tw/2026/06/05/computex-2026-nvidia-rtx-spark-debut-mediatek-ai-pc-entry/",
+      "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "台積電先進封裝委外範圍擴大，欣興等基板廠成 AI 大廠指定夥伴",
-      "summary": "台積電啟動先進封裝委外策略，欣興等基板廠商獲 AI 晶片大廠指定為封裝供應鏈夥伴，台灣 PCB 與基板廠的角色從零件供應商升格為核心製程合作商。",
-      "impact": "台灣 AI 供應鏈縱深持續延伸，整體產業抗風險能力提升；遊戲公司不會直接受益，但此趨勢確認台灣在 AI 算力鏈的地位穩固，對吸引國際 AI 服務商設台灣節點有正面影響，間接有利本地雲端算力成本。",
-      "date": "近期",
-      "source": "經濟日報",
-      "link": "https://money.udn.com/money/story/5612/9274894"
+      "title": "COMPUTEX 2026：NVIDIA 宣告「Token Factory」時代，台灣硬體供應鏈迎黃金十年",
+      "summary": "Jensen Huang 在 COMPUTEX 2026 發表 NVLink Fusion 半客製化方案，開放異質晶片整合；NVIDIA Vera Rubin NVL72 獲 Best Choice Award 年度大獎，台灣業者被點名為反應最快的供應商，可在一週內提供新版本晶片方案。",
+      "impact": "AI 算力基礎設施加速建設，對遊戲業的間接影響是雲端渲染、AI 生圖、即時 NPC 等工具成本將持續下降；此時間窗口適合評估台灣本地 AI 算力夥伴，切入供應鏈前沿。",
+      "date": "2026-06-05",
+      "source": "T客邦",
+      "link": "https://www.techbang.com/posts/129832-nvidia-token-factory-taiwan-golden-decade-computex-2026",
+      "link_text": "原文連結"
     },
     {
-      "id": "tw-3",
-      "category": "work",
-      "title": "中消協警告網遊平台強化未成年大額充值管控，儲值免密支付列重點整治",
-      "summary": "中國消費者協會 2026 年初發布警示，要求各網遊平台針對疑似未成年帳號的大額儲值設置強制提醒與身份驗證機制，合理限制充值上限，並明確要求謹慎提供「小額免密支付」功能；實名登錄已為法定前提。",
-      "impact": "對計畫進入或已在中國市場的遊戲而言，付費設計的合規成本將顯著上升——從實名驗證到充值分層需要架構支援；台廠若有陸市合作計畫，應在企劃初期就納入合規框架評估，避免後期大幅改版。",
-      "date": "2026-01-05",
-      "source": "光明網 / 中消協",
-      "link": "https://m.gmw.cn/2026-01/05/content_1304291482.htm"
+      "category": "industry",
+      "title": "國科會：台灣半導體優勢吸引全球 AI 新創落地，ICTGC 第四梯次頒獎",
+      "summary": "國科會在 COMPUTEX InnoVEX 展區舉辦 IC Taiwan Grand Challenge 第四梯次頒獎，逐步成為全球半導體與 AI 新創連結台灣的重要窗口，強調本地生態系整合能力與快速反應優勢。",
+      "impact": "AI 新創在台灣落地的生態系逐步成熟，未來手遊 AI 工具鏈（生圖、語音合成、NPC 對話）的本地採購與合作機會增加，建議追蹤 ICTGC 得獎名單中的 AI 工具型新創作為潛在合作對象。",
+      "date": "2026-06-02",
+      "source": "TechNews 科技新報",
+      "link": "https://technews.tw/2026/06/02/ic-taiwan-grand-challenge-4th/",
+      "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "香港《關鍵基礎設施（電腦系統）條例》2026 年 1 月正式生效，科技業資安合規門檻升",
-      "summary": "香港《關鍵基礎設施（電腦系統）條例》於 2026 年 1 月 1 日正式生效，指定關鍵基礎設施營運商（涵蓋金融、電信、科技服務）須依法保護其電腦系統安全，不合規可面臨罰款。",
-      "impact": "香港雲端服務商與支付平台的合規成本上升；台廠若使用香港節點提供服務或接入香港支付系統，需確認合作方的資安合規狀態，並評估是否需調整架構以分散合規風險。",
-      "date": "2026-01-01",
-      "source": "Simmons & Simmons",
-      "link": "https://www.simmons-simmons.com/en/publications/cmk26uzl405oevlz0v7q9xpkd/eight-hong-kong-regulatory-developments-for-2026"
+      "title": "香港 SFC 跨機構督導小組公布 2026–2028 策略重點，VATP 代幣化資產框架推進",
+      "summary": "香港證監會跨機構督導小組正式公布 2026 至 2028 年策略重點，涵蓋 VATP（虛擬資產交易平台）代幣化資產交易框架、CrypTech 監管科技計畫，以及即時 AML 監控機制；香港在最新全球金融中心指數中排名升至全球第一。",
+      "impact": "香港作為台廠出海門戶，Web3 金融監管框架趨於明確，若未來手遊整合鏈上道具或代幣購買，香港已成合規測試場域首選；法律框架清晰度上升代表落地風險降低，值得提前佈局。",
+      "date": "2026-06",
+      "source": "香港證監會",
+      "link": "https://apps.sfc.hk/edistributionWeb/gateway/TC/news-and-announcements/news/doc?refNo=26PR15",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "work",
+      "title": "數位產業署「獨立遊戲開發獎勵暨產品化加值計畫」開放申請",
+      "summary": "數位部數位產業署推出獨立遊戲開發獎勵計畫，補助台灣獨立遊戲開發者與新創團隊進行多元應用及創意內容開發，並協助連結市場、延伸商業化能力，目標讓台灣原創作品提升市場能見度。",
+      "impact": "台灣手遊新創有政府補助管道可用；若公司有外包或跨部門合作計畫，可優先評估補助範圍內的台灣獨立開發商，降低開發成本並取得政府品牌背書，有助於後續公開招募。",
+      "date": "近期",
+      "source": "數位產業署",
+      "link": "https://digiplus.adi.gov.tw/plan_detail_7.html",
+      "link_text": "原文連結"
     }
   ],
   "intl": [
     {
-      "id": "intl-1",
+      "id": "must-1",
       "category": "work",
-      "title": "Google Play 手遊佣金 6/30 起降至 20%，訂閱降至 10%，日韓年底跟進",
-      "orig_title": "Google Play Reduces Fees to 20%, Opens Third-Party Payments in Major App Store Policy Shift",
-      "summary": "Google 宣布自 2026 年 6 月 30 日起，美國、英國、EEA 地區 Google Play 標準 IAP 佣金從 30% 降至 20%，訂閱費從 15% 降至 10%；加入 Games Level Up 或 Apps Experience Program 的開發商可享 15% 優惠費率。日本、韓國年底前跟進，全球剩餘市場擴展至 2027 年 9 月。政策源自與 Epic Games 的全球反壟斷和解。",
-      "impact": "近十年最大費率結構改變，手遊開發商毛利直接改善 10 個百分點——等同不漲價情況下拿回更多收益。最直接的動作：評估是否符合 Games Level Up 資格（再省 5%）、重新試算 UA 預算上限與 LTV 模型、確認日韓上線時程對應費率切換時間點。",
+      "title": "Google Play 降抽成至 20%，6 月 30 日起於美歐英生效",
+      "orig_title": "Google settles with Epic Games, drops its Play Store commissions to 20%",
+      "summary": "Google 與 Epic Games 達成和解，宣布將 Play Store 標準抽成從 30% 降至 20%（訂閱從 15% 降至 10%），6 月 30 日起在美國、英國及 EEA 生效，韓日預計 12 月 31 日適用，全球市場 2027 年 9 月完成展開；參加 Games Level Up 計畫的開發商新安裝交易可享 15% 優惠費率。",
+      "impact": "對台灣手遊公司最直接的好處：Android 收入成本結構改善約 10 個百分點，第三季 Android 營收即可受惠；但韓日市場年底前仍維持舊費率，排程規劃時需分區計算，勿提早計入全額改善。",
       "date": "2026-03-04",
-      "source": "Neon Commerce / Android Newswire",
-      "link": "https://www.neonpay.com/blog/google-plays-new-u.s.-billing-linking-policies-what-game-developers-need-to-know"
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/",
+      "link_text": "原文連結"
+    },
+    {
+      "id": "must-2",
+      "category": "work",
+      "title": "Anthropic：Claude 已撰寫逾 80% 生產程式碼，呼籲全球暫停前沿 AI 模型開發",
+      "orig_title": "When AI builds itself — Anthropic Institute report on recursive self-improvement",
+      "summary": "Anthropic 發布研究報告《When AI builds itself》，披露 Claude 在 2026 年 5 月已負責撰寫 Anthropic 逾 80% 的合併程式碼；最難的未規格任務完成率六個月內從 26% 飆升至 76%；平均工程師每日合併程式碼量較 2024 年成長 8 倍。研究員呼籲美中前沿實驗室共同暫停並建立可驗證的外部監督機制。",
+      "impact": "AI 開發速度加速意味著手遊 AI 工具（生圖、劇本、NPC 對話）在 12–18 個月內能力可能跳升數倍；現在評估並整合 AI 輔助工具工作流程的優先級應提高，否則落後的競爭差距將以指數級擴大。同時需留意 AI 安全議題升溫可能帶來的監管收緊。",
+      "date": "2026-06-04",
+      "source": "Anthropic Institute",
+      "link": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "link_text": "原文連結"
+    },
+    {
+      "id": "must-3",
+      "category": "industry",
+      "title": "Switch 2 漲價 ¥10,000 後，日本單週銷量暴跌 87%",
+      "orig_title": "Recent Switch 2 price increase seems to have resulted in an 87% decrease in hardware sales for Japan",
+      "summary": "任天堂 5 月 25 日將 Switch 2 日本售價從 ¥49,980 調漲至 ¥59,980（+20%），造成漲價前一週搶購潮（24.7 萬台），漲價後首週銷量崩跌至 3.2 萬台，降幅達 87%；任天堂已削減 Switch 2 全球產量逾 30%，美國售價亦調升至 $500。",
+      "impact": "主機市場對硬體定價極度敏感：漲 20% 可造成當週需求崩跌 87%。對手遊企劃的意義是，主機平台生態系短期萎縮，習慣主機的玩家可能回流手機平台——接下來幾個月 Android/iOS 手遊可能迎來意外的用戶增長視窗，值得在行銷節奏上把握。",
+      "date": "2026-06-04",
+      "source": "Nintendo Wire",
+      "link": "https://nintendowire.com/news/2026/06/04/recent-switch-2-price-increase-seems-to-have-resulted-in-an-87-decrease-in-hardware-sales-for-japan/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "work",
+      "title": "Apple 歐盟 App Store 多層費率解析：取得費＋商店服務費＋Core Technology Commission",
+      "orig_title": "Apple's EU App Store Fee System Explained: 2026 Update",
+      "summary": "Apple 歐盟新費率架構包含三層：2% 用戶取得費、5–13% 商店服務費（依規模遞減），以及 5% Core Technology Commission，取代舊版簡單的 €0.50 費用；對高收入開發者而言，實際費率可能超過舊制 30%。",
+      "impact": "台灣手遊若計劃進入歐盟市場，費率結構比想像中複雜；使用替代支付系統並不一定更划算——需依實際收入規模精算，否則可能反而多付費用。建議進入歐盟前先用實際 ARPU 數字模擬三層費率總成本。",
+      "date": "2026",
+      "source": "Adapty",
+      "link": "https://adapty.io/blog/apple-eu-in-app-purchase-fee-system-2025/",
+      "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "USTR 對 60 國啟動 Section 301 強制勞動關稅提議，中國、日本、歐盟均在列",
-      "orig_title": "U.S. proposes fresh tariffs on 60 economies over forced labor trade practices",
-      "summary": "美國貿易代表署（USTR）6 月 3 日宣布，對 60 個未有效禁止強迫勞動商品進口的經濟體提議新增關稅：部分禁止者課 10%、其餘課 12.5%。涵蓋中國、歐盟、英國、日本等主要夥伴，公眾評論期至 7 月 6 日，聽證會 7 月 7 日。",
-      "impact": "此舉顯示美國貿易管制工具再擴大化——不再僅針對特定商品，而是以勞動法規合規性為槓桿；台灣供應鏈廠商若有出口美國的實體品項（周邊、硬體），需提前評估新增成本；對純數位遊戲業直接影響有限，但整體中美經貿不確定性升溫。",
+      "title": "USTR 對 60 個經濟體啟動強迫勞動關稅調查，中國面臨 12.5% 額外稅率",
+      "orig_title": "USTR Makes Findings and Proposes Action in 60 Section 301 Investigations Relating to Failures to Take Action on Trade in Forced Labor Goods",
+      "summary": "美國貿易代表署於 6 月 2 日依《貿易法》301 條款對 60 個未能禁止強迫勞動進口商品的經濟體啟動調查，提議對其中 46 個（含中國）課征 12.5% 額外關稅，公聽會訂於 7 月 7 日，書面意見截止 7 月 6 日。",
+      "impact": "若關稅確認實施，中國製造的遊戲伺服器硬體與電子設備成本將進一步上升；台廠海外伺服器採購鏈應提前評估非中國供應選項，避免第四季成本衝擊；同時需留意此政策對中國遊戲公司的出口佈局是否產生連帶影響。",
       "date": "2026-06-03",
       "source": "CNBC / USTR",
-      "link": "https://www.cnbc.com/2026/06/03/us-tariffs-60-economies-dection-301-forced-labor-trade-practices-.html"
+      "link": "https://www.cnbc.com/2026/06/03/us-tariffs-60-economies-dection-301-forced-labor-trade-practices-.html",
+      "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "Anthropic 年化收益破 300 億美元，與 Google、Broadcom 簽下 3.5GW 算力擴張協議",
-      "orig_title": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
-      "summary": "Anthropic 宣布與 Google、Broadcom 擴大合作，獲得約 3.5GW 次世代 TPU 算力，預計 2027 年起上線；公司年化收益已突破 300 億美元（年初約 90 億美元，不到半年翻逾三倍），企業客戶年消費超 100 萬美元者已逾 1,000 家，且兩個月內翻倍。",
-      "impact": "B2B AI 需求已進入爆發式成長期，Anthropic 算力基礎持續升級意味 Claude API 效能中期內仍有提升空間；對遊戲開發團隊而言，Claude 工具鏈的企業支援品質將隨商業化壓力而加強，現在是洽談長期合約的好時機。",
-      "date": "2026-04-07",
-      "source": "Anthropic / TechCrunch",
-      "link": "https://www.anthropic.com/news/google-broadcom-partnership-compute"
+      "title": "Netmarble《GOT Kingsroad》瞄準 PC 跨平台，NCsoft《Throne and Liberty》積極國際化",
+      "orig_title": "Korean game companies zero in on global market",
+      "summary": "Netmarble 計畫 2026 上半年推出《Game of Thrones: Kingsroad》手機及 PC 版，NCsoft 將《Throne and Liberty》定位為全球 IP 並積極擴展西方市場；兩家韓系大廠均從韓國本位轉向全球多平台策略，用戶獲取成本年增 22%。",
+      "impact": "韓系大廠主動進入全球市場，代表同類型 MMO 及手遊在台灣與東南亞的競爭將加劇；差異化內容（IP 深度、在地化品質）將是抵禦韓系資本輸出的關鍵——建議評估公司 IP 的本地黏著點作為防禦策略。",
+      "date": "2026",
+      "source": "Korea Herald",
+      "link": "https://www.koreaherald.com/article/10402202",
+      "link_text": "原文連結"
     },
     {
-      "id": "intl-4",
       "category": "industry",
-      "title": "Nintendo Switch 2 一週年：首四天 350 萬台全球紀錄，日本突破 500 萬台",
-      "orig_title": "Nintendo Switch 2 Celebrates First Anniversary With Record-Breaking Sales Milestones",
-      "summary": "2026 年 6 月 5 日為 Nintendo Switch 2 正式發售一週年。首四天全球銷售逾 350 萬台，為任天堂史上最快銷售硬體，日本市場累計突破 500 萬台；英國達 100 萬台，全球銷勢在漲價前後仍維持強勁。Switch 2 首周 Donkey Kong Bananza 獲六月新活動，Elden Ring Tarnished Edition 排定 8/28 上市。",
-      "impact": "Switch 2 生態系在一年內迅速壯大，主機端 AAA 與獨立遊戲資源持續湧入，行動與主機的使用者重疊比例持續上升——邊界正在模糊化。台灣手遊廠商若尚未評估 Switch 2 移植可行性，現在已是最晚的決策節點；任天堂主機的主流化也意味著跨平台行銷策略的 ROI 更高。",
-      "date": "2026-06-05",
-      "source": "Nintendo / Nintendo Life",
-      "link": "https://www.nintendo.com/us/whatsnew/nintendo-switch-2-sets-record-selling-over-3-5-million-units-globally-in-first-four-days/"
-    },
-    {
-      "category": "strategy",
-      "title": "AI 三強頸頸相差：Gemini 3.5 Flash GA、Claude Opus 4.8 發布，競爭進入平台期",
-      "orig_title": "June 2026 AI Launch Wave: Gemini 3.5 Flash GA, Claude Opus 4.8 release, OpenAI matching pace",
-      "summary": "Google Gemini 3.5 Flash 於 Google I/O 2026 正式 GA，預設整合進 Gemini App 與 AI Mode，API 費用 $1.50/$9.00 per M tokens；Anthropic Claude Opus 4.8 約 5 月底發布；OpenAI、Anthropic、Google 三方管理層均表示競賽態勢「幾乎並駕齊驅」，各自在成本、速度、算力間取捨。",
-      "impact": "前沿 AI 模型商業化能力已趨成熟，遊戲 AI NPC、敘事生成、客服 Bot 等應用門檻大幅降低；三強並立局面對採購方有利——AI 工具選型的談判籌碼增加，同時也代表技術優勢窗口縮短，需加快 AI 功能落地時程以免競品先至。",
+      "title": "Microsoft Build 2026 發布 7 款 MAI 自研模型，AI 模型市場進入三強格局",
+      "orig_title": "Microsoft and Google take on Anthropic and OpenAI in AI coding models",
+      "summary": "Microsoft 在 Build 2026 發布 7 款完全自研的 MAI 模型（含推理模型 MAI-Thinking-1，不依賴蒸餾技術），代表微軟正式脫離對 OpenAI 的完全依賴；Google 同期亦加強 AI 編程工具，AI 模型市場進入 OpenAI / Anthropic / Microsoft 三強競爭格局。",
+      "impact": "AI 模型市場三強競爭帶動降價趨勢可期；手遊 AI 工具選型（NPC 對話、劇本生成、客服機器人）將有更多平台選項與更佳的議價空間，建議追蹤 MAI 模型的 Azure 定價與能力邊界，適時做廠商替換測試。",
       "date": "2026-06-01",
-      "source": "LLM Stats / WaveSpeed Blog",
-      "link": "https://llm-stats.com/llm-updates"
-    },
-    {
-      "category": "strategy",
-      "title": "USTR 確認中國半導體 Section 301 可制裁行為，2027 年 6 月起正式課稅",
-      "orig_title": "USTR Issues Affirmative Determination in China Semiconductor Section 301 Investigation",
-      "summary": "美國貿易代表署確認中國針對半導體產業的政策構成 Section 301 可制裁行為，初始關稅率 0%，18 個月緩衝期後（即 2027 年 6 月 23 日）起課徵特定關稅，具體稅率待後續公告。",
-      "impact": "此調查確立了美國對中國半導體補貼的長期打壓框架；若台灣廠商的算力採購鏈涉及中國晶片，或與中國 AI 基礎設施有合作，2027 年中前需完成合規評估；對遊戲業的直接影響有限，但代表中美科技脫鉤時程在加速。",
-      "date": "2026-01-20",
-      "source": "Thompson Hine SmarTrade / USTR",
-      "link": "https://www.thompsonhinesmartrade.com/2026/01/ustr-issues-affirmative-determination-in-china-semiconductor-section-301-investigation/"
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+      "link_text": "原文連結"
     }
   ]
 }
