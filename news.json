@@ -1,114 +1,125 @@
 {
-  "date": "2026-06-09",
-  "weekday": "週二",
+  "date": "2026-06-10",
+  "weekday": "週三",
   "must_read": [
     {
-      "title": "Nintendo Direct June 9：薩爾達 Ocarina 重製、FF XIV 登 Switch 2",
-      "hint": "任天堂一口氣補齊 Switch 2 陣容，2026 下半年主機手遊格局成形",
-      "article_id": "must-2"
-    },
-    {
-      "title": "Anthropic 估值 9,650 億美元，秘密提交 IPO 申請超越 OpenAI",
-      "hint": "AI 工具供應商格局重塑，Claude 服務定價與穩定性是立即追蹤的重點",
+      "title": "Anthropic 發布 Claude Fable 5，Mythos 級 AI 正式公開",
+      "hint": "目前公開可用能力最強的 AI 模型世代，6/22 前 Pro 方案免費試用，今天就值得試",
       "article_id": "must-1"
     },
     {
-      "title": "Tim Cook 確認最後一屆 WWDC，John Ternus 9/1 接任 Apple CEO",
-      "hint": "Apple 進入硬體主導新時代，平台政策與 App Store 走向值得持續關注",
+      "title": "美 AI 晶片管制堵死海外子公司漏洞",
+      "hint": "中資在馬來西亞、新加坡繞道採購 Nvidia Blackwell 的路徑正式關閉，中國 AI 算力結構性受壓",
+      "article_id": "must-2"
+    },
+    {
+      "title": "Nintendo Direct 宣布薩爾達 Remake、王國之心 IV 等十餘款大作",
+      "hint": "Switch 2 下半年軟體陣容成形，手遊 Q3/Q4 上市視窗需重新評估與主機大作的衝突風險",
       "article_id": "must-3"
     }
   ],
   "tw": [
     {
       "category": "strategy",
-      "title": "台積電 CEO 股東會警告：AI 晶片需求「瘋狂」，供應缺口將持續數年",
-      "summary": "台積電執行長魏哲家在 6 月 4 日股東會上坦言，AI 晶片需求增速「insane」，先進製程產能至少售罄至 2027 年，供給落後需求約 25-30%。台積電 2026 年資本支出規劃達 560 億美元，同時計畫對 5nm 以下節點調漲晶圓價格 5-10%。",
-      "impact": "AI 基礎設施成本上升直接影響各家遊戲公司導入 AI 工具的預算與採購週期。產能持續緊繃也意味台廠若大規模採購 GPU 算力，排隊週期拉長、成本攀升，建議提前鎖定供應商合約，並把 AI 工具預算寫入明年 roadmap。",
-      "date": "2026-06-04",
-      "source": "Bloomberg / ThePlanetTools",
-      "link": "https://theplanettools.ai/blog/tsmc-ai-chip-supply-lag-demand-years-cc-wei-june-2026",
-      "link_text": "原文連結"
+      "title": "美 301 強迫勞動關稅：台灣列 10% 優惠組，優於日韓中的 12.5%",
+      "summary": "美國 USTR 於 6 月 2 日以強迫勞動為由，對 60 個經濟體啟動 301 調查，擬對中、日、韓等 45 國加徵 12.5% 關稅；台灣因已與美國簽署互惠貿易協議（ART），被列入僅加徵 10% 的 14 國名單。台行政院強調此為優於競爭對手的待遇。公眾意見截至 7 月 6 日，聽證 7 月 7 日。",
+      "impact": "短期看，台廠對美出口毛利確實受壓，但比日韓輕。更大意義是：每一次 ART 框架下的差異化待遇，都在深化台美供應鏈互依，台廠的地緣政治溢價正在逐漸轉化為真實的關稅優勢。半導體、電子零組件廠商需追蹤 7 月 7 日聽證結果。",
+      "date": "2026-06-03",
+      "source": "Yahoo 新聞 / 大紀元",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%9C%8B%E7%A5%AD301%E6%A2%9D%E6%AC%BE-%E6%93%AC%E5%B0%8D%E8%8B%B1-%E5%8F%B0%E7%AD%8910%E5%9C%8B%E5%8A%A0%E5%BE%B510-%E5%B0%8D%E6%97%A5%E9%9F%93%E5%8A%A0%E5%BE%B512-5-045000812.html"
     },
     {
-      "category": "strategy",
-      "title": "香港 SFC 完成虛擬資產交易商諮詢，立法草案 2026 年提交立法會",
-      "summary": "香港財經事務局（FSTB）與證監會（SFC）完成虛擬資產交易商及託管人制度諮詢總結，依循「相同活動、相同風險、相同監管」原則擬草案，預計 2026 年提交立法會。同步規劃虛擬資產顧問及資產管理人牌照制度，HKMA 的「Fintech 2030」路線圖持續推進 tokenisation 試驗。",
-      "impact": "香港加速虛擬資產立法，對希望以區塊鏈或 NFT 模式切入香港市場的遊戲公司影響重大：持牌制度形成高門檻，提早布局合規框架的業者將具備先行優勢。若公司有任何 Web3 遊戲資產規劃，現在是評估香港路徑可行性的適當時機。",
+      "category": "work",
+      "title": "數位產業署×遊戲自律委員會合作，推動課金透明與未成年保護",
+      "summary": "數位發展部數位產業署與數位遊戲產業自律推動委員會持續合作，聚焦課金抽卡透明度、遊戲軟體分級落實、未成年玩家保護三大主軸，推動遊戲業界在正式立法前建立自律機制與產業慣例。",
+      "impact": "政府選擇先推自律而非立法管制，是台灣遊戲業的短期利多。但「自律機制」的實際標準會逐步接近法規要求，現在參與制定的廠商在未來合規轉型中具有先行優勢。課金透明度（尤其抽卡機率揭露）是最值得現在就對齊的項目。",
       "date": "近期",
-      "source": "SFC / KuCoin News",
-      "link": "https://www.kucoin.com/news/flash/hong-kong-plans-2026-legislation-to-regulate-virtual-asset-traders-and-custodians",
-      "link_text": "原文連結"
+      "source": "Yahoo 新聞 / 數位產業署",
+      "link": "https://tw.news.yahoo.com/%E6%95%B8%E4%BD%8D%E7%94%A2%E6%A5%AD%E7%BD%B2%E6%94%9C%E6%89%8B%E6%95%B8%E4%BD%8D%E9%81%8A%E6%88%B2%E7%94%A2%E6%A5%AD%E8%87%AA%E5%BE%8B%E6%8E%A8%E5%8B%95%E5%A7%94%E5%93%A1%E6%9C%83-%E5%8A%9B%E6%8E%A8%E6%96%B0%E4%B8%96%E4%BB%A3%E7%8E%A9%E5%AE%B6%E5%85%B1%E7%AF%89%E5%8F%8B%E5%96%84%E9%81%8A%E6%88%B2%E7%92%B0%E5%A2%83-054719501.html"
+    },
+    {
+      "category": "industry",
+      "title": "Arm CEO：AI 記憶體瓶頸短期難解，台灣半導體 AI 產值估達 7.1 兆",
+      "summary": "Arm 執行長 Haas 於 COMPUTEX 2026 指出，AI 供應鏈最大瓶頸為基礎建設與 HBM/DRAM/NAND 記憶體供應緊缺，預計持續一段時間。資策會估台灣半導體 2026 年產值達 7.1 兆新台幣（年增 24.4%），晶圓代工預估達 4.6 兆（+27%），IC 封測 7,787 億（+17%）。",
+      "impact": "AI 推論算力成本因記憶體緊缺短期難以下行，意味著手遊嵌入 AI 功能（NPC 對話、美術生成、個人化推薦）的雲端費用仍偏高。台廠在台積電周邊的快速反應優勢，是吸引 AI 合作伙伴的實質籌碼，也是台灣在 AI 供應鏈中地位持續提升的基礎。",
+      "date": "2026-06-02",
+      "source": "TechNews 科技新報",
+      "link": "https://technews.tw/2026/06/02/arm-computex-2026-qa/"
     }
   ],
   "intl": [
     {
       "id": "must-1",
-      "category": "strategy",
-      "title": "Anthropic 估值 9,650 億美元、超越 OpenAI，秘密提交 IPO 申請",
-      "orig_title": "Anthropic Files for IPO After Closing $65B Series H at $965B Valuation",
-      "summary": "Anthropic 完成 650 億美元 Series H 募資，投後估值達 9,650 億美元，首度超越 OpenAI（估值 8,520 億）成為全球最高估值 AI 新創；同步密秘提交 IPO 申請，目標最快 2026 年秋季在納斯達克掛牌，公司宣稱年度營收 run rate 已突破 470 億美元。",
-      "impact": "Claude 系列 API 定價與企業授權結構將因 IPO 審查趨於透明，投資人壓力亦可能推動 Anthropic 強化商業化節奏。對評估導入 AI 工具的產品企劃而言，現在是鎖定長約或談判企業方案條款的視窗——上市前議價空間通常較大，值得立即接觸業務窗口確認報價有效期。",
-      "date": "2026-06-02",
-      "source": "Fortune / TechCrunch",
-      "link": "https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/",
-      "link_text": "原文連結"
+      "category": "work",
+      "title": "Anthropic 發布 Claude Fable 5，Mythos 級 AI 正式公開，6/22 前免費試用",
+      "orig_title": "Anthropic releases Claude Fable 5, the first publicly available Mythos-class model",
+      "summary": "Anthropic 於 6 月 9 日發布 Claude Fable 5，為 Mythos 級別首次公開上線的版本，在軟體工程、知識工作、視覺任務、科學研究等多項基準達最先進水準。Pro/Max/Team/Enterprise 方案 6 月 22 日前免費試用；6 月 23 日後定價每百萬 input token $10、output $50。另：Claude Sonnet 4 與 Opus 4 將於 6 月 15 日從 API 退役。",
+      "impact": "目前公開可用的最強 AI 模型世代，且本週仍在免費試用期內。立刻建議用 Fable 5 完成文案生成、遊戲設計文件、資料分析等任務，評估 6/23 後是否值得列為標準工具。Sonnet 4 / Opus 4 API 使用者需在 6/15 前完成遷移，避免服務中斷。",
+      "date": "2026-06-09",
+      "source": "Anthropic / TechCrunch",
+      "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
     },
     {
       "id": "must-2",
-      "category": "industry",
-      "title": "Nintendo Direct 6/9：薩爾達 Ocarina 重製確認、FF XIV 登 Switch 2、Kingdom Hearts 4",
-      "orig_title": "Nintendo Direct June 2026: Everything Announced",
-      "summary": "任天堂在 6 月 9 日舉行約 50 分鐘的 Nintendo Direct，重點公布：《薩爾達傳說：時之笛》全面重製版（Switch 2 獨占，2026 年）、《Final Fantasy XIV》Switch 2 版（2026 年 8 月）、《Kingdom Hearts 4》預告、《Star Fox 64 Remake》（6/25）、《Rhythm Heaven Groove》（7/2）、《DELTARUNE Chapter 5》免費更新（6/24）；同時宣布 Dragon's Dogma 2 及 Stellar Blade 登 Switch 2。",
-      "impact": "Nintendo Switch 2 大作齊發強化主機生態，FF XIV 跨平台登場代表 MMORPG 受眾進一步擴散到主機輕玩家。台灣 Nintendo 粉絲基數龐大，這波公布會直接拉高玩家期待值與預算競爭，手遊企劃需重新評估同期對應的留存活動與版本節奏，避免被主機大作分流。",
-      "date": "2026-06-09",
-      "source": "Insider Gaming / Game Informer",
-      "link": "https://insider-gaming.com/nintendo-direct-june-2026-everything-announced/",
-      "link_text": "原文連結"
+      "category": "strategy",
+      "title": "美商務部關閉 AI 晶片出口漏洞：中資海外子公司全面納入管制",
+      "orig_title": "US BIS closes loophole: AI chip export controls now apply to overseas subsidiaries of Chinese firms",
+      "summary": "美國商務部 BIS 於 6 月 1 日發布新指引，確認 Nvidia Rubin/Blackwell 及 AMD MI350X 等頂級 AI 晶片的出口管制，適用於任何中資母公司或中國總部的境外子公司，無論實體位於馬來西亞、新加坡或 UAE。此前已有數十萬台 AI 伺服器疑透過境外子公司管道流入中資企業，此漏洞現正式關閉。",
+      "impact": "中國遊戲大廠（米哈遊、網易、騰訊等）在境外部署 AI 推論服務的算力取得成本將結構性上升。對台廠而言，中國競爭者 AI 化產品的推進速度可能放緩，是布局海外市場的相對優勢視窗。長期觀察：中國廠商是否轉向自研晶片路線，以及由此帶來的能力差距變化。",
+      "date": "2026-06-01",
+      "source": "CNBC / TrendForce",
+      "link": "https://www.cnbc.com/2026/05/31/us-takes-step-to-halt-nvidia-ai-chip-shipments-to-chinese-firms-outside-china.html"
     },
     {
       "id": "must-3",
-      "category": "strategy",
-      "title": "Tim Cook 宣告最後一屆 WWDC，9/1 正式交棒 John Ternus 接任 Apple CEO",
-      "orig_title": "Tim Cook Steps Down: John Ternus New Apple CEO Effective September 1, 2026",
-      "summary": "Apple 宣布 Tim Cook 將於 9 月 1 日卸任 CEO，轉任執行主席；硬體工程資深副總裁 John Ternus（50 歲）同日接任 CEO 並加入董事會。WWDC 2026 成為 Cook 主持的最後一屆，接班人選來自硬體工程背景，為 Apple 近十五年首次 CEO 更替。",
-      "impact": "Ternus 的硬體工程背景預示 Apple 下一階段聚焦可折疊 iPhone、空間計算與晶片自研；App Store 政策走向則將在新 CEO 視野下重新評估。對手遊開發商而言，iOS 生態未來數年的抽成規則、側載政策及 AI 整合方向都可能微調，建議追蹤 Ternus 首次公開發言中對開發者關係的表態。",
-      "date": "2026-06-08",
-      "source": "Fortune / TheStreet",
-      "link": "https://fortune.com/2026/04/20/apple-ceo-tim-cook-stepping-down-hardware-exec-john-ternus-new-ceo/",
-      "link_text": "原文連結"
-    },
-    {
       "category": "industry",
-      "title": "Final Fantasy VII Revelation 確定 Spring 2027，FF7 重製三部曲壓軸登場",
-      "orig_title": "Final Fantasy VII Revelation Announced at Summer Game Fest 2026 with Spring 2027 Release Window",
-      "summary": "Square Enix 在 6 月 5 日 Summer Game Fest Live 宣布《Final Fantasy VII Revelation》，為 FF7 重製三部曲終章，首度公布飛空艇 Highwind 作為開放世界移動樞紐、可探索 Wutai 及 Midgar 周邊；加入全新 Job System，並同步發布 Vincent Valentine、Cid Highwind 首段遊玩影片，目標 2027 年春季 PS5／Xbox Series X|S／PC／Switch 2 同步上線。",
-      "impact": "FF7 三部曲即將完結，龐大粉絲社群將在 2027 年春季高度集中消費注意力；若公司有 2027 Q1 大版本或新遊計畫，需評估與 FF7R 終章的時程衝突。此外 Square Enix 此次不再 PS 獨占的策略（Switch 2 同步）顯示日系大廠正加速多平台分散風險，值得參考。",
-      "date": "2026-06-05",
-      "source": "GameSpot / Square Enix Press",
-      "link": "https://www.gamespot.com/articles/final-fantasy-7-revelation-gets-its-first-trailer-at-summer-game-fest/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "Summer Game Fest 2026 亮點：RE Code Veronica Remake、《AOT3》、超級瑪利歐電影破 10 億",
-      "orig_title": "Summer Game Fest Live 2026: All the Biggest Announcements",
-      "summary": "6 月 5-8 日 Summer Game Fest 2026 亮點：Capcom 公布《惡靈古堡：Code Veronica》全面重製；光榮特庫摩宣布《Attack on Titan 3》；Bandai Namco 展示《The Blood of Dawnwalker》新預告。場外另有超級瑪利歐銀河同名電影突破全球票房 10 億美元，成為 2026 年首部達標影片。",
-      "impact": "馬利歐電影連續創票房紀錄，再次驗證遊戲 IP 影視化的龐大商業價值；Capcom 重製 Code Veronica 代表老 IP 翻新策略仍是主流。台廠若有自有 IP 仍未充分開發，影視/動畫授權模式值得納入中長期 IP 策略規劃。",
-      "date": "2026-06-05",
-      "source": "GameSpot / Tom's Guide",
-      "link": "https://www.gamespot.com/articles/summer-game-fest-live-2026-all-the-biggest-announcements-and-games/",
-      "link_text": "原文連結"
+      "title": "Nintendo Direct 6.9：薩爾達時光之笛 Remake、王國之心 IV、FF XIV 登 Switch 2",
+      "orig_title": "Nintendo Direct June 2026: Zelda Ocarina of Time Remake, Kingdom Hearts IV, Final Fantasy XIV confirmed for Switch 2",
+      "summary": "任天堂 6 月 9 日 Nintendo Direct 宣布多款重磅：薩爾達：時光之笛 Remake（2026 年）、王國之心 IV（正式確認）、最終幻想 XIV（Switch 2，8 月）、Metaphor: ReFantazio（Switch 2，11/12）、Xenoblade Genesis（2027），以及 Onimusha 新作（9/25）、Dragon's Dogma: Dark Arisen（10/9）等多款第三方移植。Switch 2 軟體陣容大規模成形。",
+      "impact": "Switch 2 下半年連串大型 IP 集中上線，對手機 ARPG 和動作 RPG 的競爭壓力最大。薩爾達和王國之心針對的是高消費核心玩家，恰好是手遊重課金用戶的重疊族群。企劃需評估今年 Q3/Q4 上市視窗——8 月 FF XIV、11 月 Metaphor 是兩個重要衝突點，建議避開。",
+      "date": "2026-06-09",
+      "source": "Nintendo / GameSpot",
+      "link": "https://www.nintendo.com/us/whatsnew/nintendo-direct-unveils-new-games-and-updates-for-nintendo-switch-2-and-nintendo-switch-including-the-legend-of-zelda-ocarina-of-time-kingdom-hearts-iv-xenoblade-genesis-and-more/"
     },
     {
       "category": "work",
-      "title": "ChatGPT 推出強化記憶系統，Plus／Pro 用戶跨對話追蹤能力大幅提升",
-      "orig_title": "OpenAI Releases More Capable and Scalable ChatGPT Memory System",
-      "summary": "OpenAI 宣布推出更強大且可擴展的 ChatGPT 記憶系統，可更完整地跨對話追蹤脈絡、記住用戶偏好並依此調整回應；更新首先向美國 Plus 及 Pro 用戶推出，其他地區和方案的用戶陸續跟進。",
-      "impact": "ChatGPT 記憶系統升級讓 AI 助理更接近「個人化工作夥伴」定位——對日常使用 AI 協助企劃文件、市場研究的 Tim 而言，值得立即測試記憶功能是否能跨工作階段保留遊戲設計脈絡與競品洞察，減少每次重新「暖身」的摩擦成本。",
-      "date": "2026-06-09",
-      "source": "OpenAI / Releasebot",
-      "link": "https://releasebot.io/updates/openai",
-      "link_text": "原文連結"
+      "title": "Google Gemini 3.5 Flash 上線，3.5 Pro 六月登場，與 Fable 5 正面競爭",
+      "orig_title": "Google Gemini 3.5 Flash now live, Gemini 3.5 Pro coming in June 2026",
+      "summary": "Google 於 5 月 Google I/O 發布 Gemini 3.5 Flash（已上線，API 定價 $1.50/$9.00 per M tokens，成為 Gemini 應用預設模型）。CEO Pichai 確認 Gemini 3.5 Pro 將於六月推出，預計與 Fable 5 形成頂端 AI 模型同期競爭態勢。",
+      "impact": "Gemini 3.5 Flash 的定價比 Fable 5 低約 6-7 倍，適合大量文字生成工作（如 NPC 對話腳本批次、在地化翻譯）；Fable 5 在複雜推理和程式碼上更強。AI 工具進入「依任務分層選用」時代，混用策略可大幅降低單月 AI 費用，值得現在就建立分層工作流程。",
+      "date": "2026-05-19",
+      "source": "CNBC / AI Weekly",
+      "link": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html"
+    },
+    {
+      "category": "work",
+      "title": "Apple EU App Store 2026 費用架構更新：CTC 取代安裝費，多層計算須重新試算",
+      "orig_title": "Apple EU App Store 2026 fee update: Core Technology Commission replaces per-install fee under DMA",
+      "summary": "2026 年 1 月起，Apple 歐盟 App Store 費用正式更新：Tier 1（5%）為強制基礎服務費（搭配外部支付連結必用），Tier 2（13%）含行銷分析工具；Core Technology Commission（CTC 5%）取代原每次安裝費，改為新用戶前 6 個月購買金額的 2% 初次獲客費（IAF）。",
+      "impact": "費用架構更複雜，不見得比舊制更低。台廠若歐盟市場佔比小，短期影響有限；但這是 DMA 長期改寫平台費用生態的指標案例，Apple 可能以此框架延伸至其他地區。現在理解架構，等政策推廣時不會措手不及，且可提前在財務模型中設定多情境試算。",
+      "date": "2026-01-01",
+      "source": "Adapty / Neon Commerce",
+      "link": "https://adapty.io/blog/apple-eu-in-app-purchase-fee-system-2025/"
+    },
+    {
+      "category": "strategy",
+      "title": "美 USTR 301 強迫勞動調查：擬對中日韓加徵 12.5%，公聽 7/7",
+      "orig_title": "US USTR Section 301 forced labor probe: 12.5% tariff proposed on China, Japan, South Korea; public hearing July 7",
+      "summary": "美國 USTR 於 6 月 2 日公告對 60 個未有效執法強迫勞動禁令的經濟體展開 301 調查，擬對中、日、韓、印、越等 45 國加徵 12.5% 關稅，另 14 個已簽 ART 協議的國家（含台灣）為 10%。公眾意見截至 7 月 6 日，聽證 7 月 7 日。歐盟稱理由「荒謬」，中國貿促會表示強烈不滿。",
+      "impact": "日韓遊戲商（Bandai Namco、NCSOFT 等）的硬體周邊對美出口成本上升；但遊戲軟體服務本身不在課稅範圍。更大意義是中美博弈延伸至「勞工/人權」新戰線，供應鏈地緣敏感度持續升溫——全球化布局需維持彈性，避免過度集中於單一節點。",
+      "date": "2026-06-02",
+      "source": "Al Jazeera / Yahoo 新聞",
+      "link": "https://www.aljazeera.com/economy/2026/6/3/us-cites-forced-labour-concerns-as-grounds-for-new-tariffs"
+    },
+    {
+      "category": "industry",
+      "title": "中國 5 月遊戲版號核准 86 款，騰訊、網易均有新作入列",
+      "orig_title": "China issues 86 game licenses in May 2026, Tencent and NetEase among recipients",
+      "summary": "中國國家新聞出版署 5 月公布版號批次，86 款國產遊戲獲批，騰訊、網易均有新遊戲通過審查。相比之下，1 月進口遊戲版號僅核准 5 款，外資獨立進入壁壘依然極高。",
+      "impact": "版號穩定核發代表中國市場持續開放，但進口 5 款/月的低門檻顯示外資獨立發行路徑幾乎封閉。觀察騰訊、網易獲批的遊戲類型，是判斷中國市場偏好轉移的重要依據——若中度 ARPG 持續佔主流，對台廠評估代理或聯合開發機會有直接參考價值。",
+      "date": "2026-05-31",
+      "source": "Yahoo 財經",
+      "link": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E5%9C%8B5%E6%9C%88%E7%89%88%E8%99%9F%E4%B8%8B%E7%99%BC-86%E6%AC%BE%E5%9C%8B%E7%94%A2%E9%81%8A%E6%88%B2%E7%8D%B2%E6%89%B9-%E9%A8%B0%E8%A8%8A-%E7%B6%B2%E6%98%93%E5%9C%A8%E5%88%97-015812283.html"
     }
   ]
 }
