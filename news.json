@@ -1,60 +1,63 @@
 {
-  "date": "2026-06-12",
-  "weekday": "週五",
+  "date": "2026-06-13",
+  "weekday": "週六",
   "must_read": [
-    { "title": "Google Play Store 費率 6/30 起降至 20%", "hint": "直接提升 Android 遊戲淨收益 10 個百分點，日韓市場年底跟進，需提前更新財務模型", "article_id": "must-1" },
-    { "title": "Anthropic 年化收入突破 300 億美元，Claude Code 季增 306%", "hint": "AI 開發工具進入高速成長期，API 漲價或配額調整風險升高，需評估備援方案", "article_id": "must-2" },
-    { "title": "G7 峰會三大 AI 執行長出席，AI 監管自願框架即將成形", "hint": "G7 共識將成各國立法基準，遊戲 AIGC 與未成年人保護合規標準恐同步升高", "article_id": "must-3" }
+    {
+      "title": "美政府禁外國人存取 Anthropic 最強 AI 模型",
+      "hint": "台灣開發者即日起無法使用 Fable 5、Mythos 5，AI 工具可及性首次出現地緣政治性斷層",
+      "article_id": "must-1"
+    },
+    {
+      "title": "Google Play 抽成降至 20%，6/30 正式生效",
+      "hint": "Epic 訴訟和解落地，手遊出海收入結構直接改善，台廠渠道成本有感下降",
+      "article_id": "must-2"
+    },
+    {
+      "title": "台積電 5 月營收創單月新高，YoY +30.1%",
+      "hint": "AI 晶片需求持續拉貨，台灣半導體整體景氣確認強勁，算力成本軌跡可預期",
+      "article_id": "must-3"
+    }
   ],
   "tw": [
     {
-      "category": "work",
-      "title": "台積電 5 月營收年增 30%，CEO 警告先進製程供不應求至少持續到 2027",
-      "summary": "台積電 5 月合併營收 NT$4,169.8 億元，年增 30.1%，確認全年成長逾 30%。CEO 魏哲家於 6 月 4 日股東會表示 AI 算力需求超出產能 25-30%，先進製程至少到 2027 年供不應求；3nm 製程下半年計畫漲價約 15%。",
-      "impact": "對你的意義：AI 工具與雲端 GPU 算力服務的成本結構正在升高；若計劃採用 AI 輔助遊戲開發工作流程，需提前鎖定預算，規避下半年漲價衝擊。",
+      "id": "must-3",
+      "category": "industry",
+      "title": "台積電 5 月營收創單月新高，YoY +30.1%",
+      "summary": "台積電公告 2026 年 5 月合併營收約 NT$416.98 億元，月增 1.5%、年增 30.1%，創單月歷史新高。1–5 月累計年增 30%，AI 訓練與推論晶片需求為主要驅動力。",
+      "impact": "對你的意義：AI 算力供給持續擴張且成本軌跡可預期，遊戲產品導入 NPC 生成、AI 客服、動態難度等功能的基礎設施窗口仍在擴大。現在規劃的 AI 功能，到明年實際導入時算力不會成為瓶頸，可以大膽排進開發路線圖。",
       "date": "2026-06-10",
-      "source": "Bloomberg / TradingKey",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-04/tsmc-ceo-warns-chip-supply-won-t-meet-ai-fueled-demand-for-years",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "COMPUTEX 2026 以「AI Together」主題創歷史規模，33 國 1500 家廠商聚台北",
-      "summary": "COMPUTEX 2026 於 6 月 2-5 日在台北南港展覽館及世貿一館以首度雙展區模式舉辦，33 國 1500 家廠商出展，主題「AI Together」聚焦 AI 運算、實體 AI 與機器人；黃仁勳等重量級演講揭示 AI 硬體與 Physical AI 新方向。",
-      "impact": "對你的意義：COMPUTEX 公布的 Physical AI 與 AI 運算趨勢直接影響下一代遊戲開發工具鏈選擇；展後新一輪 AI 工具投資熱潮可期，值得追蹤哪些新平台即將整合進手遊開發流程。",
-      "date": "2026-06-05",
-      "source": "聯合新聞網",
-      "link": "https://udn.com/news/story/7240/9536845",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "中國 NPPA 5 月核發 158 款遊戲版號，單月近年新高",
-      "summary": "中國 NPPA（國家新聞出版署）2026 年 5 月核發第四批版號，共 154 款國產及 4 款進口遊戲獲批，合計 158 款，為近年單月最高；騰訊、網易旗下多款新遊戲在列。",
-      "impact": "對你的意義：版號配額持續擴大顯示中國監管態度相對寬鬆；計劃申請進入中國市場的台廠可把握此窗口，但進口版號仍僅 4 款，競爭激烈，需提早備料。",
-      "date": "近期",
-      "source": "Niko Partners",
-      "link": "https://substack.nikopartners.com/p/chinas-nppa-approves-158-video-games",
+      "source": "TradingKey / TSMC",
+      "link": "https://www.tradingkey.com/analysis/stocks/more/261957681-tsmc-may-revenue-surges-30-to-416-9b-ntd-tradingkey",
       "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "香港 SFC CrypTech 監管科技倡議進入驗證階段，VATP 代幣化交易框架同步推進",
-      "summary": "香港證監會 CrypTech 監管科技倡議（2025 年 10 月啟動）已從概念進入驗證階段，涵蓋 AML 即時監控、市場操縱偵測等模組；同步推進虛擬資產交易商（VATP）代幣化資產交易框架，以貨幣市場基金先行。",
-      "impact": "對你的意義：香港加速虛擬資產合規基礎建設，遊戲公司若計劃在港進行 NFT 道具或代幣化點數跨境流通，合規成本將走高；提前了解 AML 要求有助規避未來上架風險。",
-      "date": "近期",
+      "title": "香港 SFC 籌備全球首個 VATP 代幣化資產交易框架",
+      "summary": "香港證監會宣布將允許持牌虛擬資產交易平台（VATP）進行授權代幣化資產次級市場交易，以貨幣市場基金先行、逐步擴至所有授權產品，並同步推進「CrypTech」監管科技倡議（AML 即時監控、市場操縱偵測等模組）。",
+      "impact": "對你的意義：若未來遊戲道具代幣化或跨境虛擬貨幣支付需要合規依據，香港 SFC 的 VATP 制度將是最近的法規參考窗口。現在追蹤框架演進，有利提早判斷哪些商業模式在港澳有合規空間，避免等到需要才倉促了解。",
+      "date": "2026-06-13",
       "source": "鏈新聞 ABMedia",
       "link": "https://abmedia.io/hk-sfc-vatp-tokenized-asset-trading-framework-2026",
       "link_text": "原文連結"
     },
     {
-      "category": "strategy",
-      "title": "金管會 2026 金融數位治理布局：強化資安韌性與 AI 金融應用監理",
-      "summary": "金管會 2026 年施政重點涵蓋資安韌性強化、AI 金融應用監理與金融市場數位化；面對高度不確定的國際金融情勢，持續推動金融創新並強化監管科技能量。",
-      "impact": "對你的意義：遊戲內購與虛擬點數涉及金流監管，金管會加強 AI 金融應用監理可能間接影響遊戲支付合規要求；值得留意支付接口規範是否連動調整。",
-      "date": "近期",
-      "source": "CIO Taiwan",
-      "link": "https://www.cio.com.tw/106344",
+      "category": "industry",
+      "title": "全球 55 歲以上玩家急增 64%，遊戲業至今普遍漠視高齡市場",
+      "summary": "Newzoo 最新分析指出，55 歲以上玩家規模急增 64%，這群用戶有時間有金錢，是理想客群，但整個遊戲產業至今仍少有針對性設計，UI 到遊戲節奏幾乎一律針對年輕族群。",
+      "impact": "對你的意義：台灣人口結構高齡化加速，高齡友好設計（低壓競爭模式、大字體 UI、以社交互動為主軸）是尚未被主流廠商認真切入的藍海。先佔者在行銷成本和口碑上有先天優勢——競爭對手也還沒動，這是真實的窗口期而非空洞的趨勢語。",
+      "date": "2026-06-13",
+      "source": "Newzoo / ACG 新聞",
+      "link": "https://disp.cc/b/ACG/i5FH",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "Xbox Games Showcase 2026 重磅發表：Fable、Halo、Persona 6 首曝",
+      "summary": "Xbox Games Showcase 於 6 月 13 日公開多款重磅作品：Gears of War: E-Day（Xbox 主機獨佔）、Fable（2027/2/23 發售）、Halo: Campaign Evolved（7/28 發售）、Persona 4 Revival 發售日確認（2/18）、Persona 6 首次公開預告，另有 Spyro: A Realm Beyond、全新 Cuphead 等。",
+      "impact": "對你的意義：主機 / PC 大作密集登場，玩家注意力高度競爭，6 月至 7 月初是手遊新品行銷能見度最低的危險窗口，上線時機宜避開。Persona 6 曝光代表 Atlus/Bandai Namco IP 授權商機可能再度熱絡，有 IP 合作需求的台廠可留意後續授權動態。",
+      "date": "2026-06-13",
+      "source": "The Gamer / Pure Xbox",
+      "link": "https://www.thegamer.com/everything-announced-xbox-games-showcase-june-2026/",
       "link_text": "原文連結"
     }
   ],
@@ -62,70 +65,80 @@
     {
       "id": "must-1",
       "category": "work",
-      "title": "Google Play Store 費率 6/30 起降至 20%，訂閱費降至 10%，日韓市場年底跟進",
-      "orig_title": "Google settles with Epic Games, drops Play Store commissions to 20%",
-      "summary": "Google 於 2026 年 3 月與 Epic 達成和解，標準 IAP 費率從 30% 降至 20%，訂閱費率從 15% 降至 10%；6 月 30 日起在美英歐地區生效，日本、韓國 12 月 31 日前、全球其餘地區 2027 年 9 月前完成。和解亦允許開發者並行提供替代支付，選用替代方案費率再減 4 個百分點。",
-      "impact": "對你的意義：每筆 Android IAP 淨收益即將提升 10 個百分點，日韓市場年底前同步受益；建議提前更新財務模型，並評估是否在特定市場切換替代支付系統以進一步降低抽成，搶先競爭對手調整定價策略。",
-      "date": "2026-03-04",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/",
+      "title": "美政府命令 Anthropic 停止外國人存取 Fable 5、Mythos 5",
+      "orig_title": "Anthropic Disables Fable 5 and Mythos 5 After U.S. Export Control Order Bars Foreign Nationals",
+      "summary": "美國商務部長 Howard Lutnick 以國家安全為由，要求 Anthropic 暫停所有外國人（含在美外籍員工）對 Fable 5、Mythos 5 兩款最強模型的存取。Anthropic 週五收到命令後當日全面下架。Anthropic 表示此舉源於一個特定的非通用 jailbreak 方法，而非模型系統性風險。",
+      "impact": "對你的意義：台灣開發者、企業、創作者即日起無法使用 Claude 最頂尖模型，高複雜推理、長文處理、進階代碼生成等功能需立刻評估替代方案（Gemini 2.5 Ultra、GPT-5 等）。更大的結構性訊號是：AI 能力存取正在「地緣政治化」，未來類似限制可能常態化，多元備援供應商從選配變成必要。",
+      "date": "2026-06-13",
+      "source": "Fortune / Bloomberg / Tom's Hardware",
+      "link": "https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/",
       "link_text": "原文連結"
     },
     {
       "id": "must-2",
       "category": "work",
-      "title": "Anthropic 年化收入突破 300 億美元，Claude Code 帶動全球訪問量單季增 306%",
-      "orig_title": "Anthropic run-rate revenue surpasses $30 billion; Claude worldwide visit share grows 306% in a single quarter",
-      "summary": "Anthropic 年化收入突破 300 億美元（2025 年底約 90 億），Claude 全球網路訪問份額達 8.2%（美國 12.5%），單季成長 306%；主要驅動力為 Claude Code 等開發工具，Anthropic 同步宣布與 Google、Broadcom 合作擴建數 GW 級下一代算力基礎設施。",
-      "impact": "對你的意義：Claude API 與 Claude Code 進入高速成長期，漲價或調整配額的機率升高；若開發工作流程高度依賴 Claude，應評估 API 成本預算上限並準備備援方案（如 Gemini 3.5 Pro）。",
-      "date": "近期",
-      "source": "Anthropic / Dataconomy",
-      "link": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "must-3",
-      "category": "strategy",
-      "title": "G7 峰會三大 AI 執行長出席，AI 監管自願承諾框架 6/15–17 法國峰會後成形",
-      "orig_title": "Anthropic, OpenAI, Google Executives to Join G7 Summit in France",
-      "summary": "G7 峰會 6 月 15-17 日在法國 Évian 舉行，Sam Altman（OpenAI）、Dario Amodei（Anthropic）、Demis Hassabis（Google DeepMind）確認出席；議程涵蓋 AI 基礎設施、監管框架及青少年網路安全，預計形成企業自願承諾套件，延續廣島 AI 進程。",
-      "impact": "對你的意義：G7 AI 自願承諾一旦達成，將成為各國立法的重要參考基準；遊戲公司使用 AI 生成內容（AIGC）及未成年人保護政策，可能面臨更高的合規標準，建議提前追蹤峰會結論文件。",
-      "date": "2026-06-12",
-      "source": "Bloomberg",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-12/anthropic-openai-google-executives-plan-to-attend-g7-summit",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "USTR 對 60 國含中國提議加徵 12.5% 強迫勞動關稅，7 月聽證後拍板",
-      "orig_title": "USTR Proposes 10–12.5% Section 301 Tariffs on 60 Economies Over Forced Labor",
-      "summary": "USTR 於 6 月 2 日完成 Section 301 強迫勞動調查，對 60 個未執行強迫勞動進口禁令的經濟體提議加徵 10-12.5% 關稅，中國列入 12.5% 組；公眾評論期至 7 月 6 日，7 月 7 日聽證，最終決定其後公布。",
-      "impact": "對你的意義：若關稅落實，中國製遊戲周邊硬體（手機配件、控制器等）成本上升；疊加 5 月美中關稅框架協商，不確定性仍高，建議關注 7 月聽證結果後再評估供應鏈調整方向。",
-      "date": "2026-06-02",
-      "source": "CNBC / USTR",
-      "link": "https://www.cnbc.com/2026/06/03/us-tariffs-60-economies-dection-301-forced-labor-trade-practices-.html",
+      "title": "Google Play 抽成降至 20%，6 月 30 日歐美正式生效",
+      "orig_title": "Google Settles with Epic Games, Drops Play Store Commissions to 20% Effective June 30",
+      "summary": "Google 因 Epic 訴訟和解宣布調降 Google Play 抽成：基礎費率 30% → 20%、新安裝用戶 15%、訂閱 10%。6 月 30 日起於歐洲經濟區、英國、美國生效；韓國、日本 12 月底跟進；全球市場 2027 年 9 月完成。亦開放並行替代支付，採用者費率再減 4 個百分點。",
+      "impact": "對你的意義：以年收 1,000 萬美元的手遊為例，抽成降 10 個百分點每年多留約 100 萬美元。這也是定價策略重新評估的契機：多出來的利潤空間可轉為降價促銷吸引新用戶，或加大行銷預算加速規模——需注意各地區生效時程不同，韓日版本策略調整要等年底。",
+      "date": "2026-06-13",
+      "source": "TechNews 科技新報 / TechCrunch",
+      "link": "https://technews.tw/2026/03/05/lower-pricing-and-new-programs-to-support-android-developers/",
       "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "June 2026 AI 模型爆發潮：Gemini 3.5 Pro、Claude Mythos 1、Grok 5 同月上線",
-      "orig_title": "June 2026 AI Launch Wave: Gemini 3.5 Pro, Claude Mythos 1, Grok 5 all land in the same four weeks",
-      "summary": "Google Gemini 3.5 Pro（5 月 19 日 GA）、Anthropic Claude Mythos 1、xAI Grok 5 於同一個月集中發布；Microsoft 與 Google 同步推出 AI 編碼模型，與 Claude Code 及 OpenAI 正面競爭，AI 開發工具競爭格局快速重組。",
-      "impact": "對你的意義：各家旗艦模型性能差距縮小，切換成本降低；建議 6 月底前重新評估現有 AI 工具組合，在 Gemini 3.5 Pro 與 Claude Mythos 1 間找出成本效益最佳選項，避免過度鎖定單一供應商。",
-      "date": "2026-06-01",
-      "source": "WaveSpeed Blog / CNBC",
+      "title": "Anthropic 年化營收突破 300 億美元，Claude Code 帶動企業市場爆發",
+      "orig_title": "Anthropic Run-Rate Revenue Surpasses $30B; 1,000+ Enterprise Customers Each Spending $1M+ Per Year",
+      "summary": "Anthropic 年化營收已突破 300 億美元（2025 年底為 90 億），超過 1,000 家企業客戶年付費超 100 萬美元，較兩個月前倍增。Claude Code 是最大驅動力，讓 Anthropic 在企業市場超前 Google、Microsoft。",
+      "impact": "對你的意義：AI 輔助開發工具已進入「百萬美元年度採購」的企業預算等級，市場快速機構化。但需注意：今日 Fable/Mythos 禁令讓台灣團隊存取 Claude 頂端功能受限，AI 工具選型時需同步評估地緣政治風險，不能僅憑功能強弱做決策。",
+      "date": "2026-06-13",
+      "source": "AI Weekly / AI Business",
+      "link": "https://aiweekly.co/ai-news-today/anthropic-news",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "美中達成「管理貿易」框架，BIS Affiliates Rule 延緩至 2026 年 11 月",
+      "orig_title": "US-China Managed Trade Framework Agreed; BIS Affiliates Rule Suspended Through November 2026",
+      "summary": "美中就「管理貿易」框架達成協議，建立雙邊貿易委員會監管非敏感商品，選擇性降低農業與非農業關稅壁壘。同步，BIS「Affiliates Rule」（對中資持股 50% 以上實體的出口管制擴大適用）延緩執行至 2026 年 11 月。",
+      "impact": "對你的意義：若遊戲公司有中資股東或合作方，Affiliates Rule 延緩的 1 年窗口是完成合規審查或結構調整的最後機會，時限 2026 年 11 月。出海涉及中國代理商或投資人的案子，現在是處理的時機，不要等到禁令正式實施才倉促應對。",
+      "date": "2026-06-13",
+      "source": "PIIE / South China Morning Post",
+      "link": "https://www.piie.com/blogs/realtime-economics/2026/us-reciprocal-trade-deals-built-push-americas-trade-partners-away",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "Q1 2026 全球遊戲收入 540 億美元，Bandai Namco 單季暴增 28.7%",
+      "orig_title": "Q1 2026 Gaming Revenue Hits $54B: Single-Player Surge, Bandai Namco +28.7% YoY",
+      "summary": "全球遊戲 Q1 2026 收入達 540 億美元，年增 3.6%。Tencent $96 億（+8.4%）、NetEase $36.2 億（+12.3%）、Bandai Namco（+28.7%）。單人遊戲回潮趨勢明顯。",
+      "impact": "對你的意義：Bandai Namco 大幅成長最值得注意，其 IP 授權 × 跨媒體（動漫 + 手遊 + 主機）策略是連續幾季最穩定的成長公式。對台灣手遊企劃的啟示：IP 深度授權搭配非 MMORPG 品類，不必靠每天卷 live-service 體力，靠情感連結和玩法設計就能驅動付費——這個方向有結構性成長空間。",
+      "date": "2026-06-13",
+      "source": "Outlook Respawn",
+      "link": "https://respawn.outlookindia.com/gaming/gaming-news/q1-2026-gaming-revenue-hits-54b-single-player-market-surges",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "韓國手遊 UA 成本 YoY +22%，大廠激烈競搶廣告庫存",
+      "orig_title": "Korean Mobile Gamer Insights 2026: UA Costs Rise 22% YoY as Netmarble and NCsoft Compete for Same Inventory",
+      "summary": "2026 年韓國手遊用戶獲取成本年增 22%，主因 Netmarble、NCSoft 等大廠激烈競搶相同廣告庫存。NCsoft 非 MMORPG 新項目（Project LLL 等）預計 2026 年改善利潤率。",
+      "impact": "對你的意義：韓國 UA 通膨是攻韓成本的前哨指標，計畫進入韓國市場需備足比前兩年高兩成的行銷預算，或以 KOL / influencer 策略降低對廣告平台的依賴。NCsoft 轉型非 MMORPG 也是樣本——東亞玩家品味正在擴展，台灣企劃師選題時可參考這個趨勢而非追隨傳統 MMORPG 模板。",
+      "date": "2026-06-13",
+      "source": "Playio Blog",
+      "link": "https://blog.playio.co/korean-mobile-gamer-insights",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "Apple Intelligence 開放用戶選擇 Claude / Gemini / ChatGPT，Gemini 設為預設",
+      "orig_title": "Apple Intelligence Extensions: Users Can Choose Claude, Gemini, or ChatGPT — Gemini as Default",
+      "summary": "Apple 建立 AI Extensions 系統，讓 iPhone 用戶選擇不同 AI 引擎處理 Apple Intelligence 功能（ChatGPT、Google Gemini 或 Anthropic Claude），Gemini 設為預設選項。",
+      "impact": "對你的意義：AI 整合入手機 OS 層正在加速，未來遊戲內 NPC 對話、客服、個人化推薦等功能可能呼叫系統層 AI 而非遊戲自建模型。是否對接 Apple Intelligence API 值得提早研究。Gemini 設為預設意味著 Google AI 將透過 iOS 大幅擴大影響力，這可能改變遊戲 AI 功能的整合策略選擇。",
+      "date": "2026-06-13",
+      "source": "WaveSpeed Blog",
       "link": "https://wavespeed.ai/blog/posts/june-2026-ai-launch-wave/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "韓國遊戲大廠加速全球布局：Netmarble 推《GOT: Kingsroad》，NCsoft 轉型主機",
-      "orig_title": "Korean game companies zero in on global market — Netmarble and NCsoft reshape portfolios",
-      "summary": "Netmarble 計劃上半年推出 PC/手機跨平台《Game of Thrones: Kingsroad》，下半年推主機版《七大罪：Origin》；NCsoft 從韓國本地手遊 MMORPG 轉型為高品質主機作品，持續推動《Throne and Liberty》全球化；韓國手遊 UA 成本年增 22%。",
-      "impact": "對你的意義：日韓頂級廠商正從「手遊 MMORPG」轉向「跨平台 + 主機 + 全球 IP 授權」策略，競爭賽道分化；台灣手遊企劃需留意玩法趨勢從放置刷圖轉向高品質互動，並提早評估日韓 IP 授權合作機會。",
-      "date": "近期",
-      "source": "Korea Herald",
-      "link": "https://www.koreaherald.com/article/10402202",
       "link_text": "原文連結"
     }
   ]
