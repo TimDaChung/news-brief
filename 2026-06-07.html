@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="brief-date" content="2026-06-07">
+<title>每日新聞 Brief · 2026-06-07</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="date-nav" aria-label="日期切換">
+  <a class="date-btn" id="prev-day" href="#" title="前一天">◀</a>
+  <select class="date-select" id="date-select" aria-label="選擇日期">
+    <option value="2026-06-07">2026-06-07（週日）</option>
+  </select>
+  <a class="date-btn" id="next-day" href="#" title="後一天">▶</a>
+  <a class="date-btn latest-btn" href="./" title="跳到最新">🏠 最新</a>
+</nav>
+
+<header>
+  <h1>每日新聞 Brief</h1>
+  <div class="meta-line">
+    <span class="pill" id="current-date-pill">涵蓋日期：2026-06-07（週日）</span>
+    <span>更新：2026-06-08</span>
+    <span id="totals">台港澳 5 則 · 國際 7 則</span>
+  </div>
+</header>
+
+<section class="must-read">
+  <div class="must-read-title">🎯 今日必看 · 3 則</div>
+  <div class="must-read-grid">
+    <a class="must-read-item" href="#must-1">
+      <span class="num">01</span>
+      <span class="must-title">Apple EU 抽成新制：5% CTC 上路，IAP 與外部支付不可混用</span>
+      <span class="must-hint">歐盟市場遊戲收益分潤結構已定型，打算進軍 EU 的台廠需重新設計付款流程</span>
+    </a>
+    <a class="must-read-item" href="#must-2">
+      <span class="num">02</span>
+      <span class="must-title">Anthropic Glasswing 擴至 15 國 150 機構，Mythos 公開版「數週內」到來</span>
+      <span class="must-hint">最強 AI 安全稽核模型正在大規模實戰，開放給所有開發者只差最後一哩路</span>
+    </a>
+    <a class="must-read-item" href="#must-3">
+      <span class="num">03</span>
+      <span class="must-title">NCsoft 轉向主機與全球 IP，韓國手遊 UA 成本 2025 年漲 22%</span>
+      <span class="must-hint">頭部韓廠帶頭離開手遊 MMORPG，但 UA 通膨正壓縮中小廠的獲客空間</span>
+    </a>
+  </div>
+</section>
+
+<div class="filters">
+  <button class="chip active" data-filter="all">全部 <span class="chip-count">12</span></button>
+  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">1</span></button>
+  <button class="chip" data-filter="industry">📊 產業視野 <span class="chip-count">6</span></button>
+  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">5</span></button>
+  <input type="search" class="search-input" placeholder="搜尋標題或摘要…" id="search">
+  <div class="legend">
+    <span>🎯 工作直擊</span>
+    <span>📊 產業視野</span>
+    <span>🌏 策略背景</span>
+  </div>
+</div>
+
+<main>
+
+<section>
+  <h2>台港澳 <span class="count" data-count="tw">5 則</span></h2>
+  <div class="news-list" data-region="tw">
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">台灣《AI 基本法》進入細則階段，數發部接手風險分類框架制訂</div>
+      <div class="summary">立院 2025 年底三讀通過《人工智慧基本法》後，2026 年進入實施細則階段。國科會將風險「分級」改為「分類」以接軌美國等創新優先國家，並由數位發展部依國際標準制訂各業別風險框架，再由目的事業主管機關各自訂管理規範。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：遊戲中的 AI NPC、AI 生成內容、AI 客服等功能，未來都可能落入特定風險分類並須申報或說明。現在開始盤點產品 AI 應用清單，比等到子法確定後再補救省力得多。</div>
+      <div class="footer-meta">
+        <span>2026-06-07</span>
+        <span class="sep">·</span>
+        <span>iThome</span>
+        <span class="sep">·</span>
+        <a href="https://www.ithome.com.tw/news/167005" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">MIC：2026 年台灣半導體產值估達 7.1 兆新高，AI 伺服器帶動晶圓代工</div>
+      <div class="summary">資策會 MIC 預估 2026 年台灣半導體產業產值達 7.1 兆新台幣，其中晶圓代工 4.6 兆、IC 封測 7,787 億，主要動能來自 AI 資料中心擴建。共封裝光學（CPO）模組預計 2028 年前後量產導入伺服器。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：AI 算力資源仍是稀缺品，雲端 GPU 租賃成本短期難降；規劃遊戲內 AI 功能的推論費用預算時，應保守估算並優先考慮批次推論而非即時推論，以控制成本。</div>
+      <div class="footer-meta">
+        <span>2026-06-06</span>
+        <span class="sep">·</span>
+        <span>資策會 MIC / Yahoo Finance</span>
+        <span class="sep">·</span>
+        <a href="https://tw.stock.yahoo.com/news/ai%E6%B5%AA%E6%BD%AE-mic%E4%BC%B0%E4%BB%8A%E5%B9%B4%E5%8F%B0%E7%81%A3%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%94%A2%E5%80%BC7-1%E5%85%86%E8%A1%9D%E6%96%B0%E9%AB%98-120204429.html" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Computex 2026｜Arm CEO：AI 兩大瓶頸是能源基建與 HBM/DRAM 短缺，短期難解</div>
+      <div class="summary">Arm 執行長 Haas 在 Computex 2026 媒體問答中指出，AI 供應鏈最大瓶頸為：一、資料中心能源供應與施工能力不足；二、DRAM、HBM 與 NAND 記憶體持續緊張。Haas 明確表示供需失衡「仍將持續一段時間」。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：記憶體緊張代表 AI 推論成本易漲難跌，遊戲 AI 功能的 API 費用預算需預留彈性空間；另一方面，台灣廠商在 AI 供應鏈中的議價地位持續強化，對招募半導體背景技術人才相對有利。</div>
+      <div class="footer-meta">
+        <span>2026-06-02</span>
+        <span class="sep">·</span>
+        <span>TechNews 科技新報</span>
+        <span class="sep">·</span>
+        <a href="https://technews.tw/2026/06/02/arm-computex-2026-qa/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">香港 SFC 籌備全球首個 VATP 代幣化資產交易框架，貨幣市場基金先行試點</div>
+      <div class="summary">香港證監會（SFC）正建立全球首個「平台＋產品＋監管科技」三合一代幣化金融監管框架，透過 CrypTech 平台實現自動申報、即時 AML 監控與市場操縱偵測，以貨幣市場基金為首批適用標的，逐步擴展至所有授權產品。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：香港搶先建立虛擬資產合規標準，若遊戲公司未來評估在港發行代幣化道具或遊戲資產，此框架將是必讀合規基礎；短期內觀察試點結果，有助判斷港版 Web3 遊戲的可行性時程。</div>
+      <div class="footer-meta">
+        <span>2026-06-05</span>
+        <span class="sep">·</span>
+        <span>鏈新聞 ABMedia</span>
+        <span class="sep">·</span>
+        <a href="https://abmedia.io/hk-sfc-vatp-tokenized-asset-trading-framework-2026" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">Computex 2026｜ICTGC 第四梯次：38 國 209 隊角逐，11 隊獲獎創歷屆新高</div>
+      <div class="summary">國科會在 Computex 2026 InnoVEX 舉行 IC Taiwan Grand Challenge 第四梯次頒獎，報名隊數 209 隊來自全球 38 國，創下歷屆新高，11 支得獎隊伍分別來自美、日、英、德、法、以色列及台灣。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：台灣正成為全球硬體新創的匯聚點，代表海外高品質技術團隊對台灣市場重視度提升；遊戲公司可透過此類平台提前接觸邊緣 AI、感測器等新興技術，評估次世代互動體驗的布局時機。</div>
+      <div class="footer-meta">
+        <span>2026-06-02</span>
+        <span class="sep">·</span>
+        <span>TechNews 科技新報</span>
+        <span class="sep">·</span>
+        <a href="https://technews.tw/2026/06/02/ic-taiwan-grand-challenge-4th/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h2>國際 <span class="count" data-count="intl">7 則</span></h2>
+  <div class="news-list" data-region="intl">
+    <article id="must-1" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">Apple EU 新抽成制定型：5% CTC 取代安裝費，IAP 與外部支付不可混用</div>
+      <div class="orig-title">Apple Alternative Payment Fees: What Developers Pay (2026)</div>
+      <div class="summary">2026 年 1 月起，歐盟地區 Apple App Store 以 5% 核心技術委員費（Core Technology Commission, CTC）取代舊有的按安裝計費方式。同時明確規定，同一應用程式內不得同時提供 Apple IAP 與外部支付選項，開發者必須二選一；若加入「前往網站購買」按鈕，必須移除 Apple IAP。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：若手遊計劃在 EU 上線並使用外部支付繞過 Apple 分成，必須完全移除 Apple IAP，牽涉整個付款流程、後端訂單系統與使用者體驗的重新設計。現在評估 EU 市場規模是否值得雙軌維護，比上線後改版省時省力。</div>
+      <div class="footer-meta">
+        <span>2026-01-01</span>
+        <span class="sep">·</span>
+        <span>Neon Commerce</span>
+        <span class="sep">·</span>
+        <a href="https://www.neonpay.com/blog/apple-app-store-alternative-payment-fees-what-developers-pay-in-2026" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="must-2" data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">Anthropic Project Glasswing 擴至 15 國 150 機構，Mythos 公開版「數週內」到來</div>
+      <div class="orig-title">Anthropic scales Claude Mythos to critical infrastructure in 15+ countries</div>
+      <div class="summary">Anthropic 於 2026 年 6 月 2 日宣布，將 Claude Mythos Preview 的 Project Glasswing 計畫擴大至 15 個國家、新增 150 個合作機構，涵蓋電力、供水、醫療、通訊與硬體產業。首月報告顯示，Mythos 在逾 1,000 個開源專案中找到 23,019 個漏洞，獨立抽樣確認率達 90.6%。Anthropic 表示，待網路安全防護就緒，將「在數週內」向所有客戶開放。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：全球最強的編程與安全稽核 AI 工具即將轉為正式商用，可用於遊戲後端安全審計、作弊偵測邏輯開發，甚至加速遊戲邏輯程式碼的品質檢查流程。現在可以開始整理後端最需要安全掃描的核心模組清單，搶先試用。</div>
+      <div class="footer-meta">
+        <span>2026-06-02</span>
+        <span class="sep">·</span>
+        <span>TechCrunch</span>
+        <span class="sep">·</span>
+        <a href="https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="must-3" data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">NCsoft 正式轉向主機與全球 IP，韓國手遊 UA 成本 2025 年漲 22%</div>
+      <div class="orig-title">Korean game companies zero in on global market</div>
+      <div class="summary">NCsoft 宣布戰略轉型，從韓國本土導向的手遊 MMORPG 轉戰高品質主機遊戲（Project LLL 等）與全球 IP 授權，2024 年利潤因上市費用下滑，分析師預估 2026 年回升。同期韓國手遊市場用戶獲取（UA）成本在 2025 年較前年漲 22%，主要因 NCsoft、Netmarble 等大廠激烈競價同一廣告庫存所致。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：頂層韓廠帶頭撤出手遊 MMORPG，短期對台廠是競爭壓力減輕的訊號；但 UA 成本持續攀升代表買量模式 ROI 天花板越來越低，應加速評估自然流量成長、IP 合作或社群口碑等替代獲客路徑。</div>
+      <div class="footer-meta">
+        <span>2026-06-07</span>
+        <span class="sep">·</span>
+        <span>GAMES.GG / Korea Herald</span>
+        <span class="sep">·</span>
+        <a href="https://games.gg/news/korean-mobile-gamer-insights-2026/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">USTR 新提 12.5% 對中關稅（強迫勞動 Section 301），聽證訂 7 月</div>
+      <div class="orig-title">Trump 2.0 Tariff Tracker: New Section 301 Proposal on China</div>
+      <div class="summary">美國貿易代表署（USTR）於 2026 年 6 月 2 日，就強迫勞動議題對中國提出新一輪 Section 301 調查，擬加徵 12.5% 關稅；公眾評論期至 7 月 6 日，聽證會定 7 月 7 日，最終決定尚未公告。此前美中已於 2025 年 10 月達成貿易協議，暫停部分關稅並延長稀土管制豁免至 2026 年 11 月。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：新關稅若成立，中國廠商在美競爭成本上升，對台灣遊戲公司打入北美市場相對有利；但全球供應鏈緊張也可能推升伺服器硬體與雲端服務採購成本，建議鎖定長期合約以規避價格波動。</div>
+      <div class="footer-meta">
+        <span>2026-06-03</span>
+        <span class="sep">·</span>
+        <span>Trade Compliance Resource Hub</span>
+        <span class="sep">·</span>
+        <a href="https://www.tradecomplianceresourcehub.com/2026/06/03/trump-2-0-tariff-tracker/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Summer Game Fest 2026 舉行：RE Code Veronica 重製亮相、Palworld 1.0 七月發售</div>
+      <div class="orig-title">Summer Game Fest Live 2026: All The Biggest Announcements And Games</div>
+      <div class="summary">Summer Game Fest 2026 於 6 月 5 日在洛杉磯杜比劇院登場，重要亮點包含《惡靈古堡：Code Veronica》重製版首映、《Palworld》宣布 1.0 版本 7 月 10 日正式發售、《Fortnite》Runners 新賽季即日上線，以及 Bandai Namco 的 Gundam 新手遊預告。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：Palworld 從 Early Access 過渡至 1.0 是今年最具參考價值的案例——驗證「生存＋收集」混合玩法在全球市場的可行性；RE Code Veronica 重製暗示老 IP 復古化浪潮持續，在新主機平台上的商業空間仍被市場看好。</div>
+      <div class="footer-meta">
+        <span>2026-06-05</span>
+        <span class="sep">·</span>
+        <span>GameSpot</span>
+        <span class="sep">·</span>
+        <a href="https://www.gamespot.com/articles/summer-game-fest-live-2026-all-the-biggest-announcements-and-games/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Nintendo Switch 2 一週年：近 2,000 萬台、馬力歐賽車世界接近 1,500 萬套</div>
+      <div class="orig-title">Here's A Look At The Best-Selling Switch And Switch 2 Games So Far</div>
+      <div class="summary">2026 年 6 月 5 日為 Switch 2 全球上市一週年，任天堂累計銷售近 2,000 萬台。《馬力歐賽車 世界》接近 1,500 萬套領跑，《Donkey Kong Bananza》與《Pokémon Legends: Z-A》緊隨其後。6 月 3 日上線的《Final Fantasy VII Rebirth》移植版亦受關注，6 月下旬還有《Star Fox》重製版。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：Switch 2 的第一方 IP 效應仍壓倒性，主機專屬大作＋強 IP 的吸客公式再度驗證；台廠若有移植或授權計畫，現在主機平台談判籌碼最足；主機大作帶動的 IP 聲量，也有助於同步提升手遊版本的轉換率。</div>
+      <div class="footer-meta">
+        <span>2026-06-05</span>
+        <span class="sep">·</span>
+        <span>Nintendo Life</span>
+        <span class="sep">·</span>
+        <a href="https://www.nintendolife.com/news/2026/05/heres-a-look-at-the-best-selling-switch-and-switch-2-games-so-far" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">AI 競爭格局轉向速度與成本：Google 以 Gemini 3.5 Flash 對戰 Anthropic Mythos</div>
+      <div class="orig-title">Microsoft and Google take on Anthropic and OpenAI in AI coding models</div>
+      <div class="summary">Google 選擇以 Gemini 3.5 Flash（快速低成本版）而非重量級模型迎戰 Anthropic Mythos，顯示 AI 前沿競爭已從「誰的模型最強」轉向「誰能在速度與成本上勝出」。主要廠商均表示頂尖模型能力已接近相當，各有在成本、速度與運算資源上的不同取捨。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：AI 工具競爭白熱化對開發者有利——頂尖模型成本持續下滑，API 費用談判空間增加；現在是評估切換或混用模型供應商的好時機，不需要死守單一廠商，可依任務類型（創意生成 vs. 程式碼審查）分別選擇最具 CP 值的 API。</div>
+      <div class="footer-meta">
+        <span>2026-06-01</span>
+        <span class="sep">·</span>
+        <span>CNBC</span>
+        <span class="sep">·</span>
+        <a href="https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="page-footer">
+  <p><strong>篩選準則</strong>：結構變化 &gt; 單一事件 · 原始資料 &gt; 二手報導 · 與你工作相關 &gt; 一般熱度 · 避開紅媒（人民日報／新華社／環球時報／大公文匯等）與純口水新聞。</p>
+</footer>
+
+</div>
+
+<div class="toast" id="toast">已複製到剪貼簿</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
