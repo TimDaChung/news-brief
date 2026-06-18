@@ -1,61 +1,42 @@
 {
-  "date": "2026-06-16",
-  "weekday": "週二",
+  "date": "2026-06-17",
+  "weekday": "週三",
   "must_read": [
-    { "title": "Google Play 手續費 6/30 降至 20%", "hint": "直接影響你所有 Android 遊戲的 IAP 分潤結構，重新評估定價策略的好時機", "article_id": "must-1" },
-    { "title": "Anthropic 秘密申報 IPO、Claude Fable 5 發布", "hint": "AI 工具競局重組，遊戲 AI 整合的選型視野需更新", "article_id": "must-2" },
-    { "title": "中國 NPPA 5 月版號 158 款創近年新高", "hint": "台廠進中國市場的批審環境持續改善訊號", "article_id": "must-3" }
+    {
+      "title": "Anthropic Fable 5/Mythos 5停用第六天，CEO赴G7談判仍無復原時程",
+      "hint": "AI工具被政府強制下線，外籍員工與台灣用戶均受限——現在需要備援方案",
+      "article_id": "must-1"
+    },
+    {
+      "title": "G7峰會AI論壇：Anthropic+DeepMind聯手推美主導AI治理聯盟",
+      "hint": "AI模型選型即將從技術決策變為合規決策，建立多元備援策略的窗口正在關閉",
+      "article_id": "must-2"
+    },
+    {
+      "title": "NCsoft宣告轉型：放棄韓國重氪手遊，押注主機+全球市場",
+      "hint": "韓系最大MMORPG廠主動退出本業賽道，重氪手遊市場格局正在重新洗牌",
+      "article_id": "must-3"
+    }
   ],
   "tw": [
     {
-      "id": "must-3",
       "category": "industry",
-      "title": "中國 NPPA 5 月核發 158 款遊戲版號，2026 全年已達 779 款",
-      "summary": "中國國家新聞出版署（NPPA）5 月共核發 158 款遊戲版號，含 154 款國內及 4 款進口，全年累計 779 款（含 25 款進口），為近年月均批核速度最快的一年。批准作品含騰訊、網易及新興廠商的手遊與多平台作品。",
-      "impact": "對你的意義：版號核發提速，台廠若有中國市場計畫，申報窗口難得地相對開放；但進口版號仍極少（每月約 4 款），境外遊戲搶位仍極競爭，需提早規劃申報策略，不能等到遊戲完成才動作。",
-      "date": "2026-06-16",
-      "source": "PocketGamer.biz / Niko Partners",
-      "link": "https://www.pocketgamer.biz/china-approves-158-games-in-may-as-licensing-pace-accelerates-in-2026/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "台積電：AI 晶片需求超出供給，2026 年資本支出上看 700 億美元",
-      "summary": "台積電董事長表示 AI 晶片需求已超出供給，2026 年資本支出預測從 520–560 億美元有望上修至 700 億，市值達 1.427 兆美元，躍升全球百大企業第 9 名。Amkor 與台積電宣布長期封測合作。",
-      "impact": "對你的意義：AI 推論算力持續供不應求，雲端 AI 服務成本短期難降；遊戲中使用 AI 生成功能（NPC 對話、美術生成）的算力成本壓力仍高。此時採用輕量推論模型或外包 API 方案比自建基礎設施更合理。",
-      "date": "2026-06-05",
-      "source": "Taipei Times / DigiTimes",
-      "link": "https://www.taipeitimes.com/News/biz/archives/2026/06/05/2003858537",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "work",
-      "title": "數位產業署開放獨立遊戲開發獎勵申請（114/115 年度計畫）",
-      "summary": "數位發展部數位產業署公告「DIGITAL+ 數位創新補助平台計畫」下的獨立遊戲開發獎勵暨產品化加值計畫申請事項，支持台灣獨立遊戲開發者從開發到商品化的全流程補助。",
-      "impact": "對你的意義：若公司有獨立遊戲 IP 或新玩法原型規劃，此補助可作為早期研發資金槓桿；即使主力是手遊，以子品牌申請亦可測試新玩法設計並沉澱 IP，建議評估申請資格與投件時間表。",
+      "title": "台積電3nm月產能突破17.5萬片仍缺貨，宣布第二度漲價15%",
+      "summary": "台積電3奈米製程月產能已達16至17.5萬片歷史高位，但AI伺服器平台需求（NVIDIA、AMD、Google、AWS）持續超出供給；台積電宣布第二度調漲3nm報價15%，部分客戶加付急件費用。Q1 2026毛利率達66.2%創歷史新高，AI HPC佔比突破60%。",
+      "impact": "昨日已報導TSMC整體capex上修至$700億，今日這篇更具體：3nm已是AI運算核心製程，且漲價決定正式落地。AI算力持續供不應求代表下游AI雲服務成本仍看漲——若你在遊戲中嵌入AI推論功能（NPC對話、即時難度調整），採購預算需保留漲價彈性，避免年度成本估算低估。",
       "date": "近期",
-      "source": "數位產業署",
-      "link": "https://moda.gov.tw/ADI/news/bulletin-board/953",
-      "link_text": "公告連結"
-    },
-    {
-      "category": "strategy",
-      "title": "台灣 AI 基本法子法 Q2 訂定：風險分類標準草案接軌美國做法",
-      "summary": "國科會推進《人工智慧基本法》配套子法，將原「風險分級」改為「風險分類」接軌美國促進創新做法，Q2 完成分類標準，Q2–Q3 推出創新沙盒與豁免機制，全年科技預算 1,800 億元。",
-      "impact": "對你的意義：台灣 AI 監管採「促進創新」定向，短期不會對手遊 AI 功能（推薦系統、AIGC 美術）設高門檻；但風險分類制度上路後，需留意遊戲中的生成式 AI 是否落入需申報類別，建議法務提前研究沙盒機制。",
-      "date": "2026-06-16",
-      "source": "iThome / 台灣人工智慧學校",
-      "link": "https://www.ithome.com.tw/news/167005",
+      "source": "UNIKO's Hardware",
+      "link": "https://unikoshardware.com/2026/06/tsmc-3nm-wafer-supply-for-175000.html",
       "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "香港 SFC 完成虛擬資產監管諮詢，2026 年立法程序啟動",
-      "summary": "香港財庫局與證監會（SFC）完成虛擬資產交易商及託管人制度諮詢，正式推進 2026 年立法，要求相關業者取得牌照並符合 AML 法規；香港 Fintech 排名全球第一，跨機構督導小組公布 2026–2028 年策略重點。",
-      "impact": "對你的意義：若遊戲中有代幣化道具、NFT 或鏈上積分設計，香港現在是全球監管框架最清晰的市場之一；進軍港台市場的 Web3 遊戲功能合規路徑更明確，可評估早期法務規劃成本。",
-      "date": "2026-06-16",
-      "source": "香港證監會 SFC",
-      "link": "https://apps.sfc.hk/edistributionWeb/gateway/TC/news-and-announcements/news/doc?refNo=26PR29",
+      "title": "香港SFC發布全球首創VATP代幣化資產交易框架，貨幣市場基金先行",
+      "summary": "香港證監會推出全球首個VATP（虛擬資產交易平台）代幣化資產交易框架，以貨幣市場基金作試點，搭配CrypTech監理科技系統（自動申報、即時AML監控、市場操縱偵測），並於4月發布兩份配套通函（26EC22、26EC23）規範二級市場交易與申購贖回。",
+      "impact": "昨日香港SFC報導聚焦虛擬資產託管立法，今日這篇聚焦交易平台監管基礎設施，兩者合看：香港正從立法到基礎設施全面構建Web3合規生態。對台廠意義：若考慮遊戲代幣或鏈上資產的合規流通，香港目前是亞洲框架最完整、最可預期的市場，值得法務提前研究進入成本。",
+      "date": "近期",
+      "source": "ABMedia 鏈新聞",
+      "link": "https://abmedia.io/hk-sfc-vatp-tokenized-asset-trading-framework-2026",
       "link_text": "原文連結"
     }
   ],
@@ -63,69 +44,37 @@
     {
       "id": "must-1",
       "category": "work",
-      "title": "Google Play 手續費 6/30 降至 20%，訂閱費降至 10%",
-      "orig_title": "Google settles with Epic Games, drops Play Store commissions to 20%",
-      "summary": "Google 與 Epic Games 達成訴訟和解，Play Store 標準手續費從 30% 降至 20%，訂閱費從 15% 降至 10%，6/30 起先在美國、英國、EEA 生效；韓國、日本、澳洲年底跟進，全球 2027/09 到位。開發者若使用 Google 自有帳單系統另加 5%。",
-      "impact": "對你的意義：Android 平台每筆 IAP 手續費從 30% 降至 20%，等於每 100 元收入多留 10 元——這是多年來最大的平台費用結構調整。訂閱制產品（月卡、Pass）費率更低，現在是重新評估定價策略、LTV 模型與訂閱轉換率目標的最佳時機。",
-      "date": "2026-03-04",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/",
+      "title": "Anthropic Fable 5/Mythos 5停用第六天：與美政府談判持續，無復原時程",
+      "orig_title": "Anthropic sends staff to Washington to fight Fable, Mythos export controls; CEO at G7 summit",
+      "summary": "美商務部6月12日緊急命令全球停用Fable 5與Mythos 5（理由：特定越獄手法可協助識別軟體漏洞），所有外籍用戶及外籍Anthropic員工均受限。6/15–16 Anthropic高層赴華盛頓，與財政部長Bessent、商務部長Lutnick會面；CEO Amodei表示漏洞不構成「通用越獄」並提出異議。截至6月17日仍無復原時程，Amodei同日出席G7峰會繼續推動解除。",
+      "impact": "若你在Claude API上有依賴Fable 5/Mythos 5的工作流（GDD輔助撰寫、NPC劇本、程式碼審查），當前已自動fallback至舊版模型，需主動確認輸出品質是否仍達標。更大的意義：這是美國政府首次對商業AI模型直接發布出口管制令，代表「模型選型」已進入地緣政治範疇——台灣法人使用美系前沿AI的合規風險正在快速上升，現在是評估開源備援方案的好時機。",
+      "date": "2026-06-17",
+      "source": "QZ / Fortune / SecurityWeek",
+      "link": "https://qz.com/anthropic-staff-washington-export-controls-fable-mythos-061526",
       "link_text": "原文連結"
     },
     {
       "id": "must-2",
       "category": "strategy",
-      "title": "Anthropic 向 SEC 秘密申報 IPO 估值 $965B；Claude Fable 5 發布",
-      "orig_title": "Anthropic confidentially files IPO prospectus with SEC at $965B valuation; Claude Fable 5 released",
-      "summary": "Anthropic 6/1 向 SEC 秘密申報 IPO，目標估值 $965B，預計 2026/10 在 Nasdaq 掛牌；年化營收從 2025 年底 $90 億飆升至 2026/05 $440 億（5 個月 5 倍），百萬美元以上企業客戶突破 1,000 家。同期發布 Claude Fable 5（Mythos 最強等級），Andrej Karpathy 加入研究。",
-      "impact": "對你的意義：Anthropic 走向上市公司，商業化壓力增加，Claude API 定價策略和服務穩定性值得持續追蹤；Fable 5 代表 Mythos 等級能力公開可用，適合評估用於遊戲 NPC 對話系統或高品質 GDD 輔助撰寫；Karpathy 加入暗示模型能力還有顯著成長空間。",
-      "date": "2026-06-01",
-      "source": "CNBC / TradingKey",
-      "link": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html",
+      "title": "G7峰會科技論壇：Anthropic、Google DeepMind聯手呼籲美主導AI治理聯盟",
+      "orig_title": "CEOs of Anthropic and Google DeepMind call for U.S.-led AI coalition in meeting at G7",
+      "summary": "Anthropic執行長Dario Amodei與Google DeepMind執行長Demis Hassabis於6月17日G7峰會（法國埃維昂）科技論壇，與OpenAI等十餘位科技CEO及各國元首（含川普）會面，聯合呼籲美國主導建立AI規則與標準聯盟；背景是新一代AI模型的進階網路攻擊能力引發政府對數位安全的憂慮。歐盟執委會已於6/14警告美國：AI出口管制不應歧視性適用於外國用戶。",
+      "impact": "AI治理框架正從企業自律走向跨政府協議，框架一旦確立，「哪些模型可用、哪些功能受限」將由國際協議決定而非技術能力。現在的戰略重點：①建立多元AI工具組合（不全押美系模型）；②追蹤G7 AI框架後續草案——這將是未來1至2年遊戲AI開發合規基準的前身；③評估Gemini、開源本地部署等備援，避免單點風險。",
+      "date": "2026-06-17",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/amp/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html",
       "link_text": "原文連結"
     },
     {
-      "category": "strategy",
-      "title": "美中 6/11 貿易協議：30% 關稅維持 60 天，USTR 另提 12.5% 強迫勞動新關稅",
-      "orig_title": "Trump-China trade deal pauses tariff escalation at 30%; USTR proposes 12.5% forced labor tariff",
-      "summary": "川普政府 6/11 宣布美中貿易協議，將現行 30% 關稅（20% 芬太尼 + 10% 互惠）維持 60 天暫停升級；USTR 另提針對中國強迫勞動的 12.5% 新關稅，為最高法院裁決 IEEPA 關稅違憲後的替代措施。",
-      "impact": "對你的意義：台廠與中國代工或供應鏈合作短期仍受 30% 關稅壓力；若 12.5% 強迫勞動關稅成立，含中國製造環節的硬體周邊（手機、Switch 配件）成本將再升，影響玩家可支配所得。60 天期限約在 8 月中到期，需再觀察。",
-      "date": "2026-06-11",
-      "source": "PIIE / China Briefing",
-      "link": "https://www.piie.com/blogs/realtime-economics/2026/us-reciprocal-trade-deals-built-push-americas-trade-partners-away",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "work",
-      "title": "Google Gemini 3.5 Pro 六月上線，AI 工具世代交替加速",
-      "orig_title": "Google Gemini 3.5 Pro launches June 2026; AI competition intensifies against Anthropic and OpenAI",
-      "summary": "Google Gemini 3.5 Flash 已於 5/19 Google I/O 全面上線（API $1.5/$9 per MTok），Gemini 3.5 Pro 預計 6 月推出；同期 Anthropic 發布 Claude Fable 5，xAI Grok 5 亦在籌備，Microsoft 在 Build 宣布 AI 編碼工具重大更新。",
-      "impact": "對你的意義：多家主要 AI 模型同期更新，是重新評估 AI 輔助開發工具組合的好時機。Gemini 3.5 Flash 定價低延遲友好，適合嵌入遊戲流程（即時 NPC、動態難度）；Fable 5 適合長文本高品質任務如企劃書與劇本撰寫。現在評估工具的 ROI 最高。",
-      "date": "2026-06-16",
-      "source": "LLM Stats / CNBC",
-      "link": "https://llm-stats.com/llm-updates",
-      "link_text": "原文連結"
-    },
-    {
+      "id": "must-3",
       "category": "industry",
-      "title": "Blade & Soul Heroes 全球宣布停服：上線 6 個月即關閉",
-      "orig_title": "Blade & Soul Heroes announces global shutdown on June 16, 2026, six months after launch",
-      "summary": "NCSoft 旗下 Blade & Soul Heroes 於 6/16 宣布全球停服，距全球上線僅 6 個月，韓服已先行關閉。官方未說明原因，業界認為玩家留存與收益未達預期。",
-      "impact": "對你的意義：知名 IP 改作手遊失敗的近期典型案例——品牌知名度無法替代留存設計。值得研究其玩家流失節點（競技系統設計、新手引導、內容更新節奏），作為你手遊企劃中留存設計的反向參考。",
-      "date": "2026-06-16",
-      "source": "Spieltimes",
-      "link": "https://www.spieltimes.io/gaming/june-2026-mobile-games-signal-new-direction-for-smartphone-players/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "Q1 2026 全球遊戲營收 $540 億：Bandai Namco +28.7%，Tencent $96 億稱霸",
-      "orig_title": "Q1 2026 Gaming Revenue Hits $54B: Single-Player Surge and Market Trends",
-      "summary": "2026 Q1 全球遊戲總收入達 540 億美元，騰訊以 $96 億（YoY +8.4%）稱霸，網易 $36.2 億（+12.3%，Where Winds Meet 持續強勁），Bandai Namco +28.7% 成長最搶眼。AI 整合、單人 RPG 復興與競技手遊化為主要驅動力。",
-      "impact": "對你的意義：Bandai Namco 高成長反映強 IP + 動漫授權 + 全球同步上線模式有效；日本老牌大廠因業績壓力，IP 授權意願可能比以往更積極。這些數字可作為你 2026 年市場預算規劃的基準參照。",
-      "date": "2026-04-15",
-      "source": "Outlook India Respawn",
-      "link": "https://respawn.outlookindia.com/gaming/gaming-news/q1-2026-gaming-revenue-hits-54b-single-player-market-surges",
+      "title": "NCsoft宣告戰略轉型：放棄韓國重氪手遊MMORPG，押注主機與全球市場",
+      "orig_title": "NCsoft shifts from South Korea-focused mobile MMORPGs to high-fidelity console titles and global IP partnerships",
+      "summary": "NCsoft宣布全面轉型，從以韓國本土為核心的重氪手遊MMORPG模式，轉向高畫質主機遊戲與全球IP合作；旗艦新作Throne and Liberty鎖定國際市場。背景是韓國手遊用戶獲取成本2025年年增22%，同期旗下Blade & Soul Heroes（週二剛停服）上線僅6個月即關閉。",
+      "impact": "NCsoft是韓系手遊MMORPG「3N」最具代表性的廠牌，主動放棄這個模式是一個強烈的市場退出信號。對台廠意義是雙面的：其一，繼續走重氪手遊MMORPG路線需重新評估成長天花板；其二，NCsoft轉型主機所留下的手遊市場空間，是中型台廠可差異化切入的窗口——尤其在IP建立成本較低的細分品類（養成RPG、輕度競技）。",
+      "date": "近期",
+      "source": "Korea Herald",
+      "link": "https://www.koreaherald.com/article/10402202",
       "link_text": "原文連結"
     }
   ]
