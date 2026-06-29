@@ -1,139 +1,133 @@
 {
-  "date": "2026-06-27",
-  "weekday": "週六",
+  "date": "2026-06-28",
+  "weekday": "週日",
   "must_read": [
     {
-      "title": "Google Play 6月30日起美英歐抽成降至20%，3天後生效",
-      "hint": "手遊平台費率即將正式降低，財務模型與定價策略需立即更新",
+      "title": "BIS 年報警告：AI 投資泡沫若破，衝擊恐比 2008 更猛",
+      "hint": "「央行的央行」首度對 AI 資本熱點名，遊戲 AI 工具採購策略需重新評估風險情境",
       "article_id": "intl-1"
     },
     {
-      "title": "Anthropic秘密提交S-1（估值$965B）；OpenAI跟進衝刺9月IPO",
-      "hint": "兩大AI平台史上首次同步上市，工具採購策略需前置評估",
+      "title": "Google Play 30%→20% 手續費後天（6/30）生效",
+      "hint": "兩天後正式降費，IAP 財務模型需立即確認更新",
       "article_id": "intl-2"
     },
     {
-      "title": "台灣《人工智慧基本法》施行，數位部建AI風險分類框架",
-      "hint": "遊戲AI功能可能觸及高風險分類，企劃應盡早確認合規標準",
-      "article_id": "tw-1"
+      "title": "Anthropic Fable 5 外國用戶禁令 6/26 部分鬆綁，但仍未恢復台灣存取",
+      "hint": "Mythos 5 特定機構可申請授權，Fable 5 全面停供——多模型備援策略刻不容緩",
+      "article_id": "intl-3"
     }
   ],
   "tw": [
     {
-      "id": "tw-1",
       "category": "strategy",
-      "title": "台灣《人工智慧基本法》施行，數位部推AI風險分類框架",
-      "summary": "台灣《人工智慧基本法》2026年1月14日正式施行，數位發展部負責建立AI風險分類框架，各主管機關依此制定產業別管理標準，目標是在鼓勵創新同時保護公民基本權利與智財。",
-      "impact": "對你的意義：遊戲業若使用AI生成圖文、NPC多模態對話或玩家行為分析，可能落入高風險分類；企劃應盡早與法遵確認產品AI功能的審查標準，避免上線後被要求修改或下架，開發成本倍增。",
-      "date": "2026-01-14",
-      "source": "理律法律事務所",
-      "link": "https://www.leeandli.com/TW/NewslettersDetail/7566.htm",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "tw-2",
-      "category": "industry",
-      "title": "TSMC 5月營收年增30.1%，1.6nm A16製程Q4量產在即",
-      "summary": "台積電5月淨收入約新台幣4169.8億元，年增30.1%；1.6nm A16製程預計2026年第四季進入量產，AI加速器晶片廠是首批採用者，今年全年資本支出預估520-560億美元。",
-      "impact": "對你的意義：台灣半導體景氣強健帶動整體科技業信心；對遊戲業更直接的意涵是AI算力持續擴充，下游AI工具運算成本可望逐季下降，有助降低AI輔助開發（圖像生成、語音合成）的使用門檻。",
-      "date": "2026-06-10",
-      "source": "台積電 / SEC 公告",
-      "link": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000367/tsm-revenue20260610.htm",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "tw-3",
-      "category": "industry",
-      "title": "台灣遊戲業進入暑期旺季，分析師看好手遊概念股Q3動能",
-      "summary": "台灣券商研究報告指出遊戲產業進入暑假旺季（6-8月），國內外手遊及主機遊戲概念股Q3動能獲正面預期；歷年數據顯示DAU與IAP在7-8月通常達年內高峰。",
-      "impact": "對你的意義：暑假是手遊DAU與IAP的傳統旺季，Q3活動規劃若有資源缺口應提前補強；競品同期活動力道最強，需提早啟動競品監控、調整事件時程以避免衝突或把握差異化空間。",
-      "date": "2026-06-27",
-      "source": "豐雲學堂（元大期貨）",
-      "link": "https://www.sinotrade.com.tw/richclub/industry/%E6%94%BE%E6%9A%91%E5%81%87%E4%BA%86-%E9%81%8A%E6%88%B2%E7%94%A2%E6%A5%AD%E6%97%BA%E5%AD%A3%E4%BE%86%E8%87%A8-%E9%81%8A%E6%88%B2%E7%94%A2%E6%A5%AD%E7%99%BC%E5%B1%95%E6%A6%82%E6%B3%81-%E9%81%8A%E6%88%B2%E6%A6%82%E5%BF%B5%E8%82%A1%E4%B8%80%E6%AC%A1%E7%9C%8B--649a74eca4fc4721c02eb80f",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "tw-4",
-      "category": "strategy",
-      "title": "香港SFC推VATP代幣化資產交易框架，首推貨幣市場基金逐步擴及ETF",
-      "summary": "香港證監會為授權虛擬資產交易平台建立代幣化資產交易框架，首階段推代幣化貨幣市場基金，未來擴至股票、ETF、債券及衍生品，配套CrypTech監理科技計畫（自動申報、即時AML監控）同步推進。",
-      "impact": "對你的意義：香港持續鞏固虛擬資產金融中心地位；若公司有香港市場的NFT道具、遊戲代幣虛擬化或Web3布局，需關注SFC後續合規要求，及早評估申請授權VATP資格的必要性與成本。",
+      "title": "台積電 CEO 對 AI 泡沫表示「非常緊張」，仍按計劃投資 520–560 億美元",
+      "summary": "台積電 CEO 在法人說明會表示對 AI 泡沫疑慮「非常緊張」，但強調輕率投資「對台積電將是災難」，公司仍維持 2026 年 520–560 億美元資本支出計劃，並預計 AI 加速器晶圓需求 2022–2026 年成長 11 倍。",
+      "impact": "對你的意義：台積電訂單能見度仍強，短期算力供應無虞；但 CEO 的謹慎措辭與 BIS 同日警告形成共鳴，提示 AI 基礎建設投資可能在 1–2 年內迎來整理，屆時 AI 工具服務定價可能出現波動。",
       "date": "近期",
-      "source": "鏈新聞 ABMedia",
-      "link": "https://abmedia.io/hk-sfc-vatp-tokenized-asset-trading-framework-2026",
+      "source": "Tom's Hardware",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-very-nervous-about-ai-bubble-concerns-despite-another-record-setting-quarter-but-assured-of-demand-ceo-says-careless-investment-would-be-a-disaster-for-tsmc-for-sure-company-will-invest-usd52-usd56-billion-in-capex",
       "link_text": "原文連結"
     },
     {
-      "id": "tw-5",
       "category": "industry",
-      "title": "NC（前NCSoft）更名後聯手Sony與Amazon，PC遊戲銷售創2017年新高",
-      "summary": "韓國NC（原NCSoft）2026年4月正式更名，Aion 2去年11月在韓台上線引爆熱潮；Lineage Classic 2026年2月回歸PC，PC遊戲銷售達2017年以來最高。公司聯手Amazon Games及Sony推進全球多元布局，長期戰略聚焦數據驅動的手機休閒遊戲及縮短開發周期。",
-      "impact": "對你的意義：韓系大廠以老IP復刻重返PC MMO，台灣玩家接受度高；同期競品動態值得追蹤，評估是否有潛在玩家流失風險；老IP復刻加跨平台策略的高ROI模式，也值得手遊企劃參考。",
-      "date": "2026-04-02",
-      "source": "Korea Herald",
-      "link": "https://www.koreaherald.com/article/10402202",
+      "title": "Pokémon Champions 6/17 上線手機版，大 IP 攻手遊仍是 2026 主流信號",
+      "summary": "寶可夢正式推出 Pokémon Champions（iOS/Android），以競技對戰機制搭配龐大 IP 優勢，成為 6 月手機遊戲市場最受矚目新作；同期 Sonic Rumble 也以快節奏多人對戰登陸手機，顯示知名 IP 移動化趨勢持續。",
+      "impact": "對你的意義：大 IP 手遊仍是最有效的用戶獲取策略；競技對戰模式（Battle Royale 變體）在手機上持續受歡迎，若企劃中有 IP 授權方案或 PVP 元素，可追蹤 Pokémon Champions 前兩週留存數據作為市場基準。",
+      "date": "2026-06-17",
+      "source": "Pokemon.com / CBR",
+      "link": "https://www.pokemon.com/us/pokemon-news/pokemon-champions-comes-to-android-and-ios-on-june-17",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "香港 SFC：虛擬資產交易商及託管人新制立法 2026 年進入立法會",
+      "summary": "香港 SFC 與財庫局完成虛擬資產交易商及託管人制度聯合諮詢，立法草案預計 2026 年提交立法會；同步《關鍵基礎設施（電腦系統）條例》已於 2026 年 1 月 1 日生效，強化關鍵服務提供者網路安全責任。",
+      "impact": "對你的意義：若手遊在港澳市場涉及 NFT 道具、虛擬代幣或鏈上資產，需提前評估新制合規成本，特別是反洗錢、資產託管義務；網路安全新法也意味著遊戲伺服器業者在港的合規義務上升。",
+      "date": "2026-06-28",
+      "source": "香港證監會",
+      "link": "https://apps.sfc.hk/edistributionWeb/gateway/TC/news-and-announcements/news/doc?refNo=25PR210",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "中國遊戲版號 2025 年達 1,771 款創近年新高，2026 年批核預計破 2,000",
+      "summary": "中國 NPPA 2025 年批核 1,771 款遊戲（含 95 款進口），創 2018 年後最高紀錄；研調機構 Niko Partners 預測 2026 年全年批核將突破 2,000 款，進口遊戲審批頻率加快至每月一批次。",
+      "impact": "對你的意義：中國版號窗口持續開放，但進口遊戲佔比仍僅約 5%，台廠進中國市場仍須完整走版號申請週期；批核數量雖增，但高品質遊戲資源競爭也更激烈，需提前規劃在地化與申請時程。",
+      "date": "近期",
+      "source": "Yicai Global / TechNode",
+      "link": "https://www.yicaiglobal.com/news/china-approves-158-new-game-licenses-in-june",
       "link_text": "原文連結"
     }
   ],
   "intl": [
     {
       "id": "intl-1",
+      "category": "strategy",
+      "title": "BIS 年報警告：AI 投資泡沫若破，信用市場衝擊恐比 2008 金融海嘯更劇烈",
+      "orig_title": "BIS Annual Economic Report: AI investment boom could end in a bust, posing systemic risks to global credit markets",
+      "summary": "「央行的央行」國際清算銀行（BIS）6 月 28 日年度報告點名 AI 投資泡沫為全球最大風險之一：超大型雲端業者（hyperscaler）、晶片廠與 AI 實驗室之間形成「複雜的私有循環融資網絡」，若報酬未如預期，可能引發連鎖信用緊縮。2025–2026 年五大超大型業者資本支出合計預計突破 1 兆美元。",
+      "impact": "對你的意義：BIS 的警告意味著 AI 工具服務商（OpenAI、Anthropic、Google 等）的長期定價與存活性面臨系統性不確定；企劃若有長期 AI 工具採購合約，宜評估是否納入供應商信用風險條款；短期內影響有限，但 2027–2028 年可能是觀察點。",
+      "date": "2026-06-28",
+      "source": "Bloomberg / The Next Web",
+      "link": "https://thenextweb.com/news/bis-ai-bust-credit-risk-2008-circular-financing",
+      "link_text": "原文連結"
+    },
+    {
+      "id": "intl-2",
       "category": "work",
-      "title": "Google Play 6月30日起美英歐抽成降至20%，日韓年底跟進",
-      "orig_title": "Google Slashes Play Store Fees Starting June 30 After Epic Games Settlement",
-      "summary": "Epic案全球和解後，Google Play 6月30日起在美英歐將一般抽成從30%降至20%（訂閱降至10%）；費率結構：舊裝置用戶20%、新裝置15%、前$1M訂閱10%；日韓澳12月31日前跟進，全球2027年9月底完成。",
-      "impact": "對你的意義：手遊最重要平台費率即將降低10個百分點，台廠在美英歐市場的每筆IAP利潤立刻增加；需更新財務模型、確認遊戲屬新或舊裝置計費類別，並評估是否同步微調定價策略以把握轉換率提升空間。",
-      "date": "2026-03-04",
+      "title": "Google Play 手續費後天（6/30）正式降至 20%，Epic 和解落地",
+      "orig_title": "Google Play Store commission drops to 20% on June 30 as Epic Games settlement takes effect in US, UK, EEA",
+      "summary": "Epic 訴訟全球和解正式落地，Google Play 標準手續費 6 月 30 日起從 30% 降至 20%，訂閱費從 15% 降至 10%（另加 5% Google Billing 費）；美國、英國、EEA 率先實施，日韓澳 2026 年 12 月跟進，全球化至 2027 年 9 月完成。",
+      "impact": "對你的意義：後天生效——手遊 IAP 有效費率最高可降 10 個百分點。以年收 1 億美元計，相當於多保留 1,000 萬美元；建議今天確認發行商收益分成合約是否自動適用新費率，以及結算系統是否需同步調整。",
+      "date": "2026-06-28",
       "source": "TechCrunch",
       "link": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/",
       "link_text": "原文連結"
     },
     {
-      "id": "intl-2",
-      "category": "strategy",
-      "title": "Anthropic秘密提交S-1（估值$965B）；OpenAI跟進鎖定9月IPO",
-      "orig_title": "Anthropic confidentially files IPO prospectus with SEC; OpenAI files one week later targeting September debut",
-      "summary": "Anthropic 6月1日向SEC秘密提交S-1，年化營收超$47B、估值$965B；OpenAI 6月8日跟進，目標估值$730-850B，鎖定2026年9月由Goldman Sachs與Morgan Stanley主承銷上市。兩家AI頭部公司史上首次同步進入IPO流程。",
-      "impact": "對你的意義：兩大AI平台同步衝刺上市後，財報壓力可能促使費率或服務條款收緊；現有AI工具採購合約若有長期鎖定，宜在IPO前確認條款；同時可追蹤估值倍數，有助理解AI服務定價天花板與競爭格局。",
-      "date": "2026-06-08",
-      "source": "TechCrunch / CNBC",
-      "link": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
-      "link_text": "原文連結"
-    },
-    {
       "id": "intl-3",
       "category": "strategy",
-      "title": "五角大廈列188家中企為「軍事公司」，阿里巴巴提訴，6月30日起禁止國防採購",
-      "orig_title": "Pentagon Bans Alibaba, Baidu, BYD From Defense Contracts June 30: 188 Chinese Firms Now Designated",
-      "summary": "美國國防部6月9日公布史上最大規模名單，將阿里巴巴、百度、BYD、Nio、WuXi等188家中企列為「中國軍事公司」，6月30日起禁止國防採購合約，2027年6月延伸至整個供應鏈。阿里巴巴已提訴，中方強烈抗議。",
-      "impact": "對你的意義：阿里雲、百度AI等中國雲端與AI工具在美國政府合規環境下的風險升高；台廠若服務美國政府機關客戶或相關夥伴，需盤查供應鏈是否觸及名單，評估使用中國工具服務的法律曝險。",
-      "date": "2026-06-09",
-      "source": "Al Jazeera / TechTimes",
-      "link": "https://www.techtimes.com/articles/318267/20260612/pentagon-bans-alibaba-baidu-byd-defense-contracts-june-30-188-chinese-firms-now-designated.htm",
+      "title": "Anthropic Fable 5 封禁 6/26 部分更新：Mythos 5 特定機構可申請授權，Fable 5 仍全面停供",
+      "orig_title": "US Commerce Secretary revises Mythos 5 restrictions to allow licenses for certain approved entities; Fable 5 remains fully suspended",
+      "summary": "美國商務部長 Lutnick 於 6 月 26 日修訂禁令：Mythos 5 向特定核准機構及 Anthropic 外籍員工開放授權申請，但 Fable 5 仍對所有外國用戶全面停供。6 月 12 日最初禁令引發的 AI 模型出口管制先例至今未被撤銷。",
+      "impact": "對你的意義：台灣用戶持續被排除在 Fable 5 存取之外，目前無明確恢復時程。若工作流程仍依賴 Anthropic 旗艦模型，需立刻啟用替代方案（GPT-5、Gemini 3.5 Flash）；更廣泛含意是：AI 出口管制框架已被確認，未來最高性能模型的台灣存取權隨時可能受限。",
+      "date": "2026-06-26",
+      "source": "Fortune / Al Jazeera",
+      "link": "https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/",
       "link_text": "原文連結"
     },
     {
-      "id": "intl-4",
-      "category": "strategy",
-      "title": "美中戰術性協議：稀土管制暫緩一年，出口控制50%附屬規則同步暫停",
-      "orig_title": "US-China tactical deal: Tariffs, tech, and rare earths — a tactical truce, not a strategic shift",
-      "summary": "美中雙方達成戰術性協議：美國暫停一年50%附屬規則出口管制限制；中國則推遲一年對五類額外稀土的管制及境外適用規定。此協議被分析師定性為「戰術停火，非策略轉向」。",
-      "impact": "對你的意義：稀土管制暫緩一年為台灣半導體及電子供應鏈爭取緩衝；但協議有期限，企劃在評估2027年後的製作成本與硬體市場時，需將中美關係重燃風險納入情境規劃。",
-      "date": "近期",
-      "source": "Coface / PIIE",
-      "link": "https://www.coface.com/news-economy-and-insights/us-china-trade-agreement-a-tactical-truce-not-a-strategic-shift",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "intl-5",
       "category": "industry",
-      "title": "騰訊、網易、米哈遊押注遊戲AI；米哈遊2026年全球營收媲美歐美頂廠",
-      "orig_title": "Who Will Rule the AI Games Era? Tencent, NetEase, and Mihoyo in a Covert Technological Battle",
-      "summary": "騰訊推出Hunyuan遊戲視覺生成平台；米哈遊以即時多模態對話重構敘事邏輯；2026年米哈遊全球營收再創高峰，已媲美歐美頂級遊戲廠商。中國遊戲市場2025年銷售額達3508億元創歷史新高，三大廠AI投入持續加碼。",
-      "impact": "對你的意義：中國頂級廠商在遊戲AI應用的深度已遠超業界平均；AI驅動的敘事與視覺生成將成為下一波差異化門檻，台廠需評估在企劃流程中引入生成式AI工具的時程，否則競爭力差距將持續擴大。",
-      "date": "近期",
-      "source": "36Kr / Yahoo Finance",
-      "link": "https://eu.36kr.com/en/p/3394131222956417",
+      "title": "Gemini 3.5 Pro 跳票延至 7 月，Google 承認延遲、企業版限量預覽中",
+      "orig_title": "Google delays Gemini 3.5 Pro general availability to July 2026; enterprise limited preview active on Vertex AI",
+      "summary": "Google 在 5 月 I/O 大會承諾 6 月 GA 的 Gemini 3.5 Pro 截至 6 月底仍未公開；目前僅少數企業客戶可透過 Vertex AI 限量存取。Google 官方確認延至 7 月，主打 2M token 上下文與 Deep Think 推理能力。",
+      "impact": "對你的意義：暫緩 Gemini 3.5 Pro 的導入計劃至 7 月正式評估；現有工作流程可繼續使用 Gemini 3.5 Flash（已 GA，每百萬 token $1.50/$9.00），避免為等待 Pro 版而卡住進度。",
+      "date": "2026-06-28",
+      "source": "CryptoBriefing",
+      "link": "https://cryptobriefing.com/google-delays-gemini-35-pro-launch-to-july-2026/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "OpenAI 保密申請 IPO，估值 7,300 億美元，最快 9 月掛牌",
+      "orig_title": "OpenAI preparing confidential IPO filing targeting September 2026, private market valuation at $730 billion",
+      "summary": "OpenAI 正準備向 SEC 保密提交 IPO 申請，最快 9 月掛牌，私募估值 7,300 億美元；6 月 22 日同步收購 AI 程式工具新創 Ona，以強化 Codex 平台。Anthropic 稍早已於 6 月 1 日提交 S-1，年化營收超 470 億美元、估值達 9,650 億美元。",
+      "impact": "對你的意義：兩大 AI 平台同步衝刺 IPO 後，財報壓力可能促使費率或服務條款收緊；Codex 強化意謂 AI 輔助程式（遊戲腳本、工具開發）能力持續進步，建議 Q3 追蹤 Codex 對遊戲開發工作流程的實際效益。",
+      "date": "2026-06-22",
+      "source": "Fortune / LLM Stats",
+      "link": "https://llm-stats.com/llm-updates",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "NCsoft Aion 2 確認 9 月全球 PC 上線，手機版僅限台韓",
+      "orig_title": "NCsoft confirms Aion 2 global PC-only launch in September 2026; mobile cross-play excluded from global build",
+      "summary": "NCsoft 宣布 Aion 2 全球版 9 月上線，支援北美、南美、歐洲、亞洲伺服器及 10 種語言；全球版為 PC Only，台韓版本的手機跨平台玩法不納入全球發布。台韓玩家已於 2025 年 11 月率先體驗，反應熱烈。",
+      "impact": "對你的意義：Aion 2 全球版剝離手機支援，顯示高品質 MMORPG 在非亞洲市場 PC/Mobile 分市策略仍是主流；台灣玩家先行體驗的反應可作為高品質幻想 MMORPG IP 手遊化可行性的參考，9 月全球版上線後留存數據值得追蹤。",
+      "date": "2026-06-05",
+      "source": "Massively Overpowered",
+      "link": "https://massivelyop.com/2026/06/05/ncsoft-just-announced-aion-2-is-launching-globally-in-september/",
       "link_text": "原文連結"
     }
   ]
