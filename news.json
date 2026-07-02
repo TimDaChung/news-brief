@@ -1,105 +1,124 @@
 {
-  "date": "2026-06-30",
-  "weekday": "週二",
+  "date": "2026-07-01",
+  "weekday": "週三",
   "must_read": [
     {
-      "title": "Google Play 三成抽成今日正式終結，美英EEA生效",
-      "hint": "昨日「明日」現在「今日」——IAP毛利+10%已從預期變為現實，確認費率並更新財測",
+      "title": "Anthropic 發布 Claude Sonnet 5，Fable 5 全球解禁",
+      "hint": "最具代理能力的 Sonnet 大升級，出口管制解除後 Fable 5 同日重新上線，8/31 前享促銷定價",
       "article_id": "must-1"
     },
     {
-      "title": "HoYoverse首次以「收集策略」取代卡池，測試競品付費架構",
-      "hint": "米哈遊大規模測試非Gacha新作，若成功將成業界付費設計的新示範",
+      "title": "Google Play 抽成大降：新裝置最低 10%，6/30 已生效",
+      "hint": "全球首次大幅調降，手遊開發商毛利結構迎來歷史性轉機",
       "article_id": "must-2"
     },
     {
-      "title": "企業AI工具預算壓力白熱化：Token成本已是財務問題",
-      "hint": "Uber四個月耗盡全年AI預算，Lindy棄Claude轉DeepSeek——分層策略已不是選項而是必須",
+      "title": "英國 CMA 擬強制開放 App Store 引導付款，Apple/Google 抽成格局將變",
+      "hint": "監管要求引導費需低於現行抽成，若成形將影響全球手遊計費架構",
       "article_id": "must-3"
     }
   ],
   "tw": [
     {
       "category": "industry",
-      "title": "台灣成熟製程迎第三波漲價潮，效應延伸至2027年",
-      "summary": "AI需求持續排擠成熟製程產能，晶圓代工廠將8吋與12吋產線轉向AI相關產品。6月30日多份研調機構（TechNews、壹蘋、非凡）確認：8吋已累計漲5-15%，12吋下半年醞釀5-10%調漲，漲價效應可望持續至2027年。",
-      "impact": "對你的意義：台廠後端伺服器晶片與嵌入式元件成本將隨代工漲價連動，雲端廠商採購壓力轉嫁風險升高。下半年評估雲端方案合約時，優先考慮鎖定長約或預購以規避持續漲幅；AI推論成本短期難以下行。",
-      "date": "2026-06-30",
-      "source": "TechNews 科技新報",
-      "link": "https://finance.technews.tw/2026/06/30/ai-foundry-to-2027"
+      "title": "鴻海×Intel 戰略合作，共同打造次世代 AI 基礎設施平台",
+      "summary": "鴻海精密宣布與 Intel 策略合作，共同研發 AI Rack、Edge AI 與 Physical AI 平台，結合 Intel 18A 製程 Xeon 6+ 晶片與鴻海系統整合能力，並於 Computex 2026 聯合展示機架級 AI 基礎設施。",
+      "impact": "台灣硬體龍頭切入 AI 基礎設施建置，代表台廠在 AI 算力供應鏈的話語權正在提升；短期對手遊直接影響有限，但台灣 AI 生態整體提升有助於雲端推論成本長期下行。",
+      "date": "2026-06-05",
+      "source": "Hon Hai / TechNode",
+      "link": "https://technode.com/2026/06/05/foxconn-intel-partner-to-develop-next-generation-ai-infrastructure/",
+      "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "台灣手遊用戶輕度化確認：77%手機優先，課金集中300-1000元",
-      "summary": "資策會MIC調查：台灣69%網友玩數位遊戲，77%以手機為主平台，輕度遊玩風氣崛起。課金行為集中於月費300-1000元區間。暑期旺季訊號出現，兆豐等研調指出Q3為遊戲產業傳統強季。",
-      "impact": "對你的意義：台灣手遊基本盤穩固但用戶輕度化趨勢明顯，課金天花板偏低。暑期活動與付費設計應優先對焦300-1000元區間，避免過度依賴高付費族群；可測試低門檻訂閱制或限時活動包，提高中段課金轉換率。",
-      "date": "近期",
-      "source": "資策會MIC / 兆豐投顧",
-      "link": "https://mic.iii.org.tw/news.aspx?id=683"
+      "title": "TSMC CEO：AI 晶片供需缺口將持續數年，2026 年資本支出上看 560 億美元",
+      "summary": "台積電 CEO 魏哲家表示 AI 晶片需求已遠超現有產能，供給緊缺局面預計延續數年。公司 2026 年資本支出規劃 520–560 億美元，全年美元營收預計成長逾 30%，市值已升至全球前十。",
+      "impact": "晶片供給持續受壓，可能推升遊戲主機與高階手機的零組件成本，間接影響玩家端硬體普及速度；台廠 AI 供應鏈緊繃也是評估雲端算力租用成本的重要背景。",
+      "date": "2026-06-05",
+      "source": "Bloomberg / Taipei Times",
+      "link": "https://www.taipeitimes.com/News/biz/archives/2026/06/05/2003858537",
+      "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "香港SFC強化帳戶管控、防偽造文件與洗錢風險措施",
-      "summary": "香港證監會（SFC）發布最新通函（26PR72/26EC29），要求持牌法團在開立帳戶與維持客戶關係時強化監控措施，重點針對偽造文件識別及洗錢風險。此為2026年監管強化系列措施的一部分。",
-      "impact": "對你的意義：香港市場合規門檻持續升高；若公司評估港資路線、香港平台上市或與香港金融機構合作，需提前確認客戶盡職調查流程符合最新要求，避免帳戶審核延誤影響上市或合作時程。",
+      "title": "香港 SFC 推出 VATP 代幣化資產交易框架，貨幣市場基金先行",
+      "summary": "香港證監會推出全球首個 VATP 代幣化資產交易框架，首階段開放授權貨幣市場基金，並同步推出「CrypTech」監管科技計畫，涵蓋自動申報、AML 即時監控與市場操控偵測，逐步擴展至全類授權產品。",
+      "impact": "香港持續搶佔虛擬資產監管高地，若遊戲道具或數位收藏品屬性涉及虛擬資產定義，香港合規框架將是台港澳市場的重要法規參考，需追蹤後續適用範圍擴張。",
       "date": "近期",
-      "source": "香港證監會",
-      "link": "https://apps.sfc.hk/edistributionWeb/gateway/TC/news-and-announcements/news/doc?refNo=26PR72"
+      "source": "ABMedia / SFC",
+      "link": "https://abmedia.io/hk-sfc-vatp-tokenized-asset-trading-framework-2026",
+      "link_text": "原文連結"
     }
   ],
   "intl": [
     {
       "id": "must-1",
       "category": "work",
-      "title": "Google Play 三成抽成今日正式終結：美英EEA生效降至20%",
-      "orig_title": "Google Slashes Play Store Fees Starting June 30 After Epic Games Settlement",
-      "summary": "Google與Epic Games和解後，Play Store抽成自2026年6月30日起在美國、英國、EEA正式降至20%（訂閱降至10%）；澳洲9月、韓日年底、全球至2027年9月陸續跟進。使用Google帳單系統者另加5%服務費。",
-      "impact": "對你的意義：若遊戲在美/英/EEA有Android銷售，每筆IAP毛利即時提升10%、訂閱收益提升5%——今日生效，不是預期而是現實。需立即確認Google Play Console是否已套用新費率，並更新下半年財務預測。韓日玩家尚需等至年底。",
-      "date": "2026-06-30",
-      "source": "TechCrunch / LiveNewsChat",
-      "link": "https://livenewschat.eu/google-play-store-fees-cut-epic-games-settlement-2026/"
+      "title": "Anthropic 發布 Claude Sonnet 5，Fable 5 與 Mythos 5 全球解禁",
+      "orig_title": "Anthropic Releases Claude Sonnet 5 With Near-Opus Performance, Restores Fable 5 and Mythos 5 After US Lifts Export Controls",
+      "summary": "Anthropic 於 7 月 1 日同步發布 Claude Sonnet 5（接近 Opus 4.8 水準，原生 1M token 上下文，多步驟規劃與工具使用顯著強化），並恢復 Fable 5 與 Mythos 5 全球供應——兩模型因 6 月 12 日安全漏洞下架後，美方解除出口管制即日重新開放。Sonnet 5 促銷定價 $2/$10 per M token，8 月 31 日前有效。",
+      "impact": "Claude Sonnet 5 是目前性價比最高的 Agentic 模型，適合自動化遊戲文案、劇情生成、多步驟資料分析；促銷期內大量使用可顯著壓低 AI 工具成本。Fable 5 全球恢復後，最強推理能力重新可用，值得評估整合至現有工作流程。",
+      "date": "2026-07-01",
+      "source": "Anthropic / gHacks Tech News",
+      "link": "https://www.ghacks.net/2026/07/01/anthropic-releases-claude-sonnet-5-with-near-opus-performance-restores-fable-5-and-mythos-5-after-us-lifts-export-controls/",
+      "link_text": "原文連結"
     },
     {
       "id": "must-2",
-      "category": "industry",
-      "title": "HoYoverse《崩壞：Nexus Anima》7月9日進化測試，首次大規模測試非Gacha付費模型",
-      "orig_title": "HoYoverse reveals new Honkai Nexus Anima updates, second Evolution Test recruitment begins",
-      "summary": "米哈遊宣布《崩壞：Nexus Anima》第二輪進化測試7月9日於PC/iOS/Android啟動，6月22日開放報名至7月3日。本作以寶可夢式收集+策略對戰為核心，為米哈遊首次大規模測試非Gacha主導型付費模型，脫離傳統卡池架構。",
-      "impact": "對你的意義：米哈遊IP影響力龐大，若本作測試顯示「收集成就感」可取代「抽卡稀缺感」驅動付費，業界付費設計將出現示範效應；台港澳市場高度依賴米哈遊競品動態，建議追蹤測試期間玩家留存率與課金數據，判斷此模型是否具可複製性。",
-      "date": "2026-06-27",
-      "source": "PocketGamer.biz",
-      "link": "https://www.pocketgamer.biz/hoyoverses-new-game-honkai-nexus-anima-gets-closed-beta-test-in-july/"
-    },
-    {
-      "category": "industry",
-      "title": "Anthropic $965B估值秘密申報IPO，AI工具生態進入資本化轉折",
-      "orig_title": "Anthropic confidentially files for IPO after raising $65 billion at a $965 billion valuation",
-      "summary": "Anthropic於6月1日完成$650億Series H融資，投後估值達$9650億（超越OpenAI的$8520億），並秘密向SEC申報IPO，目標10月在Nasdaq掛牌，募資逾$600億。年化收益達$470億，企業客戶高速成長。",
-      "impact": "對你的意義：Anthropic進入IPO備戰期，為鎖定企業客戶可能短期提供更優渥方案；上市後財報壓力則可能促使API定價收緊。未來6個月是談判優惠企業合約的關鍵窗口——建議主動詢問enterprise方案，鎖定長期優惠價格。",
-      "date": "2026-06-01",
-      "source": "Fortune / CNBC",
-      "link": "https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/"
+      "category": "work",
+      "title": "Google Play 新費率 6/30 生效：首百萬美元收益抽 10%，超標新裝置 20%",
+      "orig_title": "Google Slashes Play Store Fees: New Installs Start at 10%, Alternative Billing Goes Live in US, UK, EEA on June 30",
+      "summary": "Google Play 全新費率自 6 月 30 日起於美國、英國、歐洲經濟區正式生效。全年首 100 萬美元收益統一 10%；超過後新裝置安裝 20%、既有裝置 15%；若使用 Google Play 原生計費另加 5% 處理費；訂閱類降至 10%。澳洲 9 月 30 日跟進。",
+      "impact": "手遊開發商毛利結構重大改善機會：中小型遊戲可從原本 30% 降至 10–15%。應立即確認自家遊戲適用費率層級，並評估引入 Alternative Billing 是否進一步降費；同時更新財務模型與 LTV 試算，這是近年最重要的平台費率結構變化。",
+      "date": "2026-06-30",
+      "source": "Android Developers Blog / Engadget",
+      "link": "https://android-developers.googleblog.com/2026/06/play-expanded-billing.html",
+      "link_text": "原文連結"
     },
     {
       "id": "must-3",
-      "category": "strategy",
-      "title": "企業AI支出轉向效率優先：Uber四個月耗盡全年預算，Lindy棄Claude轉DeepSeek",
-      "orig_title": "OpenAI and Anthropic face new AI reality as users shift from 'tokenmaxxing' to efficiency",
-      "summary": "CNBC報導企業AI使用成熟化：Uber在5000名工程師導入Claude Code後四個月耗盡全年AI工具預算；AI新創Lindy全面棄Claude轉DeepSeek，成本「如懸崖式下跌」節省數百萬；企業管理層開始設定Token用量上限，tokenmaxxing時代終結。",
-      "impact": "對你的意義：AI工具Token成本已是真實財務壓力。建議建立分層使用策略：高頻輕量任務（文案草稿、測試腳本、客服模版）用低成本或開源模型，核心產品設計與玩家體驗分析保留旗艦模型；同時在採購前評估Token用量基線，避免如Uber般四個月透支全年預算。",
-      "date": "2026-06-26",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html"
+      "category": "work",
+      "title": "英國 CMA 啟動諮詢，擬強制 Apple/Google 開放引導付款機制並開放 NFC",
+      "orig_title": "UK CMA Consults on New Requirements for Apple and Google's Mobile Platforms Including Steering and NFC Access",
+      "summary": "英國競爭及市場管理局（CMA）於 6 月 30 日發布諮詢，擬要求 Apple 與 Google 移除禁止開發者「引導（steering）」用戶至平台外付款的規定，且引導費應低於現行 App Store 抽成。同時擬要求 Apple 開放 NFC 功能給第三方支付及數位身分應用。諮詢截止日 7 月 28 日。",
+      "impact": "若規定成形，iOS/Android 手遊可合法引導玩家至自建網頁結帳，有效規避 30% 抽成，直接提升毛利。應追蹤 7 月 28 日後 CMA 正式決定，並提前評估自建支付頁面的可行性與 UX 設計；此機制一旦歐美齊推，亞太跟進壓力將快速上升。",
+      "date": "2026-06-30",
+      "source": "The Register / UK CMA",
+      "link": "https://www.theregister.com/applications/2026/06/30/uk-regulator-wants-apple-and-google-to-let-devs-steer-clear-of-app-store-fees/5264370",
+      "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "美中關稅減免及稀土出口管制暫停延伸至2026年11月",
-      "orig_title": "US-China trade deal extends tariff reductions and export control suspension through November 2026",
-      "summary": "美中雙方維持關稅減免協議至2026年11月10日，同步暫停BIS「Affiliates Rule」及中方稀土出口管制。美國對中商品平均實際關稅仍約30%，為各主要夥伴中最高，結構性緊張未解除。",
-      "impact": "對你的意義：台廠半導體供應鏈對美出口合規壓力短期降低，採購方案可維持現行路徑；但11月後條款自動恢復，下半年採購計劃應預留替代供應方案，避免完全依賴此緩衝窗口。7月6日美USTR公眾意見截止是後續觀察節點。",
+      "title": "USMCA 六週年首次聯合審查啟動：美方拒絕原樣續約，協議進入不確定期",
+      "orig_title": "USMCA Joint Review Begins July 1: US Refuses Renewal in Current Form, Agreement Remains in Force Pending Resolution",
+      "summary": "USMCA 於 7 月 1 日正式啟動六週年強制聯合審查，美墨加三方完成虛擬會議後，美方宣布不接受協議現行形式續約。協議暫時維持效力，談判持續；下一輪美墨協商預計 7 月 20 日於墨西哥城進行，議題含汽車原產地規則、鋼鋁貿易與經濟安全條款。",
+      "impact": "USMCA 前景不確定，對台灣出口至北美的半導體、電子消費品構成間接風險變數。若談判破局導致關稅重組，台系供應商成本結構將受壓；短期影響有限，但供應鏈分散化壓力將加速。",
+      "date": "2026-07-01",
+      "source": "USTR / Brookings",
+      "link": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ambassador-greer-issues-statement-usmca-joint-review",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "米哈遊《原神》6.7 版角色卡池公布，《崩壞：星穹鐵道》4.4 版 Fate 聯動即將揭曉",
+      "orig_title": "Genshin Impact 6.7 Character Banners Revealed; Honkai: Star Rail 4.4 Fate/stay night Collab Preview Set for July 3",
+      "summary": "米哈遊於 6 月 29 日公布《原神》6.7 版五星與四星角色活動卡池陣容；《崩壞：星穹鐵道》4.4 版前瞻將於 7 月 3 日公開，預計揭露 Fate/stay night 聯動細節。",
+      "impact": "米哈遊以高頻版本更新維持玩家黏著度，Fate IP 聯動若引發話題熱度，可作為台灣手遊 IP 授權聯動策略的參考樣本；觀察玩家社群反應有助於評估類似合作的吸引力與風險。",
+      "date": "2026-06-29",
+      "source": "iXBT Games / HoYoLAB",
+      "link": "https://ixbt.games/en/news/2026/06/29/bannery-personazei-genshin-impact-67-mihoyo-raskryla-piati-i-cetyrexzvezdocnyx-geroev.html",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "韓國遊戲廠積極全球化：Netmarble 六款手遊海外年收超億美元，2026 年大作攻勢啟動",
+      "orig_title": "Korean Game Companies Zero In on Global Market; Netmarble Leads with Six Titles Earning $100M+ Overseas",
+      "summary": "韓媒報導，NCSOFT、Netmarble、Nexon 等韓國遊戲大廠加速全球佈局；Netmarble 2024 年前十月有六款手遊進入韓廠海外收益前十，其中五款各累積逾一億美元海外收益。韓國行動遊戲市場 2026 年整體規模預估逾 200 億美元，各廠均部署高預算新作衝全球排名。",
+      "impact": "韓廠 IP 與代理模式日趨成熟，對台灣手遊市場形成直接競爭壓力；了解韓廠主推作品與全球化節奏，有助於評估競品威脅程度與台灣本土產品的差異化切入點。",
       "date": "近期",
-      "source": "Tax Foundation / China Briefing",
-      "link": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
+      "source": "Korea Herald / The Investor",
+      "link": "https://www.koreaherald.com/article/10402202",
+      "link_text": "原文連結"
     }
   ]
 }
