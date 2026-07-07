@@ -1,79 +1,74 @@
 {
-  "date": "2026-07-05",
-  "weekday": "週日",
+  "date": "2026-07-06",
+  "weekday": "週一",
   "must_read": [
-    { "title": "台灣《虛擬資產服務法》三讀通過", "hint": "加密平台升格FSC許可制，穩定幣須100%法幣準備金，12個月過渡期", "article_id": "must-1" },
-    { "title": "Fable 5出口管制解除，Anthropic全球重開", "hint": "最強Claude模型回歸，新增網路安全分類器後可恢復工作使用", "article_id": "must-2" },
-    { "title": "台積電Q2法說7/16，靜默期今起開跑", "hint": "Q2營收引導390–402億美元，AI算力需求持續強勁", "article_id": "must-3" }
+    { "title": "Anthropic 發布 Claude Sonnet 5：Agent 旗艦、CP 值最高", "hint": "可自主操作瀏覽器與終端機，效能近 Opus 4.8，優惠期 $2/$10/M token", "article_id": "must-1" },
+    { "title": "騰訊暑期未成年防沉迷升級：AI 雙引擎＋每週限玩 3 小時", "hint": "進中國市場的合規底線，AI 聲紋驗證已成業界標配", "article_id": "must-2" },
+    { "title": "HoYoverse 三年投 160 億美元全棧 AI 自研", "hint": "從 API 租用跳到自建基礎模型，手遊個性化體驗將形成資本壁壘", "article_id": "must-3" }
   ],
   "tw": [
     {
-      "id": "must-1",
+      "id": "must-2",
       "category": "work",
-      "title": "台灣《虛擬資產服務法》三讀通過，加密平台需取得FSC許可",
-      "summary": "立法院2026年6月30日三讀通過《虛擬資產服務法》，虛擬資產業者從AML登記制升格為「事前許可制」，穩定幣發行商須在台灣銀行維持100%法幣準備金並禁止支付利息；違法經營最高7年有期徒刑、罰款新台幣1億元；現有業者有12個月過渡期申請許可、21個月完成FSC全部核准。",
-      "impact": "對你的意義：台灣加密支付生態即將重組，若有整合Web3支付或NFT市場的手遊計畫，需在12個月內評估合規路徑；穩定幣禁利息條款限縮了遊戲代幣設計空間，需提前與法務確認架構；此法也讓台灣監管框架與香港、新加坡接軌，長期利於合法加密支付進入遊戲IAP。",
-      "date": "2026-06-30",
-      "source": "CoinDesk / Taipei Times",
-      "link": "https://www.coindesk.com/policy/2026/07/01/taiwan-s-sweeping-crypto-law-raises-the-bar-with-licensing-reserve-mandates-and-tough-penalties",
-      "link_text": "原文連結"
+      "title": "騰訊暑期啟動 AI 雙引擎防沉迷：未成年每週限玩 3 小時、聲紋驗證防代過",
+      "summary": "騰訊宣布 2026 暑期未成年人保護專項行動：未成年僅可在週五六日晚 8–9 點登入，每週累計 3 小時；首次導入「AI 雙引擎」，加入聲紋識別、年齡特徵偵測、代過行為分析等多模態驗證，防堵借帳號或長輩協助繞過的情況。",
+      "impact": "對你的意義：進中國市場需在技術規格中納入 AI 身份核驗接口、成人／未成年分層邏輯與充值限額設計；AI 多模態驗證已是業界標配方向，此類「信任層」設計也值得拆解應用於防刷單或帳號安全。",
+      "date": "2026-07-03",
+      "source": "星島日報",
+      "link": "https://www.singtaousa.com/2026/07/03/news/china/tencent-minors-gaming-time-limit/"
     },
     {
-      "id": "must-3",
       "category": "industry",
-      "title": "台積電Q2財報法說訂7月16日，靜默期7/6起，全年美元營收預增逾三成",
-      "summary": "台積電Q2 2026財報法說會訂於7月16日，靜默期7月6日至15日正式啟動；Q2營收引導390–402億美元，毛利率65.5–67.5%，全年美元營收成長引導逾三成；Q1已年增40.6%，AI算力需求為核心驅動力。",
-      "impact": "對你的意義：台積電財測持續強勁，顯示AI推論晶片需求未見衰退；未來1–2年雲端AI推論成本可望因產能擴張而下降，有助評估遊戲內即時AI功能（NPC對話、內容生成）的落地時程；7/16法說是本季AI硬體供應鏈最重要的前瞻指引。",
+      "title": "台積電：2030 年全球半導體市場破 1.5 兆美元，HPC 占比達 55%",
+      "summary": "台積電 7/6 最新預測，2030 年全球半導體市場規模將突破 1.5 兆美元，高效能運算（HPC）占比達 55%；2026 年市場已將突破 1 兆美元，2nm 製程 2026–2028 年複合成長率達 70%，CoWoS 先進封裝 2022–2027 年 CAGR 超 80%。",
+      "impact": "對你的意義：AI 算力紅利持續推動高階行動晶片溢價，旗艦機型普及速度將拉長；中階機型仍是手遊主戰場，圖形效能規格規劃需預留 2–3 年緩衝，避免過度依賴高端設備功能。",
       "date": "2026-07-06",
-      "source": "TSMC Investor Relations / Manufacturing Dive",
-      "link": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "香港SFC發圓規：AI網攻風險升級，持牌機構須強化資安框架",
-      "summary": "香港SFC於2026年6月2日向持牌法人及虛擬資產服務商發出通函，要求因應AI賦能的網路攻擊急速升級，提升資安措施及AI相關的系統風險管理框架，並強化資產保護機制。",
-      "impact": "對你的意義：若計劃在港設立金融功能（如虛擬資產交易、NFT二級市場），AI資安合規要求已大幅提高；SFC此舉預告後續對VA服務商的資安標準查核力度，是進港布局前需納入的合規成本估算因素。",
-      "date": "2026-06-02",
-      "source": "Simmons & Simmons",
-      "link": "https://www.simmons-simmons.com/en/publications/cmk26uzl405oevlz0v7q9xpkd/eight-hong-kong-regulatory-developments-for-2026",
-      "link_text": "原文連結"
+      "source": "TechNews 科技新報",
+      "link": "https://technews.tw/2026/07/06/tsmc-semiconductor-market-1-5-trillion-2030/"
     }
   ],
   "intl": [
     {
-      "id": "must-2",
+      "id": "must-1",
       "category": "work",
-      "title": "Fable 5出口管制解除，Anthropic全球重新部署並加入安全分類器",
-      "orig_title": "Anthropic restores Claude Fable 5 globally after U.S. lifts export control order",
-      "summary": "美國政府6月30日解除對Claude Fable 5及Mythos 5的出口管制（起因：6月12日研究員發現越獄漏洞導致緊急下架），Anthropic於7月1日全球重新部署，並新增針對網路安全任務的分類器；Pro/Max/Team方案7月7日前每週可使用50%額度，之後改為使用點數制。",
-      "impact": "對你的意義：Fable 5是目前最強的Claude模型（超越Mythos 4.8），可重新用於文案生成、關卡設計輔助、玩家回饋分析、多語本地化等工作流；新增的網路安全任務限制不影響一般遊戲開發任務，7月7日前有50%額度優惠視窗，可安心恢復並建立使用情境。",
-      "date": "2026-07-01",
-      "source": "The Hacker News / VentureBeat",
-      "link": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
-      "link_text": "原文連結"
+      "title": "Anthropic 發布 Claude Sonnet 5：近 Opus 4.8 效能的 Agent 旗艦，售價大幅降低",
+      "orig_title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+      "summary": "Anthropic 6/30 發布 Claude Sonnet 5，定位最具 Agent 能力的 Sonnet 模型，可自主操作瀏覽器與終端機執行複雜工作流程；效能接近 Opus 4.8，優惠期售價輸入 $2/百萬 token、輸出 $10（至 8/31），8/31 後調整為 $3/$15，已成 Free 與 Pro 預設模型。",
+      "impact": "對你的意義：Sonnet 5 是目前 CP 值最高的 Agent 模型——競品資料自動整理、在地化品質審核、版本企劃文件生成都可接入；建議本月在 Claude Code 或 API 試用，與 Opus 4.8 做 benchmark 後制定內部採用策略。",
+      "date": "2026-06-30",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/"
     },
     {
+      "id": "must-3",
       "category": "industry",
-      "title": "Summer Game Fest 2026：Bandai Namco Code Vein II正式上市，Blood of Dawnwalker新預告",
-      "orig_title": "Summer Game Fest 2026: Code Vein II launches on PS5/Xbox/PC; Blood of Dawnwalker new trailer",
-      "summary": "Bandai Namco於Summer Game Fest 2026期間正式推出Code Vein II（PS5 / Xbox Series X|S / PC Steam），並發布The Blood of Dawnwalker新預告片；本季焦點亦包含Nintendo Switch 2新款Splatoon及刺客教條：黑旗重製版。",
-      "impact": "對你的意義：Code Vein II以黑暗動作RPG定位驗證Bandai Namco日系IP在主機端的持續號召力；SFG 2026日系大廠主機陣容強勁，若有IP授權或移植合作的評估計畫，這是本季度洽談的重要參考節點，亞洲市場相關IP代理機會值得追蹤。",
-      "date": "2026-07-05",
-      "source": "GamesRadar / Bandai Namco Entertainment",
-      "link": "https://www.bandainamcoent.com/news",
-      "link_text": "原文連結"
+      "title": "HoYoverse 宣布三年投入 160 億美元全棧 AI 自研，目標「千人千面」即時生成",
+      "orig_title": "HoYoverse signals full-stack AI push with $16B investment over three years",
+      "summary": "米哈遊（HoYoverse）5 月宣布三年內投入最高 1000 億人民幣（約 160 億美元）全棧 AI 自研，涵蓋基礎模型訓練、推理算力到遊戲應用層，目標打造根據玩家行為即時生成不同遊戲體驗的「千人千面」系統，已推進至自訓核心 AI 代碼階段。",
+      "impact": "對你的意義：HoYoverse 從「租用外部 AI API」轉向全棧自研，未來遊戲體驗個性化將形成資本壁壘；中小廠的對應策略是加速整合開源模型（如 LLaMA、Mistral）微調應用，在 NPC 對話、動態難度、個人化活動設計上取得差異化，避免正面競爭。",
+      "date": "2026-05-15",
+      "source": "Inven Global",
+      "link": "https://www.invenglobal.com/articles/21988/hoyoverse-to-invest-16-billion-over-next-three-years-aiming-for-full-stack-ai"
     },
     {
       "category": "strategy",
-      "title": "NCSoft正式更名NC，Netmarble斥資1500億韓元增持Coway家電持股",
-      "orig_title": "NCSoft rebrands to NC; Netmarble invests ₩150B to increase Coway stake amid mobile gaming diversification",
-      "summary": "NCSoft於2026年4月正式更名為「NC」，象徵公司向多元數位娛樂轉型；Netmarble同期追加1500億韓元增持韓國家電租賃龍頭Coway股權（原持26.13%），持續推動遊戲以外的收益多角化；韓國手遊買量成本2025年同比上升22%。",
-      "impact": "對你的意義：韓國頭部手遊廠商集體尋求非遊戲收益，顯示手遊市場成長放緩帶來的資本策略轉向；買量成本上升22%對中小型台廠壓力更大，需更精準的LTV模型與用戶分群策略；韓廠若收縮遊戲投入，可能釋出IP授權或共同開發機會。",
-      "date": "2026-04-02",
-      "source": "Korea Herald / The Investor",
-      "link": "https://www.koreaherald.com/article/10402202",
-      "link_text": "原文連結"
+      "title": "USTR 對 60 國提 Section 301 強迫勞動關稅（10–12.5%），7/6 截止意見、7/7 聽證",
+      "orig_title": "USTR Proposes Section 301 Tariffs on 60 Countries for Failure to Act on Forced Labor",
+      "summary": "美國 USTR 6/2 啟動對 60 國的 Section 301 強迫勞動調查，7/6 截止公眾書面意見，7/7 起舉行公開聽證；無強迫勞動禁令的國家擬加徵 12.5% 關稅、有部分機制者為 10%，中國、越南、東南亞供應鏈均在範圍。",
+      "impact": "對你的意義：純數位手遊直接影響有限，但若涉及硬體周邊或代工廠供應鏈，需評估 10–12.5% 額外成本轉嫁；更大意義在於貿易政策不確定性持續升高，東南亞設廠替代方案的成本試算值得提前備好。",
+      "date": "2026-07-06",
+      "source": "International Trade Insights",
+      "link": "https://www.internationaltradeinsights.com/2026/06/ustr-proposes-301-tariffs-on-60-countries-following-forced-labor-findings-requests-comments-before-july-7th-hearing/"
+    },
+    {
+      "category": "industry",
+      "title": "OpenAI 自研 Jalapeño 推理晶片亮相，AI 基礎設施垂直整合競賽加速",
+      "orig_title": "OpenAI announces custom Jalapeño inference chip as AI infrastructure race accelerates",
+      "summary": "OpenAI 7/1 宣布自研推理晶片 Jalapeño，旨在降低對 NVIDIA 的依賴與推論成本；同期 Blackstone 宣布在日本投入 300 億美元建 AI 資料中心，Qualcomm 以 40 億美元收購 AI 新創 Modular，AI 基礎設施競賽全面加速。",
+      "impact": "對你的意義：AI 推理晶片自研化使推理成本趨勢長期向下，遊戲內 AI 角色對話、動態任務生成等功能的部署成本將持續降低；若 OpenAI 將 Jalapeño 優勢反映在 API 定價，GPT 系列性價比將進一步提升，值得持續觀察定價走勢。",
+      "date": "2026-07-01",
+      "source": "Fortune",
+      "link": "https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/"
     }
   ]
 }
