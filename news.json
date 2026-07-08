@@ -1,74 +1,133 @@
 {
-  "date": "2026-07-06",
-  "weekday": "週一",
+  "date": "2026-07-07",
+  "weekday": "週二",
   "must_read": [
-    { "title": "Anthropic 發布 Claude Sonnet 5：Agent 旗艦、CP 值最高", "hint": "可自主操作瀏覽器與終端機，效能近 Opus 4.8，優惠期 $2/$10/M token", "article_id": "must-1" },
-    { "title": "騰訊暑期未成年防沉迷升級：AI 雙引擎＋每週限玩 3 小時", "hint": "進中國市場的合規底線，AI 聲紋驗證已成業界標配", "article_id": "must-2" },
-    { "title": "HoYoverse 三年投 160 億美元全棧 AI 自研", "hint": "從 API 租用跳到自建基礎模型，手遊個性化體驗將形成資本壁壘", "article_id": "must-3" }
+    { "title": "Google Play全球降抽成至20%，訂閱降至10%", "hint": "韓日年底跟進——手遊發行成本結構洗牌，IAP定價需重新評估", "article_id": "must-1" },
+    { "title": "台灣《虛擬資產服務法》三讀通過，最快2027年Q1施行", "hint": "遊戲代幣、NFT道具、穩定幣儲值納許可制，現在是準備窗口", "article_id": "must-2" },
+    { "title": "中國開源AI GLM-5.2接近Claude Opus 4.8，成本僅1/5", "hint": "遊戲AI工具自建門檻快速下降，是選型評估的重要節點", "article_id": "must-3" }
   ],
   "tw": [
     {
       "id": "must-2",
+      "category": "strategy",
+      "title": "台灣《虛擬資產服務法》立法院三讀通過，最快2027年Q1施行",
+      "summary": "立法院2026年6月30日三讀通過《虛擬資產服務法》，將VASP監管從「登記制」全面升格為「許可制」，新增穩定幣發行、投資人保護專章；詐欺或操縱市場最重罰2億元，金管會完成9項子法後正式施行。",
+      "impact": "對你的意義：若手遊未來涉及遊戲代幣跨鏈、NFT道具或穩定幣儲值，預計2027年起須取得金管會許可。現在是研究法規分類（交換、保管、承銷等七類執照）、評估是否需要申請的最佳準備窗口，避免上線後被迫補正。",
+      "date": "2026-06-30",
+      "source": "中央社 CNA",
+      "link": "https://www.cna.com.tw/news/aipl/202606300063.aspx",
+      "link_text": "原文連結"
+    },
+    {
       "category": "work",
-      "title": "騰訊暑期啟動 AI 雙引擎防沉迷：未成年每週限玩 3 小時、聲紋驗證防代過",
-      "summary": "騰訊宣布 2026 暑期未成年人保護專項行動：未成年僅可在週五六日晚 8–9 點登入，每週累計 3 小時；首次導入「AI 雙引擎」，加入聲紋識別、年齡特徵偵測、代過行為分析等多模態驗證，防堵借帳號或長輩協助繞過的情況。",
-      "impact": "對你的意義：進中國市場需在技術規格中納入 AI 身份核驗接口、成人／未成年分層邏輯與充值限額設計；AI 多模態驗證已是業界標配方向，此類「信任層」設計也值得拆解應用於防刷單或帳號安全。",
+      "title": "騰訊啟動2026暑期未成年防沉迷：每周限玩3小時、AI雙引擎防代過",
+      "summary": "騰訊宣布2026暑期專項行動，未成年人僅可週五、六、日各20:00-21:00登入，每週累計上限3小時；首度部署「AI雙引擎」，從遊戲內外雙向偵測帳號冒用與代過人臉認證，暑期管控為全年最嚴模式。",
+      "impact": "對你的意義：若台廠手遊在中國有發行，此時段外系統必須拒絕未成年帳號登入，AI防代過技術壓力同步提升。課金設計需確認未成年消費限額符合最新規範，建議主動向中國合作方確認合規狀態。",
       "date": "2026-07-03",
       "source": "星島日報",
-      "link": "https://www.singtaousa.com/2026/07/03/news/china/tencent-minors-gaming-time-limit/"
+      "link": "https://www.singtaousa.com/2026/07/03/news/china/tencent-minors-gaming-time-limit/",
+      "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "台積電：2030 年全球半導體市場破 1.5 兆美元，HPC 占比達 55%",
-      "summary": "台積電 7/6 最新預測，2030 年全球半導體市場規模將突破 1.5 兆美元，高效能運算（HPC）占比達 55%；2026 年市場已將突破 1 兆美元，2nm 製程 2026–2028 年複合成長率達 70%，CoWoS 先進封裝 2022–2027 年 CAGR 超 80%。",
-      "impact": "對你的意義：AI 算力紅利持續推動高階行動晶片溢價，旗艦機型普及速度將拉長；中階機型仍是手遊主戰場，圖形效能規格規劃需預留 2–3 年緩衝，避免過度依賴高端設備功能。",
-      "date": "2026-07-06",
-      "source": "TechNews 科技新報",
-      "link": "https://technews.tw/2026/07/06/tsmc-semiconductor-market-1-5-trillion-2030/"
+      "title": "台積電Q2法說7月16日登場：N2/A16訂單排至2028、CoWoS持續sold out",
+      "summary": "台積電將於7月16日公布Q2財報，花旗分析師預期上調全年展望；N2製程HVM確認Q4 2026，N2/A16 fab訂單已排至2028年，CoWoS先進封裝全面供不應求，全球AI晶片產能吃緊情勢未見緩解。",
+      "impact": "對你的意義：AI算力緊缺短期不會緩解，依賴GPU推理的大規模遊戲AI功能（即時NPC對話、生成式場景）成本仍高；規劃AI遊戲功能時需預留較高的單次推理預算，並評估能否以輕量模型替代部分重型推理需求。",
+      "date": "2026-07-07",
+      "source": "TipRanks",
+      "link": "https://www.tipranks.com/news/tsmc-will-report-q2-earnings-on-july-16-should-investors-buy-the-stock-before-results",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "香港SFC、HKMA與人行7月7日聯合公告，推進固定收益及貨幣市場建設",
+      "summary": "2026年7月7日，香港金融管理局、證監會與中國人民銀行在固定收益及貨幣峰會聯合發布公告，宣布推進港固定收益及貨幣交易平台建設，並配合虛擬資產四類新牌照架構（交易、托管、諮詢、資管）並行推進。",
+      "impact": "對你的意義：香港金融基建持續強化，對遊戲公司的間接意義在於港元支付通路與合規虛擬資產結算路徑將更清晰；台港澳三地跨境課金與虛擬物品交易的監管框架正在收攏，適合在法規定型前評估各地收款架構。",
+      "date": "2026-07-07",
+      "source": "香港證監會",
+      "link": "https://www.sfc.hk/TC/News-and-announcements/Policy-statements-and-announcements",
+      "link_text": "原文連結"
     }
   ],
   "intl": [
     {
       "id": "must-1",
       "category": "work",
-      "title": "Anthropic 發布 Claude Sonnet 5：近 Opus 4.8 效能的 Agent 旗艦，售價大幅降低",
-      "orig_title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
-      "summary": "Anthropic 6/30 發布 Claude Sonnet 5，定位最具 Agent 能力的 Sonnet 模型，可自主操作瀏覽器與終端機執行複雜工作流程；效能接近 Opus 4.8，優惠期售價輸入 $2/百萬 token、輸出 $10（至 8/31），8/31 後調整為 $3/$15，已成 Free 與 Pro 預設模型。",
-      "impact": "對你的意義：Sonnet 5 是目前 CP 值最高的 Agent 模型——競品資料自動整理、在地化品質審核、版本企劃文件生成都可接入；建議本月在 Claude Code 或 API 試用，與 Opus 4.8 做 benchmark 後制定內部採用策略。",
+      "title": "Google Play抽成降至20%、訂閱降至10%，韓日2026年底前跟進",
+      "orig_title": "Google settles with Epic Games, drops its Play Store commissions to 20%",
+      "summary": "Google因應Epic Games和解協議及多國監管壓力，宣布標準抽成從30%降至20%（訂閱15%降至10%）；美英歐自2026年6月30日生效，韓日預計2026年12月31日前，全球其他市場2027年9月跟進；接入第三方支付可再降5%。",
+      "impact": "對你的意義：手遊發行最大成本項之一大幅下降，每百萬美元流水可省10萬美元。韓日市場年底前跟進，面向日韓用戶的IAP定價可重新規劃。同時Google開放第三方支付選項再降5%，是建立web payment漏斗提升毛利的重要操作空間。",
       "date": "2026-06-30",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/"
+      "link": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/",
+      "link_text": "原文連結"
     },
     {
       "id": "must-3",
+      "category": "strategy",
+      "title": "中國開源AI GLM-5.2性能接近Claude Opus 4.8，成本僅1/5，MIT授權可自部署",
+      "orig_title": "Z.ai's open-weights GLM-5.2 beats GPT-5.5 on multiple long-horizon coding benchmarks for 1/6th the cost",
+      "summary": "北京智譜（Z.ai）發布GLM-5.2，在FrontierSWE長期任務完成率達74.4%，接近Claude Opus 4.8的75.1%；API成本約$1.40/$4.40（每百萬token輸入/輸出），比Opus 4.8便宜逾5倍；全模型權重以MIT授權開源，可自行部署。",
+      "impact": "對你的意義：遊戲AI應用（NPC對話、劇情生成、用戶分群）的自建成本門檻正快速下降。對台廠而言，在中國市場可合規使用本地模型規避資料出境疑慮，同時大幅壓低AI功能邊際成本；此為評估AI工具選型與自建vs.API策略的重要節點。",
+      "date": "2026-07-02",
+      "source": "VentureBeat",
+      "link": "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "work",
+      "title": "英國CMA發布Apple/Google「引導行為規範」草案，限制阻礙替代付款",
+      "orig_title": "The CMA's Steering Fee Framework for Apple and Google: Cost, Value and a Nod to the CAT",
+      "summary": "2026年6月30日，英國競爭與市場管理局（CMA）依DMCCA 2024發布Steering Conduct Requirements草案，要求Apple與Google不得以差別待遇、搜尋排名壓制等手段阻礙用戶選擇非平台付款方式。",
+      "impact": "對你的意義：英國市場將可合規引導玩家至web端付款（通常抽成更低甚至為零），尤其適合訂閱制或高ARPU遊戲。若已有或計畫英國用戶群，值得評估是否率先建立direct payment漏斗，並觀察其他市場是否跟進。",
+      "date": "2026-06-30",
+      "source": "Kluwer Competition Law Blog",
+      "link": "https://legalblogs.wolterskluwer.com/competition-blog/the-cmas-steering-fee-framework-for-apple-and-google-cost-value-and-a-nod-to-the-cat/",
+      "link_text": "原文連結"
+    },
+    {
       "category": "industry",
-      "title": "HoYoverse 宣布三年投入 160 億美元全棧 AI 自研，目標「千人千面」即時生成",
-      "orig_title": "HoYoverse signals full-stack AI push with $16B investment over three years",
-      "summary": "米哈遊（HoYoverse）5 月宣布三年內投入最高 1000 億人民幣（約 160 億美元）全棧 AI 自研，涵蓋基礎模型訓練、推理算力到遊戲應用層，目標打造根據玩家行為即時生成不同遊戲體驗的「千人千面」系統，已推進至自訓核心 AI 代碼階段。",
-      "impact": "對你的意義：HoYoverse 從「租用外部 AI API」轉向全棧自研，未來遊戲體驗個性化將形成資本壁壘；中小廠的對應策略是加速整合開源模型（如 LLaMA、Mistral）微調應用，在 NPC 對話、動態難度、個人化活動設計上取得差異化，避免正面競爭。",
-      "date": "2026-05-15",
-      "source": "Inven Global",
-      "link": "https://www.invenglobal.com/articles/21988/hoyoverse-to-invest-16-billion-over-next-three-years-aiming-for-full-stack-ai"
+      "title": "Anthropic年化收入超越OpenAI達300億美元，Claude Fable 5全球解禁",
+      "orig_title": "Anthropic Overtakes OpenAI in Revenue, Hitting $30 Billion Run Rate",
+      "summary": "Anthropic宣布年化收入突破300億美元，超越OpenAI的250億美元；年付逾百萬美元的企業客戶已超過1,000家。Claude Fable 5於6月9日上線，7月1日起全球存取限制解除，商務部出口管制暫停期間受阻的國際訂閱已全面恢復。",
+      "impact": "對你的意義：Claude作為企業AI工具的市場地位確立，Fable 5現已可全球使用。遊戲企劃、敘事設計、用戶行為分析等AI輔助流程的工具選型有更穩定的服務承諾可依賴；Anthropic快速成長也帶動AI工具市場競爭，定價將持續下行。",
+      "date": "2026-07-01",
+      "source": "Trending Topics EU",
+      "link": "https://www.trendingtopics.eu/anthropic-overtakes-openai-in-revenue-hitting-30-billion-run-rate/",
+      "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "USTR 對 60 國提 Section 301 強迫勞動關稅（10–12.5%），7/6 截止意見、7/7 聽證",
-      "orig_title": "USTR Proposes Section 301 Tariffs on 60 Countries for Failure to Act on Forced Labor",
-      "summary": "美國 USTR 6/2 啟動對 60 國的 Section 301 強迫勞動調查，7/6 截止公眾書面意見，7/7 起舉行公開聽證；無強迫勞動禁令的國家擬加徵 12.5% 關稅、有部分機制者為 10%，中國、越南、東南亞供應鏈均在範圍。",
-      "impact": "對你的意義：純數位手遊直接影響有限，但若涉及硬體周邊或代工廠供應鏈，需評估 10–12.5% 額外成本轉嫁；更大意義在於貿易政策不確定性持續升高，東南亞設廠替代方案的成本試算值得提前備好。",
-      "date": "2026-07-06",
+      "title": "USTR對60個貿易夥伴啟動強迫勞動關稅聽證（7月7日），10-12.5%額外關稅提案",
+      "orig_title": "USTR Proposes 301 Tariffs on 60 Countries Following Forced Labor Findings; Requests Comments Before July 7th Hearing",
+      "summary": "美國貿易代表署7月7日起在華盛頓舉行公聽會，針對60個被認定為未有效執行強迫勞動進口禁令的貿易夥伴提議加徵10-12.5%額外關稅；調查自2026年3月12日啟動，中國、越南、東南亞供應鏈均在範圍。",
+      "impact": "對你的意義：此關稅若成真，台灣外銷至美國的電子及消費品成本將上升，間接影響手機、平板硬體售價，壓縮北美目標用戶可支配所得；對依賴美國市場手遊收入的台廠而言，是外部環境惡化的早期訊號，值得追蹤聽證後的政策走向。",
+      "date": "2026-07-07",
       "source": "International Trade Insights",
-      "link": "https://www.internationaltradeinsights.com/2026/06/ustr-proposes-301-tariffs-on-60-countries-following-forced-labor-findings-requests-comments-before-july-7th-hearing/"
+      "link": "https://www.internationaltradeinsights.com/2026/06/ustr-proposes-301-tariffs-on-60-countries-following-forced-labor-findings-requests-comments-before-july-7th-hearing/",
+      "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "OpenAI 自研 Jalapeño 推理晶片亮相，AI 基礎設施垂直整合競賽加速",
-      "orig_title": "OpenAI announces custom Jalapeño inference chip as AI infrastructure race accelerates",
-      "summary": "OpenAI 7/1 宣布自研推理晶片 Jalapeño，旨在降低對 NVIDIA 的依賴與推論成本；同期 Blackstone 宣布在日本投入 300 億美元建 AI 資料中心，Qualcomm 以 40 億美元收購 AI 新創 Modular，AI 基礎設施競賽全面加速。",
-      "impact": "對你的意義：AI 推理晶片自研化使推理成本趨勢長期向下，遊戲內 AI 角色對話、動態任務生成等功能的部署成本將持續降低；若 OpenAI 將 Jalapeño 優勢反映在 API 定價，GPT 系列性價比將進一步提升，值得持續觀察定價走勢。",
-      "date": "2026-07-01",
-      "source": "Fortune",
-      "link": "https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/"
+      "title": "任天堂正式退出中國，Switch Online 3月關停，Switch 2暫緩進入中國市場",
+      "orig_title": "Nintendo's Strategic Retreat in China and the Future of Console Gaming Partnerships",
+      "summary": "任天堂Switch中國版eShop與線上服務已於2026年3月31日終止，結束與騰訊十年合作；Switch 2在中國的發售計畫尚無時間表，任天堂選擇將資源重新集中海外市場，顯示外資主機廠商在中國的結構性退縮。",
+      "impact": "對你的意義：外資廠商在中國合規成本與地緣政治風險已超過市場利益；台廠若有進入中國的遊戲計畫，純靠IP授權給本地合作夥伴的模式愈來愈難維持，需重新評估中國市場依賴度與進入策略的長期可行性。",
+      "date": "2026-03-31",
+      "source": "Nintendo Life",
+      "link": "https://www.nintendolife.com/news/2024/11/nintendo-switch-online-services-will-end-in-china-in-2026",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "騰訊、網易、米哈遊全面押注遊戲AI：生成場景、NPC對話、AI UGC競賽白熱化",
+      "orig_title": "Who Will Rule the AI Games Era? Tencent, NetEase, and Mihoyo in a Covert Technological Battle",
+      "summary": "騰訊推出混元遊戲視覺生成平台、網易《蛋仔派對》上線AI輔助UGC創作工具、米哈遊以多模態即時對話重建敘事邏輯——三大中國頭部廠商在2026年正式進入遊戲AI軍備競賽，並開始向日韓與東南亞市場輸出。",
+      "impact": "對你的意義：中國頭部廠商的AI遊戲功能已從研發進入產品化，並擴展至台廠主要的競爭市場。若台廠在AI輔助敘事、個性化推薦、UGC內容生成上無路線圖，競爭差距在未來12-18個月內會更明顯；此為制定AI遊戲功能優先序的外部基準。",
+      "date": "近期",
+      "source": "36Kr",
+      "link": "https://eu.36kr.com/en/p/3394131222956417",
+      "link_text": "原文連結"
     }
   ]
 }
