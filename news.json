@@ -1,141 +1,123 @@
 {
-  "date": "2026-07-17",
-  "weekday": "週五",
+  "date": "2026-07-18",
+  "weekday": "週六",
   "must_read": [
-    { "title": "台積電 Q2 破紀錄仍跌 7.3%：AI 週期見頂疑慮浮現", "hint": "史上最佳財報配史上股災，市場在說什麼？", "article_id": "must-1" },
-    { "title": "中國 Kimi K3 開源模型橫空出世，前端代碼排名超越 Claude Fable 5", "hint": "2.8 兆參數、半價、open-weight——AI 工具選擇版圖再震盪", "article_id": "must-2" },
-    { "title": "騰訊暑期未成年防沉迷升級：每周 3 小時 + AI 聲紋識別", "hint": "對台廠出海中國及未成年玩家設計的直接合規衝擊", "article_id": "must-3" }
+    {
+      "title": "Google Play 標準內購抽成降至 20%，6/30 美英歐生效：手遊 IAP 毛利結構大改變",
+      "hint": "Epic 和解全面落地，每筆內購多留 10%，是近年最有利台廠的平台政策轉變",
+      "article_id": "must-1"
+    },
+    {
+      "title": "Nexon《Mabinogi Mobile》7 月正式登台港澳，韓系頭部 MMORPG 入場",
+      "hint": "直接擠壓台灣 MMO 市場份額，韓廠在地化運營節奏值得持續追蹤",
+      "article_id": "must-2"
+    },
+    {
+      "title": "ZZZ 二周年版本 3.1「長別」7/29 上線，同步確認年內登陸 Steam",
+      "hint": "米哈遊跨平台策略升級，二周年抽卡週期對手遊市場注意力的搶奪效應不可忽視",
+      "article_id": "must-3"
+    }
   ],
   "tw": [
     {
-      "id": "must-1",
-      "category": "industry",
-      "title": "台積電 Q2 破紀錄、股跌 7.3%：市場開始質疑 AI 週期高點",
-      "summary": "台積電 Q2 2026 營收 NT$1.27 兆（美元 402 億，+36% YoY），淨利年增 77.4%，毛利率 67.7%，全年美元成長展望上調至逾 40%，Q3 銷售指引 446–458 億美元創新高。財報公布後台股當日跌 7.3%、ADR 跌 2.77%，費半指數下滑 1.63%，市場擔憂 AI 資本支出持續性與 2nm 良率爬坡成本。",
-      "impact": "對你的意義：最強財報+最大單日跌幅，代表市場正在替 AI 投資週期重新定價。若 AI 景氣放緩，遊戲業的 AI 服務採購預算、合作夥伴投資意願都可能隨之降溫——現在是加速評估既有 AI 工具 ROI 的時機，別等市場情緒反轉才動手。",
-      "date": "2026-07-17",
-      "source": "Investing.com / FX Leaders",
-      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-tsmc-lifts-2026-outlook-as-ai-demand-stays-hot-in-q2-2026-93CH-4794777",
-      "link_text": "財報電話會議摘要"
-    },
-    {
-      "category": "strategy",
-      "title": "台積電累計對美承諾投資達 2,650 億美元，台灣本島同步建 13 座先進晶圓廠",
-      "summary": "台積電宣布追加投資美國亞利桑那州，累計承諾額達 2,650 億美元（約 NT$8.5 兆），聚焦 2nm 以下製程，A14 製程 2027 試產、2028 量產。台灣本島同步建設 13 座先進製程晶圓廠，CoWoS 封裝月產能目標 2026 年底達 12–14 萬片（較 2024 年底成長四倍）。",
-      "impact": "對你的意義：台積電「兩岸雙中心」策略確立，AI 推論晶片未來 18 個月供給仍緊張，CoWoS 仍是 AI 晶片交貨瓶頸。對遊戲業的含義：雲端 AI API 在算力受限期間，成本不會快速下降，採用外部 API 的方案比自建推論服務更划算，現在規劃的 AI 功能落地節奏應配合供給爬坡時程。",
-      "date": "2026-07-17",
-      "source": "半導體產業日報",
-      "link": "https://witology.com.tw/daily-semiconductor/2026-07-17/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "MIC 估台灣 2026 半導體產值達 7.1 兆新高，AI 需求全面帶動",
-      "summary": "資策會 MIC 預估台灣 2026 年半導體產值達 NT$7.1 兆創歷史新高，主要動能為 AI 伺服器用 HPC 晶片與先進封裝需求爆發。台積電 CoWoS 月產能預計年底達 12–14 萬片，整體供應鏈受惠明顯。",
-      "impact": "對你的意義：台灣半導體景氣高位確立，基礎算力供給持續擴張。這代表未來 12 個月雲端 AI 推論服務的供給端壓力將逐步緩解，AI NPC、生成式遊戲內容等功能的單次成本有機會降低——現在啟動技術 PoC 的時機比等到落地後更具談判優勢。",
-      "date": "2026-07-15",
-      "source": "Yahoo 財經",
-      "link": "https://tw.stock.yahoo.com/news/ai%E6%B5%AA%E6%BD%AE-mic%E4%BC%B0%E4%BB%8A%E5%B9%B4%E5%8F%B0%E7%81%A3%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%94%A2%E5%80%BC7-1%E5%85%86%E8%A1%9D%E6%96%B0%E9%AB%98-120204429.html",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "must-3",
+      "id": "must-2",
       "category": "work",
-      "title": "騰訊暑期未成年防沉迷升級：每周 3 小時上限 + AI 聲紋 + 代刷行為識別",
-      "summary": "7 月至 8 月暑假期間，騰訊遊戲強制未成年人僅能在週五、六、日 20–21 時上線，整個暑假可玩時間上限 27 小時（每周 3 小時）。系統在人臉識別基礎上新增 AI 聲紋核驗、年齡特徵辨識與代刷行為識別，技術圍堵力度明顯提升。",
-      "impact": "對你的意義：此機制是目前全球最嚴格的手遊未成年管制，且技術手段逐年升級——若台廠計畫進軍中國市場，產品必須內建家長管控與實名驗證流程；設計層面，短局高強度玩法（快節奏 PVP、5 分鐘以內局）將比長週期養成類更具競爭力。騰訊的技術規格很可能成為未來監管要求的事實基準。",
-      "date": "2026-07-03",
-      "source": "星島日報（美洲版）",
-      "link": "https://www.singtaousa.com/2026/07/03/news/china/tencent-minors-gaming-time-limit/",
+      "title": "Nexon《Mabinogi Mobile》7 月登台港澳：韓系 MMORPG 首度入場台灣市場",
+      "summary": "Nexon 旗下跨平台 MMORPG《Mabinogi Mobile》繼韓國後，於 2026 年 7 月正式在台灣、香港、澳門上架，為全球首個海外市場。台版支援繁中介面與在地客服，後續更新節奏與韓版同步。遊戲以開放式世界、高自由度生活玩法為核心定位，瞄準台灣中高黏著 MMORPG 玩家群。",
+      "impact": "對你的意義：韓國頭部 MMORPG 選擇台灣作為全球第一個海外市場，代表業界仍將台灣視為 MMORPG 品類的成熟商業市場。競爭層面，此作將直接爭奪中高黏著 MMO 玩家時間與消費份額；若台廠有類 MMORPG 產品在 pipeline，需提早確認差異化定位，或在上架時序上與韓廠攻勢錯開。",
+      "date": "2026-07-01",
+      "source": "Enduins / GamingOnPhone",
+      "link": "https://www.enduins.com/news/nexon-brings-mabinogi-mobile-to-taiwan-this-july",
       "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "中國 7 月版號 134 款獲批，百度、網易在列，上半年累計 950 款",
-      "summary": "國家新聞出版署 7 月批准 134 款遊戲版號（含國產及進口），百度、網易等大廠產品在列；2026 年上半年累計版號達 950 款，發放節奏明顯較 2025 年回暖，暑期大廠新品競爭白熱化。",
-      "impact": "對你的意義：版號下發加速表示中國市場進入窗口比去年更有利。但大廠密集衝量也代表暑期買量成本（CPI）競爭加劇；若台廠有計畫進中國市場，版號申請需配合未成年保護、實名認證等合規要求，建議同步確認技術備案進度。",
-      "date": "2026-07-17",
-      "source": "MoneyDJ 理財網",
-      "link": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=911a796a-4335-4d03-9c3b-18375b79ba0b",
+      "title": "中國廠全球出海創紀錄：手遊 TOP 10 佔六席，AI 加速在地化縮短開發週期",
+      "summary": "2026 年中國手遊廠商在全球 App Store 暢銷榜 TOP 10 中佔六席，覆蓋全球（中國以外）遊戲買量支出的 35%。米哈遊、網易、騰訊外，Century Games、37Games 等中型廠商亦持續崛起，AI 工具加速在地化與美術資源製作成為主要競爭力來源，顯著縮短海外版發行週期。",
+      "impact": "對你的意義：中國廠不再只是「價格殺手」，AI 輔助製作後在美術品質與本地化深度上大幅追近，台廠差異化空間持續被壓縮。建議聚焦一個品類深耕，而非追求全品類覆蓋；同時主動追蹤哪些中廠已進入台灣及日韓市場，提早評估對抗或代理合作的可行性。",
+      "date": "2026-07-01",
+      "source": "PocketGamer.biz",
+      "link": "https://www.pocketgamer.biz/chinese-publishers-hold-six-of-the-top-10-as-the-export-pack-widens/",
       "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "PBOC、HKMA、SFC 三方聯合宣布在港開發交易平台，代幣化資產規模達港幣 107 億",
-      "summary": "中國人民銀行、香港金管局與證監會三方聯合公告，將在香港共同開發跨境交易平台，涵蓋資產代幣化與虛擬資產二級市場。截至 2026 年 3 月，香港 SFC 批准的代幣化投資產品在二級市場的資產管理規模達 HK$107 億（較起步時成長約七倍），SFC 持牌虛擬資產交易商目前共 11 家。",
-      "impact": "對你的意義：香港正穩固其亞太加密 / 代幣化金融中心地位。若台灣遊戲公司計畫發行遊戲內資產代幣或跨境收款方案，香港目前是合規路徑最明確的跳板——但需追蹤 SFC 持牌生態進展，避免選擇尚未取得執照的平台合作。",
-      "date": "2026-07-07",
-      "source": "香港金管局 HKMA",
-      "link": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/07/20260707-8/",
-      "link_text": "官方公告"
+      "title": "香港 SFC：虛擬資產平台 AI 資安新門檻——98% 冷錢包儲存、24/7 SOC",
+      "summary": "SFC 於 6 月 2 日發圓函，要求持牌網路券商及虛擬資產交易平台強化 AI 啟動的網路威脅防護，包含網路分段隔離、全天候安全運營中心（SOC）、自動交易異常監控，以及 98% 以上客戶資產存放冷錢包。香港 2025 年網路安全事件年增 27%，SFC 部分歸因於 AI 工具被惡意利用。",
+      "impact": "對你的意義：香港作為遊戲公司試水加密支付、代幣化道具的首選合規市場，合規門檻正快速升高。若公司有 Web3 整合或香港虛擬資產支付計畫，需將 SOC 建置、安全審計等基礎設施成本納入 ROI 評估；否則選擇與持牌平台合作，比自建合規架構更務實。",
+      "date": "2026-06-02",
+      "source": "FinTech Global",
+      "link": "https://fintech.global/2026/06/05/hong-kong-regulator-warns-on-ai-powered-cyber-risk/",
+      "link_text": "原文連結"
     }
   ],
   "intl": [
     {
-      "id": "must-2",
-      "category": "strategy",
-      "title": "中國 Moonshot 發布 Kimi K3：2.8 兆參數開源 MoE 模型，前端代碼 Arena 排名超越 Claude Fable 5",
-      "orig_title": "Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter Open MoE Model with 1M Context, Rivaling Top U.S. Systems",
-      "summary": "Moonshot AI 於 7 月 16 日正式發布 Kimi K3，2.8 兆參數 MoE 架構（激活 896 專家中的 16 個），百萬 token 上下文，API 即日可用，完整模型權重 7 月 27 日開放。GPQA Diamond 達 93.5%（開源最強），前端代碼 Arena 排名第一（超越 Claude Fable 5）；整體仍略遜 GPT-5.6 Sol，但 API 定價僅其一半。",
-      "impact": "對你的意義：高性能 AI 的中國開源版本定價砍半，直接壓縮 Anthropic / OpenAI 的定價空間。實際意義是：用 Kimi K3 跑遊戲文案生成、對話 NPC、多語本地化初稿等任務的成本可能大幅降低——建議在 7 月 27 日模型權重開放後安排 benchmark 測試，評估能否作為特定工作流的替代方案。",
-      "date": "2026-07-16",
-      "source": "MarkTechPost / Bloomberg",
-      "link": "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/",
-      "link_text": "技術分析"
-    },
-    {
-      "category": "strategy",
-      "title": "Anthropic 準備最快 10 月 IPO，年化收入突破 300 億美元，與三星洽談客製 AI 晶片",
-      "orig_title": "Anthropic preparing S-1 for IPO as early as October 2026; run-rate revenue surpasses $30B; in talks with Samsung for custom AI chips",
-      "summary": "Anthropic 正準備遞交 S-1 文件，IPO 最快可能落在 2026 年 10 月，長期算力合約讓收入更可預期；年化收入已超 300 億美元（2025 年底約 90 億）。同時與三星洽談為 Claude 模型客製化 AI 晶片，並擴大與 Google、Broadcom 的多吉瓦算力合作。",
-      "impact": "對你的意義：Anthropic 財務規模暴增代表 Claude API 長期支援更有保障。IPO 前後合約條款可能存在談判視窗——若公司有採用 Claude 的計畫，IPO 前鎖定長期合約或有優惠空間。客製晶片與算力擴張也暗示未來推論成本有降價路徑，長期有利於使用方。",
-      "date": "2026-07-17",
-      "source": "AI Weekly / ThursdAI",
-      "link": "https://thursdai.news/releases/2026-07",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "OpenAI 推出 GPT-5.6 Sol：Ultra 子代理模式 + Max 推理強度，競爭格局全面升級",
-      "orig_title": "OpenAI launches GPT-5.6 Sol with Ultra subagent mode, Max reasoning effort, plus Terra and Luna tiers",
-      "summary": "GPT-5.6 正式公開，旗艦 Sol 版含 Ultra 子代理模式（可拆分複雜任務給多個子代理協作）與 Max 推理強度設定；Terra 版以 GPT-5.5 品質、半價提供；Luna 為高速輕量版。Google Gemini Enterprise 同期上線，直接在企業代理市場與 OpenAI 競爭。",
-      "impact": "對你的意義：子代理（multi-agent）框架進入主流商業 API，AI 自動化工作流程的門檻已大幅降低。對遊戲企劃而言，用 AI 自動化玩家行為分析、AB 測試報告、多語言本地化初稿等工作的時機已到——建議先拿 Terra 版本試跑現有重複性工作流，成本合理再升級 Sol。",
-      "date": "2026-07-17",
-      "source": "ThursdAI / llm-stats.com",
-      "link": "https://thursdai.news/releases/2026-07",
-      "link_text": "原文連結"
-    },
-    {
+      "id": "must-1",
       "category": "work",
-      "title": "Google Play 新付費政策：替代支付 / 外部連結基礎費率降至 10%",
-      "orig_title": "Google's new payment policies effective June 30: base service fee 10% for alternative payments and external links (US, UK, EU)",
-      "summary": "Google 在 Epic 案後，於 6 月 30 日在美、英、EU 實施新付費政策：所有使用替代支付或外部連結的交易，基礎服務費降至 10%（含 Google Play 帳單費後約 15%）；年收入前 100 萬美元及自動續訂訂閱維持 15% 費率。Apple 平台被預測跟進壓力將持續上升。",
-      "impact": "對你的意義：若能設計合規的外部網頁付款引導，可將抽成從 30% 降至約 15%，實際收益率提升約 21%——這對內購密集的手遊是結構性利好。需注意 Google 仍在審查「引導文字」是否符合規定（不得「貶低」平台），建議與法務確認 CTA 設計的合規邊界再推進。",
+      "title": "Google Play 標準內購抽成降至 20%，6/30 美英歐生效，年底至韓日",
+      "orig_title": "Google settles with Epic Games, drops its Play Store commissions to 20%",
+      "summary": "Google 與 Epic Games 和解協議全面落地：Play Store 標準 IAP 抽成從 30% 降至 20%（使用 Google 自家結帳則 25%），新安裝用戶內購可降至 15%。美英歐自 6 月 30 日起生效，韓日年底生效，全球至 2027 年 9 月完成。同步推出「Registered App Stores」計畫，開放第三方應用商店進駐 Android，Epic 旗下《Fortnite》重返 Google Play。",
+      "impact": "對你的意義：每筆內購多留約 10%，直接改善手遊毛利結構——以台廠常見混合變現模型，此節省可回投 UA 或內容研發。優先行動：確認公司主要市場（美英歐）是否已適用新費率、評估外部網頁引導付款的合規設計是否可降至 15% 費率，日韓市場需等到年底，規劃新地區上線時應確認各市場的生效日期。",
       "date": "2026-06-30",
-      "source": "AppleInsider",
-      "link": "https://appleinsider.com/articles/26/06/25/googles-new-payment-policies-are-a-preview-of-what-could-come-to-apple-platforms",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/",
       "link_text": "原文連結"
     },
     {
-      "category": "strategy",
-      "title": "美中關稅談判框架成型：川普北京行後達成各降 300 億美元商品共識，整體稅率仍約 30%",
-      "orig_title": "US-China Trade Monthly July 2026: post-Beijing summit tariff reduction framework agreed in principle",
-      "summary": "川普 5 月北京行後，美中原則同意就各 300 億美元商品談判降稅至最惠國稅率；但整體對中關稅仍維持約 30%，為各國中最高。中國同期發布《反不當域外管轄條例》，美強化海關執法，雙向合規壓力持續攀升。",
-      "impact": "對你的意義：中美貿易結構仍緊張，台廠跨境採購雲端服務、AI API 時需確認供應商的出口管制合規狀態；中國市場布局也面臨反制法規風險。這不是急迫需要行動的訊號，但應納入年度供應商審查的常規項目。",
+      "id": "must-3",
+      "category": "industry",
+      "title": "ZZZ 二周年版本 3.1「長別」7/29 上線，Steam 版年內登陸確認",
+      "orig_title": "Zenless Zone Zero Version 3.1 'The Long Goodbye' Launches on July 29; Steam Release Confirmed for 2026",
+      "summary": "HoYoverse 於 7 月 17 日發布《絕區零》3.1 版本情報，7 月 29 日正式推出二周年內容；帶來新角色 Remielle Dan（電屬性）、Sigrid（冰屬性），以及二周年禮包「玩家自選一名限定 S 級角色 + 同名 W 引擎」。同步引入 Custom Search 自選角色池機制，並確認《絕區零》年內正式登陸 Steam。",
+      "impact": "對你的意義：米哈遊跨平台策略升級（PC Steam），代表其在二周年節點同時擴張玩家基數與商業觸及面。7 月 29 日起的二周年抽卡週期將搶佔大量玩家注意力與消費預算——若台廠有同期促銷活動或新功能推廣，需將此波競爭的流量稀釋效應納入預算規劃，並考慮將推廣週期前移或後置。",
       "date": "2026-07-17",
-      "source": "Mayer Brown / Mondaq",
-      "link": "https://www.mayerbrown.com/en/insights/publications/2026/07/us-china-trade-monthly-july-2026",
+      "source": "Final Weapon / PC Gamer",
+      "link": "https://finalweapon.net/2026/07/17/zenless-zone-zero-version-3-1-the-long-goodbye-release-date/",
       "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "韓國遊戲業格局重組：Nexon、Krafton、Netmarble 三巨頭年獲利近 3 兆韓元",
-      "orig_title": "Korean game industry reshaped into 'big three': Nexon, Krafton, Netmarble near 3 trillion won in operating profit",
-      "summary": "韓國遊戲業重組為以 Nexon、Krafton、Netmarble 為核心的「三巨頭」格局，三家合計年度營業利潤接近 3 兆韓元；Netmarble 完成內部重組後盈利能力大幅提升。日本市場方面，Netmarble 的《七大罪：Grand Cross》因日版更新後重回 App Store 暢銷榜前列，展示在地化維護的持續效益。",
-      "impact": "對你的意義：韓國三巨頭格局確立，二線韓廠生存壓力加劇，部分可能尋求 IP 授權合作或被收購——對台廠而言是觀察授權、聯名合作機會的視窗。Netmarble 靠地區化更新搶回日本市場的案例，也是進軍日韓市場時「持續在地化投入」的具體佐證，而非一次性上架即可。",
-      "date": "2026-07-17",
-      "source": "Digital Today (韓) / Korea Herald",
-      "link": "https://www.digitaltoday.co.kr/en/view/2063/korean-game-industry-big-three-nexon-krafton-netmarble-operating-profit-near-3-trillion-won",
+      "title": "Nintendo Switch 2 銷量突破 1,986 萬台超越 PS5，7 月六款大作持續拉動",
+      "orig_title": "Switch 2 Hits 19.86M Units, Outsells PS5 by 1M; Six Major Titles Launch in July 2026",
+      "summary": "Nintendo Switch 2 全球出貨突破 1,986 萬台，超越 PS5 同期銷量約 100 萬台，成為美國史上銷售速度第二快的主機。7 月推出六款主要遊戲，包括系列新作《Splatoon Raiders》（合作制 PvE 玩法），以及《Xenoblade Chronicles 2》Switch 2 移植版；Nintendo 確認多個大型 IP 的 Q3 發布時程。",
+      "impact": "對你的意義：Switch 2 強勁的銷售速度代表新一代主機玩家基礎已成形，暑假期間主機大作密集上線將分散玩家時間與消費。機會面：若台廠有高品質 IP 或創新玩法適合主機型態，現在是評估 Switch 2 移植可行性的視窗，發行商談判仍在初期，槓桿空間相對較大。",
+      "date": "2026-07-01",
+      "source": "Tech Insider / Nintendo Life",
+      "link": "https://tech-insider.org/nintendo-switch-2-sales-19-million-2026/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "EU 法院 7/8 裁定：維持對 Apple DMA 義務，iOS 側載與 App Store 開放不得阻礙",
+      "orig_title": "EU court upholds DMA Rules on Apple's iOS and App Store",
+      "summary": "歐盟法院於 7 月 8 日裁定駁回 Apple 上訴，確立 DMA（數位市場法）對 iOS 的適用義務：Apple 需持續開放第三方 App Store 與側載機制，不得設置障礙。Apple 表示不認同裁定，但仍須執行歐盟版完整開放政策。目前歐盟用戶已可通過替代商店或開發者官網直接下載 App。",
+      "impact": "對你的意義：EU 法院裁定確立，Apple 在歐洲的分發壟斷持續鬆動。短期：歐洲市場的替代分發與外部付款成本降低，台廠若有歐洲版上線計畫，應評估是否採用替代分發降低抽成。長期：EU 監管思路有擴散效應（台灣、日本均有類似立法討論），提早了解替代分發模型的合規要求，有助於降低未來適應成本。",
+      "date": "2026-07-08",
+      "source": "MacDailyNews",
+      "link": "https://macdailynews.com/2026/07/08/eu-court-upholds-dma-rules-on-apples-ios-and-app-store/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "中國 AI 模型以半價搶進美企市場，OpenAI / Anthropic 成本優勢持續受壓",
+      "orig_title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
+      "summary": "CNBC 報導，隨著 Moonshot Kimi K3（7/16 發布，API 定價約 GPT-5.6 Sol 的一半）、DeepSeek 等中國模型持續提升性能並降價，越來越多美國企業轉向中國 AI 替代方案。Kimi K3 在前端代碼生成 Arena 排名超越 Claude Fable 5，GPQA Diamond 達 93.5%（開源最強）。",
+      "impact": "對你的意義：AI 工具成本戰已明確開打，單一供應商鎖定風險也在上升。建議針對各工作流（文案生成、NPC 對話、本地化初稿、UI 描述）分別 benchmark 不同供應商，混用策略通常比全鏈路押注一家更具成本效益。7 月 27 日 Kimi K3 完整模型權重開放後，可安排實測評估是否適用於特定生產流程。",
+      "date": "2026-07-07",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "NVIDIA H200 開始少量輸中，50% 配額與嚴格安全審查下運作",
+      "orig_title": "Nvidia's H200 AI Chip Shipments to China Begin Amidst Ongoing US Export Controls",
+      "summary": "美國官員確認 NVIDIA 已啟動 H200 晶片對中出貨，但數量極為有限，設有 50% 配額上限、第三方安全測試要求與 25% 附加關稅。NVIDIA 在中國 AI 晶片市佔從逾 90% 降至約 50%，Huawei 為主的中國自製晶片已佔中國市場 41%（IDC 數據）。",
+      "impact": "對你的意義：中國 AI 算力市場走向「受管控高端 + 自製替代」雙軌格局，未來 AI 服務採購成本在中國可能出現明顯分化。若台廠的技術合作夥伴或雲端 AI 供應商在中國有算力需求，需確認其計算資源是否受出口管制影響；中國自製晶片崛起長期將推動更多平價 AI 服務出現，對用戶端（使用 AI API）的採購成本下降有利。",
+      "date": "2026-07-01",
+      "source": "Influencer Magazine",
+      "link": "https://influencermagazine.uk/2026/07/nvidias-h200-ai-chip-shipments-to-china-begin-amidst-ongoing-us-export-controls/",
       "link_text": "原文連結"
     }
   ]
