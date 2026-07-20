@@ -1,124 +1,113 @@
 {
-  "date": "2026-07-18",
-  "weekday": "週六",
+  "date": "2026-07-19",
+  "weekday": "週日",
   "must_read": [
     {
-      "title": "Google Play 標準內購抽成降至 20%，6/30 美英歐生效：手遊 IAP 毛利結構大改變",
-      "hint": "Epic 和解全面落地，每筆內購多留 10%，是近年最有利台廠的平台政策轉變",
+      "title": "中國暑期未成年限玩升級：7-8月每週僅3小時、禁玩日佔4天",
+      "hint": "版本活動節奏應集中週末三天，週一至週四的未成年轉化漏斗近乎歸零",
       "article_id": "must-1"
     },
     {
-      "title": "Nexon《Mabinogi Mobile》7 月正式登台港澳，韓系頭部 MMORPG 入場",
-      "hint": "直接擠壓台灣 MMO 市場份額，韓廠在地化運營節奏值得持續追蹤",
+      "title": "台積電Q2破紀錄財報：年增36%，全年資本支出上修至600億美元以上",
+      "hint": "AI晶片需求遠未見頂，台灣AI工具算力成本中期持續下行",
       "article_id": "must-2"
     },
     {
-      "title": "ZZZ 二周年版本 3.1「長別」7/29 上線，同步確認年內登陸 Steam",
-      "hint": "米哈遊跨平台策略升級，二周年抽卡週期對手遊市場注意力的搶奪效應不可忽視",
+      "title": "崩壞：星穹鐵道4.4版上線，Fate/stay night UBW聯動開跑",
+      "hint": "米哈遊跨IP聯動流量引擎啟動，觀察聯動期ROI是評估自家合作策略的最佳對照組",
       "article_id": "must-3"
     }
   ],
   "tw": [
     {
       "id": "must-2",
-      "category": "work",
-      "title": "Nexon《Mabinogi Mobile》7 月登台港澳：韓系 MMORPG 首度入場台灣市場",
-      "summary": "Nexon 旗下跨平台 MMORPG《Mabinogi Mobile》繼韓國後，於 2026 年 7 月正式在台灣、香港、澳門上架，為全球首個海外市場。台版支援繁中介面與在地客服，後續更新節奏與韓版同步。遊戲以開放式世界、高自由度生活玩法為核心定位，瞄準台灣中高黏著 MMORPG 玩家群。",
-      "impact": "對你的意義：韓國頭部 MMORPG 選擇台灣作為全球第一個海外市場，代表業界仍將台灣視為 MMORPG 品類的成熟商業市場。競爭層面，此作將直接爭奪中高黏著 MMO 玩家時間與消費份額；若台廠有類 MMORPG 產品在 pipeline，需提早確認差異化定位，或在上架時序上與韓廠攻勢錯開。",
-      "date": "2026-07-01",
-      "source": "Enduins / GamingOnPhone",
-      "link": "https://www.enduins.com/news/nexon-brings-mabinogi-mobile-to-taiwan-this-july",
-      "link_text": "原文連結"
-    },
-    {
       "category": "industry",
-      "title": "中國廠全球出海創紀錄：手遊 TOP 10 佔六席，AI 加速在地化縮短開發週期",
-      "summary": "2026 年中國手遊廠商在全球 App Store 暢銷榜 TOP 10 中佔六席，覆蓋全球（中國以外）遊戲買量支出的 35%。米哈遊、網易、騰訊外，Century Games、37Games 等中型廠商亦持續崛起，AI 工具加速在地化與美術資源製作成為主要競爭力來源，顯著縮短海外版發行週期。",
-      "impact": "對你的意義：中國廠不再只是「價格殺手」，AI 輔助製作後在美術品質與本地化深度上大幅追近，台廠差異化空間持續被壓縮。建議聚焦一個品類深耕，而非追求全品類覆蓋；同時主動追蹤哪些中廠已進入台灣及日韓市場，提早評估對抗或代理合作的可行性。",
-      "date": "2026-07-01",
-      "source": "PocketGamer.biz",
-      "link": "https://www.pocketgamer.biz/chinese-publishers-hold-six-of-the-top-10-as-the-export-pack-widens/",
-      "link_text": "原文連結"
+      "title": "台積電Q2創紀錄財報：營收年增36%，全年資本支出上修至600-640億美元",
+      "summary": "台積電2026年Q2財報：營收新台幣1.27兆（美元400億），年增36%；淨利潤年增77%，毛利率67.7%。全年資本支出指引從520-560億美元上修至600-640億美元。Q3營收指引446-458億美元，全年成長率預期略高於40%。",
+      "impact": "AI晶片需求持續爆量，台積電大幅加碼資本支出代表AI基礎設施建置週期遠未見頂。對產品企劃最直接的意義：用於遊戲內容生成、NPC對話、美術輔助的AI工具算力成本中期將持續下行，現在是評估深度整合AI工具流程的理想時機，不必等到「成熟後再導入」。",
+      "date": "2026-07-16",
+      "source": "TechPowerUp",
+      "link": "https://www.techpowerup.com/350807/tsmc-reports-record-q2-2026-earning-results"
     },
     {
       "category": "strategy",
-      "title": "香港 SFC：虛擬資產平台 AI 資安新門檻——98% 冷錢包儲存、24/7 SOC",
-      "summary": "SFC 於 6 月 2 日發圓函，要求持牌網路券商及虛擬資產交易平台強化 AI 啟動的網路威脅防護，包含網路分段隔離、全天候安全運營中心（SOC）、自動交易異常監控，以及 98% 以上客戶資產存放冷錢包。香港 2025 年網路安全事件年增 27%，SFC 部分歸因於 AI 工具被惡意利用。",
-      "impact": "對你的意義：香港作為遊戲公司試水加密支付、代幣化道具的首選合規市場，合規門檻正快速升高。若公司有 Web3 整合或香港虛擬資產支付計畫，需將 SOC 建置、安全審計等基礎設施成本納入 ROI 評估；否則選擇與持牌平台合作，比自建合規架構更務實。",
-      "date": "2026-06-02",
-      "source": "FinTech Global",
-      "link": "https://fintech.global/2026/06/05/hong-kong-regulator-warns-on-ai-powered-cyber-risk/",
-      "link_text": "原文連結"
+      "title": "香港SFC 2025-26年報：虛擬資產平台成交額年增125%，四類牌照制度立法推進中",
+      "summary": "香港證監會年報揭露，12家持牌虛擬資產交易平台年內成交額同比增125%。SFC正與港府共同推進四類新監管制度立法：虛擬資產交易、託管、諮詢及資產管理，預計2026年內提交立法草案。",
+      "impact": "香港虛擬資產合規框架快速成形，監管框架正從「發展期探索」進入「立法確立」階段，觀望窗口正在縮短。台灣遊戲業者若有NFT或鏈上道具計劃，建議現在開始研究香港牌照制度作為最近的合規參考座標，並評估是否需要提前在港設立實體。",
+      "date": "2026-06-24",
+      "source": "Aiying License & Compliance",
+      "link": "https://license.aiying.cc/zh-CN/hk/hksfc-annual-report-2026-va-platforms-turnover-surge-125-pct/"
+    },
+    {
+      "id": "must-1",
+      "category": "work",
+      "title": "中國暑期未成年遊戲限制升級：7月至8月底每週僅3小時，禁玩日佔4天",
+      "summary": "2026年暑假（7月1日至8月31日），未成年人僅可於週五、六、日晚間20:00-21:00登入遊戲，全程27小時總量上限。騰訊已啟動暑期防沉迷專項行動，違規帳號自動比對國家實名認證系統，騰訊平台的遊戲均需嚴格執行。",
+      "impact": "台廠在中國市場若面向全年齡段，需確認未成年觸點（課金彈窗、活動登入獎勵）在禁玩時段完全停止服務，否則面臨合規處罰。更重要的是活動節奏設計：版本活動、限時召喚應集中在週末三天，週一至週四的未成年轉化漏斗近乎歸零，盲目鋪活動只會虛增營運成本。",
+      "date": "2026-07-03",
+      "source": "星島日報（美國版）",
+      "link": "https://www.singtaousa.com/2026/07/03/news/china/tencent-minors-gaming-time-limit/"
+    },
+    {
+      "category": "industry",
+      "title": "中國7月暑期檔激戰：騰訊、網易、米哈遊單月超53款手遊同時廝殺",
+      "summary": "中國手遊市場7月進入暑期高峰，單月上線逾53款新遊戲。網易海洋開放世界RPG《遺忘之海》預注冊破3000萬，騰訊生存遊戲《失控計劃》正式上線，完美世界《異環》同步大型版本更新攻勢，大廠新品競爭白熱化。",
+      "impact": "中國大廠暑期密集上線是常態競爭格局，7-8月市場雜訊極高、買量費用同步飆升。台廠若有中國發行計劃，強烈建議錯峰或以差異化玩法切入，避免在廠商最密集的時間點被淹沒；觀察《遺忘之海》3000萬預注冊轉化率，可作為評估自家新品預注冊目標的市場對標。",
+      "date": "2026-07-04",
+      "source": "手游那點事",
+      "link": "http://www.nadianshi.com/2026/07/413850"
+    },
+    {
+      "category": "strategy",
+      "title": "中國7月遊戲版號134款獲批，百度、網易在列，進口版號上半年僅33款",
+      "summary": "國家新聞出版署7月核發134款遊戲版號，百度、網易等在列。上半年累計950款（國產917款、進口33款），進口版號月均不到6款，整體發放節奏穩定但進口比例偏低。",
+      "impact": "版號年節奏穩定是中國市場可預期的正面訊號，但進口版號稀少（上半年僅33款）代表台廠自主拿版號路徑難度極高。走「授權給中國廠商」或「合資」路徑仍是主流選擇，進入節奏需預留12-18個月審批緩衝，版號規劃應在產品開發中期即啟動。",
+      "date": "2026-07-04",
+      "source": "MoneyDJ理財網",
+      "link": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=911a796a-4335-4d03-9c3b-18375b79ba0b"
     }
   ],
   "intl": [
     {
-      "id": "must-1",
-      "category": "work",
-      "title": "Google Play 標準內購抽成降至 20%，6/30 美英歐生效，年底至韓日",
-      "orig_title": "Google settles with Epic Games, drops its Play Store commissions to 20%",
-      "summary": "Google 與 Epic Games 和解協議全面落地：Play Store 標準 IAP 抽成從 30% 降至 20%（使用 Google 自家結帳則 25%），新安裝用戶內購可降至 15%。美英歐自 6 月 30 日起生效，韓日年底生效，全球至 2027 年 9 月完成。同步推出「Registered App Stores」計畫，開放第三方應用商店進駐 Android，Epic 旗下《Fortnite》重返 Google Play。",
-      "impact": "對你的意義：每筆內購多留約 10%，直接改善手遊毛利結構——以台廠常見混合變現模型，此節省可回投 UA 或內容研發。優先行動：確認公司主要市場（美英歐）是否已適用新費率、評估外部網頁引導付款的合規設計是否可降至 15% 費率，日韓市場需等到年底，規劃新地區上線時應確認各市場的生效日期。",
-      "date": "2026-06-30",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/",
-      "link_text": "原文連結"
-    },
-    {
       "id": "must-3",
       "category": "industry",
-      "title": "ZZZ 二周年版本 3.1「長別」7/29 上線，Steam 版年內登陸確認",
-      "orig_title": "Zenless Zone Zero Version 3.1 'The Long Goodbye' Launches on July 29; Steam Release Confirmed for 2026",
-      "summary": "HoYoverse 於 7 月 17 日發布《絕區零》3.1 版本情報，7 月 29 日正式推出二周年內容；帶來新角色 Remielle Dan（電屬性）、Sigrid（冰屬性），以及二周年禮包「玩家自選一名限定 S 級角色 + 同名 W 引擎」。同步引入 Custom Search 自選角色池機制，並確認《絕區零》年內正式登陸 Steam。",
-      "impact": "對你的意義：米哈遊跨平台策略升級（PC Steam），代表其在二周年節點同時擴張玩家基數與商業觸及面。7 月 29 日起的二周年抽卡週期將搶佔大量玩家注意力與消費預算——若台廠有同期促銷活動或新功能推廣，需將此波競爭的流量稀釋效應納入預算規劃，並考慮將推廣週期前移或後置。",
+      "title": "崩壞：星穹鐵道4.4版7/15上線，Fate/stay night UBW跨IP聯動開跑至8月底",
+      "orig_title": "Honkai: Star Rail Version 4.4 \"In Ravages Does the Whistle Sound\" Arrives on July 15",
+      "summary": "HoYoverse《崩壞：星穹鐵道》4.4版本於2026年7月15日上線，帶入Fate/stay night [Unlimited Blade Works]第二階段聯動，Rin Tohsaka加入故事。玩家可免費取得Gilgamesh或Archer限定5星聯動角色，持續至4.6版本結束（約8月25日）。7月24日起進入聯動主章節。",
+      "impact": "米哈遊以Fate系列高認知度IP作為版本流量主引擎，Fate在台灣核心玩家中有深厚基礎。觀察這次聯動期間的付費提升與新增用戶數據，是評估「日系老牌IP × 中系手遊」聯動ROI最好的現場對照組——若台廠正在評估類似IP授權合作，7月下旬至8月中的市場反應值得仔細追蹤。",
+      "date": "2026-07-15",
+      "source": "HoYoverse",
+      "link": "https://www.hoyoverse.com/en-us/news/165197"
+    },
+    {
+      "category": "strategy",
+      "title": "7月AI模型浪潮：Claude Sonnet 5入門定價、GPT-5.6多層次、Gemini 3.5 Pro延後",
+      "orig_title": "July 2026 AI Releases: OpenAI, Anthropic, Google DeepMind — The July AI Model Wave",
+      "summary": "7月多款AI模型密集發布：Anthropic推Claude Sonnet 5（接近Opus 4.8性能，入門定價至8月底）；OpenAI發GPT-5.6多層次（Sol旗艦、Terra中階、Luna快速）；Moonshot Kimi K3登頂Frontend Code Arena（76%勝率，本週開源）；Google Gemini 3.5 Pro因程式碼與長期推理測試不達標而延後。",
+      "impact": "AI模型競爭白熱化，成本持續下降，性能差距快速收窄。Kimi K3本週開源後，自部署高性能程式碼AI的門檻再降——可開始評估遊戲腳本自動化測試、關卡生成輔助、本地化初稿等工具鏈採用開源模型的成本效益，比採購API更具長期可控性。",
       "date": "2026-07-17",
-      "source": "Final Weapon / PC Gamer",
-      "link": "https://finalweapon.net/2026/07/17/zenless-zone-zero-version-3-1-the-long-goodbye-release-date/",
-      "link_text": "原文連結"
+      "source": "ThursdAI",
+      "link": "https://thursdai.news/releases/2026-07"
+    },
+    {
+      "category": "strategy",
+      "title": "美中科技脆弱停戰：關稅降至15%但出口管制與反制裁條例持續對撞",
+      "orig_title": "US China Trade Monthly — July 2026",
+      "summary": "繼5月北京峰會後，美中維持脆弱停戰；有效關稅率從2025年高峰22%降至約15%。中國同步發布「反不當域外管轄」條例，要求企業不得遵從美方制裁名單。兩國監管框架直接衝突的合規負擔持續加重，台積電Q2同步宣布亞利桑那追加100億美元。",
+      "impact": "美中科技脫鉤格局固化，台廠在中美都有業務者面臨「合規衝突」風險：中方條例可能要求不得遵從美方制裁，美方出口管制又要求限制特定客戶。TSMC加碼美國投資代表台灣科技業重心在可見未來將持續西移，供應鏈去中化是10年尺度的結構變遷，不是短期波動。",
+      "date": "2026-07-01",
+      "source": "Mayer Brown",
+      "link": "https://www.mayerbrown.com/en/insights/publications/2026/07/us-china-trade-monthly-july-2026"
     },
     {
       "category": "industry",
-      "title": "Nintendo Switch 2 銷量突破 1,986 萬台超越 PS5，7 月六款大作持續拉動",
-      "orig_title": "Switch 2 Hits 19.86M Units, Outsells PS5 by 1M; Six Major Titles Launch in July 2026",
-      "summary": "Nintendo Switch 2 全球出貨突破 1,986 萬台，超越 PS5 同期銷量約 100 萬台，成為美國史上銷售速度第二快的主機。7 月推出六款主要遊戲，包括系列新作《Splatoon Raiders》（合作制 PvE 玩法），以及《Xenoblade Chronicles 2》Switch 2 移植版；Nintendo 確認多個大型 IP 的 Q3 發布時程。",
-      "impact": "對你的意義：Switch 2 強勁的銷售速度代表新一代主機玩家基礎已成形，暑假期間主機大作密集上線將分散玩家時間與消費。機會面：若台廠有高品質 IP 或創新玩法適合主機型態，現在是評估 Switch 2 移植可行性的視窗，發行商談判仍在初期，槓桿空間相對較大。",
+      "title": "NCsoft轉向主機大作與全球IP授權，韓國遊戲業重組為Nexon、Krafton、Netmarble三強",
+      "orig_title": "Korean game companies zero in on global market",
+      "summary": "NCsoft宣布正式轉型：從韓國本土手遊MMORPG路線轉向高畫質主機大作及全球IP授權合作。韓國遊戲業同步重組為Nexon、Krafton、Netmarble三強格局，三家合計營業利益接近3兆韓元。Netmarble《七deadly sins》日本版本更新後回衝App Store榜前列。",
+      "impact": "韓國老牌手遊廠集體放棄傳統MMORPG路線、轉攻主機與IP授權，代表韓系手遊在全球流量競爭中已感受到明顯壓力。台廠若考慮IP對外授權，韓國三強正積極尋求IP合作夥伴，授權合作的需求窗口可能比以往更開放；同時Netmarble日本復甦也提醒，深度本地化更新仍是打入日本市場的基本門票。",
       "date": "2026-07-01",
-      "source": "Tech Insider / Nintendo Life",
-      "link": "https://tech-insider.org/nintendo-switch-2-sales-19-million-2026/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "EU 法院 7/8 裁定：維持對 Apple DMA 義務，iOS 側載與 App Store 開放不得阻礙",
-      "orig_title": "EU court upholds DMA Rules on Apple's iOS and App Store",
-      "summary": "歐盟法院於 7 月 8 日裁定駁回 Apple 上訴，確立 DMA（數位市場法）對 iOS 的適用義務：Apple 需持續開放第三方 App Store 與側載機制，不得設置障礙。Apple 表示不認同裁定，但仍須執行歐盟版完整開放政策。目前歐盟用戶已可通過替代商店或開發者官網直接下載 App。",
-      "impact": "對你的意義：EU 法院裁定確立，Apple 在歐洲的分發壟斷持續鬆動。短期：歐洲市場的替代分發與外部付款成本降低，台廠若有歐洲版上線計畫，應評估是否採用替代分發降低抽成。長期：EU 監管思路有擴散效應（台灣、日本均有類似立法討論），提早了解替代分發模型的合規要求，有助於降低未來適應成本。",
-      "date": "2026-07-08",
-      "source": "MacDailyNews",
-      "link": "https://macdailynews.com/2026/07/08/eu-court-upholds-dma-rules-on-apples-ios-and-app-store/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "中國 AI 模型以半價搶進美企市場，OpenAI / Anthropic 成本優勢持續受壓",
-      "orig_title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
-      "summary": "CNBC 報導，隨著 Moonshot Kimi K3（7/16 發布，API 定價約 GPT-5.6 Sol 的一半）、DeepSeek 等中國模型持續提升性能並降價，越來越多美國企業轉向中國 AI 替代方案。Kimi K3 在前端代碼生成 Arena 排名超越 Claude Fable 5，GPQA Diamond 達 93.5%（開源最強）。",
-      "impact": "對你的意義：AI 工具成本戰已明確開打，單一供應商鎖定風險也在上升。建議針對各工作流（文案生成、NPC 對話、本地化初稿、UI 描述）分別 benchmark 不同供應商，混用策略通常比全鏈路押注一家更具成本效益。7 月 27 日 Kimi K3 完整模型權重開放後，可安排實測評估是否適用於特定生產流程。",
-      "date": "2026-07-07",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "NVIDIA H200 開始少量輸中，50% 配額與嚴格安全審查下運作",
-      "orig_title": "Nvidia's H200 AI Chip Shipments to China Begin Amidst Ongoing US Export Controls",
-      "summary": "美國官員確認 NVIDIA 已啟動 H200 晶片對中出貨，但數量極為有限，設有 50% 配額上限、第三方安全測試要求與 25% 附加關稅。NVIDIA 在中國 AI 晶片市佔從逾 90% 降至約 50%，Huawei 為主的中國自製晶片已佔中國市場 41%（IDC 數據）。",
-      "impact": "對你的意義：中國 AI 算力市場走向「受管控高端 + 自製替代」雙軌格局，未來 AI 服務採購成本在中國可能出現明顯分化。若台廠的技術合作夥伴或雲端 AI 供應商在中國有算力需求，需確認其計算資源是否受出口管制影響；中國自製晶片崛起長期將推動更多平價 AI 服務出現，對用戶端（使用 AI API）的採購成本下降有利。",
-      "date": "2026-07-01",
-      "source": "Influencer Magazine",
-      "link": "https://influencermagazine.uk/2026/07/nvidias-h200-ai-chip-shipments-to-china-begin-amidst-ongoing-us-export-controls/",
-      "link_text": "原文連結"
+      "source": "The Investor",
+      "link": "https://www.theinvestor.co.kr/article/10402397"
     }
   ]
 }
