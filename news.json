@@ -1,113 +1,155 @@
 {
-  "date": "2026-07-19",
-  "weekday": "週日",
+  "date": "2026-07-20",
+  "weekday": "週一",
   "must_read": [
     {
-      "title": "中國暑期未成年限玩升級：7-8月每週僅3小時、禁玩日佔4天",
-      "hint": "版本活動節奏應集中週末三天，週一至週四的未成年轉化漏斗近乎歸零",
+      "title": "Anthropic推Claude Sonnet 5：近Opus效能、代理任務成本大降",
+      "hint": "可評估升級你的AI工作流，但新tokenizer讓實際成本比標價高20-35%，9月後要重算",
       "article_id": "must-1"
     },
     {
-      "title": "台積電Q2破紀錄財報：年增36%，全年資本支出上修至600億美元以上",
-      "hint": "AI晶片需求遠未見頂，台灣AI工具算力成本中期持續下行",
+      "title": "網信辦清朗行動：盲盒抽卡行銷話術與AI惡搞內容列重點整治",
+      "hint": "直接影響手遊抽卡活動設計與行銷文案，需評估現有活動在中國市場的合規性",
       "article_id": "must-2"
     },
     {
-      "title": "崩壞：星穹鐵道4.4版上線，Fate/stay night UBW聯動開跑",
-      "hint": "米哈遊跨IP聯動流量引擎啟動，觀察聯動期ROI是評估自家合作策略的最佳對照組",
+      "title": "中國AI模型搶美企市場：成本比OpenAI低60-90%，切換潮正在發生",
+      "hint": "AI工具選型進入結構變化期，非敏感任務可考慮路由至中國開源模型節省預算",
       "article_id": "must-3"
     }
   ],
   "tw": [
     {
-      "id": "must-2",
       "category": "industry",
-      "title": "台積電Q2創紀錄財報：營收年增36%，全年資本支出上修至600-640億美元",
-      "summary": "台積電2026年Q2財報：營收新台幣1.27兆（美元400億），年增36%；淨利潤年增77%，毛利率67.7%。全年資本支出指引從520-560億美元上修至600-640億美元。Q3營收指引446-458億美元，全年成長率預期略高於40%。",
-      "impact": "AI晶片需求持續爆量，台積電大幅加碼資本支出代表AI基礎設施建置週期遠未見頂。對產品企劃最直接的意義：用於遊戲內容生成、NPC對話、美術輔助的AI工具算力成本中期將持續下行，現在是評估深度整合AI工具流程的理想時機，不必等到「成熟後再導入」。",
+      "title": "台積電Q2財報創紀錄：AI晶片佔營收66%，全年成長展望超40%",
+      "summary": "台積電Q2 2026營收達402億美元，年增36%，單季淨利創歷史新高。高效能運算（AI加速晶片）業務單季序增20%，資本支出上調至600至640億美元，毛利率67.7%。",
+      "impact": "AI基礎設施投資週期未如預期放緩、反而加速，驗證AI工具需求持續旺盛；台積電在全球先進製程市佔73%的定價能力，代表台灣供應鏈在AI競賽中的不可替代地位，有助於台廠在國際合作談判中的籌碼。",
       "date": "2026-07-16",
-      "source": "TechPowerUp",
-      "link": "https://www.techpowerup.com/350807/tsmc-reports-record-q2-2026-earning-results"
+      "source": "TechTimes",
+      "link": "https://www.techtimes.com/articles/320696/20260716/tsmc-posts-record-quarter-ai-chip-demand-pushes-full-year-growth-outlook-past-40.htm",
+      "link_text": "原文連結"
+    },
+    {
+      "id": "must-2",
+      "category": "work",
+      "title": "網信辦「清朗·未成年人保護」：AI惡搞動畫、盲盒抽卡話術、兒童網紅廣告全面納管",
+      "summary": "中央網信辦啟動4個月專項行動，重點整治包括：以AI惡搞經典動畫角色、利用限量發售或絕版溢價話術誘使未成年購買盲盒及抽卡，以及以「暑期陪玩」名義進行軟色情陪聊等行為。",
+      "impact": "手遊抽卡活動常用的「限時限量、絕版角色」行銷話術在中國市場面臨合規風險；若遊戲已有或計畫申請中國版號，需立即審查現有活動素材與推廣文案；此行動也可能蔓延至港澳平台監管討論，值得持續追蹤。",
+      "date": "2026-07-20",
+      "source": "聯合新聞網",
+      "link": "https://udn.com/news/story/7332/9639568",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "work",
+      "title": "中國6月版號171款遊戲獲批，騰訊在列；ChinaJoy 7月31日開幕",
+      "summary": "國家新聞出版署6月底批准171款遊戲（國產163款、進口8款），騰訊旗下產品在列；2026年ChinaJoy訂7月31日開幕，各大廠暑期新品競爭正式啟動。",
+      "impact": "版號持續正常發放是中國市場健康的正面訊號；暑期大廠新品集中上線將推高用戶獲取成本，台廠若有中國發行計畫，ChinaJoy前可蒐集競品情報，評估暑期進場時機與差異化切入點。",
+      "date": "2026-06-30",
+      "source": "MoneyDJ理財網",
+      "link": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=911a796a-4335-4d03-9c3b-18375b79ba0b",
+      "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "香港SFC 2025-26年報：虛擬資產平台成交額年增125%，四類牌照制度立法推進中",
-      "summary": "香港證監會年報揭露，12家持牌虛擬資產交易平台年內成交額同比增125%。SFC正與港府共同推進四類新監管制度立法：虛擬資產交易、託管、諮詢及資產管理，預計2026年內提交立法草案。",
-      "impact": "香港虛擬資產合規框架快速成形，監管框架正從「發展期探索」進入「立法確立」階段，觀望窗口正在縮短。台灣遊戲業者若有NFT或鏈上道具計劃，建議現在開始研究香港牌照制度作為最近的合規參考座標，並評估是否需要提前在港設立實體。",
-      "date": "2026-06-24",
-      "source": "Aiying License & Compliance",
-      "link": "https://license.aiying.cc/zh-CN/hk/hksfc-annual-report-2026-va-platforms-turnover-surge-125-pct/"
-    },
-    {
-      "id": "must-1",
-      "category": "work",
-      "title": "中國暑期未成年遊戲限制升級：7月至8月底每週僅3小時，禁玩日佔4天",
-      "summary": "2026年暑假（7月1日至8月31日），未成年人僅可於週五、六、日晚間20:00-21:00登入遊戲，全程27小時總量上限。騰訊已啟動暑期防沉迷專項行動，違規帳號自動比對國家實名認證系統，騰訊平台的遊戲均需嚴格執行。",
-      "impact": "台廠在中國市場若面向全年齡段，需確認未成年觸點（課金彈窗、活動登入獎勵）在禁玩時段完全停止服務，否則面臨合規處罰。更重要的是活動節奏設計：版本活動、限時召喚應集中在週末三天，週一至週四的未成年轉化漏斗近乎歸零，盲目鋪活動只會虛增營運成本。",
+      "title": "騰訊暑假未成年防沉迷升級：每週累計限玩3小時，首度導入AI人臉辨識",
+      "summary": "騰訊啟動2026年暑期未成年保護行動，未成年玩家每週僅可在週五至週日晚間8至9點登入，每週限玩3小時；首次引入AI技術防止成人代替驗證。",
+      "impact": "中國未成年防沉迷技術門檻持續升高，若AI驗證機制成為行業標準，台廠中國版本將被迫跟進導入；未成年有效遊戲時間壓縮，付費設計中的「未成年轉化漏斗」這條路已幾乎關閉，需重新評估受眾結構與活動節奏。",
       "date": "2026-07-03",
-      "source": "星島日報（美國版）",
-      "link": "https://www.singtaousa.com/2026/07/03/news/china/tencent-minors-gaming-time-limit/"
+      "source": "星島日報",
+      "link": "https://www.singtaousa.com/2026/07/03/news/china/tencent-minors-gaming-time-limit/",
+      "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "中國7月暑期檔激戰：騰訊、網易、米哈遊單月超53款手遊同時廝殺",
-      "summary": "中國手遊市場7月進入暑期高峰，單月上線逾53款新遊戲。網易海洋開放世界RPG《遺忘之海》預注冊破3000萬，騰訊生存遊戲《失控計劃》正式上線，完美世界《異環》同步大型版本更新攻勢，大廠新品競爭白熱化。",
-      "impact": "中國大廠暑期密集上線是常態競爭格局，7-8月市場雜訊極高、買量費用同步飆升。台廠若有中國發行計劃，強烈建議錯峰或以差異化玩法切入，避免在廠商最密集的時間點被淹沒；觀察《遺忘之海》3000萬預注冊轉化率，可作為評估自家新品預注冊目標的市場對標。",
-      "date": "2026-07-04",
-      "source": "手游那點事",
-      "link": "http://www.nadianshi.com/2026/07/413850"
-    },
-    {
-      "category": "strategy",
-      "title": "中國7月遊戲版號134款獲批，百度、網易在列，進口版號上半年僅33款",
-      "summary": "國家新聞出版署7月核發134款遊戲版號，百度、網易等在列。上半年累計950款（國產917款、進口33款），進口版號月均不到6款，整體發放節奏穩定但進口比例偏低。",
-      "impact": "版號年節奏穩定是中國市場可預期的正面訊號，但進口版號稀少（上半年僅33款）代表台廠自主拿版號路徑難度極高。走「授權給中國廠商」或「合資」路徑仍是主流選擇，進入節奏需預留12-18個月審批緩衝，版號規劃應在產品開發中期即啟動。",
-      "date": "2026-07-04",
-      "source": "MoneyDJ理財網",
-      "link": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=911a796a-4335-4d03-9c3b-18375b79ba0b"
+      "title": "台灣手遊週榜（7/13-7/19）：鳴潮、絕區零領跑，任天堂主機產品線穩健",
+      "summary": "台灣遊戲市場週排行中，庫洛遊戲《鳴潮》與米哈遊《絕區零》持續佔據手遊前段班；主機市場以《節奏天國：奇蹟之星》為首，任天堂系列整體銷售表現穩定。",
+      "impact": "中國動作RPG持續主導台灣手遊排行，高品質建模與流暢戰鬥手感仍是市場主導要素；可將《鳴潮》與《絕區零》作為Q3競品研究基準，分析其留存與變現機制設計細節。",
+      "date": "2026-07-19",
+      "source": "Game LIFE",
+      "link": "https://gamelife.tw/gamenews/2026-%E5%B9%B4-7-%E6%9C%88-13-%E6%97%A5%E8%87%B3-7-%E6%9C%88-19-%E6%97%A5%E5%8F%B0%E7%81%A3%E9%81%8A%E6%88%B2%E9%8A%B7%E5%94%AE%E6%8E%92%E8%A1%8C%E6%A6%9C/",
+      "link_text": "原文連結"
     }
   ],
   "intl": [
     {
+      "id": "must-1",
+      "category": "work",
+      "title": "Anthropic推Claude Sonnet 5：近Opus效能、代理任務成本大降",
+      "orig_title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+      "summary": "Claude Sonnet 5於6月30日上線，推理、工具使用與程式碼能力接近Opus 4.8，入門定價每百萬token輸入$2、輸出$10（至8月底），之後調升至$3/$15；但新tokenizer效率下滑，實際成本可能比標價高20-35%。",
+      "impact": "若工作流有大量長文本摘要或多步驟代理任務，Sonnet 5值得評估切換；升級前需先跑benchmark，新tokenizer的隱性漲幅可能抵銷定價優勢，9月1日標準定價生效後務必重新試算總成本。",
+      "date": "2026-06-30",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+      "link_text": "原文連結"
+    },
+    {
       "id": "must-3",
-      "category": "industry",
-      "title": "崩壞：星穹鐵道4.4版7/15上線，Fate/stay night UBW跨IP聯動開跑至8月底",
-      "orig_title": "Honkai: Star Rail Version 4.4 \"In Ravages Does the Whistle Sound\" Arrives on July 15",
-      "summary": "HoYoverse《崩壞：星穹鐵道》4.4版本於2026年7月15日上線，帶入Fate/stay night [Unlimited Blade Works]第二階段聯動，Rin Tohsaka加入故事。玩家可免費取得Gilgamesh或Archer限定5星聯動角色，持續至4.6版本結束（約8月25日）。7月24日起進入聯動主章節。",
-      "impact": "米哈遊以Fate系列高認知度IP作為版本流量主引擎，Fate在台灣核心玩家中有深厚基礎。觀察這次聯動期間的付費提升與新增用戶數據，是評估「日系老牌IP × 中系手遊」聯動ROI最好的現場對照組——若台廠正在評估類似IP授權合作，7月下旬至8月中的市場反應值得仔細追蹤。",
-      "date": "2026-07-15",
-      "source": "HoYoverse",
-      "link": "https://www.hoyoverse.com/en-us/news/165197"
+      "category": "work",
+      "title": "中國AI模型搶進美企：成本比OpenAI低60-90%，美新創切換率飆升",
+      "orig_title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
+      "summary": "DeepSeek、阿里Qwen等中國開源模型在美企token使用占比從11%竄升至最高46%；DoorDash、Airbnb、Siemens已導入，部分工作負載成本比Claude Opus 4.8低80%以上，Zhipu GLM-5.2在Vercel平台月增50倍。",
+      "impact": "AI工具選型進入「夠好就好、選最便宜」的務實階段；可評估將非敏感任務（行銷文案草稿、資料整理、競品摘要）路由至中國開源模型節省預算，把昂貴配額留給需要最高推理品質的創意與策略決策場景。",
+      "date": "2026-07-07",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "work",
+      "title": "Epic v. Apple抽成之戰：聯邦法院發回地院裁定「合理費率」，結果懸而未決",
+      "orig_title": "Epic v. Apple: appeals court remands to district court to determine permissible App Store commission",
+      "summary": "美聯邦法院拒絕Apple重審請求（2026年3月），4月28日發回地區法院裁定可允許的「合理抽成率」；何時出判決尚無時間表，Apple目前仍維持30%標準抽成。",
+      "impact": "App Store抽成結構處於法律戰關鍵岔路口；若地院裁定大幅低於30%，手遊廠商iOS營收分潤將迎來有利轉機，但時間與幅度充滿不確定性，短期財務假設不宜調整，但值得持續追蹤。",
+      "date": "2026-04-28",
+      "source": "Funnelfox",
+      "link": "https://blog.funnelfox.com/apple-app-store-fees-2026-eu-dma/",
+      "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "7月AI模型浪潮：Claude Sonnet 5入門定價、GPT-5.6多層次、Gemini 3.5 Pro延後",
-      "orig_title": "July 2026 AI Releases: OpenAI, Anthropic, Google DeepMind — The July AI Model Wave",
-      "summary": "7月多款AI模型密集發布：Anthropic推Claude Sonnet 5（接近Opus 4.8性能，入門定價至8月底）；OpenAI發GPT-5.6多層次（Sol旗艦、Terra中階、Luna快速）；Moonshot Kimi K3登頂Frontend Code Arena（76%勝率，本週開源）；Google Gemini 3.5 Pro因程式碼與長期推理測試不達標而延後。",
-      "impact": "AI模型競爭白熱化，成本持續下降，性能差距快速收窄。Kimi K3本週開源後，自部署高性能程式碼AI的門檻再降——可開始評估遊戲腳本自動化測試、關卡生成輔助、本地化初稿等工具鏈採用開源模型的成本效益，比採購API更具長期可控性。",
-      "date": "2026-07-17",
+      "title": "GPT-5.6有限公開：須通過美商務部出口審查，僅約20個組織先行存取",
+      "orig_title": "OpenAI GPT-5.6 limited release after unusual Commerce Department export review",
+      "summary": "GPT-5.6正式公開前歷經逐客戶的美國商務部出口管制審查，初步僅限約20個核准組織存取；OpenAI採取謹慎路徑，Anthropic和xAI則直接走向全面公開。",
+      "impact": "AI模型出口管制已從晶片層延伸至模型存取層；若工作依賴頂端美系模型，需評估地緣政治帶來的可用性風險——AI工具備案與多元化策略日益必要，不應只依賴單一供應商。",
+      "date": "2026-07-20",
+      "source": "Fortune",
+      "link": "https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "Google Gemini 3.5 Pro延期數月：編碼與長鏈推理未達內部標準",
+      "orig_title": "Google delays Gemini 3.5 Pro by months after coding and reasoning shortfalls",
+      "summary": "Gemini 3.5 Pro原訂2026年6月推出，因內部測試在編碼性能及複雜推理方面未達標而延後數月，目前仍限企業預覽；OpenAI、Anthropic藉此取得下半年領先窗口。",
+      "impact": "Google前沿AI競爭力短暫落後，下半年AI工具首選仍以OpenAI與Anthropic為主；若正在評估Gemini為主力AI工具，建議等正式版本實測結果再決策，不宜提前押注。",
+      "date": "2026-07-20",
       "source": "ThursdAI",
-      "link": "https://thursdai.news/releases/2026-07"
-    },
-    {
-      "category": "strategy",
-      "title": "美中科技脆弱停戰：關稅降至15%但出口管制與反制裁條例持續對撞",
-      "orig_title": "US China Trade Monthly — July 2026",
-      "summary": "繼5月北京峰會後，美中維持脆弱停戰；有效關稅率從2025年高峰22%降至約15%。中國同步發布「反不當域外管轄」條例，要求企業不得遵從美方制裁名單。兩國監管框架直接衝突的合規負擔持續加重，台積電Q2同步宣布亞利桑那追加100億美元。",
-      "impact": "美中科技脫鉤格局固化，台廠在中美都有業務者面臨「合規衝突」風險：中方條例可能要求不得遵從美方制裁，美方出口管制又要求限制特定客戶。TSMC加碼美國投資代表台灣科技業重心在可見未來將持續西移，供應鏈去中化是10年尺度的結構變遷，不是短期波動。",
-      "date": "2026-07-01",
-      "source": "Mayer Brown",
-      "link": "https://www.mayerbrown.com/en/insights/publications/2026/07/us-china-trade-monthly-july-2026"
+      "link": "https://thursdai.news/releases/2026-07",
+      "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "NCsoft轉向主機大作與全球IP授權，韓國遊戲業重組為Nexon、Krafton、Netmarble三強",
-      "orig_title": "Korean game companies zero in on global market",
-      "summary": "NCsoft宣布正式轉型：從韓國本土手遊MMORPG路線轉向高畫質主機大作及全球IP授權合作。韓國遊戲業同步重組為Nexon、Krafton、Netmarble三強格局，三家合計營業利益接近3兆韓元。Netmarble《七deadly sins》日本版本更新後回衝App Store榜前列。",
-      "impact": "韓國老牌手遊廠集體放棄傳統MMORPG路線、轉攻主機與IP授權，代表韓系手遊在全球流量競爭中已感受到明顯壓力。台廠若考慮IP對外授權，韓國三強正積極尋求IP合作夥伴，授權合作的需求窗口可能比以往更開放；同時Netmarble日本復甦也提醒，深度本地化更新仍是打入日本市場的基本門票。",
+      "title": "韓國遊戲三強格局成形：Nexon、Krafton、Netmarble年利潤合計近3兆韓元",
+      "orig_title": "Korean game industry reshaped into 'big three' as Nexon, Krafton, Netmarble near 3 trillion won in operating profit",
+      "summary": "韓國遊戲業重組完成：Nexon與Krafton各自Q1營收超過1兆韓元；Netmarble重組後年營收2.78兆韓元（+4.5%），年利潤預估+60%；中型廠商Kakao Games、Wemade、Webzen等持續承壓，業界極化加劇。",
+      "impact": "韓系三強IP（PUBG、Dungeon&Fighter、Seven Deadly Sins）全球佈局穩固；中型韓廠財務壓力擴大，台廠或有機會在IP授權、聯合發行等合作模式上取得更好條件，值得主動接觸評估。",
       "date": "2026-07-01",
-      "source": "The Investor",
-      "link": "https://www.theinvestor.co.kr/article/10402397"
+      "source": "DigitalToday",
+      "link": "https://www.digitaltoday.co.kr/en/view/2063/korean-game-industry-big-three-nexon-krafton-netmarble-operating-profit-near-3-trillion-won",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "英國CMA接受Apple、Google App Store公平改革承諾，4月正式生效",
+      "orig_title": "UK CMA accepts Apple and Google app store fairness commitments, effective April 2026",
+      "summary": "英國競爭及市場管理局（CMA）4月1日公布，接受Apple和Google關於App Store審核透明度、開發者資料保護及投訴機制的承諾，作為平台競爭調查結案條件。",
+      "impact": "英國選擇「承諾機制」而非立法或強制令，短期內抽成結構不變；但透明審核承諾為開發者申訴提供新依據，台廠若曾遭遇不透明下架或審核拒絕，可援引此承諾機制要求平台說明。",
+      "date": "2026-04-01",
+      "source": "TechXplore",
+      "link": "https://techxplore.com/news/2026-06-uk-apple-google-app-fees.html",
+      "link_text": "原文連結"
     }
   ]
 }
