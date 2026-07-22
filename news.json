@@ -1,60 +1,18 @@
 {
-  "date": "2026-07-20",
-  "weekday": "週一",
+  "date": "2026-07-21",
+  "weekday": "週二",
   "must_read": [
-    {
-      "title": "Anthropic推Claude Sonnet 5：近Opus效能、代理任務成本大降",
-      "hint": "可評估升級你的AI工作流，但新tokenizer讓實際成本比標價高20-35%，9月後要重算",
-      "article_id": "must-1"
-    },
-    {
-      "title": "網信辦清朗行動：盲盒抽卡行銷話術與AI惡搞內容列重點整治",
-      "hint": "直接影響手遊抽卡活動設計與行銷文案，需評估現有活動在中國市場的合規性",
-      "article_id": "must-2"
-    },
-    {
-      "title": "中國AI模型搶美企市場：成本比OpenAI低60-90%，切換潮正在發生",
-      "hint": "AI工具選型進入結構變化期，非敏感任務可考慮路由至中國開源模型節省預算",
-      "article_id": "must-3"
-    }
+    { "title": "Google Gemini 3.6 Flash 正式發布：比前代省 17% Token、AI 代理成本大降", "hint": "直接影響 AI 工具成本與效能，Flash-Lite 極低價適合批量任務", "article_id": "must-1" },
+    { "title": "Google Play 抽成降至 20%，開發者可導流至站外支付", "hint": "遊戲上架成本結構改變，計費策略與定價模型需重新評估", "article_id": "must-2" },
+    { "title": "騰訊暑期未成年防沉迷升級：AI 聲紋＋年齡識別雙引擎，每週僅 3 小時", "hint": "中國遊戲市場設計與付費機制受嚴格限制，台廠進中國需早評估", "article_id": "must-3" }
   ],
   "tw": [
     {
-      "category": "industry",
-      "title": "台積電Q2財報創紀錄：AI晶片佔營收66%，全年成長展望超40%",
-      "summary": "台積電Q2 2026營收達402億美元，年增36%，單季淨利創歷史新高。高效能運算（AI加速晶片）業務單季序增20%，資本支出上調至600至640億美元，毛利率67.7%。",
-      "impact": "AI基礎設施投資週期未如預期放緩、反而加速，驗證AI工具需求持續旺盛；台積電在全球先進製程市佔73%的定價能力，代表台灣供應鏈在AI競賽中的不可替代地位，有助於台廠在國際合作談判中的籌碼。",
-      "date": "2026-07-16",
-      "source": "TechTimes",
-      "link": "https://www.techtimes.com/articles/320696/20260716/tsmc-posts-record-quarter-ai-chip-demand-pushes-full-year-growth-outlook-past-40.htm",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "must-2",
+      "id": "must-3",
       "category": "work",
-      "title": "網信辦「清朗·未成年人保護」：AI惡搞動畫、盲盒抽卡話術、兒童網紅廣告全面納管",
-      "summary": "中央網信辦啟動4個月專項行動，重點整治包括：以AI惡搞經典動畫角色、利用限量發售或絕版溢價話術誘使未成年購買盲盒及抽卡，以及以「暑期陪玩」名義進行軟色情陪聊等行為。",
-      "impact": "手遊抽卡活動常用的「限時限量、絕版角色」行銷話術在中國市場面臨合規風險；若遊戲已有或計畫申請中國版號，需立即審查現有活動素材與推廣文案；此行動也可能蔓延至港澳平台監管討論，值得持續追蹤。",
-      "date": "2026-07-20",
-      "source": "聯合新聞網",
-      "link": "https://udn.com/news/story/7332/9639568",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "work",
-      "title": "中國6月版號171款遊戲獲批，騰訊在列；ChinaJoy 7月31日開幕",
-      "summary": "國家新聞出版署6月底批准171款遊戲（國產163款、進口8款），騰訊旗下產品在列；2026年ChinaJoy訂7月31日開幕，各大廠暑期新品競爭正式啟動。",
-      "impact": "版號持續正常發放是中國市場健康的正面訊號；暑期大廠新品集中上線將推高用戶獲取成本，台廠若有中國發行計畫，ChinaJoy前可蒐集競品情報，評估暑期進場時機與差異化切入點。",
-      "date": "2026-06-30",
-      "source": "MoneyDJ理財網",
-      "link": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=911a796a-4335-4d03-9c3b-18375b79ba0b",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "騰訊暑假未成年防沉迷升級：每週累計限玩3小時，首度導入AI人臉辨識",
-      "summary": "騰訊啟動2026年暑期未成年保護行動，未成年玩家每週僅可在週五至週日晚間8至9點登入，每週限玩3小時；首次引入AI技術防止成人代替驗證。",
-      "impact": "中國未成年防沉迷技術門檻持續升高，若AI驗證機制成為行業標準，台廠中國版本將被迫跟進導入；未成年有效遊戲時間壓縮，付費設計中的「未成年轉化漏斗」這條路已幾乎關閉，需重新評估受眾結構與活動節奏。",
+      "title": "騰訊暑期未成年防沉迷升級：AI 聲紋＋年齡識別雙引擎，每週僅 3 小時",
+      "summary": "2026 暑期（7/1–8/31）中國未成年人僅可在週五六日晚 8–9 點各玩 1 小時，全期上限 27 小時。騰訊首次部署 AI 雙引擎：聲紋特徵偵測＋年齡識別，防止冒用成人帳號代過。",
+      "impact": "對你的意義：中國遊戲內容必須在「全齡商業化」與「未成年完全隔離」之間做清楚切割；此模式若推廣至台廠代理或聯合運營的陸服，需提早規劃分齡內容架構與付費流程，否則面臨合規風險。",
       "date": "2026-07-03",
       "source": "星島日報",
       "link": "https://www.singtaousa.com/2026/07/03/news/china/tencent-minors-gaming-time-limit/",
@@ -62,12 +20,52 @@
     },
     {
       "category": "industry",
-      "title": "台灣手遊週榜（7/13-7/19）：鳴潮、絕區零領跑，任天堂主機產品線穩健",
-      "summary": "台灣遊戲市場週排行中，庫洛遊戲《鳴潮》與米哈遊《絕區零》持續佔據手遊前段班；主機市場以《節奏天國：奇蹟之星》為首，任天堂系列整體銷售表現穩定。",
-      "impact": "中國動作RPG持續主導台灣手遊排行，高品質建模與流暢戰鬥手感仍是市場主導要素；可將《鳴潮》與《絕區零》作為Q3競品研究基準，分析其留存與變現機制設計細節。",
-      "date": "2026-07-19",
-      "source": "Game LIFE",
-      "link": "https://gamelife.tw/gamenews/2026-%E5%B9%B4-7-%E6%9C%88-13-%E6%97%A5%E8%87%B3-7-%E6%9C%88-19-%E6%97%A5%E5%8F%B0%E7%81%A3%E9%81%8A%E6%88%B2%E9%8A%B7%E5%94%AE%E6%8E%92%E8%A1%8C%E6%A6%9C/",
+      "title": "中國 6 月遊戲版號 171 款過審，2026 上半年累計 950 款",
+      "summary": "國家新聞出版署 6 月底公布版號，本批 171 款（國產 163、進口 8），2026 上半年合計 950 款（國產 917、進口 33）。ChinaJoy 7 月 31 日開幕，暑期大廠新品競爭激烈。",
+      "impact": "對你的意義：版號發放速度回穩，但進口配額仍極低（上半年僅 33 款），台廠若有進中國計畫應留意進口版號競爭激烈程度；ChinaJoy 前後是觀察中國手遊市場趨勢的最佳視窗，值得留意競品動態。",
+      "date": "2026-07-04",
+      "source": "触乐／腾讯新闻",
+      "link": "https://news.qq.com/rain/a/20260704A05ZIP00",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "台積電 Q2 2026：營收年增 36%、毛利率 67.7%，AI 需求連五季創新高",
+      "summary": "台積電 Q2 營收新台幣 1.27 兆（約 402 億美元），年增 36%，毛利率 67.7%，全年成長展望維持 30% 以上。7 月 21 日 ADR 上漲 3.29%，AI 算力需求持續爆發。",
+      "impact": "對你的意義：AI 算力持續擴張代表遊戲產業導入 AI 工具的長期成本仍在下行，為 AI NPC、AI 美術工具的商業化提供更成熟的基礎條件；台積電財報也是台灣科技就業市場最重要的體溫計。",
+      "date": "2026-07-16",
+      "source": "TradingKey / TheStreet",
+      "link": "https://www.tradingkey.com/news/market-movers/262044580-market-movers-tsm-20260721",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "MIC：2026 年台灣半導體產值估達 7.1 兆，AI 加速器市場激增 78%",
+      "summary": "資策會 MIC 預估 2026 年台灣半導體產業產值創歷史新高達新台幣 7.1 兆，AI 加速器製造市場年增 78%，中國 IC 設計市佔擴至 45%、台灣調整至 40%。",
+      "impact": "對你的意義：AI 基礎建設投資加速，下游 AI 應用（含遊戲 AI 工具）成本持續下滑；另一面是台灣 AI 工程師搶人大戰加劇，遊戲公司招聘技術人才的競爭壓力將持續上升。",
+      "date": "2026-07-21",
+      "source": "資策會 MIC / Yahoo Finance 台灣",
+      "link": "https://tw.stock.yahoo.com/news/ai%E6%B5%AA%E6%BD%AE-mic%E4%BC%B0%E4%BB%8A%E5%B9%B4%E5%8F%B0%E7%81%A3%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%94%A2%E5%80%BC7-1%E5%85%86%E8%A1%9D%E6%96%B0%E9%AB%98-120204429.html",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "香港 SFC 新規：虛擬資產交易所強制 98% 冷錢包、24/7 安全操作中心",
+      "summary": "香港 SFC 5 月 27 日發布新合規要求，持牌虛擬資產交易所須將 98% 客戶資產存於冷錢包，建置 24/7 安全操作中心及自動交易監控系統，新申請者須透過 WINGS 平台提交文件並通過壓力測試。",
+      "impact": "對你的意義：香港虛擬資產合規框架趨成熟；若評估遊戲 NFT 或虛擬貨幣整合計畫，法律環境可行但合規成本（冷錢包基礎設施、安全人員）相對高，需納入商業評估才能判斷是否划算。",
+      "date": "2026-07-07",
+      "source": "Jones Day / HK Lawyer",
+      "link": "https://www.jonesday.com/en/insights/2026/07/hong-kong-tightens-rules-on-investments-in-virtual-assets",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "台灣國際電玩電競產業展 7/23–27 世貿一館即將開幕",
+      "summary": "台灣最大 B2B 電玩電競產業展覽於 7 月 23–27 日在台北世貿一館舉行，聚焦遊戲產業代理、授權、合作與市場拓展，為台灣業界年度重要連結場合。",
+      "impact": "對你的意義：是觀察台灣遊戲業界趨勢、接觸代理商與合作夥伴的絕佳節點；若有評估展場授權或 IP 合作需求，本週展覽是現場情報收集的最佳機會。",
+      "date": "2026-07-23",
+      "source": "展覽官網",
+      "link": "https://gamerscon.kje-event.com.tw/",
       "link_text": "原文連結"
     }
   ],
@@ -75,80 +73,58 @@
     {
       "id": "must-1",
       "category": "work",
-      "title": "Anthropic推Claude Sonnet 5：近Opus效能、代理任務成本大降",
-      "orig_title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
-      "summary": "Claude Sonnet 5於6月30日上線，推理、工具使用與程式碼能力接近Opus 4.8，入門定價每百萬token輸入$2、輸出$10（至8月底），之後調升至$3/$15；但新tokenizer效率下滑，實際成本可能比標價高20-35%。",
-      "impact": "若工作流有大量長文本摘要或多步驟代理任務，Sonnet 5值得評估切換；升級前需先跑benchmark，新tokenizer的隱性漲幅可能抵銷定價優勢，9月1日標準定價生效後務必重新試算總成本。",
+      "title": "Google 7/21 發布 Gemini 3.6 Flash：比前代省 17% Token，預告 Gemini 4",
+      "orig_title": "Google releases three new Gemini models — Gemini 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber",
+      "summary": "Google 7 月 21 日正式發布三款新模型：Gemini 3.6 Flash（$1.5/$7.5 per M tokens，比 3.5 Flash 輸出少 17%）、極低價 Gemini 3.5 Flash-Lite（$0.3/$2.5）、及限政府試用的 Gemini 3.5 Flash Cyber（資安偵測修補）。知識截止日從 2025/1 延至 2026/3，已整合至 GitHub Copilot，並預告 Gemini 4 開發中。",
+      "impact": "對你的意義：Flash-Lite 批量成本極低，適合遊戲 AI NPC 對話、UI 文案生成等大量請求場景；3.6 Flash 代理工作流效率提升（更少 tool calls 完成多步驟任務）可降低 AI pipeline 的實際費用；AI 模型競爭激烈對使用者有利，現在是評估切換或混合使用方案的好時機。",
+      "date": "2026-07-21",
+      "source": "TechCrunch / 9to5Google",
+      "link": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+      "link_text": "原文連結"
+    },
+    {
+      "id": "must-2",
+      "category": "work",
+      "title": "Google Play 抽成大降：基礎 20%、訂閱 10%，站外支付連結合法化",
+      "orig_title": "Google's new Play Store payment policies: commission cut from 30% to 20% with external payment links effective June 30",
+      "summary": "Google Play 新政策 6 月 30 日起在美英歐生效：基礎抽成從 30% 降至 20%（訂閱 10%），開發者可在 App 內放站外支付連結，沿用 Google 結帳另付 5% 費用。此政策是 Epic 訴訟後的結果，分析師認為可能預示 Apple 未來方向。Apple 目前仍維持 30%。",
+      "impact": "對你的意義：Google Play 與 Apple App Store 抽成差距擴大至 10 個百分點；Android 版若推出直接付款或訂閱，毛利率顯著改善；iOS 版如何定價以平衡兩平台抽成差異，是現在值得規劃的策略問題。",
       "date": "2026-06-30",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+      "source": "Apple Insider / TUAW",
+      "link": "https://appleinsider.com/articles/26/06/25/googles-new-payment-policies-are-a-preview-of-what-could-come-to-apple-platforms",
       "link_text": "原文連結"
     },
     {
-      "id": "must-3",
-      "category": "work",
-      "title": "中國AI模型搶進美企：成本比OpenAI低60-90%，美新創切換率飆升",
-      "orig_title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
-      "summary": "DeepSeek、阿里Qwen等中國開源模型在美企token使用占比從11%竄升至最高46%；DoorDash、Airbnb、Siemens已導入，部分工作負載成本比Claude Opus 4.8低80%以上，Zhipu GLM-5.2在Vercel平台月增50倍。",
-      "impact": "AI工具選型進入「夠好就好、選最便宜」的務實階段；可評估將非敏感任務（行銷文案草稿、資料整理、競品摘要）路由至中國開源模型節省預算，把昂貴配額留給需要最高推理品質的創意與策略決策場景。",
-      "date": "2026-07-07",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "work",
-      "title": "Epic v. Apple抽成之戰：聯邦法院發回地院裁定「合理費率」，結果懸而未決",
-      "orig_title": "Epic v. Apple: appeals court remands to district court to determine permissible App Store commission",
-      "summary": "美聯邦法院拒絕Apple重審請求（2026年3月），4月28日發回地區法院裁定可允許的「合理抽成率」；何時出判決尚無時間表，Apple目前仍維持30%標準抽成。",
-      "impact": "App Store抽成結構處於法律戰關鍵岔路口；若地院裁定大幅低於30%，手遊廠商iOS營收分潤將迎來有利轉機，但時間與幅度充滿不確定性，短期財務假設不宜調整，但值得持續追蹤。",
-      "date": "2026-04-28",
-      "source": "Funnelfox",
-      "link": "https://blog.funnelfox.com/apple-app-store-fees-2026-eu-dma/",
+      "category": "industry",
+      "title": "Gamescom 2026 史上首次全部展位售罄（7/21），HoYoverse、騰訊、NetEase 等大廠齊聚",
+      "orig_title": "Gamescom 2026 Has Sold Out of All Exhibition Space for the First Time in History",
+      "summary": "Gamescom 2026（8/26–30，科隆）7 月 21 日宣布史上首次全部展位售罄，新加入 Konami、Tencent Games，已確認展商含 HoYoverse、NetEase、任天堂、Bandai Namco、Xbox、EA、Ubisoft、Krafton 等。主辦方已規劃 2027 擴場。",
+      "impact": "對你的意義：中國廠商（HoYoverse、騰訊、NetEase）大規模布局歐洲的訊號，Gamescom 已成全球手遊出海的重要策略節點；歐洲競爭強度上升，也是觀察這些競品歐洲操盤策略的最直接視窗。",
+      "date": "2026-07-21",
+      "source": "Final Weapon / Gematsu",
+      "link": "https://finalweapon.net/2026/07/21/gamescom-2026-exhibition-space/",
       "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "GPT-5.6有限公開：須通過美商務部出口審查，僅約20個組織先行存取",
-      "orig_title": "OpenAI GPT-5.6 limited release after unusual Commerce Department export review",
-      "summary": "GPT-5.6正式公開前歷經逐客戶的美國商務部出口管制審查，初步僅限約20個核准組織存取；OpenAI採取謹慎路徑，Anthropic和xAI則直接走向全面公開。",
-      "impact": "AI模型出口管制已從晶片層延伸至模型存取層；若工作依賴頂端美系模型，需評估地緣政治帶來的可用性風險——AI工具備案與多元化策略日益必要，不應只依賴單一供應商。",
-      "date": "2026-07-20",
-      "source": "Fortune",
-      "link": "https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/",
+      "title": "美中貿易七月更新：中國商品有效關稅率仍約 30%，BIS 子公司規則暫停一年",
+      "orig_title": "US China Trade Monthly July 2026: BIS Affiliates Rule suspended for one year, effective tariff near 30%",
+      "summary": "依美中貿易協議，美方暫停「BIS Affiliates Rule」一年（至 2026/11/9），原本將把出口管制擴大至 50% 以上持股實體；中方同步暫停稀土出口管制一年。中國商品有效關稅率仍約 30%，為全球最高。中國另於 6 月 22 日對 10 家美國企業實施制裁。",
+      "impact": "對你的意義：美中科技脫鉤持續但雙方皆有暫緩動作，台廠在跨國供應鏈或技術合作上需持續評估合規風險；若採購雲端 GPU 或 AI 模型 API，需注意出口管制對中國境內存取的限制可能逐步擴散至開發工具層面。",
+      "date": "2026-07-21",
+      "source": "Mayer Brown / Mondaq",
+      "link": "https://www.mayerbrown.com/en/insights/publications/2026/07/us-china-trade-monthly-july-2026",
       "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "Google Gemini 3.5 Pro延期數月：編碼與長鏈推理未達內部標準",
-      "orig_title": "Google delays Gemini 3.5 Pro by months after coding and reasoning shortfalls",
-      "summary": "Gemini 3.5 Pro原訂2026年6月推出，因內部測試在編碼性能及複雜推理方面未達標而延後數月，目前仍限企業預覽；OpenAI、Anthropic藉此取得下半年領先窗口。",
-      "impact": "Google前沿AI競爭力短暫落後，下半年AI工具首選仍以OpenAI與Anthropic為主；若正在評估Gemini為主力AI工具，建議等正式版本實測結果再決策，不宜提前押注。",
-      "date": "2026-07-20",
-      "source": "ThursdAI",
-      "link": "https://thursdai.news/releases/2026-07",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "韓國遊戲三強格局成形：Nexon、Krafton、Netmarble年利潤合計近3兆韓元",
-      "orig_title": "Korean game industry reshaped into 'big three' as Nexon, Krafton, Netmarble near 3 trillion won in operating profit",
-      "summary": "韓國遊戲業重組完成：Nexon與Krafton各自Q1營收超過1兆韓元；Netmarble重組後年營收2.78兆韓元（+4.5%），年利潤預估+60%；中型廠商Kakao Games、Wemade、Webzen等持續承壓，業界極化加劇。",
-      "impact": "韓系三強IP（PUBG、Dungeon&Fighter、Seven Deadly Sins）全球佈局穩固；中型韓廠財務壓力擴大，台廠或有機會在IP授權、聯合發行等合作模式上取得更好條件，值得主動接觸評估。",
-      "date": "2026-07-01",
-      "source": "DigitalToday",
-      "link": "https://www.digitaltoday.co.kr/en/view/2063/korean-game-industry-big-three-nexon-krafton-netmarble-operating-profit-near-3-trillion-won",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "英國CMA接受Apple、Google App Store公平改革承諾，4月正式生效",
-      "orig_title": "UK CMA accepts Apple and Google app store fairness commitments, effective April 2026",
-      "summary": "英國競爭及市場管理局（CMA）4月1日公布，接受Apple和Google關於App Store審核透明度、開發者資料保護及投訴機制的承諾，作為平台競爭調查結案條件。",
-      "impact": "英國選擇「承諾機制」而非立法或強制令，短期內抽成結構不變；但透明審核承諾為開發者申訴提供新依據，台廠若曾遭遇不透明下架或審核拒絕，可援引此承諾機制要求平台說明。",
-      "date": "2026-04-01",
-      "source": "TechXplore",
-      "link": "https://techxplore.com/news/2026-06-uk-apple-google-app-fees.html",
+      "title": "韓廠三強確認參展 TGS 2026，Netmarble 日本收入過度集中單一 IP",
+      "orig_title": "NEXON, Netmarble, NCSoft confirm TGS 2026; Netmarble Japan revenue concentrated in Seven Deadly Sins Grand Cross",
+      "summary": "Nexon、Netmarble、NCSoft（以旗下 Dynamis One 的《Astra: Oratio》名義）確認參展東京電玩展 2026。另，Netmarble 日本收入高度集中在《七deadly sins: Grand Cross》，6 月遊戲更新後股價才穩定，單 IP 依賴風險顯著。",
+      "impact": "對你的意義：韓廠加速日本市場布局，TGS 成亞太競爭主舞台；Netmarble 的案例是個警示——手遊海外收入若過度集中單一標題，抗風險能力極低，多 IP 分散布局比衝單一爆款更重要。",
+      "date": "2026-07-21",
+      "source": "Gamemeca / ad-hoc-news.de",
+      "link": "https://www.gamemeca.com/en/view.php?gid=1777568",
       "link_text": "原文連結"
     }
   ]
