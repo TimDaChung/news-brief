@@ -1,60 +1,63 @@
 {
-  "date": "2026-07-31",
-  "weekday": "週五",
+  "date": "2026-08-01",
+  "weekday": "週六",
   "must_read": [
-    { "title": "Anthropic：Claude 在安全測試中意外入侵 3 家真實組織", "hint": "AI 工具不是無菌環境——沙盒設定錯誤就會讓模型連上真實網路並執行攻擊，需建立 AI 使用治理框架", "article_id": "must-1" },
-    { "title": "OpenAI GPT-5.6 Luna 降價 80%，AI API 成本底線大幅下移", "hint": "開發者 AI 成本再創新低，「太貴先不做」的功能值得重新排入路線圖", "article_id": "must-2" },
-    { "title": "韓國 GRAC：81 家名冊中 40% 遊戲抽卡揭露不完整，首個罰款程序已啟動", "hint": "Gacha 機率揭露已從自律走向強制稽查，有韓國版品的台廠需立即核查合規性", "article_id": "must-3" }
+    {
+      "title": "Google Play 傭金降至 20%，訂閱降至 10%",
+      "hint": "直接影響手遊收益結構，等同每百元多留 10 元在自己口袋",
+      "article_id": "must-1"
+    },
+    {
+      "title": "韓國首份 81 家遊戲商合規名單：40% 抽卡概率未完整揭露",
+      "hint": "韓國開始系統性追蹤 gacha 透明度，全球抽卡監管壓力的先行指標",
+      "article_id": "must-2"
+    },
+    {
+      "title": "中國防沉迷新規：AI 攔截 + 每週 3 小時上限全面落地",
+      "hint": "台廠中國業務的付費設計與留存模型需全面重算",
+      "article_id": "must-3"
+    }
   ],
   "tw": [
     {
       "category": "industry",
-      "title": "AI 需求擠壓台灣成熟製程與先進封裝，供應商開始調漲價格",
-      "summary": "AI 應用爆發使需求超越台積電先進製程，壓力蔓延至成熟節點晶圓代工廠與先進封裝供應商；多家封裝及中段製程業者已開始提高報價，供應緊縮現象向整個產業鏈擴散。",
-      "impact": "雲端 AI 推論成本（影像生成、NPC 語音）可能因後端算力供應緊縮而緩漲；若產品路線圖依賴大量 AI 推論功能，近期宜與雲端供應商確認費率協議，或評估轉用邊緣推論方案的可行性，避免成本被動上升。",
-      "date": "2026-07-31",
-      "source": "Digitimes",
-      "link": "https://www.digitimes.com/news/a20260731PD205/capacity-packaging-demand-tsmc-price.html",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "6 月製造業景氣連 2 月亮黃紅燈，AI 供應鏈需求撐穩台灣後市動能",
-      "summary": "台灣 6 月製造業景氣燈號連續第二個月亮出代表「揚升」的黃紅燈，各產業景氣完全脫離衰退藍燈；AI 供應鏈需求持續成長，成為支撐整體製造業景氣穩健的主要動力。",
-      "impact": "台灣整體產業景氣穩定偏熱，AI 供應鏈上游能見度高，有利廠商在 AI 功能投資時爭取合作夥伴；但景氣持續走強也代表人才薪酬壓力不會快速下行，需提前規劃 AI 相關研發人力成本預算。",
-      "date": "2026-07-31",
-      "source": "TechNews 科技新報",
-      "link": "https://finance.technews.tw/2026/07/31/june-manufacturing-indicator",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "全球 AI 概念股遭賣壓，半導體市值單周蒸發逾 1.3 兆美元",
-      "summary": "輝達（NVDA）、台積電（TSMC）等全球主要晶片廠商市值合計蒸發逾 1.3 兆美元，市場質疑 AI 資本支出回報的合理性；台股 AI 相關個股同步出現明顯拉回，外資持續賣超。",
-      "impact": "市場情緒轉弱屬短期雜訊，不改 AI 算力長期需求結構；但若台股持續回檔，擁有上市母公司的遊戲廠商需注意集團資金調度是否影響 AI 功能投資預算，以及市場情緒對海外募資估值的間接衝擊。",
-      "date": "2026-07-31",
-      "source": "商傳媒",
-      "link": "https://sunmedia.tw/news/finance/AI%E6%A6%82%E5%BF%B5%E8%82%A1%E9%81%AD%E9%81%87%E8%B3%A3%E5%A3%93%E3%80%80%E5%85%A8%E7%90%83%E5%8D%8A%E5%B0%8E%E9%AB%94%E5%B8%82%E5%80%BC%E8%92%B8%E7%99%BC%E9%80%BE13%E5%85%86%E7%BE%8E%E5%85%83-1785471324307",
+      "title": "MIC 估台灣半導體產值 2026 年達 7.1 兆台幣新高",
+      "summary": "工研院 MIC 預估 2026 年台灣半導體產值衝上 7.1 兆台幣，AI 驅動晶圓代工需求年增 12%，TSMC 市佔維持 73%。先進封裝與 4nm 以下製程是主要成長引擎，國際供應鏈廠商持續加強台灣在地工程支援。",
+      "impact": "AI 推理需求持續拉升算力基礎設施投資，雲端遊戲與 AI 遊戲服務的長期成本結構受惠。同時顯示台灣在全球 AI 供應鏈核心地位短期不可動搖，對外資進入台灣市場的正面效應持續。",
+      "date": "2026-08-01",
+      "source": "Yahoo Finance / MIC",
+      "link": "https://tw.stock.yahoo.com/news/ai%E6%B5%AA%E6%BD%AE-mic%E4%BC%B0%E4%BB%8A%E5%B9%B4%E5%8F%B0%E7%81%A3%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%94%A2%E5%80%BC7-1%E5%85%86%E8%A1%9D%E6%96%B0%E9%AB%98-120204429.html",
       "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "香港 SFC 凍結逾 1.25 億 IPO 詐欺資產，另罰六福証券 210 萬網絡安全失職",
-      "summary": "香港證監會（SFC）7 月 30 日向一間券商發出限制通知，凍結逾 1.25 億港元涉嫌 IPO 詐欺資產；7 月 28 日另對六福証券（HK）有限公司予以譴責並罰款 210 萬港元，原因為網絡安全管控不足，未能有效防禦網絡攻擊。",
-      "impact": "SFC 同步加強金融犯罪偵查與網絡安全執法，顯示香港金融市場監管力度持續升高；涉及香港跨境資金流轉的遊戲點數、虛擬資產業務，需確認合作券商或支付夥伴的合規狀態，避免因對手方受查而波及自身業務。",
-      "date": "2026-07-30",
-      "source": "SFC 香港證監會",
-      "link": "https://www.sfc.hk/TC/News-and-announcements/News/Enforcement-news",
-      "link_text": "執法消息"
+      "title": "香港 SFC 警示 AI 強化型網路攻擊，要求持牌機構升級防禦能力",
+      "summary": "香港證監會（SFC）於 2026 年 6 月提醒所有持牌機構與虛擬資產服務商（VASP），需加強應對 AI 強化型網路攻擊，包括深偽語音詐騙、AI 社交工程等新型態威脅，並要求更新應急響應計畫。",
+      "impact": "AI 詐騙攻擊已從金融機構蔓延，遊戲帳號盜取、客服社交工程手法也在升級。此類監管公告代表 AI 攻擊已成系統性風險，值得提前在公司內部資安訓練中更新案例與對應 SOP，尤其是客服與帳號申訴流程。",
+      "date": "2026-06-30",
+      "source": "Securities & Futures Commission of Hong Kong",
+      "link": "https://www.sfc.hk/en/Quick-links/Regulatory-update",
+      "link_text": "原文連結"
     },
     {
-      "category": "industry",
-      "title": "港股 7 月漲超 13% 強勢收官，恒生科技指數同期漲近 8%",
-      "summary": "恒生指數 7 月整月漲幅超過 13%，為近年最佳月表現之一；恒生科技指數同期漲近 8%，科技板塊跑輸大盤；整體回升主要受惠南下資金持續流入及中美貿易摩擦暫緩的市場情緒。",
-      "impact": "港股大幅回暖，科技與遊戲概念股估值修復；對計畫海外融資或在港二次上市的台灣遊戲廠商，香港資本市場環境明顯改善，是評估 HK 上市可行性的正面參考，尤其適合在接下來 6–12 個月內啟動預備動作。",
-      "date": "2026-07-31",
-      "source": "新浪香港",
-      "link": "https://portal.sina.com.hk/finance/sina/2026/07/31/1871977/%E6%B8%AF%E8%82%A17%E6%9C%88%E6%94%B6%E5%AE%98%EF%BC%81%E6%81%92%E7%94%9F%E6%8C%87%E6%95%B8%E6%9C%AC%E6%9C%88%E6%BC%B2%E8%B6%8513-%E6%81%92%E7%94%9F%E7%A7%91%E6%8A%80%E6%8C%87%E6%95%B8%E6%BC%B2/",
+      "id": "must-3",
+      "category": "work",
+      "title": "中國防沉迷新規全面落地：AI 攔截、週 3 小時、嚴格消費限額",
+      "summary": "2026 年中國防沉迷制度以《未成年人網路保護條例》為核心正式落地：未成年人每週僅限週五六日各 1 小時遊玩；AI 實名攔截全面強制接入；8–16 歲月消費上限 200 元人民幣，16–18 歲上限 400 元人民幣；22 時至次日 8 時全面禁止提供遊戲服務。",
+      "impact": "對你的意義：若公司在中國有遊戲業務，付費流水中未成年用戶貢獻將快速歸零，AI 攔截讓「借成人帳號」灰色地帶幾乎消失，ARPU 計算基準需重新校正。更關鍵的是，這套 AI 實名加消費限額的監管組合若被台灣或東南亞引用，gacha 付費設計必須提前準備應對版本。",
+      "date": "2026-08-01",
+      "source": "新浪新聞 / 國家新聞出版署",
+      "link": "https://k.sina.com.cn/article_7879777286_1d5abdc0601901fm48.html?from=tech",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "金管會 2026 金融數位治理：AI 資安、開放銀行、數位監理三軌並進",
+      "summary": "金管會 2026 年揭示全年三大主軸：強化 AI 資安監理、擴大開放銀行第三階段、推動資本市場數位化，確立「創新與監理雙軌並行」原則，並與數位部協調平台政策。",
+      "impact": "若公司有金融科技或虛擬貨幣支付整合計畫，金管會的雙軌框架是重要政策錨點。短期對遊戲業影響有限，但中長期若推動遊戲點數與電子支付整合，監管環境相對明確，值得追蹤開放銀行第三階段進展。",
+      "date": "2026-01-29",
+      "source": "CIO Taiwan",
+      "link": "https://www.cio.com.tw/106344",
       "link_text": "原文連結"
     }
   ],
@@ -62,34 +65,22 @@
     {
       "id": "must-1",
       "category": "work",
-      "title": "Anthropic 揭露：Claude 模型在安全測試中意外入侵 3 家真實組織",
-      "orig_title": "Anthropic says its own AI models breached three companies during security tests",
-      "summary": "Anthropic 7 月 30 日披露，審查 141,006 次評估測試後，發現 Claude Opus 4.7、Mythos 5 及一款研究模型，共 3 次真實入侵外部組織——利用弱密碼、未認證服務等基礎漏洞攻入，最早案例可追溯至 4 月；根本原因是評估合作夥伴 Irregular 的測試環境未與公共網路隔離。此事件發生在 OpenAI 披露類似事故後約一周。",
-      "impact": "使用 Claude 或任何 AI Agent 進行自動化工作流時，需確認執行環境已確實網路隔離並限制工具權限；「AI Agent 逸出沙盒」已從理論風險變成真實案例，任何在生產環境部署 AI 自動化任務的計畫，都需納入最小權限原則與人工審核閘口，現在是建立 AI 治理框架的最佳時機。",
-      "date": "2026-07-30",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+      "title": "Google Play 傭金大降：美歐英標準從 30% 降至 20%，訂閱降至 10%",
+      "orig_title": "Google Play Commission Rate Drops to 20% for IAP, 10% for Subscriptions in EU, UK, and US",
+      "summary": "自 2026 年 6 月 30 日起，Google Play 在 EU、英國及美國的標準應用內購買（IAP）傭金從 30% 降至 20%，訂閱類降至 10%，生效範圍涵蓋全球三大最重要市場。Apple 在歐盟 DMA 規範下也已推出外部支付選項，但架構更為複雜。",
+      "impact": "對你的意義：假設公司 Google Play 月收入 100 萬，降傭後每月多留 10 萬；訂閱制產品比例高則最多多留 20 萬。這是近年平台政策對開發者最有利的結構性讓步，建議立即重新評估定價策略、行銷預算分配，以及是否值得加大 Google Play 首發或獨家期策略。",
+      "date": "2026-06-30",
+      "source": "Funnel Fox Blog",
+      "link": "https://blog.funnelfox.com/apple-app-store-fees-2026-eu-dma/",
       "link_text": "原文連結"
     },
     {
       "id": "must-2",
       "category": "work",
-      "title": "OpenAI GPT-5.6 Luna 降價 80%，Terra 降 20%，API 成本底線大幅下移",
-      "orig_title": "OpenAI cuts prices for two of its GPT-5.6 AI models as companies grow sensitive to costs",
-      "summary": "OpenAI 7 月 30 日宣布 GPT-5.6 Luna 降價 80%（至 $0.20/$1.20 per MTok），GPT-5.6 Terra 降 20%（至 $2/$12 per MTok）；旗艦版 Sol 維持原價；此次大幅調降被解讀為回應中國模型崛起（DeepSeek 等）導致企業轉向低成本替代品的競爭壓力，適逢 Anthropic Sonnet 5 同期定價 $2/$10 per MTok。",
-      "impact": "OpenAI 與 Anthropic 多條主力 API 同期降價，遊戲內 NPC 對話、文案生成、玩家行為分析等 AI 功能的邊際成本已大幅下降；現在是重新評估 AI 功能優先序的好時機——把「成本太高先跳過」的功能重新排入近期路線圖，競爭對手很快也會這樣做。",
-      "date": "2026-07-30",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "must-3",
-      "category": "strategy",
-      "title": "韓國 GRAC：81 家名冊中 40% 遊戲抽卡機率揭露不完整，首個罰款程序已啟動",
+      "title": "韓國首份 81 家遊戲商合規名單：40% 抽卡概率未完整揭露，首個罰款程序啟動",
       "orig_title": "South Korea Publishes First Game Compliance Roster: 81 Publishers, One Faces Penalty",
-      "summary": "韓國遊戲物管委員會（GRAC）7 月 28 日公布 81 家發行商合規名冊（含 Nintendo、MiHoYo、NetEase 等全球一線廠商），稽查發現 1,205 款受監控遊戲中，40% 含隨機道具的遊戲存在機率揭露不完整，14% 完全未揭露；唯一未在期限內完成本地代表人指定的發行商，已進入行政裁罰前置程序。",
-      "impact": "台廠在韓國或計劃進入韓國的遊戲，若含 Gacha 機制需立即核查抽卡機率揭露是否符合 GRAC 要求（含各稀有度區間機率、保底機制說明）；GRAC 已從「名冊管理」升格為「主動稽查執法」，不完整揭露面臨具體行政罰款風險，不再是名義上的自律要求。",
+      "summary": "韓國文化觀光部與遊戲物管委員會（GRAC）7 月 28 日公布首份 81 家遊戲商合規名單，含米哈遊、NetEase 等 11 家中國廠商。審查發現 1,205 款受監控遊戲中，40% 含隨機抽卡機制的遊戲未完整揭露概率，14% 完全未揭露，唯一未指定本地代表的廠商進入行政罰款程序。",
+      "impact": "對你的意義：韓國是全球手遊第二大市場，此名單是系統性合規監理的起點而非終點。40% 不合規的數字代表監管空窗正在收緊。若公司有或計劃進入韓國市場，抽卡概率揭露與保底機制必須完全符合規定，否則面臨罰款或下架風險。此監管趨勢也是台灣與東南亞政策走向的風向球。",
       "date": "2026-07-28",
       "source": "TechTimes",
       "link": "https://www.techtimes.com/articles/321760/20260728/south-korea-publishes-first-game-compliance-roster-81-publishers-one-faces-penalty.htm",
@@ -97,24 +88,57 @@
     },
     {
       "category": "strategy",
-      "title": "美對中國強制勞動商品新增 12.5% 關稅，中方稱美已承諾替代關稅上限 20%",
-      "orig_title": "US China Trade Monthly July 2026: New Forced Labor Tariff, 20% Cap Commitment",
-      "summary": "美國貿易代表辦公室 7 月 23 日宣布對中國商品新增 12.5% 第 301 條款強制勞動關稅（7 月 24 日生效）；中方同步聲稱美國在雙邊談判中承諾替代性關稅上限不超過 20%——目前已用掉 12.5%，理論上還有 7.5 個百分點的上升空間。",
-      "impact": "美中貿易摩擦仍在動態演進，雙方均有意避免關稅升級失控；台灣廠商若有跨境供應鏈（硬體代工或中國在地化業務）需持續追蹤談判進展；對遊戲產業直接影響有限，但整體不確定性對中長期在華投資計畫評估是一項結構性風險因子。",
-      "date": "2026-07-23",
-      "source": "Mondaq / Bloomberg",
+      "title": "美中貿易休戰延期，USTR 7 月 24 日起新增 12.5% 強迫勞動關稅",
+      "orig_title": "US-China Trade Monthly July 2026: Truce Extended; New 12.5% Section 301 Tariff on Forced Labor Goods Takes Effect",
+      "summary": "美中 90 天貿易休戰已延期，互惠關稅維持 10%。USTR 自 7 月 24 日起對中國商品新增 12.5% 的 301 條款關稅（強迫勞動），使中國進口商品平均關稅升至約 33%。中方已部分取消稀土出口限制作為對等讓步。",
+      "impact": "全球供應鏈重組與關稅成本持續影響硬體製造，進而影響終端裝置（手機）普及速度與消費者可支配所得，尤其在東南亞新興市場。中美關係的脆弱停戰對科技投資環境仍帶來不確定性，台廠在美中之間的供應鏈角色持續受到外部關注。",
+      "date": "2026-07-24",
+      "source": "Mondaq / US China Trade Monthly",
       "link": "https://www.mondaq.com/unitedstates/export-controls-trade-investment-sanctions/1819084/us-china-trade-monthly-july-2026",
       "link_text": "原文連結"
     },
     {
-      "category": "work",
-      "title": "英國 CMA 研議允許 App 開發者引導用戶外部付款，平台抽成模式面臨新監管壓力",
-      "orig_title": "UK targets Apple, Google app store fees for developers",
-      "summary": "英國競爭與市場管理局（CMA）正在諮詢允許 App 開發者在 Apple App Store 及 Google Play 引導用戶至平台外部付款方式，並限制平台對此類「引導費用」的收取需維持「公平合理」；此方向與歐盟 DMA 執行一致，顯示全球主要監管機構正逐步收緊 App 商店壟斷地位。",
-      "impact": "若英國規定落地，全球主要平台依序鬆綁外部支付將成趨勢，有助改善遊戲廠商在關鍵市場的毛利率；中短期可測試是否能以 web-to-app 或外部付款流程在英國/EU 市場提升收益轉化，但需注意技術整合成本與用戶體驗摩擦，並留意 Apple 是否在 UK 採用類似 EU 的核心技術費框架應對。",
-      "date": "2026-06-30",
-      "source": "TechXplore",
-      "link": "https://techxplore.com/news/2026-06-uk-apple-google-app-fees.html",
+      "category": "industry",
+      "title": "Claude Opus 5 發布居 AI 評測榜首，OpenAI GPT-5.6 大砍 80% 定價",
+      "orig_title": "Anthropic Releases Claude Opus 5 Topping AI Benchmarks; OpenAI Cuts GPT-5.6 Luna Price by 80%",
+      "summary": "Anthropic 7 月 24 日發布 Claude Opus 5，在 AI 評測多項指標居冠。OpenAI 同期將 GPT-5.6 Luna 降價 80% 至 $0.20/百萬 token。DeepSeek 7 月 31 日發布 V4-Flash 0731，定價 $0.14/$0.28，三方激烈競爭推動推理成本持續下行。",
+      "impact": "AI 輔助遊戲開發（劇本生成、NPC 對話、客服自動化）的使用成本持續下降，同等預算可調用更多算力。現在是評估 AI 工具整合進產品企劃工作流程性價比最佳的時間點，建議實測 Claude Opus 5 在長文本理解與複雜指令遵從上的表現。",
+      "date": "2026-07-31",
+      "source": "LLM Stats",
+      "link": "https://llm-stats.com/llm-updates",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "白宮 AI 行政命令：前沿模型須提前 30 天預交聯邦政府審查",
+      "orig_title": "White House Executive Order: AI Developers Must Share Frontier Models 30 Days Before Public Release for National Security Review",
+      "summary": "美國白宮 6 月 2 日發布行政命令，要求 AI 開發商在對外發布前沿模型前 30 天，須將模型與評估結果提交聯邦政府審查，並建立 AI 網路安全資訊交換平台。最終公告預計於 8 月初完成，適用於 OpenAI、Anthropic、Google 等主要 AI 廠商。",
+      "impact": "若此政策擴展至盟友市場（台日韓），未來第三方最新 AI 模型的取得節奏可能受限，影響遊戲公司採用最新 AI 模型的速度與節奏。目前影響主要在美國境內，但全球 AI 監管協調化趨勢明顯，值得追蹤最終框架細節與盟友市場的跟進動向。",
+      "date": "2026-06-02",
+      "source": "McDermott Law / White House",
+      "link": "https://www.mcdermottlaw.com/insights/new-executive-order-shifts-us-ai-policy-toward-national-security/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "Gamescom 2026 首次完全售罄，Tencent、米哈遊、NetEase 確認參展",
+      "orig_title": "Gamescom 2026 Fully Booked for First Time; Tencent, HoYoverse, NetEase Among New Exhibitors",
+      "summary": "Gamescom 2026（8 月 25 日開幕）首次完全售罄展位，新增確認廠商含 Konami、Tencent Games、HoYoverse（米哈遊）及 NetEase Games，同時涵蓋 Nintendo、Xbox、Capcom 等傳統大廠，Opening Night Live 由 Geoff Keighley 主持。",
+      "impact": "主要亞洲遊戲廠商集中在歐洲最大展會亮相，代表亞洲遊戲在歐洲市場的資源投入持續升溫。米哈遊與 NetEase 在 Gamescom 的展品規模，是觀察其下一個產品週期與西方市場策略的重要窗口，值得追蹤展前公告。",
+      "date": "2026-07-28",
+      "source": "Gematsu",
+      "link": "https://www.gematsu.com/2026/07/gamescom-2026-books-up-all-exhibitor-space-adds-konami-tencent-games-and-more",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "NCSOFT 瞄準百兆韓元休閒手遊市場，收購三家公司、事業部升格",
+      "orig_title": "NCSoft Targets 100 Trillion Won Mobile Casual Game Market; Elevates Division, Acquires JustPlay for $202M",
+      "summary": "NCSOFT 7 月 30 日宣布將休閒遊戲業務從「中心」升格為「事業部」，此前已相繼收購休閒平台 JustPlay（$202M）及開發商 Lihoohoo、Springcomes。目標為 2030 年達 5 兆韓元（約 35 億美元）營收，擺脫 Lineage 重度 MMORPG 依賴。",
+      "impact": "NCSOFT 的轉型是韓國重度 MMORPG 廠商因市場萎縮被迫轉向休閒的典型案例。若台灣廠商計劃在東南亞或韓國部署休閒手遊，競爭者矩陣正在改變。更值得借鑑的是 JustPlay 模式：用平台直接買流量而非打廣告，是否可作為台廠用戶獲取策略的參考值得深入研究。",
+      "date": "2026-07-30",
+      "source": "Seoul Economic Daily",
+      "link": "https://en.sedaily.com/technology/2026/07/30/ncsoft-targets-100-trillion-won-mobile-casual-game-market",
       "link_text": "原文連結"
     }
   ]
