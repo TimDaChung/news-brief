@@ -1,73 +1,66 @@
 {
-  "date": "2026-08-03",
-  "weekday": "週一",
+  "date": "2026-08-04",
+  "weekday": "週二",
   "must_read": [
     {
-      "title": "Google Play 計費解耦生效，手遊可建直連網路商店",
-      "hint": "平台抽成結構大改，遊戲出版商首次獲合規的直售路徑",
+      "title": "南韓首發遊戲合規名單，40% 抽卡揭露不合規",
+      "hint": "首次執法亮底：81 家發行商登錄，40% 遊戲抽卡不透明，台廠需立即自查",
       "article_id": "must-1"
     },
     {
-      "title": "NCSoft 將休閒遊戲升格事業部，瞄準百兆韓元市場",
-      "hint": "韓最大重度MMORPG廠正式轉型，休閒遊戲成下一輪主戰場",
-      "article_id": "must-3"
+      "title": "Nintendo Switch 2 漲價 50 美元，FY27 銷量預測異常下修",
+      "hint": "記憶體危機導致主機罕見第二年降量，AI 搶占 DRAM 產能是結構性因素",
+      "article_id": "must-2"
     },
     {
-      "title": "騰訊確認暑期未成年限玩令不鬆綁",
-      "hint": "中國青少年每週3小時上限維持，台廠在中國的未成年受眾近乎歸零",
-      "article_id": "must-2"
+      "title": "香港 SFC 推出全球首個 VATP 代幣化基金次級市場框架",
+      "hint": "亞洲主要司法區率先為鏈上資產交易立法，Web3 遊戲經濟合規路徑浮現",
+      "article_id": "must-3"
     }
   ],
   "tw": [
     {
-      "id": "must-2",
-      "category": "work",
-      "title": "騰訊確認暑期未成年限玩令不鬆綁：每週仍限3小時",
-      "summary": "騰訊2026年暑期啟動未成年保護專項行動，未成年玩家只能在週五、六、日晚8–9點各一小時，共計每週3小時，暑假期間無任何豁免，並持續以人臉識別強制執行。",
-      "impact": "若你的遊戲有中國版本或計劃進入中國市場，暑假檔期可觸達的未成年玩家幾乎為零；暑期行銷預算應集中在成年玩家，付費活動設計也無需考慮未成年消費行為。",
-      "date": "2026-07-03",
-      "source": "星島日報",
-      "link": "https://www.singtaousa.com/2026/07/03/news/china/tencent-minors-gaming-time-limit/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "台灣製造業 PMI 飆至 61.5，連10月擴張創近5年新高",
-      "summary": "2026年7月台灣製造業PMI達61.5，為2021年9月以來最高值，AI應用與半導體需求持續推動新訂單（63.3）與生產（62.7）雙雙強勁擴張。",
-      "impact": "製造業景氣熱絡直接拉升企業科技預算，AI及數位化工具採購意願上升；遊戲公司若有企業端解決方案或B2B合作提案，現在是推進的好時機；同時工程師人才爭奪將更激烈，招募需提前佈局。",
-      "date": "2026-08-03",
-      "source": "Taipei Times",
-      "link": "https://www.taipeitimes.com/News/biz/archives/2026/08/04/2003861875",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "TSMC Q2 2026 年增36%，Q3 靠2奈米持續衝刺",
-      "summary": "台積電Q2合併營收新台幣1.27兆元，年增36%。Q3展望強勁，2奈米製程快速放量為主要驅動力，全年預測成長30%，2029年CAGR預估25%。",
-      "impact": "台灣科技產業獲利持續上升，對遊戲業的間接意義在於AI推論晶片供應穩定充足，未來AI NPC、即時生成內容等功能的基礎算力成本有望持續下降。",
-      "date": "2026-07-13",
-      "source": "TSMC SEC 6-K",
-      "link": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000447/tsm-revenue20260713.htm",
-      "link_text": "原文連結"
-    },
-    {
+      "id": "tw-1",
       "category": "strategy",
-      "title": "AI下半場：漲價故事說完了，終端真的願意買單嗎？",
-      "summary": "分析指出AI產業進入「終端驗收」關鍵期，模型算力成本大幅降低後，企業端與消費者端是否真正付費採購AI產品，將決定下半年整體AI估值走向。",
-      "impact": "對手遊產品企劃的直接啟示：公司若正評估導入AI功能（智慧客服、生成內容、動態平衡），現在應切換到「付費轉換率驗收」而非停在功能展示；用數據說話，而非等市場共識形成。",
-      "date": "2026-08-03",
-      "source": "Newtalk新聞",
-      "link": "https://newtalk.tw/news/view/2026-08-03/1050917",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "台灣加速投資AI新創與算力基礎建設，數發部主導協調",
-      "summary": "台灣政府透過數發部加速投資AI新創並擴大算力基礎建設，目標將科研能量轉為實質經濟產值，與民間形成協力生態系，2026年持續扮演「數位發動機」。",
-      "impact": "台灣AI生態系趨於完整，遊戲公司在本地尋找語音合成、圖像生成、行為分析等AI合作夥伴的機會增加；政府補助計劃值得定期追蹤，部分科技公司有資格申請。",
-      "date": "2026-07-31",
+      "title": "台灣政府將半導體與 AI 列高耗能產業，啟動去碳化計畫",
+      "summary": "台灣國科會（NSTC）正式將半導體與 AI 產業納入高耗能產業類別，並啟動去碳化計畫，要求相關業者配合排放路線圖。",
+      "impact": "AI 基礎設施與遊戲雲端伺服器的電力成本未來將受碳排規範拉升，長期影響台灣 AI 工具與雲端算力的採購成本，需納入中長期預算規劃。",
+      "date": "2026-08-04",
       "source": "Digitimes",
-      "link": "https://www.digitimes.com/news/a20260731PD206/taiwan-investment-infrastructure-development-moda.html",
+      "link": "https://www.digitimes.com/news/a20260804PD228/taiwan-nstc-semiconductors-government-manufacturing.html",
+      "link_text": "原文連結"
+    },
+    {
+      "id": "tw-2",
+      "category": "strategy",
+      "title": "台日半導體技術論壇：AI 競爭軸心移向系統整合，光互連成新主軸",
+      "summary": "台日論壇指出 AI 時代競爭焦點已從電晶體縮放轉至先進封裝、材料與系統整合，光互連技術成下世代能效瓶頸解方；ASE Technology 同步宣布上調資本支出至 105 億美元，年增 23.5%。",
+      "impact": "台灣封測廠在新競爭格局中地位上升，AI 硬體生態重組代表算力供給中長期穩定，支撐遊戲公司採用 AI 工具的底層成本不會因供應鏈問題大幅波動。",
+      "date": "2026-08-04",
+      "source": "Taipei Times",
+      "link": "https://www.taipeitimes.com/News/biz/archives/2026/08/04/2003861881",
+      "link_text": "原文連結"
+    },
+    {
+      "id": "must-3",
+      "category": "strategy",
+      "title": "香港 SFC 推出全球首個 VATP 代幣化基金次級市場交易框架",
+      "summary": "香港證監會宣布允許持牌虛擬資產交易平台（VATP）進行代幣化貨幣市場基金次級市場交易，配套 CrypTech 監管科技倡議，為全球主要司法區首例；截至今年 3 月代幣化資產 AUM 已達 107 億港元，年增約七倍。",
+      "impact": "若台灣手遊業者評估以代幣化道具或鏈上資產設計遊戲內經濟，香港框架提供首個可參考的亞洲合規架構；代表遊戲 Web3 經濟的監管路徑正在從灰色地帶走向明朗。",
+      "date": "近期",
+      "source": "ABMedia",
+      "link": "https://abmedia.io/hk-sfc-vatp-tokenized-asset-trading-framework-2026",
+      "link_text": "原文連結"
+    },
+    {
+      "id": "tw-4",
+      "category": "work",
+      "title": "中國 2026 版號屬地審批擴大試點，抽卡透明度成核心審核門檻",
+      "summary": "中國新聞出版署進一步擴大版號屬地管理試點至北、上、粵、浙等省市，縮短部分審批週期；抽卡概率未完整公示或保底機制不透明，仍是最常見的被駁回原因。",
+      "impact": "台廠進中國市場前，抽卡系統全面揭露是必要前提；屬地化雖縮短等待時間，但各省標準不一，需逐省評估合規路徑，同時與南韓執法趨勢對比，抽卡透明化已成全球手遊監管共識。",
+      "date": "近期",
+      "source": "PlayLeYuan",
+      "link": "https://playleyuan.com/chanye/banhao-shenpi/guochan-banhao/guochan-banhao-zhengce.html",
       "link_text": "原文連結"
     }
   ],
@@ -75,91 +68,61 @@
     {
       "id": "must-1",
       "category": "work",
-      "title": "Google Play 計費解耦生效，遊戲出版商可建直連網路商店",
-      "orig_title": "Google Play Expanded Billing Choice and Lower Fees Effective June 30, 2026",
-      "summary": "Google Play自2026年6月30日起在美、英、歐三市場實施計費解耦：10%服務費（不限使用哪種付款方式），另加5% Google計費費。外部連結與替代付款正式合規，遊戲出版商可直接引導玩家至自建網路商店購買。",
-      "impact": "手遊產品企劃需重新評估「網路商店」策略：遊戲內跳轉至自建購買頁面已在部分市場合規，可能顯著提升ARPU；但平台仍收10%服務費，需計算實際利差與開發成本，建議先評估主力市場覆蓋率再決定是否建置。",
-      "date": "2026-06-30",
-      "source": "Android Developers Blog",
-      "link": "https://android-developers.googleblog.com/2026/06/play-expanded-billing.html",
+      "title": "南韓首發遊戲合規名單：81 家發行商登錄，40% 抽卡機制揭露不足",
+      "orig_title": "South Korea Publishes First Game Compliance Roster: 81 Publishers, One Faces Penalty",
+      "summary": "南韓文化體育觀光部與 GRAC 公布首份 81 家遊戲發行商合規名單（涵蓋 miHoYo、NetEase、Nintendo 等），監測 1,205 款遊戲發現：40% 含隨機道具遊戲有概率揭露不完整，14% 完全未揭露，1 家業者進入行政裁罰程序。",
+      "impact": "南韓對抽卡的監管已從「要求揭露」升至「主動監測並公告名單」，台灣開發商在韓上架前須重新檢視抽卡概率揭露，且此執法模式具示範效應，預期影響其他亞太市場法規走向。",
+      "date": "2026-07-28",
+      "source": "TechTimes",
+      "link": "https://www.techtimes.com/articles/321760/20260728/south-korea-publishes-first-game-compliance-roster-81-publishers-one-faces-penalty.htm",
       "link_text": "原文連結"
     },
     {
-      "id": "must-3",
+      "id": "intl-2",
+      "category": "work",
+      "title": "南韓擬推收益比例制抽卡罰款，違規最高罰至 70 萬美元",
+      "orig_title": "South Korea Loot Box Crackdown: Revenue-Based Fines Up to 3% of Revenue Proposed",
+      "summary": "南韓立法院提案修法，對抽卡概率未揭露或造假的發行商處以最高 3% 年收益、上限 10 億韓元（約 70 萬美元）的罰款；現行罰款上限僅 2,000 萬韓元，新制一旦通過罰則力度大增。",
+      "impact": "收益比例制罰款對大型手遊的嚇阻效果遠高於固定額罰款，台灣開發商若有韓國業務應視此為高優先合規事項，盡速確保所有抽卡機制的概率揭露完整且即時可查。",
+      "date": "近期",
+      "source": "Korea Game Desk",
+      "link": "https://koreagamedesk.com/publishers-in-a-limbo-as-korea-weaponizes-instant-700k-penalties/",
+      "link_text": "原文連結"
+    },
+    {
+      "id": "must-2",
       "category": "industry",
-      "title": "NCSoft 將休閒遊戲升格為事業部，瞄準百兆韓元市場",
-      "orig_title": "NCSoft Targets 100 Trillion Won Mobile Casual Game Market",
-      "summary": "NCSoft將休閒遊戲業務從「中心」升格為「事業部」，連續收購JustPlay、Lihoohoo、Springcomes，目標2027年靠休閒遊戲超越Lineage系列收益，進軍全球佔比60%的休閒遊戲市場。",
-      "impact": "韓國最代表性的重度MMORPG廠正式轉型，代表重度手遊市場天花板已現，休閒遊戲才是下一輪規模增長的戰場；台廠若有輕度玩法或休閒IP，此刻加速佈局的方向與大廠一致，是建立差異化的時間窗口。",
-      "date": "2026-07-30",
-      "source": "Seoul Economic Daily",
-      "link": "https://en.sedaily.com/technology/2026/07/30/ncsoft-targets-100-trillion-won-mobile-casual-game-market",
+      "title": "Nintendo Switch 2 漲價 50 美元，FY27 銷量預測罕見下修至 1,650 萬台",
+      "orig_title": "Nintendo hikes Switch 2 prices and expects console sales to decline as memory crunch bites",
+      "summary": "Nintendo 宣布 Switch 2 自 9 月起在美國漲價 50 美元至 499.99 美元，原因是 AI 搶占 DRAM 產能導致 LPDDR5X 成本 Q1 暴漲 90%；FY27 銷量預測下修至 1,650 萬台（FY26 實際銷售 1,986 萬台），全年營收預測下調 11.4%。",
+      "impact": "AI 對記憶體供應鏈的擠壓已導致主機成本上升，第二年出貨量罕見下降；對台灣遊戲開發商的啟示：Switch 平台使用者基礎雖大，但主機取得成本提升可能放緩用戶基礎成長速度，需重新評估平台化投資 ROI。",
+      "date": "2026-05-08",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/05/08/nintendo-switch-2-price-hike-sales-fall-memory-crunch.html",
       "link_text": "原文連結"
     },
     {
-      "category": "work",
-      "title": "Anthropic 發布 Claude Opus 5：半價媲美 Fable 5，ARC-AGI-3 登頂",
-      "orig_title": "Anthropic Launches Claude Opus 5 — Frontier-Class Agentic Model at Unchanged Pricing",
-      "summary": "2026年7月24日發布，定價 $5/$25 per M tokens（與Opus 4.8相同），1M上下文。ARC-AGI-3得分30.2%（業界第一），Frontier-Bench 43.3%（翻倍前代）。代理式編程與電腦操控表現突出，定位為Fable 5的半價替代。",
-      "impact": "若你的公司正使用或評估Claude系列，Opus 5是目前成本效益最高的前沿選項；特別適合遊戲文本大批量生成、長文件分析、代理式自動化流程，同樣工作量成本降至Fable 5的一半。",
-      "date": "2026-07-24",
-      "source": "Anthropic",
-      "link": "https://www.anthropic.com/news/claude-opus-5",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "work",
-      "title": "OpenAI GPT-5.6 Luna 降價80%，Terra 降20%",
-      "orig_title": "OpenAI Cuts GPT-5.6 Luna API Price 80% to $0.20/$1.20 per M Tokens",
-      "summary": "2026年7月30日，OpenAI將GPT-5.6 Luna API降至 $0.20/$1.20 per M tokens（降幅80%），Terra降至 $2/$12（降幅20%），GA上線僅三週即大幅降價。",
-      "impact": "AI API成本持續下跌，遊戲公司導入AI功能（NPC動態對話、玩家行為分析、動態文本生成）的邊際成本已大幅降低；若之前因成本卡關而未啟動的AI功能項目，現在值得重新試算。",
-      "date": "2026-07-30",
-      "source": "LLM Stats",
-      "link": "https://llm-stats.com/llm-updates",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "work",
-      "title": "DeepSeek V4-Flash 發布，$0.14/M 重塑性價比下限",
-      "orig_title": "DeepSeek V4-Flash 0731 Released at $0.14/$0.28 per M Tokens",
-      "summary": "DeepSeek於2026年7月31日發布V4-Flash 0731，輸入$0.14、輸出$0.28 per M tokens，成為新的性價比標竿，尤其適合高頻推論場景。",
-      "impact": "對遊戲公司的工程團隊：V4-Flash 可作為高並發、超低成本推論後端，適合即時推薦、輕量NPC對話、玩家分類等場景；但需評估將玩家數據送至境外伺服器的隱私合規風險，台灣個資法與各目標市場法規皆須確認。",
-      "date": "2026-07-31",
-      "source": "LLM Stats",
-      "link": "https://llm-stats.com/llm-updates",
-      "link_text": "原文連結"
-    },
-    {
+      "id": "intl-4",
       "category": "strategy",
-      "title": "美對中新增12.5% Section 301 關稅，中美貿易再加壓",
-      "orig_title": "USTR Adds 12.5% Section 301 Tariff on Chinese Goods Over Forced Labor, Effective July 24",
-      "summary": "美國貿易代表署（USTR）以中國未有效禁止強迫勞動商品進口為由，2026年7月24日加徵12.5%的Section 301關稅，整體對中關稅水準再提高2.5個百分點。美中貿易量較峰值已下滑約30%。",
-      "impact": "若遊戲公司有中國外包美術、音效或技術合作，成本壓力持續增加；強化台灣本地製作能力或轉向日韓夥伴合作更具長期確定性，美中貿易摩擦短期內看不到出口。",
-      "date": "2026-07-24",
-      "source": "American Action Forum",
-      "link": "https://www.americanactionforum.org/shipment/china-export-controls-and-tariff-shenanigans/",
+      "title": "任天堂正式撤出中國：Switch eShop 5 月關閉，Switch 2 無官方引進計畫",
+      "orig_title": "Nintendo's Strategic Retreat in China and the Future of Console Gaming Partnerships",
+      "summary": "任天堂中國 eShop 及 Tencent 合作的線上服務已於 2026 年 5 月 15 日正式關閉，結束逾十年的本地化嘗試；Switch 2 未宣布任何中國官方合作夥伴，目前僅靠灰色市場進口流通。",
+      "impact": "外資主機平台在中國已幾乎無法正式運作，台灣開發商進中國市場只剩手機版號路線（App Store/Google Play 不適用），主機版在中國的商業路徑短期內不存在。",
+      "date": "近期",
+      "source": "ainvest / Hitmarker",
+      "link": "https://www.ainvest.com/news/nintendo-strategic-retreat-china-future-console-gaming-partnerships-2508/",
       "link_text": "原文連結"
     },
     {
+      "id": "intl-5",
       "category": "strategy",
-      "title": "美對中 AI 晶片管制轉向：25% 關稅 + 個案授權取代全面禁令",
-      "orig_title": "US H200 China Export Policy: 25% Tariff and Case-by-Case Licensing Replace Blanket Denial",
-      "summary": "Trump政府推翻H200對中全面出口禁令，改以個案授權加25%關稅框架管理，預估年流入中國約100萬顆H200。政策被批「前後矛盾」，但確保部分先進算力仍可進入中國。",
-      "impact": "中國AI廠商（米哈遊、網易、騰訊）的AI技術投入不會完全停滯，代表中國AI遊戲競爭對手仍有繼續升級的空間；台廠若計劃使用中國AI夥伴開發遊戲內容，合規程序更複雜，但管道仍存在。",
-      "date": "2026-01-15",
-      "source": "Semiconductors Insight",
-      "link": "https://semiconductorsinsight.com/us-china-chip-export-controls-h200-2026/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "Gamescom 2026 首度展位完售，騰訊、網易、NC 悉數參展",
-      "orig_title": "Gamescom 2026 Sells Out Exhibition Space for First Time; Tencent, NetEase, NCSOFT Among New Exhibitors",
-      "summary": "2026科隆遊戲展（8月25日）首次展位全數售罄，新增騰訊、網易（Level Infinite）、NC等亞洲廠商；任天堂、Xbox、Capcom、Bandai Namco等大廠亦確認參展，為歷屆規模最大。",
-      "impact": "亞洲遊戲廠商大舉進軍歐洲最大展會，代表歐洲市場對亞洲IP接受度顯著提升；若有全球化IP開發計劃，Gamescom是觀察競品如何包裝歐洲受眾策略的最佳觀察視窗，建議屆時追蹤亞洲廠展出內容。",
-      "date": "2026-08-03",
-      "source": "Out of Games",
-      "link": "https://outof.games/news/9360-gamescom-2026-sells-out-completely-for-the-first-time-as-konami-tencent-and-more-join-the-lineup/",
+      "title": "韓系遊戲公司加速全球化，鎖定北美與歐洲為下一成長引擎",
+      "orig_title": "Korean game companies zero in on global market",
+      "summary": "包含 Krafton、Pearl Abyss、Com2uS 等韓國遊戲公司正在加速海外擴張，將北美和歐洲列為重點市場，同時強化在地語系化與文化適配。韓國手遊 2025 H2 收益成長 8.3%，但下載數年減 21%，成長來自既有用戶更深度貨幣化。",
+      "impact": "韓系大廠在全球市場加碼投入，競爭強度升高；「下載數下滑但收益成長」的現象值得台灣企劃注意——新獲客成本升高，深度貨幣化設計的重要性超越拉新策略。",
+      "date": "近期",
+      "source": "Korea Herald",
+      "link": "https://www.koreaherald.com/article/10402202",
       "link_text": "原文連結"
     }
   ]
