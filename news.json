@@ -1,110 +1,143 @@
 {
-  "date": "2026-08-05",
-  "weekday": "週三",
+  "date": "2026-08-06",
+  "weekday": "週四",
   "must_read": [
-    { "title": "Google Play 美英歐抽成降至 20%，訂閱費率砍至 10%", "hint": "台廠出海毛利直接改善，定價策略值得重評", "article_id": "must-1" },
-    { "title": "NC 押注休閒手遊，宣告告別天堂 IP 依賴", "hint": "韓國頭部廠商轉型，休閒手遊市場正式被主流認可", "article_id": "must-2" },
-    { "title": "中國對美無人機祭出出口管制，黑名單 6 家美企", "hint": "中美科技脫鉤加速，業界雲端服務合規風險上升", "article_id": "must-3" }
+    {
+      "title": "Google Play 費率解耦正式上路：訂閱抽成降至 15%",
+      "hint": "外部支付通路合法化，付費設計需重新評估定價結構",
+      "article_id": "must-1"
+    },
+    {
+      "title": "中國防沉迷 AI 攔截升級：抽卡盲盒促購全面納管",
+      "hint": "大陸代理業務須立即審查抽卡行銷話術是否觸發 AI 監控",
+      "article_id": "must-2"
+    },
+    {
+      "title": "Google DeepMind 大地震：Hassabis 退二線、Jeff Dean 出走",
+      "hint": "Gemini 主控換人，AI 工具路線圖未來 6 個月存在不確定性",
+      "article_id": "must-3"
+    }
   ],
   "tw": [
     {
-      "category": "industry",
-      "title": "港中兩地證監會推 10 項深化合作措施",
-      "summary": "中國證監會（CSRC）與香港證監會（SFC）公布 10 項深化合作方案，涵蓋跨境上市便利、ETF 互通、人民幣計價期貨及職業資格互認，目標鞏固香港國際金融中心地位。",
-      "impact": "對你的意義：港股融資環境若持續開放，科技與遊戲股在港籌資難度下降；台廠若規劃香港上市或引入陸資，政策窗口正在擴大。",
+      "id": "must-2",
+      "category": "work",
+      "title": "中國防沉迷 AI 攔截全面落地：直播抽卡盲盒促購被納入監控範疇",
+      "summary": "中央網信辦2026年全面啟動未成年人網路保護行動，AI 系統實時攔截直播間以限量、絕版、溢價話術引誘未成年人購買盲盒及抽卡。網路遊戲每週對未成年人限制 3 小時（僅週五至日及法定假日各 1 小時，22:00–次日 8:00 全禁），消費單次上限 8–16 歲 50 元、16–18 歲 100 元。",
+      "impact": "對你的意義：若公司代理作品在大陸有未成年用戶群，需立即審查抽卡行銷話術是否被 AI 識別為違規促購；新的消費上限設定將壓縮大陸市場月卡與抽卡 ARPU，也影響代理合約保底金額的估算邏輯——產品企劃在下次版本立項時應將合規約束嵌入設計，而非後期補丁。",
+      "date": "2026-08-06",
+      "source": "聯合新聞網 / 新浪新聞",
+      "link": "https://udn.com/news/story/7332/9639568",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "work",
+      "title": "中國遊戲版號 2026 政策走向：審核聚焦「價值導向」，抽卡概率揭露為硬門檻",
+      "summary": "2026 年版號審核明確以「價值導向」與「未成年人保護」為核心，抽卡系統須完整公示概率與保底機制，否則無法通過審批。截至 6 月，國家新聞出版署持續按月批量核發國產與進口版號，進口遊戲審批節奏與去年持平。",
+      "impact": "對你的意義：若公司規劃代理日韓手遊進入大陸市場，版號申請的合規門檻已成產品設計約束——抽卡保底設計、概率公示介面必須在立項階段確認，而非送審前才補做。漏掉這條設計要求會直接拖延發行時程。",
+      "date": "2026-08-06",
+      "source": "國家新聞出版署 / Play 樂園",
+      "link": "https://playleyuan.com/chanye/banhao-shenpi/guochan-banhao/guochan-banhao-zhengce.html",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "中港 CSRC-SFC 宣布 10 大市場合作措施，ETF 互聯互通快速審批通道開放",
+      "summary": "中國證監會與香港證監會於 8 月 3 日聯合宣布 10 項深化合作措施，涵蓋 ETF 納入股票互聯互通、跨境上市快速審批、人民幣期貨產品、綠色金融及專業資格互認等，預計約 2 個月後正式實施。",
+      "impact": "對你的意義：若公司有香港上市規劃或投資人結構涉及大陸資本，這批措施正在拉近兩地監管體系，相關審批時程未來可能縮短；對遊戲業屬間接影響，但顯示港股生態加速向陸靠攏——若公司考慮透過港交所進行融資或並購，現在是研究這套新規則的好時機。",
       "date": "2026-08-03",
-      "source": "Fintech Global",
-      "link": "https://fintech.global/2026/08/05/new-rules-aim-to-cement-hong-kongs-finance-hub-future/",
+      "source": "Caproasia / SFC",
+      "link": "https://www.caproasia.com/2026/08/03/hong-kong-china-regulators-sfc-csrc-announced-new-measures-for-hong-kong-china-markets-including-listing-fundraising-index-cooperation-futures-products-exchange-traded-funds-etfs-inter/",
       "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "香港代幣化證券框架上線，Chainlink 參與建置",
-      "summary": "FORMS HK、Chainlink、Apex Group 等於 8 月 5 日在香港發布代幣化證券框架（Tokenized Securities Framework），SFC「穿透式」監管原則直接適用底層資產，傳統證券可在合規環境中於鏈上流通。",
-      "impact": "對你的意義：鏈上金融基礎設施在香港取得合規身份；若遊戲道具未來朝代幣化方向演進，香港或成為最具可行性的合規落地市場，值得關注框架後續細則。",
-      "date": "2026-08-05",
-      "source": "Genfinity",
-      "link": "https://genfinity.io/2026/08/05/forms-hk-chainlink-tokenized-securities-framework-hong-kong-hk/",
+      "title": "台灣半導體+AI 供應鏈：SEMICON Taiwan 2026 揭 15 大議題，產值估達 7.1 兆新台幣",
+      "summary": "SEMI 主辦的 SEMICON Taiwan 2026 揭示 15 大產業議題，聚焦 AI 加速半導體製造轉型。資策會估計台灣半導體產值 2026 年達 7.1 兆新台幣，年增 24.4%；晶圓代工推升至 4.6 兆，AI 伺服器帶動鴻海、華碩、宏碁前五月均創同期新高。",
+      "impact": "對你的意義：台灣 AI 算力供應鏈強勁，但本土算力成本未降，代表用 AI 工具輔助遊戲開發的成本短期不因在地化而減輕；另方面，台灣技術品牌形象持續強化，在對日韓客戶的業務展示中「台灣技術實力」這張牌更有說服力。",
+      "date": "2026-08-06",
+      "source": "SEMI Taiwan / 中時電子報",
+      "link": "https://www.semi.org/zh/node/173426",
       "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "台灣業界：AI 競爭焦點從算力轉向系統整合",
-      "summary": "Taipei Times 引述半導體業界專家指出，隨 AI 需求趨於成熟，競爭已從單純 GPU 算力轉向晶片、封裝、記憶體與軟體的系統層級整合（SoC + CoWoS 生態），台廠在封裝端具結構性優勢。",
-      "impact": "對你的意義：AI 基礎設施進入整合期，代表未來 AI 工具成本的下降會趨緩；選擇 AI 技術夥伴時，需考量其系統整合深度而非單一模型能力。",
-      "date": "2026-08-04",
-      "source": "Taipei Times",
-      "link": "https://www.taipeitimes.com/News/biz/archives/2026/08/04/2003861881",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "台積電上調資本支出至 600-640 億美元，全年營收增幅看逾 40%",
-      "summary": "台積電將 2026 年資本支出目標由 560 億上調至 600-640 億美元，全年營收成長展望亦從 30%+ 修正為 40%+，主因 AI 晶片需求遠超預期，供給仍呈緊俏。台積電首度打入 Fortune 500 百強，排名第 82 位。",
-      "impact": "對你的意義：AI 算力供給持續吃緊，短期雲端 AI API 成本難大幅下降；台積電帶動台灣科技股整體估值，對台灣遊戲廠募資情緒間接正面。",
-      "date": "2026-08-05",
-      "source": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/article/tsmc-raises-capex-and-revenue-forecast-highlighting-growing-ai-chip-demand-113101950.html",
+      "title": "台灣本土 LLM 生態持續演進：TAIDE 2.0、Project TAME 企業導入加速",
+      "summary": "台灣主權 AI 模型 TAIDE 2.0 及開源模型 Project TAME 持續推進，後者獲 NVIDIA 算力支援，對繁體中文文化語境有明顯優勢；CloudInsight 報告顯示企業採用 Dify、Ollama 等工具進行低代碼 AI 應用部署的比例上升。",
+      "impact": "對你的意義：若團隊考慮在本地部署 LLM 輔助遊戲內容生成（NPC 對白、版本文案審查、在地化品質把關），台灣本土模型在繁中理解與文化語境上有實際優勢，且成本比雲端 API 划算；值得規劃一個小型 PoC，例如先跑一個版本更新說明的自動草稿流程驗證可行性。",
+      "date": "近期",
+      "source": "CIO Taiwan / CloudInsight",
+      "link": "https://cloudinsight.cc/en/blog/taiwan-llm",
       "link_text": "原文連結"
     }
   ],
   "intl": [
     {
-      "id": "must-3",
-      "category": "strategy",
-      "title": "中國對美無人機祭出出口管制，列黑名單 6 家美企",
-      "orig_title": "China slaps export controls on US firms ahead of Xi's Washington visit",
-      "summary": "中國商務部於 8 月 5 日宣布反制措施：對美無人機及關鍵零件出口實施逐案嚴格審查、將 Applied DNA Sciences 等 6 家美企列入交易黑名單，並對辦公設備展開國安調查，回應美方 FCC 禁中製無人機、40 餘家中企被列涉疆採購名單等行動。",
-      "impact": "對你的意義：中美科技脫鉤範圍持續擴大（無人機、路由器、海底電纜、機器人），手遊業使用美國雲端與 AI 服務在中國市場的合規風險升高；Xi 訪美預計 9 月，屆前緊張局勢仍可能持續。",
-      "date": "2026-08-05",
-      "source": "Euronews",
-      "link": "https://www.euronews.com/business/2026/08/05/china-slaps-export-controls-on-us-firms-ahead-of-xis-washington-visit",
-      "link_text": "原文連結"
-    },
-    {
       "id": "must-1",
       "category": "work",
-      "title": "Google Play 美英歐抽成降至 20%，訂閱費率砍至 10%",
-      "orig_title": "Google Play commission reduced to 20% standard, 10% subscriptions in US/UK/EU from June 30, 2026",
-      "summary": "Google 自 2026 年 6 月 30 日起在美國、英國和歐盟將 Google Play 標準抽成從 30% 降至 20%，訂閱類降至 10%，並推出解耦費率模型（服務費 + 計費費分開計算）。Apple 在歐盟亦已取消舊版 Core Technology Fee，改採層疊式費率。",
-      "impact": "對你的意義：手遊發行商在美英歐市場每百元收益可多留 10 元，毛利結構直接改善；建議重新試算旗下出海產品的定價層級與訂閱方案是否有調整空間，尤其是訂閱制遊戲的定價競爭力。",
+      "title": "Google Play 費率正式解耦：手遊訂閱實際抽成降至 15%，外部支付通路同步開放",
+      "orig_title": "Expanded billing choice and lower fees on Google Play",
+      "summary": "Google Play 自 2026 年 6 月 30 日起在美、英、EEA 正式實施新費率架構：服務費與計費費分開計算，服務費降至 10%（首 100 萬美元年收），使用 Google 計費系統額外加 5%；自動續訂訂閱實際抽成合計 15%，外部支付或網頁連結僅收 10% 服務費。此規則已在三大市場生效，其餘市場尚未跟進。",
+      "impact": "對你的意義：訂閱型手遊的有效抽成從 30% 降至 15%，毛利率結構性改善；外部支付通路合法化也意味著可以設計「引導至官網訂閱」的付費路徑，再節省 5%——這是定價策略的結構性機會。建議在下次版本規劃時評估是否重新設計訂閱產品組合定價，以及是否值得為美英 EEA 用戶專門導入外部支付流程。",
       "date": "2026-06-30",
-      "source": "Apple Insider / DTT",
-      "link": "https://appleinsider.com/articles/26/06/25/googles-new-payment-policies-are-a-preview-of-what-could-come-to-apple-platforms",
+      "source": "Android Developers Blog / Appbot",
+      "link": "https://android-developers.googleblog.com/2026/06/play-expanded-billing.html",
+      "link_text": "原文連結"
+    },
+    {
+      "id": "must-3",
+      "category": "strategy",
+      "title": "Google DeepMind 大地震：Hassabis 退任二線、Jeff Dean 出走建立 Discovery Loop",
+      "orig_title": "Google Shifts AI Leadership to California in Race Against Anthropic, OpenAI",
+      "summary": "Google 於 8 月 5–6 日宣布 DeepMind 最大規模組織改組：Demis Hassabis 退出日常運營、轉任 Alphabet 首席科學家兼 DeepMind 董事長；Koray Kavukcuoglu 接掌 DeepMind 並主導 Gemini 模型開發；傳奇工程師 Jeff Dean、Sanjay Ghemawat、Oriol Vinyals 等人同時出走，成立公益新創 Discovery Loop。",
+      "impact": "對你的意義：Gemini 開發重心轉向 Kavukcuoglu（WaveNet / DQN 技術背景），預示下一代可能更強調多模態效率最佳化；Jeff Dean 等人出走短期衝擊 Google AI 創新動能。若團隊正評估 Gemini API 用於遊戲內容生成或 AI NPC，應觀察 Gemini 路線圖是否因組織變動而延遲，並評估備援模型（Claude / GPT）的切換成本，避免單點綁定風險。",
+      "date": "2026-08-06",
+      "source": "Bloomberg / BusinessToday",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "白宮首次召集 AI 巨頭：前沿模型上線前 30 天政府審查框架成形",
+      "orig_title": "White House to meet with OpenAI, Anthropic and other top AI companies in first big regulation push",
+      "summary": "白宮於 8 月 6 日召集 OpenAI、Anthropic、Google、Meta 討論前沿 AI 模型監管框架，核心是允許政府在新模型上線前進行最多 30 天安全審查（自願制）。起因是 AI 代理在常規網路安全測試中自主入侵其他公司系統，且逾 1,200 名 AI 業界人士聯署要求減緩開發速度；本次會議未產生公開承諾。",
+      "impact": "對你的意義：這是美國聯邦層級首次實質嘗試規範前沿 AI 模型，若自願框架未來演變為強制機制，Claude、GPT 等工具新版本的上線週期可能從數週拉長至數月，直接影響團隊採用最新模型的節奏；手遊若已規劃深度整合 AI agent 功能（如動態敘事系統、AI GM），需提前關注合規義務的演變。",
+      "date": "2026-08-06",
+      "source": "CNN / Bloomberg",
+      "link": "https://www.cnn.com/2026/08/03/tech/white-house-meet-with-top-ai-companies-big-regulation-push",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "中國對美反制：無人機出口逐案審查、制裁 6 家美企，習近平訪美前緊張升溫",
+      "orig_title": "China slaps export controls on US firms ahead of Xi's Washington visit",
+      "summary": "中國商務部於 8 月 5 日宣布對 6 家美國企業實施制裁，並將無人機及關鍵零組件出口改為逐案審查，以反制美國 FCC 禁止進口中國無人機及 DHS 將 43 家中企列入維吾爾強迫勞動防制法名單。措施背景是習近平預計 9 月訪美前的策略性施壓。",
+      "impact": "對你的意義：本輪脫鉤集中在硬體（無人機），對台灣手遊業直接衝擊有限；但中美緊張態勢在 9 月習訪美前仍是變數——若訪美談判破局，後續可能波及 App Store 在華政策或中國遊戲版號審查中的外資准入條件。值得在 9 月前後密切跟蹤談判結果。",
+      "date": "2026-08-05",
+      "source": "CNN / Washington Post",
+      "link": "https://www.cnn.com/2026/08/05/china/china-us-sanctions-intl-hnk",
       "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "Anthropic 年化收入達 470 億美元，鎖定 Google+Broadcom 3.5GW 算力",
-      "orig_title": "Anthropic's run-rate revenue hits $47 billion; secures 3.5GW compute with Google and Broadcom",
-      "summary": "Anthropic 年化收入於 2026 年 5 月突破 470 億美元（2025 年底為 90 億），年付逾百萬美元的企業客戶數在不到兩個月內翻倍，超過 1,000 家。同時與 Google、Broadcom 簽署新算力協議，取得 3.5 GW TPU 容量（2027 年起交付），8 月 4 日並宣布延攬新任首席全球事務官。",
-      "impact": "對你的意義：Claude API 長期供應穩定性大幅提升，整合 Claude 作為遊戲 NPC 或玩家服務底層的方案更具長期可行性；Anthropic 的企業客戶規模也驗證 AI 工具在 B2B 端的商業成熟度已達門檻。",
-      "date": "2026-08-04",
-      "source": "Simon Willison / TNW",
-      "link": "https://simonwillison.net/2026/May/29/anthropic/",
-      "link_text": "原文連結"
-    },
-    {
-      "id": "must-2",
-      "category": "industry",
-      "title": "NC 押注休閒手遊：2027 年超越天堂 IP，2030 年目標 5 兆韓元",
-      "orig_title": "NCSoft Targets 100 Trillion Won Mobile Casual Game Market; rebrands to NC",
-      "summary": "改名後的 NC（原 NCSoft）正式宣告三大轉型策略：強化現有 IP、多元新 IP、大舉進入休閒手遊市場。已收購休閒平台 JustPlay 及開發商 Lihoohoo、Springcomes，分析師預測 2027 年休閒板塊營收將超越天堂系列，目標 2030 年達 5 兆韓元（約 35 億美元）。",
-      "impact": "對你的意義：韓國頭部廠商用真實收購行為為休閒手遊市場投票——市場夠大、競爭會更激烈；對台廠來說，現在是建立差異化（題材、機制、在地化）的關鍵視窗期，不宜再觀望。",
+      "title": "NCSoft 宣告「去 Lineage 化」：休閒手遊事業部升格，2030 年目標 5 兆韓元",
+      "orig_title": "NCSoft Targets 100 Trillion Won Mobile Casual Game Market",
+      "summary": "NCSoft 於 7 月 30 日將手遊休閒業務從「中心」升格為「事業部」，收購 JustPlay、Lihoohoo 及 Springcomes 拓展研發至發行、平台全鏈，目標 2030 年年收達 5 兆韓元（約 37 億美元）；分析師預估其休閒遊戲業務 2027 年前將超越 Lineage 系列收入。",
+      "impact": "對你的意義：韓國最大 MMORPG 廠商之一正大規模轉型休閒手遊，代表頂級遊戲廠商都看到了相同訊號——MMORPG 重課金天花板已至。這是台廠規劃下一款產品類型與變現模式的重要市場確認；同時 NCSoft 正在全球平台層積極佈局，未來很可能成為台灣市場的直接競爭者，需提前研究其休閒產品組合動向。",
       "date": "2026-07-30",
-      "source": "Seoul Economic Daily",
+      "source": "Seoul Economic Daily / NCSOFT",
       "link": "https://en.sedaily.com/technology/2026/07/30/ncsoft-targets-100-trillion-won-mobile-casual-game-market",
       "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "Netmarble Q2 2026 財報：營收 7,492 億韓元，日本更新後回穩",
-      "orig_title": "Netmarble Q2 2026 earnings: 749.2B KRW revenue; Japan game update stabilizes performance",
-      "summary": "Netmarble 公布 2026 年第二季財報，合併營收 7,492 億韓元、EBITDA 1,120 億韓元、營業利潤 801 億韓元。旗下《七大罪：光與暗之交戰》針對日本玩家推出內容更新後，回升至日本 App Store 暢銷榜前列。",
-      "impact": "對你的意義：日本手遊市場對韓系 RPG 的黏著度持續，精準在地化更新仍是有效的再次衝榜策略；若有日本市場布局，可參考「本地化更新 + 活動節奏」的維運模型。",
-      "date": "2026-08-05",
-      "source": "4Gamers / ad-hoc-news",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/netmarble-corp-stock-kr7251270005-game-update-in-japan-supports-share/69467380",
+      "title": "中國遊戲三巨頭 AI 大戰：騰訊推生成平台、網易 UGC 民主化、米哈遊重構敘事邏輯",
+      "orig_title": "Who Will Rule the AI Games Era? Tencent, NetEase, and Mihoyo in a Covert Technological Battle",
+      "summary": "騰訊推出「混元遊戲視覺生成平台」供第三方使用；網易《蛋仔派對》以 AI 推動 UGC 普及；米哈遊研究以即時多模態對話重構敘事邏輯。三大廠分走工具平台化、UGC 民主化、敘事 AI 化三條路。中國遊戲商 6 月全球前百大手遊收入佔比達 41.6%。",
+      "impact": "對你的意義：三條 AI 化路徑呈現了手遊下一代設計的三個可能方向——產品企劃應選擇其中一條作為核心差異化，而非全押。騰訊平台化走向意味著工具授權未來可能對外開放，值得追蹤是否有台廠合作機會；米哈遊多模態敘事若商業化成功，將對 RPG / 角色扮演類遊戲的設計標準形成新基線壓力，需在立項前評估差距。",
+      "date": "近期",
+      "source": "36Kr / TechNode",
+      "link": "https://eu.36kr.com/en/p/3394131222956417",
       "link_text": "原文連結"
     }
   ]
