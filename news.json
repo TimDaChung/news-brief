@@ -1,120 +1,165 @@
 {
-  "date": "2026-08-25",
-  "weekday": "週二",
+  "date": "2026-08-26",
+  "weekday": "週三",
   "must_read": [
-    { "title": "Apple 廢除 EU 逐裝次費、改 5% 統一抽成", "hint": "手遊 alternative marketplace 正式可行，10/1 生效，直接影響 iOS 台廠上架策略", "article_id": "must-1" },
-    { "title": "Gamescom ONL：HoYoverse 亮相兩款新 IP", "hint": "Nexus Anima + Petit Planet 首發，NetEase Sea of Remnants 上場，競品研究不能略過", "article_id": "must-2" },
-    { "title": "Anthropic Q2 首度盈利，$11.5B 營收比預期早兩年", "hint": "前線 AI Lab 證明商業模式可自給，Claude Code 是第二引擎——AI 工具投資決策的基準改了", "article_id": "must-3" }
+    {
+      "title": "Apple EU App Store 費率大改：標準抽成降至 26%，外部下載僅收 5%",
+      "hint": "遊戲在 EU 上架的拆帳結構即將改變，10 月 1 日生效",
+      "article_id": "must-1"
+    },
+    {
+      "title": "Anthropic Q2 首次轉盈（營收 $109 億）；OpenAI 自研晶片宣稱超越 Nvidia Blackwell",
+      "hint": "AI 工具供應商格局重塑，算力軍備賽從模型轉向晶片自主",
+      "article_id": "must-2"
+    },
+    {
+      "title": "NCsoft 更名 NC，全力押注百兆韓元休閒手遊市場",
+      "hint": "韓國 MMO 巨頭押注輕度手遊，休閒賽道競爭即將升溫",
+      "article_id": "must-3"
+    }
   ],
   "tw": [
     {
-      "id": "must-1",
-      "category": "work",
-      "title": "Apple 廢除 EU 逐裝次 CTF、改為 5% 統一數位抽成，10/1 生效",
-      "summary": "Apple 於 8/18 宣布 EU App Store 改革：廢除舊版每次安裝收取的 Core Technology Fee，統一改為替代 Marketplace 或網頁分發的 5% 數位交易佣金。App Store 本身抽成從 30% 降至 26%（小開發商 15%）。同時開放雙軌支付——App Store IAP 可與第三方支付並存，且開發者需 12 個月維持選定方案。",
-      "impact": "對你的意義：iOS 替代 Marketplace 阻力大幅降低，5% 抽成遠低於 App Store 的 26%，台灣手遊廠若在 EU 有一定規模，現在值得評估自建或入駐獨立 Marketplace。同時雙軌支付合法化，意味著未來 App Store IAP 配合網頁付款的設計空間打開——這個結構早晚會影響亞太市場談判基準。",
-      "date": "2026-08-18",
-      "source": "Apple Newsroom / TechCrunch",
-      "link": "https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/",
-      "link_text": "Apple 官方公告"
-    },
-    {
-      "category": "industry",
-      "title": "台灣半導體 AI 電力危機：晶圓代工產能吃緊，晶片報價攀升",
-      "summary": "Digitimes 8/25 報導 AI 資料中心電力需求持續衝擊台灣晶圓代工產能，台積電、日月光等紛紛上調資本支出（日月光增 $20 億美元至 $105 億）；記憶體材料短缺推升成本，財報電話提及「定價策略」次數達五年新高。",
-      "impact": "對你的意義：手遊不直接受晶片短缺影響，但 AI 算力成本上升會傳導到 GPU 雲端服務報價——未來 AI 功能開發（NPC 生成、語音合成）的基礎設施成本有向上壓力，需將此納入 2027 年 AI 工具預算規劃。",
-      "date": "2026-08-25",
-      "source": "Digitimes / 經濟日報",
-      "link": "https://www.digitimes.com/news/a20260825VL203/capacity-taiwan-data-demand-cooling.html",
+      "category": "strategy",
+      "title": "盧秀燕出席智慧論壇：台中靠精密機械聚落搶佈 Physical AI 供應鏈",
+      "summary": "台中市長盧秀燕 8/26 出席智慧論壇，強調台中精密機械聚落是下一波 Physical AI（機器人、工業自動化）供應鏈的核心節點，呼籲業者把握在地優勢。",
+      "impact": "Physical AI 是 AI 商業化的下一個主場景；台灣製造業基礎設施的強化，也間接降低遊戲 AI 工具（邊緣推論裝置、感測器整合）在台落地的長期成本。可追蹤政府是否將 AI 支援政策延伸至遊戲或娛樂科技業。",
+      "date": "2026-08-26",
+      "source": "Newtalk 新聞",
+      "link": "https://newtalk.tw/news/view/2026-08-26/1055853",
       "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "SEMICON Taiwan 2026：AI 加速半導體製造轉型，智慧製造展區年增 20%",
-      "summary": "SEMI 主辦的 SEMICON Taiwan 2026 揭示 15 大產業議題，智慧製造展區規模較去年成長 20%，封裝技術概念區成長 6%。異質整合與面板級封裝為應材等設備廠展示焦點，台灣在 AI 驅動的先進封裝市場保持領先地位。",
-      "impact": "對你的意義：台灣供應鏈收穫期在 2026 下半年，AI 算力基礎設施持續深化，代表國內 AI 開發生態未來兩年仍具優勢——對需要快速整合 AI 功能的手遊開發者是利多。",
-      "date": "2026-08-25",
-      "source": "SEMI / 商業周刊",
-      "link": "https://www.semi.org/zh/node/173426",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "work",
-      "title": "中國 2026 遊戲版號審查新制：三重驗證強制落地，未達標全數駁回",
-      "summary": "中國國家新聞出版署 2026 版號申請要求實施公安實名認證、人臉識別、未成年消費限額「三重驗證」，未成年人每週僅可在五六日及法定假日 20:00–21:00 遊玩 1 小時。申請若未內建上述防沉迷機制，一律駁回。",
-      "impact": "對你的意義：若 Miniworld 有計畫申報中國版號或與中國發行商合作，必須在設計初期即納入防沉迷 SDK 與實名認證流程，否則版號申請直接出局。此規定也壓縮了版號配額競爭中的跟風搶核機會，審查週期可能更長。",
-      "date": "2026-08-25",
-      "source": "知乎 / 國家新聞出版署",
-      "link": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/",
-      "link_text": "版號查詢"
     },
     {
       "category": "strategy",
-      "title": "香港 SFC 與中國 CSRC 宣布 10 項跨境金融合作，涵蓋代幣化資產框架",
-      "summary": "中國證監會與香港 SFC 於 8/3 聯合公告 10 項合作措施，涵蓋跨境上市、ETF 互通、人民幣期貨產品，以及 SFC 推進「VATP 代幣化資產交易框架」（貨幣市場基金先行）。SFC CrypTech 監管科技倡議進入驗證階段，含 AML 即時監控。",
-      "impact": "對你的意義：香港正在成為合規數位資產交易的窗口，若未來 Miniworld 考慮遊戲內數位資產或 NFT 元素出海，香港的法規框架比其他地區更清晰——可當作未來東南亞合規策略的參考錨點。",
+      "title": "台灣 AI 供應鏈正式進入「商業變現」收穫期，企業獲利估增 50%",
+      "summary": "路博邁指出，2026 下半年台灣半導體供應鏈由算力擴張轉入獲利收穫期，超大型雲端業者持續加碼資本支出，帶動台廠獲利估增近 50%，是去年底預期的近三倍。",
+      "impact": "供應鏈景氣影響台灣整體勞動市場與薪酬水準，手遊公司搶工程師的競爭強度將持續；正向看，AI 算力成本趨降，遊戲 AI 功能（動態 NPC、生成式美術）的邊際費用也有望跟進走低。",
+      "date": "2026-08-26",
+      "source": "Yahoo 財經 / 路博邁",
+      "link": "https://tw.stock.yahoo.com/news/2026%E4%B8%8B%E5%8D%8A%E5%B9%B4ai%E5%A4%A7%E8%AE%8A%E7%8F%BE-%E5%8F%B0%E7%81%A3%E4%BE%9B%E6%87%89%E9%8F%88%E8%BF%8E%E6%94%B6%E7%A9%AB%E6%9C%9F-%E8%B7%AF%E5%8D%9A%E9%82%81%E9%BB%9E%E5%90%8D%E4%BA%94%E5%A4%A7%E9%97%9C%E9%8D%B5%E7%A7%91%E6%8A%80-024314883.html",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "港 CSRC＋SFC 聯手推 10 大跨境金融措施，涵蓋 ETF、人民幣期貨、資格互認",
+      "summary": "8/3，中國證監會與香港 SFC 宣布 10 項跨境合作措施，涵蓋跨境上市、ETF 互認、人民幣計價期貨商品、指數合作及大陸從業資格互認，深化兩地資本市場整合。",
+      "impact": "香港金融規範化加速，強化港元結算與人民幣計價衍生品的可用性；若公司在港設有境外收入匯集架構，這批措施影響資金調度彈性，財務與法務應追蹤執行細節。",
       "date": "2026-08-03",
-      "source": "ABMedia / SFC 官網",
-      "link": "https://abmedia.io/hk-sfc-vatp-tokenized-asset-trading-framework-2026",
+      "source": "GreySpark Partners / SFC",
+      "link": "https://www.greyspark.com/insights/asia-regulatory-update-august-2026/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "騰訊暑期啟動 AI 雙引擎防沉迷：聲紋 + 年齡辨識鎖未成年玩家",
+      "summary": "騰訊 2026 暑期推出「AI 雙引擎防沉迷」，結合聲紋偵測、年齡辨識與帳號仿冒分析，配合既有規定每週末限玩 3 小時嚴格執行，為業界最高規格的技術合規操作。",
+      "impact": "中國監管執行強度持續升高，靠未成年族群課金的設計幾乎已無法運作；台廠若規劃進入中國市場，防沉迷 AI 合規技術（即時聲紋、人臉辨識）的成本必須納入產品基礎架構，送審前就要預留接口。",
+      "date": "2026-07-03",
+      "source": "星島日報",
+      "link": "https://www.singtaousa.com/2026/07/03/news/china/tencent-minors-gaming-time-limit/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "中國人大代表提案「遊戲宵禁」：擬對未成年帳號凌晨 1–5 時強制下線",
+      "summary": "2026 年全國人大期間，人大代表鄭培錕提議凌晨 1:00–5:00 對未成年帳號強制下線，成人帳號彈出提醒並限制部分功能；提案已引發媒體廣泛討論，尚未進入立法程序。",
+      "impact": "即使短期不立法，此類提案代表中國對遊戲的監管壓力仍在升高且具備政治能量；若宵禁最終成法，將進一步壓縮中國手遊夜間活躍度與深夜推播策略，規劃中國版產品時應預埋時段管控機制。",
+      "date": "2026-03-25",
+      "source": "unwire.hk",
+      "link": "https://unwire.hk/2026/03/25/china-game-curfew-2026/game-channel/",
       "link_text": "原文連結"
     }
   ],
   "intl": [
     {
+      "id": "must-1",
+      "category": "work",
+      "title": "Apple EU App Store 費率大改：標準抽成降至 26%，外部下載改收 5% 固定抽成",
+      "orig_title": "Apple overhauls its EU App Store fees, loosens rules for alternative app stores",
+      "summary": "Apple 與歐盟達成協議後宣布調整 DMA 合規條款：EU 標準 IAP 抽成從 30% 降至 26%（小型開發者仍享 15%），原「每安裝收費」的 Core Technology Fee 改為 5% Core Technology Commission，適用所有非 App Store 外部下載交易；新條款 10/1 生效。",
+      "impact": "對台灣遊戲在歐洲市場直接降低渠道成本：外部下載僅需貢獻 5% 給 Apple，第三方支付整合或 Web Store 在 EU 的財務可行性大幅提升。若公司已有歐洲用戶，現在是評估建立 EU 獨立支付流程的最佳時機，可節省的費率差距顯著。",
+      "date": "2026-08-18",
+      "source": "TechCrunch / Apple Newsroom",
+      "link": "https://techcrunch.com/2026/08/18/apple-overhauls-its-eu-app-store-fees-loosens-rules-for-alternative-app-stores/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "work",
+      "title": "Apple 向美國法院提案：App 外部連結購買抽成 15%",
+      "orig_title": "Apple proposes to take a 15% cut of purchases made outside the App Store",
+      "summary": "Apple 8/14 向美國法院提案，允許 iOS App 內放置外部購買連結，但 Apple 仍收取 15% 費用；此為 Epic Games 反壟斷訴訟後的執行方案，尚待法院審核批准。",
+      "impact": "美國市場即使開放連結，外部支付對業者而言仍需繳費；但相較 30% 有明顯節省空間，且允許自訂支付頁面、推廣碼與折扣活動。值得持續追蹤法院最終裁定，以決定是否調整 iOS 美國付費架構。",
+      "date": "2026-08-14",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store/",
+      "link_text": "原文連結"
+    },
+    {
       "id": "must-2",
       "category": "industry",
-      "title": "Gamescom ONL 2026：HoYoverse 雙新 IP 首亮相，NetEase《Sea of Remnants》上場",
-      "orig_title": "Gamescom Opening Night Live 2026: HoYoverse reveals Honkai: Nexus Anima and Petit Planet, NetEase reveals Sea of Remnants",
-      "summary": "8/25 Gamescom Opening Night Live 上，HoYoverse（米哈遊）宣布兩款新 IP：Honkai: Nexus Anima（崩壞系列新作）與 Petit Planet；NetEase 首發免費遊玩開放世界海洋奇幻 RPG《Sea of Remnants》，具動態回合制戰鬥。Bandai Namco 確認三款新作（Ace Combat 8、Dragon Ball Xenoverse 3、The Blood of Dawnwalker）。Gamescom 展會 8/26–30 正式開放。",
-      "impact": "對你的意義：HoYoverse 正在擴展品牌邊界（Petit Planet 風格疑似休閒向），而 NetEase 以自由遊玩開放世界 RPG 切入全球市場——兩者都是 Miniworld 未來競爭格局中的直接變數。應追蹤 Honkai: Nexus Anima 的美術風格定位，評估是否與你的目標客群重疊。",
-      "date": "2026-08-25",
-      "source": "GameSpot / GamesRadar",
-      "link": "https://www.gamespot.com/articles/gamescom-opening-night-live-2026-all-the-biggest-announcements-games-and-trailers/",
+      "title": "Anthropic Q2 首次轉盈（營收 $109 億、獲利 $5.59 億）；OpenAI 自研晶片宣稱效能超越 Nvidia Blackwell",
+      "orig_title": "Anthropic Q2 2026: $10.9B revenue, first operating profit $559M; OpenAI custom inference chip beats Nvidia Blackwell on AI work per watt",
+      "summary": "Anthropic 2026 Q2 營收達 109 億美元（年增 130%），實現首次營業獲利 5.59 億美元，比原計畫提前兩年。同週，OpenAI 宣布自研推論晶片在 AI 工作量/瓦特測試中超越 Nvidia Blackwell，是 AI 硬體自主化的重要節點。",
+      "impact": "Anthropic 轉盈代表頂級 AI API 供應商商業穩定性大增，長期依賴 Claude 做遊戲後台（內容審核、NPC 生成）的策略更具基礎；OpenAI 晶片自主化將逐步降低推論成本，遊戲 AI 功能（動態對話、實時翻譯）的邊際費用趨勢看降，可提前評估更多 AI 驅動功能的投資報酬率。",
+      "date": "2026-08-26",
+      "source": "Tech Startups / AIToolsRecap",
+      "link": "https://techstartups.com/2026/08/26/top-tech-news-today-august-26-2026-amazon-anthropic-google-microsoft-waymo-more/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "Amazon 宣布關閉運營 21 年的 Mechanical Turk，人工標記時代終結",
+      "orig_title": "Amazon is shutting Mechanical Turk after 21 years, ending the human-work marketplace that helped train the machine-learning era",
+      "summary": "Amazon 宣布關閉 Mechanical Turk 人工眾包標記平台，終止存在 21 年的服務，標誌 AI 訓練資料標記工作已由機器大量取代人工，眾包時代在 AI 世代告終。",
+      "impact": "若公司有利用眾包平台做 AI 資料標記（如 NPC 行為訓練、遊戲內容分級），需評估替代方案或轉向合成資料管線；更廣義看，這是 AI 讓邊際生產成本趨近於零的具體案例，對遊戲內容生成成本的長期趨勢有參考意義。",
+      "date": "2026-08-26",
+      "source": "Tech Startups",
+      "link": "https://techstartups.com/2026/08/26/top-tech-news-today-august-26-2026-amazon-anthropic-google-microsoft-waymo-more/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "美中關稅 90 天停火延至 8 月底，中國 8/5 反制推無人機出口管制",
+      "orig_title": "US-China tactical truce: 90-day tariff pause extended through August 2026; China introduces drone export controls and sanctions on US firms",
+      "summary": "美中 90 天關稅停火協議持續至 2026 年 8 月底，期間中國於 8/5 宣布對無人機及相關元件實施出口管制，並制裁數家美國科技公司，作為反制美方管制措施的對等動作。",
+      "impact": "停火期穩定短期供應鏈，但雙方都在繼續升高長期技術壁壘；台灣手遊公司若使用無人機拍攝行銷素材，或與使用中國供應鏈的硬體夥伴合作，需關注管制範圍擴散效應。地緣風險管理應持續列入產品上市地圖的優先考量。",
+      "date": "2026-08-05",
+      "source": "Coface / China Briefing",
+      "link": "https://www.coface.com/news-economy-and-insights/us-china-trade-agreement-a-tactical-truce-not-a-strategic-shift",
       "link_text": "原文連結"
     },
     {
       "id": "must-3",
-      "category": "strategy",
-      "title": "Anthropic Q2 首度盈利：$11.5B 營收，$559M 營業利潤，比計畫早兩年",
-      "orig_title": "Anthropic posts first profitable quarter: $11.5B Q2 revenue, $559M operating profit, two years ahead of schedule",
-      "summary": "Anthropic Q2 2026 營收達 $11.5B（年增超 14 倍），首次錄得 $559M 營業利潤，比原定計畫早兩年；80% 營收來自 API 與企業端，Claude Code 為第二成長引擎。同期 OpenAI 月收 $2B 但全年預估虧損 $14B，S-1 公告在即。xAI Grok 4.6（8/12）與 GPT-5.6 Sol Max 並列評測榜首。",
-      "impact": "對你的意義：Anthropic 盈利代表 Claude API 定價有長期穩定基礎，而非只靠補貼燒錢——現在整合 Claude 作為核心 AI 工具的風險比半年前低很多。Claude Code 高速成長也意味著 AI 輔助開發效率提升已是競爭基線，不跟上就是在落後。",
-      "date": "2026-08-15",
-      "source": "CNBC / Forbes",
-      "link": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "美國再加 12.5% 中國商品關稅，整體關稅率升至約 47%",
-      "orig_title": "US imposes additional 12.5% tariff on Chinese goods; overall rate rises to ~47%",
-      "summary": "7/23 美國 USTR 以「強迫勞動進口禁令執行不力」為由，正式對所有中國商品加徵 12.5% 關稅（7/24 生效），整體稅率約 47%。背景：2025 年 11 月美中達成一年期關稅減讓協議（至 2026/11），並暫停 BIS 附屬企業規則實施一年；中方暫停稀土出口管制。",
-      "impact": "對你的意義：稀土暫停出口管制有助緩解硬體供應鏈壓力，但整體 47% 關稅意味著中美供應鏈脫鉤趨勢持續。台灣廠商夾在中間的優勢（美國採購偏好台廠）仍然存在，但如果 Miniworld 的合作夥伴或外包有中國環節，需評估成本變化。",
-      "date": "2026-07-24",
-      "source": "China Briefing / Morrison Foerster",
-      "link": "https://www.china-briefing.com/news/us-china-tariff-rates-2025/",
-      "link_text": "原文連結"
-    },
-    {
       "category": "industry",
-      "title": "NCsoft 轉型休閒手遊，韓國手遊市場下載量年減 21%、靠 ARPPU 撐收",
-      "orig_title": "NCsoft targets 100 trillion KRW casual mobile market; Korea H2 2025 downloads -21% YoY while revenue +8.3%",
-      "summary": "NCsoft 宣布將手遊休閒遊戲事業部從「中心」升級為「事業部」，目標 100 兆韓元市場。韓國 2026 手遊市場分析顯示 H2 2025 下載量較去年同期銳減 21%，但收入增 8.3%——成長動能來自既有玩家貨幣化，而非新客獲取。韓國反抽卡法規（2024-2025）促使大廠轉向 Battle Pass 與外觀商城。",
-      "impact": "對你的意義：韓國市場的「下載下滑、收入上漲」結構正在成型，代表用戶獲取成本持續走高，高價值 retain 策略才是重點。NCsoft 切入休閒是大廠尋找新受眾的信號——如果你的遊戲有休閒元素，這個競爭者值得注意；同時抽卡監管擴散趨勢對台廠在台灣的設計也是預警。",
+      "title": "NCsoft 更名 NC，宣告全力衝刺百兆韓元休閒手遊市場",
+      "orig_title": "NCSoft Targets 100 Trillion Won Mobile Casual Game Market",
+      "summary": "韓國遊戲巨頭 NCsoft 於 4 月更名 NC，7 月宣布將旗下休閒手遊業務從「中心」升格為「事業部」，以全球百兆韓元休閒手遊市場為新成長引擎，正式宣告轉型。",
+      "impact": "全球前三大韓廠之一認為 MMORPG 成長天花板已近，全面轉向輕度手遊是強烈的市場訊號。這直接壓縮競爭對手的紅海空間，也代表休閒遊戲賽道的資金、行銷、人才競爭將在 1–2 年內明顯升溫——台灣手遊公司在休閒遊戲的差異化定位需要提早想清楚。",
       "date": "2026-07-30",
-      "source": "Seoul Economic Daily / The Korea Herald",
+      "source": "Seoul Economic Daily",
       "link": "https://en.sedaily.com/technology/2026/07/30/ncsoft-targets-100-trillion-won-mobile-casual-game-market",
       "link_text": "原文連結"
     },
     {
+      "category": "industry",
+      "title": "任天堂 eShop 中國服務 5 月全面關閉，中國主機生態版圖重組",
+      "orig_title": "Nintendo's Strategic Retreat in China and the Future of Console Gaming Partnerships; Nintendo Switch China eShop shut down May 15, 2026",
+      "summary": "任天堂與騰訊合作的中國 eShop 於 5/15 正式關閉，Switch 2 未在中國上市，任天堂結束十年中國直接運營，標誌外資主機品牌在中國市場策略全面收縮。",
+      "impact": "任天堂的撤退留下中國主機生態的空白，間接強化手遊在中國玩家娛樂選單中的相對地位；對台廠而言，這是觀察重度玩家是否因主機空白而重回手遊的好切入點，有助評估中國高付費用戶的行為轉移機會。",
+      "date": "2026-05-15",
+      "source": "Ainvest / Nintendo Reporters",
+      "link": "https://www.ainvest.com/news/nintendo-strategic-retreat-china-future-console-gaming-partnerships-2508/",
+      "link_text": "原文連結"
+    },
+    {
       "category": "strategy",
-      "title": "OpenAI S-1 即將公開，月收 $2B 但預估全年虧損 $14B；IPO 目標 9 月上市",
-      "orig_title": "OpenAI S-1 filing imminent: $2B/month revenue, $14B projected 2026 loss, September listing target",
-      "summary": "OpenAI 預計近期向 SEC 提交 S-1 上市申請，月收 $2B、但 2026 全年預估虧損達 $14B。同期 GPT-5.6 Luna 於 8/15 成為 ChatGPT 免費版預設模型，每百萬 token 成本從 $1 降至 $0.20（降八成）。Gemini 月活突破 10 億（8/11）。",
-      "impact": "對你的意義：OpenAI 在燒錢搶市場的同時大幅降價，對於使用 GPT API 的開發者短期是利好；但 IPO 後需考量股東壓力下是否會調漲企業版定價。相較之下，Anthropic 已盈利且定價穩定，是作為長期核心 AI 夥伴的更安全選項。",
-      "date": "2026-08-15",
-      "source": "AIToolsRecap / LLM Stats",
-      "link": "https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx",
+      "title": "AI API 安全漏洞：研究人員從 OpenAI / Anthropic / Google 推理記錄中還原 API Key 與密碼",
+      "orig_title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning — 62 API keys, 33 passwords recovered from public logs",
+      "summary": "研究人員發現三大 AI 平台 API 在跨 Session 傳遞加密推理記錄（CoT signature）時存在漏洞，弱模型可解碼強模型推理內容；在 6,708 份公開 Agent 執行軌跡中還原出 62 組 API Key、33 組密碼及 24 組 Access Token。供應商表示主要攻擊路徑已於 2026 年 8 月修補。",
+      "impact": "若公司在遊戲後台使用 AI API（客服機器人、內容審核、NPC 生成），且曾在 Session 紀錄中傳遞生產環境憑證，需立即審查歷史日誌是否已外洩；建議徹底停止在 AI 推理 Session 中傳遞任何 Secret，並輪換可能曝露的 API Key。",
+      "date": "2026-08-12",
+      "source": "The Hacker News / Cybersecurity News",
+      "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
       "link_text": "原文連結"
     }
   ]
