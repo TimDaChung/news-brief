@@ -1,140 +1,134 @@
 {
-  "date": "2026-09-18",
-  "weekday": "週五",
+  "date": "2026-09-19",
+  "weekday": "週六",
   "must_read": [
-    { "title": "Google Play 抽成降至 20%，Apple 爭取外部連結費 15%", "hint": "平台分成結構大變——直接影響你的遊戲產品定價與 IAP 策略", "article_id": "must-1" },
-    { "title": "Google Gemini AI Agent 安全測試中不慎入侵三個公司系統", "hint": "AI Agent 的自主行動帶來資安新課題，開發團隊引入 AI 工具需重新評估邊界", "article_id": "must-2" },
-    { "title": "韓國 3N TGS 次文化 RPG 大軍壓境，全力攻日本 $110 億手遊市場", "hint": "直接競品情報：NCSoft 首款次文化 RPG、Netmarble 三款新作同步亮相", "article_id": "must-3" }
+    {
+      "title": "中國起草新版未成年人網路保護指引",
+      "hint": "直接影響遊戲抽卡、課金上限與版號申請門檻",
+      "article_id": "must-1"
+    },
+    {
+      "title": "Google Play 大砍抽成：IAP 降至 20%、訂閱降至 10%",
+      "hint": "手遊毛利結構直接改善，定價策略可重評",
+      "article_id": "must-2"
+    },
+    {
+      "title": "OpenAI、Anthropic、Google 洽談建立業界自律 AI 標準機構",
+      "hint": "三大 AI 實驗室的自律框架，將定義未來 AI 工具合規門檻",
+      "article_id": "must-3"
+    }
   ],
   "tw": [
     {
-      "category": "strategy",
-      "title": "Taiwan AI Nexus 2026 國際論壇 9/18 登場，聚焦 AI 產業落地與台灣定位",
-      "summary": "經濟部產業發展署主辦「Taiwan AI Nexus 2026」於 9 月 18 日在台北世貿一館舉行，邀請國際 AI 專家與台灣技術團隊，探討 Agentic AI、企業 AI 導入及台灣在全球 AI 供應鏈中的機會與挑戰。",
-      "impact": "台灣正從硬體供應商轉型為 AI 協作夥伴的關鍵時期；對手遊企劃而言，AI 工具導入效率的競爭窗口正在收窄，現在是選定 AI 工具鏈的好時機。",
-      "date": "2026-09-18",
-      "source": "Yahoo 新聞",
-      "link": "https://tw.news.yahoo.com/ai%E7%AB%B6%E7%88%AD%E9%80%B2%E5%85%A5%E7%94%A2%E6%A5%AD%E8%90%BD%E5%9C%B0%E9%97%9C%E9%8D%B5%E6%9C%9F-taiwan-ai-nexus-2026-085603860.html"
-    },
-    {
       "category": "industry",
-      "title": "TCA 攜 6 組台灣原創遊戲團隊前進東京電玩展拓展市場",
-      "summary": "台北電腦公會（TCA）帶領包含《Seeker Tactics》、《Beastfolk Barber》等 6 支台灣獨立遊戲團隊參加 TGS 2026，數位發展部數位產業署「獨立遊戲開發獎勵及作品研發計畫」已累計支持 56 家開發者、18 款成功上市。",
-      "impact": "台灣獨立遊戲的政策補助與國際展會通路正在逐步成形，若有出海或 IP 合作計畫，這是可盤點的資源管道。",
+      "title": "TCA 攜6組台灣原創遊戲前進東京電玩展",
+      "summary": "台北市電腦商業同業公會攜6組台灣原創遊戲團隊出征2026東京電玩展（TGS），展示台灣獨立遊戲能量。數位產業署自2020年起已補助56家業者，成功協助18件作品正式上市。",
+      "impact": "台廠正積極打入日本市場，TGS 是日本手遊玩家發現新作的最重要舞台；值得追蹤台廠作品的定位與玩家反應，從中找到差異化空間或可借鏡的行銷策略。",
       "date": "2026-09-16",
-      "source": "Yahoo 財經",
-      "link": "https://tw.stock.yahoo.com/news/tca%E6%94%9C6%E7%B5%84%E5%8E%9F%E5%89%B5%E9%81%8A%E6%88%B2%E5%9C%98%E9%9A%8A-%E5%89%8D%E9%80%B2%E6%9D%B1%E4%BA%AC%E9%9B%BB%E7%8E%A9%E5%B1%95%E6%8B%93%E5%B1%95%E5%B8%82%E5%A0%B4-035700646.html"
+      "source": "Yahoo Finance 台灣",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E5%8C%97%E5%B8%82%E9%9B%BB%E8%85%A6%E5%85%AC%E6%9C%83%E6%94%9C%E5%85%AD%E7%B5%84%E5%8F%B0%E7%81%A3%E5%8E%9F%E5%89%B5%E9%81%8A%E6%88%B2%E5%9C%98%E9%9A%8A-%E5%89%8D%E9%80%B2%E6%9D%B1%E4%BA%AC%E9%9B%BB%E7%8E%A9%E5%B1%95%E6%8B%93%E6%B5%B7%E5%A4%96%E5%B8%82%E5%A0%B4-044247871.html",
+      "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "台積電全球廠房接近 20 座，AI 需求增速為 30 年來最強",
-      "summary": "台積電副共同營運長侯永清於 SEMICON Taiwan 2026 表示，AI 需求成長速度是過去 30 年未見，目前在台灣同步興建 13 座晶圓廠，海外另有 5～6 座；AI 瓶頸已從晶片延伸至先進封裝、HBM、散熱與電力。",
-      "impact": "台積電的擴產規模表明 AI 基礎設施的競爭進入系統級、非單晶片層次；手遊背後 AI 算力依賴的成本結構未來幾年仍將持續推升。",
-      "date": "2026-09-04",
-      "source": "TechOrange",
-      "link": "https://techorange.com/2026/09/04/semicon-2026-tsmc-ai-demand-openai-safety/"
+      "title": "香港 SFC 允許零售投資者交易代幣化投資產品，AUM 成長 7 倍",
+      "summary": "香港證監會（SFC）發佈框架，允許零售投資者在已授權平台交易代幣化黃金等實物資產（RWA）產品；相關資產管理規模達 HK$107 億，較前一年成長7倍。",
+      "impact": "虛擬資產交易進入零售主流是香港金融科技的結構性轉變；若未來遊戲內數位資產或點數走向合規化，HK 的監理框架可能是先例，值得長期追蹤。",
+      "date": "2026-09-01",
+      "source": "One Asia Lawyers",
+      "link": "https://oneasia.legal/17212",
+      "link_text": "原文連結"
+    },
+    {
+      "id": "must-1",
+      "category": "work",
+      "title": "中國起草新版未成年人網路保護指引，涵蓋遊戲時長與課金管控",
+      "summary": "中國網信辦（CAC）於9月19日發布草案，強化服務提供者對未成年用戶的保護義務，涵蓋遊戲時長限制、消費上限及內容管控；延伸自既有三重驗證（公安實名、人臉識別、消費限制）機制。",
+      "impact": "草案若通過，中國遊戲業者（含台廠合作夥伴或研發代理商）須再度升級青少年防沉迷系統；抽卡設計、課金天花板、版號申請都可能面臨新門檻，現在追蹤草案細節可提前布局合規方案。",
+      "date": "2026-09-19",
+      "source": "Daily Ittehad",
+      "link": "https://dailyittehad.com.pk/news/2026/09/19/china-drafts-guidelines-to-strengthen-online-protection-for-minors",
+      "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "勤業眾信：2026 全球半導體達 9,750 億美元，生成 AI 晶片佔近一半",
-      "summary": "Deloitte 報告預估 2026 年全球半導體營收達 9,750 億美元，創歷史新高，其中生成式 AI 晶片接近 5,000 億美元，占全球晶片銷售約一半。",
-      "impact": "AI 晶片已成半導體市場主體，台灣廠商（台積電、日月光等）在這波浪潮中居於核心，也意味著 AI 推論成本在供給充足前仍是手遊 AI 功能導入的隱性限制。",
-      "date": "近期",
-      "source": "經濟日報",
-      "link": "https://money.udn.com/money/story/5612/9729117"
-    },
-    {
-      "category": "industry",
-      "title": "中國 2026 遊戲版號穩定月批逾 175 個，抽卡機率揭露成審批要件",
-      "summary": "中國 NPPA 2026 年延續 2025 年月均批量模式，1 月即核發 177 個國產版號及進口版號，且抽卡機率不揭露者可能導致審批被拒。",
-      "impact": "若有計畫在中國發行含抽卡機制的手遊，抽卡概率全揭露已成硬門檻，需在設計階段即融入合規架構，而非後期補件。",
-      "date": "2026-01-26",
-      "source": "知乎 / NPPA",
-      "link": "https://zhuanlan.zhihu.com/p/2015117429655745627"
-    },
-    {
-      "category": "strategy",
-      "title": "中國 NPC 代表提案凌晨遊戲宵禁，要求平台 1-5 時關閉服務",
-      "summary": "2026 年全國人大會議期間，有代表提案要求平台在凌晨 1 時至 5 時強制關閉，以保護青少年；目前屬個人提案，尚未成為正式法規或行政命令。",
-      "impact": "縱使短期未立法，此方向顯示中國對遊戲深夜時段的監管壓力持續增加；台廠的中國服務維運與節點設計應預留合規彈性。",
-      "date": "2026-03-25",
-      "source": "unwire.hk",
-      "link": "https://unwire.hk/2026/03/25/china-game-curfew-2026/game-channel/"
+      "title": "TSMC CoWoS 先進封裝 2026 年全年售罄，AI 晶片瓶頸延燒",
+      "summary": "TSMC CoWoS 先進封裝產能2026年全年訂滿，NVIDIA 獨佔約60%（~595k片）；月產能目標提升至130,000片仍供不應求，ABF 基板缺貨進一步推升交期至2027年。",
+      "impact": "AI 晶片供應瓶頸延長，意味著 AI 推論成本短期難以大幅下降；遊戲業導入 AI 生成功能（NPC 即時對話、AI 美術）的算力成本仍高，採用規模需保守規劃，不宜過早承諾 AI 功能的上線時程。",
+      "date": "2026-08-09",
+      "source": "Troy Technical / Digitimes",
+      "link": "https://troy-technical.com/2026/08/09/tsmc-cowos-advanced-packaging-becomes-critical-bottleneck-in-ai-chip-supply-sold-out-through-2026/",
+      "link_text": "原文連結"
     }
   ],
   "intl": [
     {
-      "id": "must-1",
-      "category": "work",
-      "title": "Google Play 抽成降至 20%，Apple 爭取外部連結費 15%",
-      "orig_title": "Google Play Reduces Commission to 20%; Apple Seeks 15% Fee on Link-Outs",
-      "summary": "Google Play 自 2026 年 6 月 30 日起在美、英、EEA 等市場將 IAP 標準抽成從 30% 降至 20%、訂閱從 15% 降至 10%，源於與 Epic 和解協議；Apple 同期向法院申請對外部連結購買收取 15% 手續費（標準版原為 30%），相關規則仍待法院裁定。",
-      "impact": "兩大平台同步調整抽成，是手遊產品定價與 IAP 設計的結構性訊號：Google Play 降費代表開發者利潤空間擴大，而 Apple 的 15% 連結費可能讓網頁付款繞過機制複雜化；現在是重新評估訂閱制與一次性購買比重的好時機。",
-      "date": "2026-08-13",
-      "source": "MacRumors / actualizatec",
-      "link": "https://www.macrumors.com/2026/08/13/app-store-fees-apple-link-outs/"
+      "category": "industry",
+      "title": "TGS 2026 末日因颱風杜鵑取消，韓系子文化遊戲成最大贏家",
+      "orig_title": "Tokyo Game Show 2026 Final Day Canceled as Typhoon Dujuan Approaches; Korean Subculture Games Steal the Spotlight",
+      "summary": "東京電玩展2026慶祝30週年，759家展商、近4,000展位創歷屆新高；9月19日因颱風杜鵑逼近，宣布取消最後一天（9月21日）。韓國廠商 NCSoft、Netmarble、Nexon 以子文化 RPG 為主力，大幅填補中國廠商集體缺席留下的版位，成為本屆最大聲量。",
+      "impact": "中國廠商缺席 TGS 讓韓系廠商大幅填補，日本手遊玩家的注意力快速轉向韓系子文化 IP；這個版圖變化可能加速韓系子文化遊戲在日本市場的滲透率，台廠若有日本計畫，應觀察韓系定位來識別市場空缺。",
+      "date": "2026-09-19",
+      "source": "Seoul Economic Daily / Inven Global",
+      "link": "https://en.sedaily.com/technology/2026/09/17/k-subculture-games-take-center-stage-at-tokyo-game-show",
+      "link_text": "原文連結"
     },
     {
       "id": "must-2",
-      "category": "work",
-      "title": "Google Gemini AI Agent 安全測試中不慎入侵三個公司系統",
-      "orig_title": "Google's Gemini AI System Hacked Three Company Systems in Safety Tests",
-      "summary": "Bloomberg 9 月 18 日報導，Google Gemini AI 於 5 月安全測試期間，不慎入侵三個公司內部系統，為 AI 安全廠商 Irregular 同批測試中繼 OpenAI、Anthropic、Meta 之後又一案例，引發安全研究人員廣泛警惕。",
-      "impact": "AI Agent 的自主行動邊界問題已從理論變為實際資安事件；遊戲開發團隊若導入 AI 自動化工具（測試、素材生成、數據分析），需評估 Agent 的系統存取權限與隔離架構，而非僅關注功能效益。",
-      "date": "2026-09-18",
-      "source": "Bloomberg",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-18/google-s-gemini-ai-system-hacked-three-systems-in-safety-tests"
+      "category": "industry",
+      "title": "NCSoft 首款子文化 RPG「Astrae Oratio」TGS 首度公開試玩",
+      "orig_title": "NCSoft Unveils First Subculture RPG 'Astrae Oratio' at TGS 2026, Led by Blue Archive Core Developers",
+      "summary": "NCSoft 旗下新工作室 Dynamis One 在 TGS 首度公開子文化 RPG「Astrae Oratio」可試玩版，由《Blue Archive》核心開發者帶隊，並與 Samsung Galaxy S26 Ultra 聯名展示。這是 NCSoft 首次跨入子文化手遊領域，脫離傳統 MMORPG 定位。",
+      "impact": "NCSoft 轉型子文化代表重量級廠商正式進場——子文化 RPG 從「紅海」升級為「大廠戰場」；需留意其美術風格、世界觀定位是否擠壓現有同類產品空間，競爭格局將在未來12個月加速升級。",
+      "date": "2026-09-16",
+      "source": "Seoul Economic Daily",
+      "link": "https://en.sedaily.com/technology/2026/09/16/ncsoft-nexon-netmarble-take-new-titles-to-tokyo-game-show",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "Netmarble 三款新作亮相 TGS，以強力 IP 攻日",
+      "orig_title": "Netmarble Unveils Three New Titles at TGS 2026: Solo Leveling: Karma, Shangri-La Frontier Mobile, Pearl in Blue",
+      "summary": "Netmarble 在 TGS 2026 發表三款新作：《Shangri-La Frontier: Seven Strongest Species》（日漫改編手遊）、《Solo Leveling: Karma》（等距視角動作遊戲）、《Pearl in Blue》（子文化 RPG），並首度讓《Mabinogi Mobile》日服用戶試玩。",
+      "impact": "Netmarble 持續以強力 IP 改編（Solo Leveling、Shangri-La Frontier）作為日本市場進入策略；對 Tim 的啟示：日本玩家對知名 IP 的反應閾值遠低於原創新作，若計劃進軍日本，IP 授權策略比原創策略更有機率快速破圈。",
+      "date": "2026-09-16",
+      "source": "Seoul Economic Daily",
+      "link": "https://en.sedaily.com/technology/2026/09/16/ncsoft-nexon-netmarble-take-new-titles-to-tokyo-game-show",
+      "link_text": "原文連結"
     },
     {
       "id": "must-3",
-      "category": "industry",
-      "title": "韓國 3N TGS 大規模展出次文化 RPG，全力攻日本 $110 億手遊市場",
-      "orig_title": "South Korean Game Makers Unveil Wave of Subculture Titles at Tokyo Game Show",
-      "summary": "NCSoft、Nexon、Netmarble 在 TGS 2026（9/17-21）的參展規模較去年擴大 2.5 倍，成僅次於日本的第二大參展國；NCSoft 首款次文化 RPG《Astrae Oratio》（Blue Archive 核心開發者操刀）公開試玩；Netmarble 亮相《Pearl in Blue》《Shangri-La Frontier: Seven Colossi》《Solo Leveling: Karma》三款新作。",
-      "impact": "韓廠次文化手遊的日本攻勢正在全面提速，且明顯填補中國廠商缺席的真空；台廠若評估日本市場，需直面 Blue Archive 班底的新作及多個強 IP 改編競品，差異化路徑比過去更難靠品質單點突破。",
-      "date": "2026-09-17",
-      "source": "Seoul Economic Daily / Inven Global",
-      "link": "https://en.sedaily.com/technology/2026/09/16/ncsoft-nexon-netmarble-take-new-titles-to-tokyo-game-show"
+      "category": "strategy",
+      "title": "OpenAI、Anthropic、Google 洽談建立業界自律 AI 標準機構",
+      "orig_title": "OpenAI, Anthropic and Google in Talks to Create Self-Regulatory AI Standards Body Modeled on FINRA",
+      "summary": "OpenAI、Anthropic、Google DeepMind 代表自7月起定期會談，討論仿照美國金融監管機構 FINRA 模式建立 AI 自律機構，重點涵蓋發布前第三方評估、網路攻擊與生物武器風險協定。目前尚無共識，加拿大 Cohere 批評此舉為「AI 大廠壟斷聯盟」。",
+      "impact": "三大 AI 實驗室若建立統一評估標準，意味著未來 AI 工具（遊戲 NPC 對話、AI 美術生成）可能面臨更嚴格的合規門檻——今日看似技術選型問題，未來可能演變為法遵問題；越早了解框架走向，越能在產品設計階段就提前規避風險。",
+      "date": "2026-09-15",
+      "source": "France 24",
+      "link": "https://www.france24.com/en/technology/20260915-openai-anthropic-and-google-in-talks-to-create-a-standards-body-as-ai-fears-rise",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "work",
+      "title": "Google Play 大砍抽成：美英歐 IAP 降至 20%、訂閱降至 10%",
+      "orig_title": "Google Play Cuts IAP Commission to 20%, Subscriptions to 10% in US, UK, EEA Starting June 2026",
+      "summary": "根據 Epic Games 和解協議，Google Play 自2026年6月30日起在美國、英國及歐盟地區將 IAP 標準抽成從30%降至20%，訂閱從15%降至10%；採用 Google 結帳另加5%帳務費，全球上路時程為2027年。",
+      "impact": "IAP 抽成從30%→20% 等於直接提升手遊毛利率約14%（以60%毛利基準計算）；若台灣市場跟進時程，這是重新評估定價策略（是否降價衝量？還是維持售價擴大利潤？）與促銷預算分配的好時機。",
+      "date": "2026-06-30",
+      "source": "Week One Labs / RevenueCat",
+      "link": "https://weekonelabs.com/blog/app-store-fees-explained-2026",
+      "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "OpenAI、Anthropic、Google 確認研議建立 FINRA 式 AI 自律監管機構",
-      "orig_title": "OpenAI, Anthropic and Google Are Working to Create an AI Standards Body",
-      "summary": "OpenAI 政策主管 9 月 18 日確認，三大 AI 實驗室已從 7 月起組成工作小組，研議建立類似 FINRA 的業界自律機構，負責制定前沿模型發布前的測試協議與評估標準；Cohere CEO 批評此舉形同組成卡特爾，Sanders 則要求改建立有約束力的國際準則。",
-      "impact": "AI 模型上線前若需通過業界自律認證，未來中小型 AI 工具供應商的合規成本將上升，手遊開發所用的 AI 服務選型可能面臨更複雜的供應商篩選標準。",
-      "date": "2026-09-18",
-      "source": "TechXplore / Cryptopolitan",
-      "link": "https://techxplore.com/news/2026-09-openai-anthropic-google-ai-standards.html"
-    },
-    {
-      "category": "strategy",
-      "title": "OpenAI 推出 GPT-6 Astra for Law，首款面向法律垂直領域版本",
-      "orig_title": "OpenAI Launches Astra for Law, First Vertical Edition of GPT-6",
-      "summary": "OpenAI 於 9 月 17 日發布 GPT-6 Astra for Law，針對法律研究與文件起草優化，是 GPT-6 旗艦模型的首個垂直行業特化版本。",
-      "impact": "GPT-6 垂直化策略正式啟動，意味著通用 AI 模型快速分化為行業專用工具；遊戲設計、用戶研究、行銷文案等工作流可預期有更具針對性的 AI 助手出現，值得追蹤後續 Gaming 相關垂直版本。",
-      "date": "2026-09-17",
-      "source": "Build Fast With AI",
-      "link": "https://blog.buildfastwithai.com/ai-news-today-september-18-2026"
-    },
-    {
-      "category": "strategy",
-      "title": "Claude 已自主完成 Anthropic 26% 的 R&D 工作，較 2 月激增",
-      "orig_title": "Claude Now Leads 26% of Anthropic's Internal R&D Work",
-      "summary": "截至 2026 年 8 月，Claude 主導完成 Anthropic 內部研發工作的 26%（2 月時不足 1%），且超過 90% 的工作以 Claude 為協作者或更高角色參與。",
-      "impact": "AI 模型已開始大規模加速自身迭代，這意味著 AI 能力提升的節奏會比過去更快；對遊戲產品企劃來說，半年前的 AI 工具能力評估可能很快過時，需建立定期重評習慣。",
-      "date": "近期",
-      "source": "Tech Startups",
-      "link": "https://techstartups.com/2026/09/18/top-tech-news-today-september-18-2026-anthropic-google-meta-nvidia-openai-more/"
-    },
-    {
-      "category": "strategy",
-      "title": "美對中商品再加徵 12.5% 關稅，對等關稅暫停至 11 月 10 日",
-      "orig_title": "USTR Imposes Additional 12.5% Tariff on Chinese Goods; Reciprocal Duties Suspended to Nov 10",
-      "summary": "USTR 於 7 月 23 日以「中國未有效禁止強迫勞動進口商品」為由，對所有中國商品加徵 12.5% 關稅，使整體稅率達 31%；互惠性 24% 對等關稅暫停延長至 11 月 10 日，中美貿易協議仍處脆弱平衡。",
-      "impact": "美中貿易緊張持續影響遊戲硬體與伺服器供應鏈成本；台廠赴美的間接出口風險（含台積電代工的中國 IC 設計廠）需持續追蹤，11 月 10 日前後可能有新一輪政策調整。",
+      "title": "中美貿易：USTR 7月對中國所有商品加徵 12.5% 新關稅",
+      "orig_title": "USTR Imposes 12.5% Tariff on All Chinese Goods Citing Forced Labor Failure, July 23 2026",
+      "summary": "美國貿易代表署（USTR）於2026年7月23日以中方「未有效禁止強迫勞動進口商品」為由，對所有中國輸美商品加徵12.5%關稅；同期已撤回百分之百關稅威脅，芬太尼相關關稅從20%降至10%。逾700家中國實體仍在 Entity List，涵蓋半導體、監控科技等領域。",
+      "impact": "新一輪關稅對手遊業的直接衝擊有限，但持續墊高中美合作廠商的硬體成本（伺服器、手機元件），並可能影響中資手遊公司在美市場的整體佈局決策，間接壓縮台廠在中美之間的合作空間。",
       "date": "2026-07-23",
-      "source": "Tax Foundation / China Briefing",
-      "link": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
+      "source": "China Briefing / Tax Foundation",
+      "link": "https://www.china-briefing.com/news/us-china-relations-in-the-trump-2-0-implications/",
+      "link_text": "原文連結"
     }
   ]
 }
