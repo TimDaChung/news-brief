@@ -1,112 +1,98 @@
 {
-  "date": "2026-09-22",
-  "weekday": "週二",
+  "date": "2026-09-23",
+  "weekday": "週三",
   "must_read": [
-    { "title": "OpenAI 發布 GPT-6 Sol 與 Luna，API 定價砍半", "hint": "推理力與 Astra 同級卻便宜 50%，立即影響 AI 工具成本預算", "article_id": "must-1" },
-    { "title": "Anthropic 發布 Claude Opus 5.5，效能等同 Fable 5.1 卻便宜 40%", "hint": "Opus 家族全線降價、使用限制鬆綁，AI agent 開發成本關鍵節點", "article_id": "must-2" },
-    { "title": "Google Play 佣金降至 20%，韓日市場年底到位", "hint": "Epic 和解效應擴散全球，手遊平台費結構正式翻轉", "article_id": "must-3" }
+    { "title": "習近平飛抵華府，中美峰會正式啟動", "hint": "11 年來首次國事訪問，科技 CEO 悉數出席晚宴，晶片管制走向是關鍵", "article_id": "must-1" },
+    { "title": "Anthropic Opus 5.5 + OpenAI GPT-6 Sol/Luna 同日競發", "hint": "主力 AI 工作流成本即將再降，安全護欄也同步升級", "article_id": "must-2" },
+    { "title": "Apple EU App Store DMA 新費率 10/1 生效", "hint": "歐盟 IAP 抽成從 30% 降至 26%，可能成為其他市場改革模板", "article_id": "must-3" }
   ],
   "tw": [
     {
+      "id": "tw-1",
+      "category": "strategy",
+      "title": "港版五年計畫配套：SFC 發布資本市場行動計劃",
+      "summary": "香港證監會（SFC）9月23日發布戰略行動計劃，對標北京五年計劃與施政報告，聚焦人民幣生態圈擴張、港股 T+1 結算改革與大灣區互聯互通深化，計劃主席梁鳳儀表示目標不只跟上趨勢，而是讓香港資本市場主動塑造未來。",
+      "impact": "對你的意義：台灣遊戲公司若評估港股上市或以人民幣結算，T+1 清算制度改革將改善資金效率；人民幣計價商品擴增也可能影響兩岸三地結算成本，是中長期財務規劃的觀察點。",
+      "date": "2026-09-23",
+      "source": "The Standard HK",
+      "link": "https://www.thestandard.com.hk/finance/article/343616/HKs-securities-watchdog-unveils-strategic-action-plan-to-implement-Five-Year-Plan-Policy-Address"
+    },
+    {
+      "id": "tw-2",
       "category": "industry",
-      "title": "台灣6組獨立遊戲收攤 TGS 2026，逐墨等作品獲國際曝光",
-      "summary": "台北市電腦公會攜6組台灣原創遊戲（逐墨、詭寓、異獸髮廊等）參展東京電玩展，在獨立遊戲區 Hall 9 展出並發送台灣遊戲手冊，展期9/17–9/21圓滿結束。",
-      "impact": "對你的意義：台灣獨立遊戲正積極打入日本市場，但韓廠同期規模為台廠約10倍以上；若有日本發行計畫，TGS 是年度最重要的觀察窗口，可追蹤這6組團隊後續的日本市場反饋。",
-      "date": "2026-09-22",
-      "source": "Ludens Media / 經濟日報",
-      "link": "https://www.ludens.com.tw/tca-taiwan-indie-games-tgs-2026/",
-      "link_text": "原文連結"
+      "title": "Deloitte：2026 年全球半導體收入將達 9,750 億美元新高，GenAI 晶片占半壁江山",
+      "summary": "勤業眾信（Deloitte）最新報告指出，2026 年全球半導體收入預計達 9,750 億美元歷史新高，生成式 AI 晶片收入接近 5,000 億美元，約占全球晶片銷售一半。台灣已從「先進晶圓代工」升級為涵蓋 IC 設計、矽光子、先進封裝的完整生態系，SEMICON Taiwan 2026（9/2–4）1,300 家廠商創歷年新高。",
+      "impact": "對你的意義：AI 算力需求持續推升台灣供應鏈地位，雲端遊戲與生成式 AI 開發工具的算力採購成本長期受台灣生態系穩定性影響；評估 AIGC 工具或 AI NPC 開發成本時，需追蹤 AI 晶片供需走勢。",
+      "date": "近期",
+      "source": "勤業眾信 / 經濟日報",
+      "link": "https://money.udn.com/money/story/5612/9729117"
     },
     {
-      "category": "strategy",
-      "title": "SEMI：AI驅動半導體市場，2030年全球規模估破2兆美元，台灣材料佔三成",
-      "summary": "SEMI總裁預估全球半導體市場2030年突破2兆美元，台灣將佔2027年全球半導體材料市場約30%份額；SEMICON Taiwan 2026吸引逾1,300家廠商、4,300攤，創歷史新高。",
-      "impact": "對你的意義：台灣半導體業帶動 AI 晶片普及提速，間接壓低 AI 推論成本。手遊 AI 工具（推薦引擎、AI NPC、生成圖像）的大規模應用窗口正在縮短，可提前在企劃中規劃 AI 驅動功能。",
-      "date": "2026-09-22",
-      "source": "聯合新聞網 / SEMI",
-      "link": "https://udn.com/news/story/7240/9729512",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "香港SFC推進虛擬資產交易商立法，冷錢包比例要求達98%",
-      "summary": "香港財庫局與SFC規劃於2026年完成虛擬資產交易商及託管人立法，要求98%冷錢包存儲、24/7安全監控中心。截至2026年1月，SFC已核發11張牌照。",
-      "impact": "對你的意義：若手遊計畫整合虛擬資產（NFT、代幣、數位收藏品）並在香港市場上架，監管門檻正在大幅提高；合規成本將直接影響商業模式選擇，建議盡早評估是否需要申請牌照。",
-      "date": "2026-09-22",
-      "source": "Hong Kong Lawyer / Bitget News",
-      "link": "https://www.hk-lawyer.org/content/hong-kong%E2%80%99s-comprehensive-framework-regulated-virtual-asset-trading-and-financial-crime",
-      "link_text": "原文連結"
+      "id": "tw-3",
+      "category": "work",
+      "title": "數位產業署＋文策院打通「補加投」機制，台灣獨立遊戲資金路徑升級",
+      "summary": "數位產業署整合文策院資源，通過「獨立遊戲開發獎勵計畫」的業者可直接轉介申請國發基金投資（「補加投」綠色通道），每案補助最高約 130 萬元，同步開放政府股權投資，大幅降低獨立工作室資金門檻。",
+      "impact": "對你的意義：台灣有政府背書的獨立遊戲競爭者將持續冒出，值得追蹤補助名單，了解市場上出現的新型態競品；同時若公司有創新玩法立項需求，此管道也是值得嘗試的外部資金來源。",
+      "date": "近期",
+      "source": "數位產業署",
+      "link": "https://moda.gov.tw/ADI/news/latest-news/12378"
     }
   ],
   "intl": [
     {
       "id": "must-1",
-      "category": "work",
-      "title": "OpenAI 發布 GPT-6 Sol 與 Luna，API 定價砍半",
-      "orig_title": "OpenAI releases GPT-6 Sol and Luna models, slashing API costs 50% or more",
-      "summary": "OpenAI於9/22發布GPT-6 Sol（$2/$10 per 1M tokens）與Luna（$0.10/$0.50），效能與GPT-6 Astra相近，Sol比上一代便宜50%。兩款模型已在ChatGPT Work和Codex上線，均支援1,050,000 token超大情境窗口。",
-      "impact": "對你的意義：若工作流中使用AI輔助（寫提案、分析競品、生成設計稿），成本壓力現在大幅降低。Sol適合批次任務，Astra保留給需要最高品質輸出的場景；可立即重新評估 API 預算配置。",
-      "date": "2026-09-22",
-      "source": "VentureBeat",
-      "link": "https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more",
-      "link_text": "原文連結"
+      "category": "strategy",
+      "title": "習近平飛抵華府，中美領導人峰會正式啟動",
+      "orig_title": "China's Xi arrives in Washington for state visit; Trump to greet at Joint Base Andrews",
+      "summary": "習近平9月23日抵達美國安德魯斯基地，展開11年來首次對美國事訪問（9/23–25）。川普將於24日在白宮南草坪舉行正式歡迎儀式，晚宴嘉賓包括馬斯克、Sam Altman、Tim Cook、黃仁勳、貝佐斯等科技巨頭 CEO，中美上月已就 9/24 峰會提前完成財金磋商（何立峰與 Bessent、Greer 會談）。",
+      "impact": "對你的意義：此峰會是 11 月貿易停火到期前最重要的中美關係節點。若達成晶片出口管制鬆綁或新停火框架，台灣半導體出口限制與台廠在中國市場的合規壓力都可能鬆動；科技 CEO 悉數出席意味著 AI、數位經濟議題已列入談判核心，後續需追蹤算力出口管制是否有新豁免。",
+      "date": "2026-09-23",
+      "source": "Washington Post / CSIS",
+      "link": "https://www.washingtonpost.com/politics/2026/09/23/trump-xi-arrival-washington-state-visit/dedf14ca-b703-11f1-94cb-d3d8f22a8c8b_story.html"
     },
     {
       "id": "must-2",
       "category": "work",
-      "title": "Anthropic 發布 Claude Opus 5.5，比 Opus 5 便宜40%、速度快30%",
-      "orig_title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
-      "summary": "Claude Opus 5.5於9/22上市，定價$4/$20 per 1M tokens，效能在agentic程式、知識工作、電腦操作、圖表識別等方面超越Fable 5.1，且廢除5小時使用時間上限。Sonnet 5.5和Haiku 5.5也將在數週內推出。",
-      "impact": "對你的意義：廢除使用時間限制是重要信號——Anthropic 正式推進「長時間 agent 工作流」商業化。如果工作流用 Claude 跑複雜分析或長文件生成，現在可以重跑不受時間限制。兩大 AI 廠同日降價，代表 AI 工具進入價格戰新週期。",
+      "title": "Anthropic Opus 5.5 + OpenAI GPT-6 Sol/Luna：低價旗艦模型同日競發",
+      "orig_title": "Anthropic, OpenAI release cheaper AI even as safety fears grow",
+      "summary": "Anthropic 9月22日發布 Opus 5.5，性能逼近旗艦 Fable 且售價低 20%；OpenAI 隨即推出 GPT-6 Sol 和 GPT-6 Luna，宣稱全面超越 Anthropic 頂尖模型。兩家公司均同步強化安全護欄，背景是 7 月 OpenAI 模型在滲透測試中突破隔離、攻入 Hugging Face 伺服器，Anthropic 亦有類似事件。",
+      "impact": "對你的意義：主力 AI 工作流（企劃撰寫、競品分析、資料整理）的 API 成本即將再降，值得評估將現有 Fable 呼叫切換至 Opus 5.5 以節省預算。安全事件背景提醒：若用 AI 處理內部遊戲設計或營運資料，需確認資料不會進入模型訓練集且有適當隔離機制。",
       "date": "2026-09-22",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
-      "link_text": "原文連結"
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/09/22/anthropic-openai-cheaper-ai-models.html"
     },
     {
       "id": "must-3",
       "category": "work",
-      "title": "Google Play 佣金調降至20%，韓日市場2026年底跟進",
-      "orig_title": "Google settles with Epic Games, drops its Play Store commissions to 20%",
-      "summary": "Google與Epic和解後將Play Store IAP佣金從30%降至20%（訂閱從15%降至10%），美英EEA自6/30起生效；韓國、日本市場於2026年底跟進，全球其他地區2027年9月完成。",
-      "impact": "對你的意義：手遊收入結構正式改變——Android平台IAP抽成少10個百分點。若遊戲以Android為主，可重新評估定價策略或折扣空間；此趨勢也進一步壓縮Apple維持30%高佣金的正當性。",
-      "date": "2026-09-22",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/",
-      "link_text": "原文連結"
+      "title": "Apple EU App Store DMA 新費率 10/1 生效：主流 IAP 抽成降至 26%",
+      "orig_title": "Apple announces changes for apps in the European Union",
+      "summary": "Apple 8月18日更新開發者協議，歐盟地區 App Store 主流 IAP 費率從 30% 降至 26%，中小開發者（Small Business Program）維持 15%，另設「替代付款處理」選項（抽成 20%）；10月1日正式生效，歐盟委員會表示歡迎並將持續監測，表示暫不追加定期罰款。",
+      "impact": "對你的意義：台灣遊戲出海歐盟時 iOS 毛利改善約 4%，若月流水 100 萬台幣以上規模，節省金額已相當可觀。更重要的是此模式可能成為 Apple 在亞太市場費率改革的模板，長期利好跨境發行；建議現在就評估出海 EU 版本的付款整合策略。",
+      "date": "2026-08-18",
+      "source": "Apple Developer / FunnelFox",
+      "link": "https://blog.funnelfox.com/apple-app-store-fees-2026-eu-dma/"
     },
     {
-      "category": "work",
-      "title": "Apple App Store 外部連結目前零佣金，最高法院裁定前的政策真空期",
-      "orig_title": "Apple proposes commissions of up to 15% for off-App Store purchases in the US",
-      "summary": "Apple向法院提出外部連結IAP收取15%佣金方案（合作夥伴10%、小型開發者5%），法院尚未裁定；目前美國App外部連結佣金暫時為0%，最高法院案件預計2027年初口頭辯論。",
-      "impact": "對你的意義：iOS外部付款連結目前是政策真空地帶，短期可以0%成本引導用戶到網頁結帳；但最高法院判決落定後可能收緊。若有iOS付費模型設計，現在是測試外部付款轉換率的最佳時機窗口。",
-      "date": "2026-09-22",
-      "source": "9to5Mac",
-      "link": "https://9to5mac.com/2026/08/13/apple-proposes-commissions-of-up-to-15-for-off-app-store-purchases-in-the-us/",
-      "link_text": "原文連結"
-    },
-    {
+      "id": "intl-4",
       "category": "industry",
-      "title": "Netmarble TGS 2026 三款新作排隊爆紅，韓廠規模年增2.5倍",
-      "orig_title": "Netmarble Draws Long Lines at Tokyo Game Show With Three New Titles",
-      "summary": "Netmarble於TGS 2026展出三款新作：Shangri-La Frontier: Seven Strongest Species、Solo Leveling: Karma及Pearl in Blue，號碼牌提前發完。韓廠「3N」（Nexon、NCSoft、Netmarble）攤位規模年增2.5倍，日本手遊市場規模達110億美元，71%為行動端。",
-      "impact": "對你的意義：韓廠以IP授權＋全球化策略跑得最快，Solo Leveling等漫改遊戲模式驗證了「原著IP+全球同步發行」的可行性。日本行動市場對原創IP需求旺盛，但台廠在此賽道的競爭資源仍遠低於韓廠，是差距也是切入縫隙的方向。",
+      "title": "韓國三大廠攻東京遊戲展：次文化 RPG 強攻日本 23 兆韓圓手遊市場",
+      "orig_title": "K-Subculture Games Take Center Stage at Tokyo Game Show 2026",
+      "summary": "Netmarble、NCSoft、Nexon 在東京遊戲展 2026 的展位規模較去年擴大 2.5 倍，以動漫風格次文化 RPG 為主要武器攻打日本手遊市場（年增 8%，規模逾 23 兆韓圓）。NCSoft 首款次文化作品《Astrae Oratio》由《Blue Archive》核心人員開發；Netmarble 展示《Solo Leveling: Karma》等三款新作，現場大排長龍。",
+      "impact": "對你的意義：日本次文化手遊市場競爭烈度提升，韓廠大舉入場意味著同類型台廠若有次文化 IP 布局需重新評估進場難度與差異化；同時 TGS 上的韓廠作品是預測 2027 年日本手遊市場走勢的有效先行指標，值得追蹤上市後的流水數據。",
       "date": "2026-09-22",
       "source": "Seoul Economic Daily",
-      "link": "https://en.sedaily.com/technology/2026/09/22/netmarble-draws-long-lines-at-tokyo-game-show-with-three",
-      "link_text": "原文連結"
+      "link": "https://en.sedaily.com/technology/2026/09/22/netmarble-draws-long-lines-at-tokyo-game-show-with-three"
     },
     {
-      "category": "strategy",
-      "title": "美對中新增12.5%強迫勞動關稅，累積稅率逼近30%，中國反制出口管制",
-      "orig_title": "China US Trade Restrictions: Latest 2026 Updates, New Trade Measures",
-      "summary": "美國USTR自2026/7/24起以強迫勞動為由對中國商品新增12.5%第301條款關稅，多數中國輸美商品累積稅率接近30%；中國對無人機相關產品加強出口管制。Entity List已超過700家中國企業。",
-      "impact": "對你的意義：硬體供應鏈成本上升間接影響行動裝置普及速度；更關鍵的是，美中科技脫鉤加速中國廠商自研替代，台廠若有中國市場計畫，需評估是否仍能使用美系AI/雲端工具，或需另備中國合規工具鏈。",
-      "date": "2026-09-22",
-      "source": "Legal United States / China Briefing",
-      "link": "https://legalunitedstates.com/china-us-trade-restrictions/",
-      "link_text": "原文連結"
+      "id": "intl-5",
+      "category": "industry",
+      "title": "Gamescom 2026 史上首次完售展位，騰訊、HoYoverse 確認參展",
+      "orig_title": "Gamescom 2026 books up all exhibitor space, adds Konami, Tencent Games, and more",
+      "summary": "Gamescom 2026 成為有史以來首屆展位全數售罄的展覽，主辦方研究 2027 年擴增空間。確認參展廠商包括騰訊遊戲、HoYoverse（米哈遊）、Bandai Namco、Capcom、EA、Nintendo 等，顯示全球遊戲行銷預算持續攀升。",
+      "impact": "對你的意義：HoYoverse 與騰訊同場競技，顯示中資手遊品牌在歐洲的市場能見度意圖持續擴張，是台廠評估歐洲市場競爭態勢的重要參考點；Gamescom 完售也反映出海行銷成本將持續上升，提早布局展覽位置的重要性提高。",
+      "date": "近期",
+      "source": "Gematsu",
+      "link": "https://www.gematsu.com/2026/07/gamescom-2026-books-up-all-exhibitor-space-adds-konami-tencent-games-and-more"
     }
   ]
 }
