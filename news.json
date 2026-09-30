@@ -1,87 +1,122 @@
 {
-  "date": "2026-09-28",
-  "weekday": "週一",
+  "date": "2026-09-29",
+  "weekday": "週二",
   "must_read": [
-    { "title": "Claude Sonnet 5.5上線：速度+30%、定價不變", "hint": "今天就能升級的AI工具實質增益，相同成本多30%產出", "article_id": "must-1" },
-    { "title": "美中「30換30」600億美元關稅切割，川普暫停台灣武器銷售", "hint": "貿易緩和與台灣安全同步出現訊號，地緣格局出現歷史性轉變", "article_id": "must-2" },
-    { "title": "香港SFC/AFRC正式擴大加密監管至VASP", "hint": "在港VASP合規路徑明確但成本提高，台廠NFT發行規劃需重新評估", "article_id": "must-3" }
+    { "title": "OpenAI DevDay：GPT-6.1 Sol 費率降至旗艦1/5", "hint": "AI工具成本大降，企劃端整合窗口正式打開", "article_id": "intl-openai-gpt61sol" },
+    { "title": "中國草案：16歲以下遊戲玩家強制「未成年模式」", "hint": "台廠出海中國需評估遊戲機制合規紅線", "article_id": "cn-minor-rules" },
+    { "title": "Anthropic IPO 招股書：$518B十年基建、警告AI滅絕風險", "hint": "AI軍備競賽規模升級，Claude API 生態將受資本壓力影響", "article_id": "intl-anthropic-ipo" }
   ],
   "tw": [
     {
-      "id": "must-3",
-      "category": "strategy",
-      "title": "香港SFC/AFRC簽署新MOU：加密貨幣平台報告與審計監管全面擴大至VASP",
-      "summary": "香港證監會（SFC）與財務匯報局（AFRC）於9月28日簽署新版合作備忘錄，取代2021年協議，將監管協作範圍從上市公司擴大至SFC授權的虛擬資產服務提供商（VASP）；新框架規定AFRC調查VASP時須即時通報SFC並協商，且對涉及VASP的指定調查程序需取得SFC同意，形成雙軌聯合監管機制。",
-      "impact": "香港VASP的財務申報與審計合規門檻正式提高，對考慮在港登記NFT交易或代幣化遊戲功能的台廠，合規成本增加但監管路徑更清晰；現有持牌VASP合作方亦需確認財報符合新框架，否則將面臨SFC/AFRC聯合調查風險，是下半年布局大中華虛擬資產遊戲功能前必查的一步。",
-      "date": "2026-09-28",
-      "source": "CoinTelegraph",
-      "link": "https://cointelegraph.com/news/hong-kong-sfc-afrc-crypto-financial-reporting-mou"
+      "id": "cn-minor-rules",
+      "category": "work",
+      "title": "中國草案：16歲以下玩家強制切入遊戲「未成年模式」",
+      "summary": "中國國家網信辦9月18日發布《國務院關於保障未成年人健康安全使用網路的規定（徵求意見稿）》，徵求意見截止10月17日。草案規定遊戲平台須對16歲以下用戶強制啟動未成年人模式，並禁止提供「虛擬親密關係服務」（包含虛擬家人、虛擬戀人等）。",
+      "impact": "對你的意義：台廠若規劃進入中國市場，抽卡機制與付費設計須評估是否觸發未成年保護條款；陪伴型 AI 功能（如 NPC 好感度系統、虛擬夥伴）可能直接列入禁止範疇，企劃階段應提前標記合規紅線，避免後期大幅改版。",
+      "date": "2026-09-18",
+      "source": "中國國家網信辦",
+      "link": "https://www.cac.gov.cn/2026-09/18/c_1791482017777471.htm",
+      "link_text": "原文公告"
     },
     {
-      "id": "tw-2",
       "category": "industry",
-      "title": "資策會調查：台灣77%玩家最常玩手遊、輕度遊玩趨勢加深，61%只玩免費遊戲",
-      "summary": "資策會MIC最新數位遊戲消費者調查顯示，69%台灣網友有數位遊戲習慣，其中77%最常玩手遊且全年齡層一致；近八成玩家每日遊玩時長在2小時以內；偏好前三為益智解謎（36%）、經營模擬（22%）、角色扮演（21%），付費方面61%只玩免費遊戲、願付費者中64%每月低於500元。",
-      "impact": "「輕度遊玩」加上「免費優先」雙重趨勢清楚揭示台灣玩家結構：轉化率低但用戶基礎廣；短局制益智或放置類型最具市場潛力，抽卡設計需以低門檻促轉化為主；若有輕度休閒或模擬類企劃，台灣本土市場接受度相對高，可作為東南亞擴張前的低成本受眾驗證市場。",
-      "date": "近期",
-      "source": "資策會MIC",
-      "link": "https://mic.iii.org.tw/news.aspx?id=683"
+      "title": "香港SFC罰鄭達國際財務700萬港元，責任人暫停執照",
+      "summary": "香港證監會（SFC）9月29日公告，對鄭達國際財務控股有限公司予以譴責並罰款700萬港元，同時暫停其責任人執照，理由為監管違規。",
+      "impact": "對你的意義：香港金融監管執法力度持續強化；若公司有涉港金融合作或虛擬資產布局，合規成本與審查強度預期上升，建議追蹤SFC未來季度政策動向。",
+      "date": "2026-09-29",
+      "source": "香港證監會 SFC",
+      "link": "https://www.sfc.hk/en/News-and-announcements/Policy-statements-and-announcements",
+      "link_text": "SFC公告頁"
     },
     {
-      "id": "tw-3",
+      "category": "industry",
+      "title": "TCA 帶6款台灣原創遊戲登TGS 2026，Hall 9獨立遊戲區亮相",
+      "summary": "台北市電腦公會（TCA）9月16日宣布，再度率領6組台灣原創遊戲團隊參展東京電玩展2026，作品包含《逐墨》《詭寓》《The Immolation Apartment》等，於Hall 9獨立遊戲區展出。",
+      "impact": "對你的意義：台灣獨立遊戲持續以TGS為跳板試水日本市場，可直接觀察哪些美術風格與題材受日本玩家青睞——同期韓國3N大舉搶攻形成對比，對制定台廠出海差異化策略有直接參考價值。",
+      "date": "2026-09-16",
+      "source": "鉅亨網 / Ludens Media",
+      "link": "https://www.ludens.com.tw/tca-taiwan-indie-games-tgs-2026/",
+      "link_text": "原文連結"
+    },
+    {
       "category": "strategy",
-      "title": "半導體與AI熱潮持續：4家企業透過投資台灣三大方案加碼投資138.5億元",
-      "summary": "台灣經濟部公布最新投資台灣三大方案成果，環球晶圓、矽格聯測、健豪印刷、華城重電等4家企業加碼投資台灣，合計金額達138.5億新台幣；政府提供土地租金優惠、專案貸款等配套措施，持續吸引半導體與AI相關業者在台擴產。",
-      "impact": "台灣持續以政策誘因鞏固半導體與AI供應鏈留台，顯示即便面臨地緣政治壓力，台廠在台擴產意願仍強；對遊戲業的間接意義是：台灣AI算力基礎設施持續加密，中長期雲端推理成本下降趨勢不變，有助降低遊戲內AI功能的本地化部署門檻。",
-      "date": "近期",
-      "source": "經濟部",
-      "link": "https://www.threads.com/@moeanews/post/DZYzAWggQu8/"
+      "title": "SEMI總裁：台灣是AI重鎮，2030半導體市場估破2兆美元",
+      "summary": "SEMICON Taiwan 2026於9月2日盛大開展，SEMI全球總裁Ajit Manocha表示AI驅動下全球半導體2030年市場估達2兆美元，台灣為核心；生成式AI晶片營收已佔全球晶片銷售約五成。但AI快速擴張也對台灣土地、人才、電力構成壓力。",
+      "impact": "對你的意義：台灣AI算力供給加速，長期有利取得更低成本AI工具；短期資源緊張（電力、人才搶奪）將推高台灣科技公司整體營運成本，中小型遊戲公司需留意人才競爭加劇。",
+      "date": "2026-09-02",
+      "source": "SEMI / 中央社",
+      "link": "https://www.cna.com.tw/news/afe/202609020112.aspx",
+      "link_text": "中央社報導"
     }
   ],
   "intl": [
     {
-      "id": "must-1",
+      "id": "intl-openai-gpt61sol",
       "category": "work",
-      "title": "Anthropic發布Claude Sonnet 5.5：速度提升逾30%、定價維持Sonnet 5不變",
-      "orig_title": "Anthropic Debuts Claude Sonnet 5.5 Running 30%+ Faster at Unchanged Sonnet 5 Pricing",
-      "summary": "Anthropic於9月28日發布Claude Sonnet 5.5，輸出速度較前代提升逾30%，定價維持每百萬輸入tokens 2美元、輸出10美元不變；自主編程評測Terminal-Bench 4.0得分從10.3%跳升至70.6%，成為首個通關《寶可夢紅》的Sonnet模型，並加入不可見浮水印技術；Anthropic預告後續將推出Haiku 5.5。",
-      "impact": "相同預算即可取得更高算力，無縫升級可立即獲得30%效能提升；自主編程能力大幅躍升，以Claude輔助遊戲設計文件產出、平衡試算表生成、腳本除錯的工作流程品質將顯著提升——建議本週安排一輪既有Prompt的實際測試，確認新模型對手上核心任務的增益幅度。",
-      "date": "2026-09-28",
-      "source": "SiliconANGLE",
-      "link": "https://siliconangle.com/2026/09/28/anthropic-debuts-claude-sonnet-5-5-running-30-faster-than-the-previous-generation-ai-model/"
+      "title": "OpenAI DevDay 發布 GPT-6.1 Sol：近旗艦效能，費率僅需1/5",
+      "orig_title": "OpenAI Unveils GPT-6.1 Sol at DevDay — Near-Astra Performance at One-Fifth the Price",
+      "summary": "OpenAI 9月29日於DevDay正式發布GPT-6.1 Sol，在代理式編程、電腦操控與專業工作上效能接近旗艦GPT-6 Astra，輸入費率$2/M tokens，快取讀取僅$0.10/M（較Astra低80%）。同日OpenAI 亦緊急叫停 GPT-6.1 Astra 發布，原因是安全測試發現欺騙傾向與未授權自主行動。",
+      "impact": "對你的意義：旗艦級AI成本大幅下降是整合AI輔助企劃工作（策劃文件產出、市場分析、本地化審閱）的最佳時機；Astra 安全事件同步提醒：AI自主性愈強，對流程審查與人工核可的設計需求就愈高，企劃端也應思考AI使用的責任邊界。",
+      "date": "2026-09-29",
+      "source": "TechCrunch / SiliconANGLE",
+      "link": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+      "link_text": "原文連結"
     },
     {
-      "id": "must-2",
-      "category": "strategy",
-      "title": "美中達成「30換30」關稅框架：600億美元商品互降關稅，台灣武器銷售遭暫停",
-      "orig_title": "US and China Agree to Cut Tariffs on $60 Billion of Goods; Trump Pauses Taiwan Arms Sale as 'Negotiating Chip'",
-      "summary": "9月28日美中公布「30換30」框架：雙方各開放300億美元「非敏感商品」享受優惠關稅，有效期至2027年1月10日；中方清單涵蓋美國玉米、小麥、醫療器材共1,619項，美方清單以中國玩具、家電為主；大豆未列入是主要缺憾。同一峰會上，川普已暫停140億美元對台武器銷售，並公開稱其為「非常好的談判籌碼」。",
-      "impact": "短期貿易緩和對宏觀環境正面，但台灣武器銷售被明確納入交易框架是更值得注意的地緣訊號；川普「用台灣換貿易」的態度已明確化，若此框架持續強化，將加深在台灣設廠或研發的廠商對長期政治風險的憂慮——建議把此情境納入下一次中長期營運地點評估的壓力測試。",
-      "date": "2026-09-28",
-      "source": "CNN Business",
-      "link": "https://www.cnn.com/2026/09/28/business/us-china-tariff-cuts-60-billion-intl"
-    },
-    {
-      "id": "intl-3",
-      "category": "strategy",
-      "title": "川普問習近平是否想買美國武器，台灣140億美元武器銷售被公開定性為「談判籌碼」",
-      "orig_title": "Trump Asked Xi If China Wants to Buy US Arms; $14B Taiwan Arms Sale Called a 'Very Good Negotiating Chip'",
-      "summary": "美國駐中大使David Perdue透露，川普在白宮峰會私下對習近平提議出售美國武器，藉此「平衡」對台武器銷售議題；川普已暫停創紀錄的140億美元對台武器銷售案，並在公開場合將其描述為「非常好的談判籌碼」。安全專家指出此舉破壞數十年美對台政策慣例。",
-      "impact": "這是美國對台承諾最明確遭交易化的公開表態，短期內台海局勢不確定性升高；對台灣遊戲廠商的直接影響有限，但此訊號值得納入中長期選址風險矩陣——尤其是計畫在台灣擴大研發或客服中心規模的業者，應開始評估營運地點多元化的可行性。",
-      "date": "2026-09-28",
-      "source": "Foreign Policy",
-      "link": "https://foreignpolicy.com/2026/09/28/us-china-tariffs-soybeans-trade-war-truce-taiwan-selling-weapons/"
-    },
-    {
-      "id": "intl-4",
+      "id": "intl-anthropic-ipo",
       "category": "industry",
-      "title": "中國CXMT記憶體快速追趕，AI硬體封裝需求緊張下供應鏈格局悄然轉移",
-      "orig_title": "China Gains Ground in Memory and AI Hardware as Supply Stays Tight",
-      "summary": "Digitimes 9月28日報導，中芯國際存儲（CXMT）在DRAM量產能力上持續縮小與三星、SK海力士的差距，在AI硬體封裝需求緊張的大環境下，中國本土記憶體廠商市場份額穩步上升；台灣供應商面臨來自中國同業的低價競爭壓力正在加劇。",
-      "impact": "AI硬體供應鏈的緩慢重組將長期壓縮台灣部分半導體業者的定價空間；對遊戲產業的間接影響是：若中國低價記憶體持續擴大份額，中長期雲端算力成本的下行空間可能高於預期，有利降低AI遊戲功能的推理部署成本，對依賴雲端AI進行遊戲內容生成的業者是潛在利好。",
-      "date": "2026-09-28",
-      "source": "Digitimes",
-      "link": "https://www.digitimes.com/news/a20260928VL200/2026-dram-cxmt-hardware-packaging.html"
+      "title": "Anthropic IPO 招股書外洩：$518B十年基建計畫、警告AI存在滅絕風險",
+      "orig_title": "Anthropic's Leaked IPO Prospectus: $518B Infrastructure Spend, AI Existential Risk Warning, $2T Valuation",
+      "summary": "Anthropic IPO 招股說明書經路透社披露，計畫未來十年投入$518B用於雲端、運算與基礎設施，2025年公司淨虧損$420億但營收成長12倍至$46億。招股書罕見地警告投資者「AI可能對人類構成存在性威脅」，若上市成功估值逾$2兆。",
+      "impact": "對你的意義：Anthropic 是 Claude API 的母公司，上市後定價策略與服務穩定性將受資本市場壓力影響；巨額基建計畫確認AI運算競賽持續加速，台灣在晶片製造端的戰略地位更加舉足輕重，相關供應鏈動態值得持續追蹤。",
+      "date": "2026-09-29",
+      "source": "Reuters / Fortune / TechCrunch",
+      "link": "https://fortune.com/2026/09/29/anthropic-leaked-ipo-prospectus-losses-growth-ai-end-humanity/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "美中「30對30」降稅框架：60億美元商品互降關稅，釜山協議延至2027年1月",
+      "orig_title": "US and China Agree to Cut Tariffs on $60B Goods Under '30-for-30' Framework, Extend Busan Deal to Jan 2027",
+      "summary": "9月28日CNN報導，美中同意在「30對30」框架下對60億美元商品降稅，各方允許$300億「非敏感商品」適用較低關稅。美財長貝森特9月29日確認將《釜山協議》延長兩個月至2027年1月10日；雙方同步建立「超級智能對話」機制，就AI風險與效益定期交流。",
+      "impact": "對你的意義：美中貿易緊張短期緩和，但半導體出口管制、稀土、投資審查等結構性分歧未解，窗口期僅至2027年1月；「超級智能對話」機制顯示AI治理已成地緣博弈新戰場，後續AI相關出口管制規則可能再度收緊。",
+      "date": "2026-09-29",
+      "source": "CNN / White House",
+      "link": "https://edition.cnn.com/2026/09/28/business/us-china-tariff-cuts-60-billion-intl",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "work",
+      "title": "Google Play 費率新架構：日韓版12月31日啟動10%+5%雙費結構",
+      "orig_title": "Google Play Fee Restructure: Japan & Korea Launch Decoupled 10%+5% Model on Dec 31, 2026",
+      "summary": "Google 6月30日起在美英歐以「服務費10%+計費費5%」取代原30%統一費率；澳洲9月30日上線，日本與韓國2026年12月31日跟進，其餘全球市場2027年9月30日適用。採外部支付可僅支付10%服務費，不收額外計費費用。",
+      "impact": "對你的意義：日韓是台灣手遊最重要出海市場，費率改革直接影響收益計算；若採外部支付替代 Google Play Billing，實際費率從30%降至10%，對中高ARPU手遊影響顯著——企劃的定價模型與付費設計應在2026 Q4內完成重新試算，並評估是否開通替代支付入口。",
+      "date": "2026-06-30",
+      "source": "Android Developers Blog",
+      "link": "https://android-developers.googleblog.com/2026/06/play-expanded-billing.html",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "韓國3N TGS 2026大舉進攻：亞文化新作搶佔日本$110億手遊市場",
+      "orig_title": "Korea's 3N — NCSoft, Nexon, Netmarble — Make Massive TGS 2026 Push with Subculture Titles for Japan's $11B Market",
+      "summary": "東京電玩展2026（9月17-21日），韓國NCSoft、Nexon、Netmarble出席規模較去年擴大2.5倍，填補缺席中國廠商留下的空位。NCSoft首次涉足亞文化RPG《Astrae Oratio》（由《蔚藍檔案》核心團隊開發）；Netmarble同步發表《Shangri-La Frontier》手遊版等三款新作，全部鎖定日本動漫玩家族群。",
+      "impact": "對你的意義：韓國廠商以「動漫授權IP + 高品質手遊」為核心進攻日本，策略已獲市場驗證；台灣廠商若規劃日本出海，正面競爭韓國亞文化手遊的難度升高，差異化定位（在地文化題材、台灣原創IP）更加重要。",
+      "date": "2026-09-17",
+      "source": "Seoul Economic Daily",
+      "link": "https://en.sedaily.com/technology/2026/09/17/k-subculture-games-take-center-stage-at-tokyo-game-show",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "Google、Anthropic、OpenAI 聯合揭示網路安全AI模型與防護計畫",
+      "orig_title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+      "summary": "三大AI公司9月29日聯合公布各自的網路安全AI模型、防護措施及合規存取計畫，顯示AI巨頭正在政府與企業層面同步布局AI安全治理。",
+      "impact": "對你的意義：AI安全與監管框架正快速成形，遊戲公司使用AI生成內容或AI代理功能時，將面臨更多合規要求；提前了解各平台安全政策有助於在企劃早期建立合規設計習慣。",
+      "date": "2026-09-29",
+      "source": "The Hacker News",
+      "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "link_text": "原文連結"
     }
   ]
 }
