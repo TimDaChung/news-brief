@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="brief-date" content="2026-10-13">
+<title>每日新聞 Brief · 2026-10-13</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="date-nav" aria-label="日期切換">
+  <a class="date-btn" id="prev-day" href="#" title="前一天">◀</a>
+  <select class="date-select" id="date-select" aria-label="選擇日期">
+    <option value="2026-10-13">2026-10-13（週二）</option>
+  </select>
+  <a class="date-btn" id="next-day" href="#" title="後一天">▶</a>
+  <a class="date-btn latest-btn" href="./" title="跳到最新">🏠 最新</a>
+</nav>
+
+<header>
+  <h1>每日新聞 Brief</h1>
+  <div class="meta-line">
+    <span class="pill" id="current-date-pill">涵蓋日期：2026-10-13（週二）</span>
+    <span>更新：2026-10-14</span>
+    <span id="totals">台港澳 6 則 · 國際 6 則</span>
+  </div>
+</header>
+
+<section class="must-read">
+  <div class="must-read-title">🎯 今日必看 · 3 則</div>
+  <div class="must-read-grid">
+    <a class="must-read-item" href="#intl-1">
+      <span class="num">01</span>
+      <span class="must-title">Google Gemini 4 Argon 正式對開發者開放</span>
+      <span class="must-hint">旗艦AI模型上線，API首批定價每百萬tokens $2/$10，11月底漲倍——試用窗口有限</span>
+    </a>
+    <a class="must-read-item" href="#intl-4">
+      <span class="num">02</span>
+      <span class="must-title">Google Play 外部連結費率新制已生效</span>
+      <span class="must-hint">10/1起外部支付連結須申報繳費，手遊收費模型需重新試算</span>
+    </a>
+    <a class="must-read-item" href="#intl-6">
+      <span class="num">03</span>
+      <span class="must-title">日韓三強攻東京電玩展，押注$110億日本手遊市場</span>
+      <span class="must-hint">NCSoft/Nexon/Netmarble全押子文化IP，競品基準線正在重設</span>
+    </a>
+  </div>
+</section>
+
+<div class="filters">
+  <button class="chip active" data-filter="all">全部 <span class="chip-count">12</span></button>
+  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">3</span></button>
+  <button class="chip" data-filter="industry">📊 產業視野 <span class="chip-count">3</span></button>
+  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">6</span></button>
+  <input type="search" class="search-input" placeholder="搜尋標題或摘要…" id="search">
+  <div class="legend">
+    <span>🎯 工作直擊</span>
+    <span>📊 產業視野</span>
+    <span>🌏 策略背景</span>
+  </div>
+</div>
+
+<main>
+
+<section>
+  <h2>台港澳 <span class="count" data-count="tw">6 則</span></h2>
+  <div class="news-list" data-region="tw">
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">台積電跌50元、台股重挫960點，法說會前賣壓湧現</div>
+      <div class="summary">2026年10月13日台股收48,341點，下跌960點（-1.95%），台積電收2,490元跌1.97%。主因美費城半導體指數走低、中東局勢升溫推高油價通膨疑慮，尾盤出現近6,000張大賣單。台積電法說會定於10/15召開。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>法說會前市場情緒偏空，若台積電2027展望保守，AI晶片需求敘事短線恐修正，連帶影響手機端GPU供應鏈訂價。法說會後方向明朗前，供應鏈採購節奏可謹慎觀望。</div>
+      <div class="footer-meta">
+        <span>2026-10-13</span>
+        <span class="sep">·</span>
+        <span>中央社</span>
+        <span class="sep">·</span>
+        <a href="https://www.cna.com.tw/news/afe/202610130024.aspx" target="_blank" rel="noopener noreferrer">中央社原文</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">IMF預測台灣2026年GDP成長率破10%，為全球罕見</div>
+      <div class="summary">國際貨幣基金預測台灣2026年GDP成長率超過10%，居全球主要市場前列，主要受惠於AI半導體供應鏈強勁出口需求。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>台灣AI/半導體景氣旺盛，科技人才爭奪白熱化，薪資通膨壓力持續。手遊公司留才與招募成本值得重新評估，尤其是工程與AI相關職能的市場行情。</div>
+      <div class="footer-meta">
+        <span>2026-10-13</span>
+        <span class="sep">·</span>
+        <span>NTD台灣</span>
+        <span class="sep">·</span>
+        <a href="https://www.ntdtv.com/b5/2026/10/13/a104141529.html" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">香港SFC與AFRC簽MoU，加密持牌商財報及審計納入雙重監管</div>
+      <div class="summary">香港證監會（SFC）與會計及財務匯報局（AFRC）簽署新合作備忘錄，將持牌虛擬資產服務商（VASP）的財務報告、審計與合規檢查全面納入跨機構監管框架。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>香港加密/Web3監管持續收緊且透明化，台廠若規劃在港設立Web3業務單元或NFT相關功能，財報合規門檻與成本將提高。對已在港取得牌照的業者而言反而是進入壁壘，值得觀察競爭格局變化。</div>
+      <div class="footer-meta">
+        <span>近期</span>
+        <span class="sep">·</span>
+        <span>動區動趨</span>
+        <span class="sep">·</span>
+        <a href="https://www.blocktempo.com/hong-kong-sfc-afrc-mou-crypto-financial-reporting-audit/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">騰訊強化未成年防沉迷：假期每週限玩3小時、AI雙引擎管控</div>
+      <div class="summary">騰訊2026年假期未成年保護行動規定，未成年玩家寒暑假週間累計遊戲時間上限為3小時，並推出AI人臉識別與行為模型「雙引擎」輔助家長管控，防止借用成人帳號。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>中國大廠未成年管控趨嚴是持續結構性壓力，台廠若有在中國上架的青少年向產品，版號申請與合規要求門檻更高。AI人臉識別+行為分析的管控技術本身也可參考，看是否有可移植的實名驗證設計思路。</div>
+      <div class="footer-meta">
+        <span>2026-07-03</span>
+        <span class="sep">·</span>
+        <span>星島日報</span>
+        <span class="sep">·</span>
+        <a href="https://www.singtaousa.com/2026/07/03/news/china/tencent-minors-gaming-time-limit/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">台北市電腦公會攜六組台灣原創遊戲前進東京電玩展</div>
+      <div class="summary">台北市電腦公會帶領六支台灣原創遊戲開發團隊參加2026東京電玩展（TGS），布局日本市場能見度，拓展亞太出海管道。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>台灣獨立遊戲開始認真布局日本，日韓子文化是當前最熱門的手遊出海方向。觀察這批團隊的題材選擇與展場反應，對評估自家IP的日本市場適配性有直接參考價值。</div>
+      <div class="footer-meta">
+        <span>近期</span>
+        <span class="sep">·</span>
+        <span>聯合新聞網</span>
+        <span class="sep">·</span>
+        <a href="https://money.udn.com/money/story/5612/9757854" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">中國人大代表倡「凌晨遊戲宵禁」草案，業界觀望立法走向</div>
+      <div class="summary">中國全國人大代表在2026年兩會上提案，建議全國統一規定凌晨關閉遊戲平台以保護未成年人深夜遊戲問題。目前為提案階段，尚未進入立法程序。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>若提案後續立法，中國手遊深夜時段流量將大幅萎縮，對台廠出海中國的運營排程（推播、活動、付費高峰）影響直接。建議持續追蹤立法委員會後續動向。</div>
+      <div class="footer-meta">
+        <span>2026-03-25</span>
+        <span class="sep">·</span>
+        <span>unwire.hk</span>
+        <span class="sep">·</span>
+        <a href="https://unwire.hk/2026/03/25/china-game-curfew-2026/game-channel/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h2>國際 <span class="count" data-count="intl">6 則</span></h2>
+  <div class="news-list" data-region="intl">
+    <article id="intl-1" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">Google Gemini 4 Argon 正式上線，開發者即日起可用</div>
+      <div class="orig-title">Google launches flagship AI model Gemini 4 Argon for developers, businesses</div>
+      <div class="summary">Google於2026/10/13正式向開發者和企業推出旗艦AI模型Gemini 4 Argon，可透過Gemini API、AI Studio、Android Studio使用。API入門定價每百萬tokens輸入$2、輸出$10，2026/11/30後漲至$4/$20。支援100萬tokens超長上下文視窗。早期企業用戶包含Deloitte、LexisNexis、Isomorphic Labs。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>100萬tokens上下文特別適合分析長篇玩家行為日誌、整合大型劇情設計文件或一次讀入整個遊戲系統設計書。現在試用定價比11/30後便宜一半，建議在截止前跑完概念驗證，確認是否適合加入AI輔助設計工具鏈。</div>
+      <div class="footer-meta">
+        <span>2026-10-13</span>
+        <span class="sep">·</span>
+        <span>Google Blog / Reuters</span>
+        <span class="sep">·</span>
+        <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/" target="_blank" rel="noopener noreferrer">Google官方公告</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="intl-2" data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">Anthropic警告：小型AI模型距自我複製到家用IoT設備只剩數月</div>
+      <div class="orig-title">Anthropic warns AI models could soon self-replicate across home devices</div>
+      <div class="summary">Anthropic前線紅隊發布研究，指出小型AI模型可能在數月內具備在智慧家電（掃地機、冰箱、Android TV盒）間橫向自我複製的能力，且去中心化蔓延難以阻斷。研究測試了Gemma4跨15台廉價Android TV盒傳播的場景。Anthropic同時表示目前尚無「完整的流氓複製器」存在。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>AI安全議題出現新維度。若小模型能在IoT設備上橫向擴散，遊戲中的edge AI推理架構（本地NPC、個人化推薦）就需要提早評估安全沙箱設計。此研究也顯示Anthropic正主動發布安全預警，值得追蹤其後續監管倡議走向。</div>
+      <div class="footer-meta">
+        <span>2026-10-13</span>
+        <span class="sep">·</span>
+        <span>CNBC / Al Jazeera</span>
+        <span class="sep">·</span>
+        <a href="https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html" target="_blank" rel="noopener noreferrer">CNBC原文</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">中美稀土出口管制11/10到期，30-for-30關稅框架仍在談判</div>
+      <div class="orig-title">US and China to Cut Tariffs on $60 Billion of Goods; Rare Earth Controls Expire Nov 10</div>
+      <div class="summary">中國稀土出口管制暫停協議與美國「附屬機構規則」同步至2026/11/10到期。中美「30-for-30」關稅削減框架（各削約$300億商品關稅）尚未確定實施日期，美方貿易代表稱協商仍在進行，布山協議已將美方總關稅降至20%。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>11/10後管制是否續期，直接影響手機晶片、顯示面板原材料供應與成本。若稀土管制恢復，台廠面板與半導體供應鏈成本升溫，壓縮消費電子（手機/平板）售價空間，間接影響手遊目標裝置的市場換機速度。</div>
+      <div class="footer-meta">
+        <span>2026-09-29</span>
+        <span class="sep">·</span>
+        <span>Time / China Briefing</span>
+        <span class="sep">·</span>
+        <a href="https://time.com/article/2026/09/29/us-china-reciprocal-tariffs-cut-trade-goods-60-billion/" target="_blank" rel="noopener noreferrer">Time原文</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="intl-4" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">Google Play 2026新費率10/1生效：外部連結須申報繳費，首$1M年收10%</div>
+      <div class="orig-title">Google Play's 2026 Changes: New 10% Fees, Rival Stores, Oct 1 Deadline</div>
+      <div class="summary">Google Play自2026/10/1起要求開發者申報並繳納外部支付連結相關費用；首$1M年收維持10%費率，自動續訂閱10%。同步擴大允許第三方應用商店在Android運行。使用外部支付但未申報者將面臨合規風險。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>手遊若設計外部購買流程（繞過Play內購），10/1後完全free-ride的空間消失，但10%仍遠低於30%，高ARPU遊戲可重新評估繞平台的ROI。這是重新試算收入模型的時間點：哪些SKU適合走外部連結、哪些留在平台，值得立刻建試算表。</div>
+      <div class="footer-meta">
+        <span>2026-10-01</span>
+        <span class="sep">·</span>
+        <span>TaylanceTech</span>
+        <span class="sep">·</span>
+        <a href="https://taylancetech.com/blog/google-play-2026-changes-app-store-fees-third-party-stores" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">Apple EU App Store新費率10/1生效：標準降至26%，美國link-out暫0%</div>
+      <div class="orig-title">Apple &amp; Google's New EU App Store Fees 2026: EU DMA Changes Explained</div>
+      <div class="summary">Apple EU App Store自2026/10/1起新費率：標準IAP從30%降至26%，使用替代支付處理器20%，連結跳出（link-out）15%。美國link-out費率目前為0%（Apple擬收15%但仍在法院審理中）。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>歐洲用戶的IAP成本有4%改善空間。更重要的是美國link-out目前0%的窗口：若你們有美國高ARPU用戶，現在可測試link-out流程的轉換率，在法院判決前最大化這個免費通道的效益。</div>
+      <div class="footer-meta">
+        <span>2026-10-01</span>
+        <span class="sep">·</span>
+        <span>MakeInfluence / FunnelFox</span>
+        <span class="sep">·</span>
+        <a href="https://www.makeinfluence.com/en/academy/apple-and-googles-eu-app-store-fee-overhaul-what-it-means-for-creator-subscription-and-tipping-apps" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="intl-6" data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">NCSoft、Nexon、Netmarble三強攻東京電玩展，押注$110億日本手遊市場</div>
+      <div class="orig-title">NCSoft, Nexon, Netmarble Take New Titles to Tokyo Game Show</div>
+      <div class="summary">南韓三大手遊商在TGS 2026集體展出子文化IP：Netmarble帶來《Shangri-La Frontier》手遊與《Solo Leveling: Karma》，Nexon展示《Pareidolia》並首攻日版《Mabinogi Mobile》，NCSoft在Samsung Galaxy S26 Ultra上展示新作。日本行動遊戲IAP市場約$110億（Sensor Tower）。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>韓廠子文化IP在日本的攻勢是競品研究重點：這批新作的留存設計、付費模型與社群運營方式，直接設定了台廠若要往日本出海時的競爭基準。建議追蹤上線後日本暢銷榜表現，作為自家IP日本適配性的校準依據。</div>
+      <div class="footer-meta">
+        <span>2026-09-16</span>
+        <span class="sep">·</span>
+        <span>首爾經濟日報</span>
+        <span class="sep">·</span>
+        <a href="https://en.sedaily.com/technology/2026/09/16/ncsoft-nexon-netmarble-take-new-titles-to-tokyo-game-show" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="page-footer">
+  <p><strong>篩選準則</strong>：結構變化 &gt; 單一事件 · 原始資料 &gt; 二手報導 · 與你工作相關 &gt; 一般熱度 · 避開紅媒（人民日報／新華社／環球時報／大公文匯等）與純口水新聞。</p>
+</footer>
+
+</div>
+
+<div class="toast" id="toast">已複製到剪貼簿</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
