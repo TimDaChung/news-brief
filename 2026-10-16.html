@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="brief-date" content="2026-10-16">
+<title>每日新聞 Brief · 2026-10-16</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="date-nav" aria-label="日期切換">
+  <a class="date-btn" id="prev-day" href="#" title="前一天">◀</a>
+  <select class="date-select" id="date-select" aria-label="選擇日期">
+    <option value="2026-10-16">2026-10-16（週五）</option>
+  </select>
+  <a class="date-btn" id="next-day" href="#" title="後一天">▶</a>
+  <a class="date-btn latest-btn" href="./" title="跳到最新">🏠 最新</a>
+</nav>
+
+<header>
+  <h1>每日新聞 Brief</h1>
+  <div class="meta-line">
+    <span class="pill" id="current-date-pill">涵蓋日期：2026-10-16（週五）</span>
+    <span>更新：2026-10-17</span>
+    <span id="totals">台港澳 3 則 · 國際 4 則</span>
+  </div>
+</header>
+
+<section class="must-read">
+  <div class="must-read-title">🎯 今日必看 · 3 則</div>
+  <div class="must-read-grid">
+    <a class="must-read-item" href="#tw-1">
+      <span class="num">01</span>
+      <span class="must-title">台灣擬將AI晶片走私中國入罪</span>
+      <span class="must-hint">首次以刑事罪名強化半導體出口管制，對應美台貿易協定承諾，供應鏈格局重大轉折</span>
+    </a>
+    <a class="must-read-item" href="#intl-1">
+      <span class="num">02</span>
+      <span class="must-title">中國發布40項戰略技術出口管制草案，23項涉AI</span>
+      <span class="must-hint">LLM與AI晶片可能受管，中美科技脫鉤加速，美中貿易休戰面臨壓力測試</span>
+    </a>
+    <a class="must-read-item" href="#intl-2">
+      <span class="num">03</span>
+      <span class="must-title">Anthropic Q3年收168億美元，11月中IPO倒數</span>
+      <span class="must-hint">AI產業資本市場最大里程碑節點，估值2兆美元將重新定錨AI工具市場競爭格局</span>
+    </a>
+  </div>
+</section>
+
+<div class="filters">
+  <button class="chip active" data-filter="all">全部 <span class="chip-count">7</span></button>
+  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">2</span></button>
+  <button class="chip" data-filter="industry">📊 產業視野 <span class="chip-count">2</span></button>
+  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">3</span></button>
+  <input type="search" class="search-input" placeholder="搜尋標題或摘要…" id="search">
+  <div class="legend">
+    <span>🎯 工作直擊</span>
+    <span>📊 產業視野</span>
+    <span>🌏 策略背景</span>
+  </div>
+</div>
+
+<main>
+
+<section>
+  <h2>台港澳 <span class="count" data-count="tw">3 則</span></h2>
+  <div class="news-list" data-region="tw">
+    <article id="tw-1" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">台灣擬立法：未經授權出口AI晶片或伺服器至中國將構成刑事罪</div>
+      <div class="summary">經濟部長龔明鑫10月16日宣布，政府計畫將AI伺服器與先進半導體晶片納入管制出口清單，走私至中國將依《貿易法》追究刑事責任；管制範圍採整個中國市場制，不再僅限特定黑名單企業。立法院已有委員提出修正草案。此舉配合台美互惠貿易協定承諾，8月已有9人因走私130台AI伺服器至中國遭起訴。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>台灣出口管制政策重大轉向，對遊戲業的直接影響是：透過台灣或台廠配合的AI算力設備（GPU、AI訓練伺服器）進入中國市場的灰色通道將面臨刑事風險；台廠評估中國布局時，硬體供應鏈合規成本需重新計算。另一方面，強化美台科技同盟有助於台廠在美市場爭取更優惠待遇。</div>
+      <div class="footer-meta">
+        <span>2026-10-16</span>
+        <span class="sep">·</span>
+        <span>Taiwan News / Bloomberg</span>
+        <span class="sep">·</span>
+        <a href="https://www.taiwannews.com.tw/news/6459737" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="tw-2" data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">台灣遊戲股交易量暴增，五家公司列入交易所監控觀察名單</div>
+      <div class="summary">台灣證交所10月16日將五家遊戲相關公司列入交易量異常觀察名單，相關股票出現交易量大幅暴增現象，監管機構提醒投資人注意。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>短期股價波動反映市場對遊戲業的資金動向；若後續觸發內線交易調查，可能引發管理層更迭或市場負面情緒。對手遊產品企劃的直接影響有限，但業者的資本市場信用度值得追蹤，特別是有融資擴張計畫的廠商。</div>
+      <div class="footer-meta">
+        <span>2026-10-16</span>
+        <span class="sep">·</span>
+        <span>Yam新聞</span>
+        <span class="sep">·</span>
+        <a href="https://n.yam.com/Article/20261016683096" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="tw-3" data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">金管會六大施政方向公布：金融業大語言模型預計2027年Q1首度公開</div>
+      <div class="summary">金管會主委彭金隆10月16日公布六大施政方向，其中金融科技創新項目包含協助金融業者建立大語言模型，預計2027年Q1公開首版；同步推進台灣亞洲資產管理中心定位與ESG永續金融布局。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>台灣金融業LLM將先於多數產業形成可參照的監管案例，對評估玩家客服AI、遊戲內購支付AI輔助等場景有合規參考價值；若金融LLM規範框架成熟，相關技術架構與合規標準有機會被遊戲業援引，值得追蹤草案內容。</div>
+      <div class="footer-meta">
+        <span>2026-10-16</span>
+        <span class="sep">·</span>
+        <span>CIO.com.tw</span>
+        <span class="sep">·</span>
+        <a href="https://www.cio.com.tw/106344" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h2>國際 <span class="count" data-count="intl">4 則</span></h2>
+  <div class="news-list" data-region="intl">
+    <article id="intl-1" data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">中國發布40項戰略技術出口管制草案，23項涉AI：含晶片、LLM、太陽能及生物科技</div>
+      <div class="orig-title">China proposes export controls on 40 strategic technologies, 23 AI-related, including chips and LLMs; comment period until Nov. 15</div>
+      <div class="summary">中國發改委10月16日發布40項戰略技術出口管制草案，其中23項為AI相關，涵蓋AI晶片、大型語言模型、太陽能技術及生物科技。多數技術在草案中仍可出口，僅需申請許可並簡化流程；但分析師指出，草案中的登記要求可能延伸至跨境智慧財產授權及跨境M&amp;A，徵求意見截止日為11月15日。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>若草案成型，中國自研LLM（包含米哈遊、網易等遊戲廠商導入的AI模型）的技術出口與授權將受管制；台廠若與中國合作開發AI功能或授權AI技術，需提前評估合規風險。此舉也可能觸發美方升級反制，2027年1月美中貿易休戰到期前，中美AI技術脫鉤加速的機率上升。</div>
+      <div class="footer-meta">
+        <span>2026-10-16</span>
+        <span class="sep">·</span>
+        <span>The National News</span>
+        <span class="sep">·</span>
+        <a href="https://www.thenationalnews.com/future/technology/2026/10/16/china-targets-ai-technology-exports-with-new-controls-as-us-trade-truce-frays/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="intl-2" data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Anthropic Q3營收168億美元首度調整後獲利，邁向11月中IPO；NYC退休基金要求延期</div>
+      <div class="orig-title">Anthropic Q3 revenue hits $16.8B, adjusted profitable, targets mid-November IPO at $2T valuation; NYC Comptroller pushes delay over AI governance</div>
+      <div class="summary">Anthropic Q3年收168億美元（Q1 47億→Q2 116億→Q3 168億），首次在調整後基礎上達到獲利。IFR報導計畫10月26日公開申請文件，11月9日路演，11月中定價，目標估值達2兆美元。NYSE市政府退休基金主管Mark Levine以AI治理疑慮為由要求延期；Amodei已展開對話，時程仍有變數。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>Anthropic IPO成功將確立AI基礎設施2兆美元估值基準，可能推升整體AI API競爭壓力與定價預期；NYC的治理質疑若擴散至機構投資人，Agentic AI的安全合規框架將加速被纳入IPO文件，直接影響後續開發者合規成本的基準設定。</div>
+      <div class="footer-meta">
+        <span>2026-10-15</span>
+        <span class="sep">·</span>
+        <span>CNBC</span>
+        <span class="sep">·</span>
+        <a href="https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="intl-3" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">OpenAI GPT-6 Pro開放多代理並行推理，GPT-Live-1.1新增13種語音</div>
+      <div class="orig-title">OpenAI GPT-6 Pro enables multi-agent parallel task splitting in ChatGPT; GPT-Live-1.1 voice update adds 13 new voices</div>
+      <div class="summary">OpenAI宣布ChatGPT中的GPT-6 Pro支援將複雜任務自動拆分至多個代理並行處理；同步推出GPT-Live-1.1語音更新，新增13種聲音選項。OpenAI最新安全報告亦披露兩起先前未公開的AI代理異常自主行為事件。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>多代理並行能力使AI代理可自主分工完成複雜任務，對遊戲自動化測試、NPC行為樹設計、玩家支援系統架構有直接參考價值；語音模型更新降低語音互動接入成本，是評估遊戲語音AI助手可行性的新基準節點。安全異常事件披露值得追蹤，作為評估Agentic AI可信度的參考。</div>
+      <div class="footer-meta">
+        <span>2026-10-16</span>
+        <span class="sep">·</span>
+        <span>AI Weekly</span>
+        <span class="sep">·</span>
+        <a href="https://aiweekly.co/ai-news-today" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="intl-4" data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">FTC與EU AI辦公室同步對OpenAI、Anthropic啟動正式調查</div>
+      <div class="orig-title">FTC sends 50-page civil subpoenas to OpenAI and Anthropic; EU AI Office issues first formal information requests to both companies</div>
+      <div class="summary">美國FTC向OpenAI與Anthropic各發出逾50頁民事調查傳票；EU AI辦公室同期發出首批資訊要求，聚焦Agentic AI的安全架構與市場支配地位。調查時間點恰逢Anthropic IPO前夕，為監管施壓增添政策意涵。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>歐美監管機構同步行動，顯示Agentic AI即將進入高強度監管週期；遊戲業導入AI代理功能若缺乏完整安全說明與問責文件，進入歐美市場的合規門檻將顯著上升。此一趨勢對規劃導入AI NPC、AI玩家助手的產品企劃具有中期參考價值，建議提前規劃合規文件架構。</div>
+      <div class="footer-meta">
+        <span>2026-10-16</span>
+        <span class="sep">·</span>
+        <span>AI Newsletter / Substack</span>
+        <span class="sep">·</span>
+        <a href="https://thezvi.substack.com/p/ai-190-scion-of-the-times" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="page-footer">
+  <p><strong>篩選準則</strong>：結構變化 &gt; 單一事件 · 原始資料 &gt; 二手報導 · 與你工作相關 &gt; 一般熱度 · 避開紅媒（人民日報／新華社／環球時報／大公文匯等）與純口水新聞。</p>
+</footer>
+
+</div>
+
+<div class="toast" id="toast">已複製到剪貼簿</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
