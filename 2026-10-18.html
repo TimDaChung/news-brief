@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="brief-date" content="2026-10-18">
+<title>每日新聞 Brief · 2026-10-18</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="date-nav" aria-label="日期切換">
+  <a class="date-btn" id="prev-day" href="#" title="前一天">◀</a>
+  <select class="date-select" id="date-select" aria-label="選擇日期">
+    <option value="2026-10-18">2026-10-18（週日）</option>
+  </select>
+  <a class="date-btn" id="next-day" href="#" title="後一天">▶</a>
+  <a class="date-btn latest-btn" href="./" title="跳到最新">🏠 最新</a>
+</nav>
+
+<header>
+  <h1>每日新聞 Brief</h1>
+  <div class="meta-line">
+    <span class="pill" id="current-date-pill">涵蓋日期：2026-10-18（週日）</span>
+    <span>更新：2026-10-19</span>
+    <span id="totals">台港澳 6 則 · 國際 8 則</span>
+  </div>
+</header>
+
+<section class="must-read">
+  <div class="must-read-title">🎯 今日必看 · 3 則</div>
+  <div class="must-read-grid">
+    <a class="must-read-item" href="#intl-1">
+      <span class="num">01</span>
+      <span class="must-title">中國發布23項AI技術出口管制，即時生效，美中貿易休戰再受壓</span>
+      <span class="must-hint">中美科技脫鉤加速，台廠AI工具採購與供應鏈需重新評估</span>
+    </a>
+    <a class="must-read-item" href="#intl-3">
+      <span class="num">02</span>
+      <span class="must-title">Apple EU App Store抽成降至26%，廢除按裝置收費Core Technology Fee</span>
+      <span class="must-hint">平台抽成結構改變，外部分發財務門檻大幅降低</span>
+    </a>
+    <a class="must-read-item" href="#intl-4">
+      <span class="num">03</span>
+      <span class="must-title">Anthropic Q3收入168億美元，IPO估值下修至1.5兆美元</span>
+      <span class="must-hint">AI廠商高成長預期修正，Claude API定價策略短期有變動風險</span>
+    </a>
+  </div>
+</section>
+
+<div class="filters">
+  <button class="chip active" data-filter="all">全部 <span class="chip-count">14</span></button>
+  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">5</span></button>
+  <button class="chip" data-filter="industry">📊 產業視野 <span class="chip-count">4</span></button>
+  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">5</span></button>
+  <input type="search" class="search-input" placeholder="搜尋標題或摘要…" id="search">
+  <div class="legend">
+    <span>🎯 工作直擊</span>
+    <span>📊 產業視野</span>
+    <span>🌏 策略背景</span>
+  </div>
+</div>
+
+<main>
+
+<section>
+  <h2>台港澳 <span class="count" data-count="tw">6 則</span></h2>
+  <div class="news-list" data-region="tw">
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">台積電Q3淨利年增68.7%創紀錄，AI晶片需求仍大幅超出產能</div>
+      <div class="summary">台積電第三季營收年增50.9%至467億美元，淨利達7,630億台幣，AI相關高效能運算占總收入68%。全年營收成長財測上修至44%，資本支出維持600–640億美元。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>AI晶片需求持續緊張意味算力成本壓力延續至明年。遊戲服務器與雲端AI API定價料仍偏高，建議提早鎖定算力合約或評估多雲策略分散風險。</div>
+      <div class="footer-meta">
+        <span>2026-10-15</span>
+        <span class="sep">·</span>
+        <span>Bloomberg / TSMC 6-K</span>
+        <span class="sep">·</span>
+        <a href="https://www.bloomberg.com/news/articles/2026-10-15/tsmc-s-profit-surpasses-expectations-after-ai-orders-rush-in" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">台積電評估德州進一步擴廠，因應AI晶片需求持續超出產能</div>
+      <div class="summary">台積電已派員赴德州評估投資計畫，但尚未宣布最終協議。董事長魏哲家表示需求遠超現有供應能力，2026–2028年資本支出將顯著高於前三年。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>台積電加速美國在地化生產，短期對台灣AI晶片供給影響有限，但長期有助緩解供給瓶頸。台廠算力成本改善可能要等1–2年，建議遊戲AI研發規劃仍以雲端API為主。</div>
+      <div class="footer-meta">
+        <span>2026-10-16</span>
+        <span class="sep">·</span>
+        <span>American Bazaar Online</span>
+        <span class="sep">·</span>
+        <a href="https://americanbazaaronline.com/2026/10/16/tsmc-explores-texas-expansion-as-ai-chip-demand-outpaces-production-490221/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">金管會宣布金融業LLM明年首季公開，並提出六大施政方向</div>
+      <div class="summary">金管會主委彭金隆公布六大施政方向，涵蓋金融科技創新與亞資中心推進。金融業務大語言模型預計2027年第一季公開，作為金融機構AI應用的官方參考基準。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>金融業AI化提速，監管單位主動建立LLM基準。若未來手遊產品涉及支付、信用評分或金融產品合作，可提早掌握監管脈絡，了解AI合規要求走向。</div>
+      <div class="footer-meta">
+        <span>2026-10-16</span>
+        <span class="sep">·</span>
+        <span>Yahoo奇摩新聞</span>
+        <span class="sep">·</span>
+        <a href="https://tw.news.yahoo.com/%E9%87%91%E8%9E%8D%E6%A5%AD%E5%8B%99%E5%A4%A7%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B-%E9%87%91%E7%AE%A1%E6%9C%83-%E6%98%8E%E5%B9%B4%E9%A6%96%E5%AD%A3%E5%85%AC%E9%96%8B-104019175.html" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">數位產業署攜手遊戲自律委員會推動友善環境，分級與定型化契約抽查持續</div>
+      <div class="summary">數位產業署與數位遊戲產業自律推動委員會合作，持續推動遊戲分級適切性抽查、定型化契約合規，並辦理友善遊戲認證，目標為新世代玩家建立更安全的遊戲環境。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>台灣遊戲監管向合規體系深化，分級申請與定型化契約合規性將是在台上線的必要前置作業。建議法遵與產品設計同步確認，避免事後補救成本。</div>
+      <div class="footer-meta">
+        <span>2026-10-08</span>
+        <span class="sep">·</span>
+        <span>Yahoo奇摩新聞</span>
+        <span class="sep">·</span>
+        <a href="https://tw.news.yahoo.com/%E6%95%B8%E4%BD%8D%E7%94%A2%E6%A5%AD%E7%BD%B2%E6%94%9C%E6%89%8B%E6%95%B8%E4%BD%8D%E9%81%8A%E6%88%B2%E7%94%A2%E6%A5%AD%E8%87%AA%E5%BE%8B%E6%8E%A8%E5%8B%95%E5%A7%94%E5%93%A1%E6%9C%83-%E5%8A%9B%E6%8E%A8%E6%96%B0%E4%B8%96%E4%BB%A3%E7%8E%A9%E5%AE%B6%E5%85%B1%E7%AF%89%E5%8F%8B%E5%96%84%E9%81%8A%E6%88%B2%E7%92%B0%E5%A2%83-054719501.html" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">《魔物獵人：旅人》10/29台灣上市，Capcom授權TiMi研發、Garena發行</div>
+      <div class="summary">Capcom授權《魔物獵人》手遊《魔物獵人：旅人》由TiMi研發、Garena代理，預計2026年10月29日在台上市，目前開放預約。為知名IP首次手遊化，已獲大量關注。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>知名PC/主機IP進軍手遊，且由大廠研發與發行，將是10月底手遊市場的重點競品。建議在上線後評估其留存率與付費設計，作為IP改編手遊的參考案例。</div>
+      <div class="footer-meta">
+        <span>2026-10-15</span>
+        <span class="sep">·</span>
+        <span>GNN巴哈姆特</span>
+        <span class="sep">·</span>
+        <a href="https://gnn.gamer.com.tw/index.php?k=4" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">香港SFC修訂零售基金守則，11月1日生效，開放式基金須採反稀釋流動性工具</div>
+      <div class="summary">SFC公布Unit Trusts and Mutual Funds守則修訂，允許基金使用VaR框架管理衍生品風險，並要求開放式基金採用反稀釋流動性風險管理工具，現有基金有12個月過渡期。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>香港基金監管框架升級，對遊戲廠商直接影響有限。但若產品涉及香港市場虛擬資產、代幣化資產或投資型遊戲道具，需留意SFC整體監管升溫的方向。</div>
+      <div class="footer-meta">
+        <span>2026-10</span>
+        <span class="sep">·</span>
+        <span>Sidley Austin Asia Newsletter</span>
+        <span class="sep">·</span>
+        <a href="https://www.sidley.com/en/insights/newsupdates/2026/10/asia-funds-and-financial-services-newsletter" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h2>國際 <span class="count" data-count="intl">8 則</span></h2>
+  <div class="news-list" data-region="intl">
+    <article id="intl-1" data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">中國發布40項戰略技術出口管制，其中23項涉AI，部分即時生效</div>
+      <div class="orig-title">China targets AI technology exports with new controls as US trade truce frays</div>
+      <div class="summary">中國針對40項戰略技術提出出口管制，其中23項與AI直接相關，登記要求即時生效，連已出貨訂單亦受影響。此舉正值美中剛達成貿易休戰、關稅互降不到一個月。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>中美科技脫鉤加速，AI工具與模型供應鏈不確定性上升。台廠若依賴中國AI模型或技術授權（如語音合成、圖像生成服務），需評估替代方案。對遊戲AI系統架構規劃影響深遠，建議優先布局非中國源技術棧。</div>
+      <div class="footer-meta">
+        <span>2026-10-16</span>
+        <span class="sep">·</span>
+        <span>The National News</span>
+        <span class="sep">·</span>
+        <a href="https://www.thenationalnews.com/future/technology/2026/10/16/china-targets-ai-technology-exports-with-new-controls-as-us-trade-truce-frays/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">美中延長貿易休戰2個月，同意對600億美元商品互減關稅</div>
+      <div class="orig-title">U.S. and China to Cut Tariffs on $60 Billion of Goods</div>
+      <div class="summary">美國財政部長宣布延長美中貿易休戰2個月，雙方同意針對約600億美元商品互減關稅，但具體幅度與執行日期尚未公布。目前美對中平均關稅約35.2%。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>貿易休戰延伸暫緩部分供應鏈壓力，但高關稅結構與科技出口管制依然存在。手遊廠商若有硬體採購或美國合作夥伴需求，可短暫喘息，但仍需長期布局去風險策略。</div>
+      <div class="footer-meta">
+        <span>2026-09-29</span>
+        <span class="sep">·</span>
+        <span>TIME / NBC News</span>
+        <span class="sep">·</span>
+        <a href="https://time.com/article/2026/09/29/us-china-reciprocal-tariffs-cut-trade-goods-60-billion/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="intl-3" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">Apple EU App Store抽成降至26%，廢除按裝置收費改收5%外部分發費</div>
+      <div class="orig-title">Apple scraps per-install EU fee for flat 5% App Store commission</div>
+      <div class="summary">Apple在歐盟將App Store抽成從30%降至26%（小型開發者15%不變），並廢除Core Technology Fee，改收5%替代方案。替代付款方式抽成20%（小型開發者10%）。10月1日起生效。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>歐盟市場收益計算模式改變，中大型遊戲廠商直接受益。廢除Core Technology Fee大幅降低外部分發的財務門檻，側載生態將更活躍。若亞太市場跟進類似改革，台廠需重新試算抽成結構，並評估是否建立自有分發渠道。</div>
+      <div class="footer-meta">
+        <span>2026-10-01</span>
+        <span class="sep">·</span>
+        <span>BetaNews / Apple Newsroom</span>
+        <span class="sep">·</span>
+        <a href="https://betanews.com/article/apple-eu-app-store-commission-fee/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="intl-4" data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Anthropic Q3收入季增45%達168億美元，IPO估值下修至約1.5兆美元</div>
+      <div class="orig-title">Anthropic's $16.8B Quarter Meets 10% Debt Offer</div>
+      <div class="summary">據Reuters引述IPO路演訊息，Anthropic第三季收入168億美元，季增45%。市場對IPO估值由先前約2兆美元下修至1.5兆美元，預計11月進行股票發行。FTC亦同日向OpenAI和Anthropic發出民事調查令。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>Anthropic高速成長但估值修正，顯示AI廠商預期正在理性化。對使用Claude API的開發者而言，IPO前後定價策略可能調整，短期API費率變動風險上升。FTC調查也增加AI服務條款的監管不確定性。</div>
+      <div class="footer-meta">
+        <span>2026-10-18</span>
+        <span class="sep">·</span>
+        <span>FourWeekMBA / Reuters</span>
+        <span class="sep">·</span>
+        <a href="https://fourweekmba.com/ai-weekly-roundup-18-oct-2026-anthropic-16-8b-quarter-10-debt" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">OpenAI API出現Aurora三模型暗線，同日FTC傳喚OpenAI與Anthropic</div>
+      <div class="orig-title">OpenAI API Surfaces Aurora Red, Green, Blue Alpha Models Without Documentation</div>
+      <div class="summary">OpenAI API出現三個未記錄模型aurora-red/green/blue-alpha，功能與用途未知。同日FTC向OpenAI和Anthropic發出民事調查令，調查近期AI安全事件。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>OpenAI新模型系列即將曝光，可能帶來更強能力或更低成本API選項，值得持續追蹤。FTC調查顯示AI監管壓力升溫，可能影響AI服務條款與功能部署速度，採購AI服務時應關注條款變動。</div>
+      <div class="footer-meta">
+        <span>2026-10-18</span>
+        <span class="sep">·</span>
+        <span>AI Weekly</span>
+        <span class="sep">·</span>
+        <a href="https://aiweekly.co/ai-news-today" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Google Gemini 4 Argon全球上市，支援100萬token上下文，定價$2/M tokens起</div>
+      <div class="orig-title">Gemini 4 Argon Goes Global: 1M-Token Launch</div>
+      <div class="summary">Google Gemini 4 Argon於10月13日全面開放，支援100萬token上下文窗口，定價$2/百萬input tokens、$10/百萬output tokens，11月底後漲至$4/$20。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>超長上下文窗口對遊戲劇情生成、玩家行為分析等應用有潛力。11月底漲價前是測試整合成本的好時機。Google持續在AI服務競爭力提升，有助打破API費用壟斷，建議評估作為Claude/GPT的備援或替代選項。</div>
+      <div class="footer-meta">
+        <span>2026-10-13</span>
+        <span class="sep">·</span>
+        <span>Shattered.io</span>
+        <span class="sep">·</span>
+        <a href="https://shattered.io/gemini-4-argon-global-launch-16x-tokens-2026/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">Netmarble吸血鬼MMORPG《VAMPIR》10/27全球上線，PC+行動雙平台</div>
+      <div class="orig-title">Netmarble Sets October 27 Global Launch Date for Vampire-Themed MMORPG VAMPIR</div>
+      <div class="summary">Netmarble旗下吸血鬼MMORPG《VAMPIR》定於10月27日全球上線，覆蓋PC與行動平台。韓服2025年先行，台港澳版3月已上線，日版7月上線，此次為全球版進一步擴展。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>韓廠以中等預算跨平台MMORPG布局全球市場，逐步擴展策略（韓→台港澳→日→全球）值得參考。台港澳三月上線後市場反應可作為判斷類似品類亞洲競爭激烈度的參考依據。</div>
+      <div class="footer-meta">
+        <span>2026-10-17</span>
+        <span class="sep">·</span>
+        <span>Inven Global</span>
+        <span class="sep">·</span>
+        <a href="https://www.invenglobal.com/articles/27307/netmarble-sets-october-27th-global-launch-for-vampire-mmorpg-vampir" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">NCSoft新RPG《Astra: Knights of Veda Oratio》完成全球封測，TGS首次亮相</div>
+      <div class="orig-title">NCSoft Puts New RPG to Global Test With First Raid Reveal</div>
+      <div class="summary">NCSoft的《Astra: Knights of Veda Oratio》於TGS 2026首次公開Demo，並於10月2–6日完成5天全球封測（Android+iOS），正式上線日期尚未公布。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>NCSoft日本市場布局積極，多款作品接連在TGS亮相。若此類中等成本動作RPG封測反響良好，可預期2027年初多款韓廠IP陸續上線，台灣市場競爭強度將進一步提升。</div>
+      <div class="footer-meta">
+        <span>2026-10-06</span>
+        <span class="sep">·</span>
+        <span>Seoul Economic Daily</span>
+        <span class="sep">·</span>
+        <a href="https://en.sedaily.com/technology/2026/09/26/ncsoft-puts-new-rpg-to-global-test-with-first-raid-reveal" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="page-footer">
+  <p><strong>篩選準則</strong>：結構變化 &gt; 單一事件 · 原始資料 &gt; 二手報導 · 與你工作相關 &gt; 一般熱度 · 避開紅媒（人民日報／新華社／環球時報／大公文匯等）與純口水新聞。</p>
+</footer>
+
+</div>
+
+<div class="toast" id="toast">已複製到剪貼簿</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
