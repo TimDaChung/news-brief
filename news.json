@@ -1,112 +1,154 @@
 {
-  "date": "2026-10-27",
-  "weekday": "週二",
+  "date": "2026-10-28",
+  "weekday": "週三",
   "must_read": [
-    { "title": "Apple歐盟App Store抽成降至26%，DMA強制落地", "hint": "手遊開發者在歐盟的抽成成本下降，外連結帳15%是目前最低合規選項", "article_id": "must-1" },
-    { "title": "Aion 2全球版Steam峰值40萬，仍遭評「低於預期」", "hint": "韓廠全球化困境：首週數字亮眼不代表留存，評價分歧導致券商下修目標價", "article_id": "must-2" },
-    { "title": "Claude Duet研究預覽 + GPT-6.1 Terra：AI雙雄同週更新", "hint": "多標籤並行對話與API降價50%，企劃流程引入AI節點的成本障礙進一步降低", "article_id": "must-3" }
+    { "title": "Apple EU App Store抽成降至26%", "hint": "已於10月1日起生效，對手遊出海歐洲的收益結構有直接影響", "article_id": "must-1" },
+    { "title": "OpenAI GPT-6.1 Terra上線，Pro 500計畫月費500美元", "hint": "前沿AI模型又升一代，企劃工具鏈是否該同步更新值得評估", "article_id": "must-2" },
+    { "title": "Bandai Namco 34.6萬筆用戶資料外洩", "hint": "第三方郵件服務商成破口，手遊廠商外包資安風險的警示案例", "article_id": "must-3" }
   ],
   "tw": [
     {
       "category": "industry",
-      "title": "Anthropic上市激勵台股AI買氣，台積電盤中漲停",
-      "summary": "台股10月27日受Anthropic正式上市消息帶動，盤中大漲逾540點，台積電一度漲停，記憶體（南亞科、華邦電）跟漲；收盤上漲54點至46,096點，PCB族群回檔整理。",
-      "impact": "Anthropic上市確認AI算力投資仍有資本市場支撐，台積電供應鏈短期情緒受惠；對Tim來說，AI算力需求持續強勁意味著AI開發工具成本長期有機會持續下降。",
-      "date": "2026-10-27",
-      "source": "鉅亨網",
-      "link": "https://news.cnyes.com/news/id/6638269"
+      "title": "台灣半導體設備股走強4.95%，AI先進封裝需求點火",
+      "summary": "2026-10-28台股半導體設備族群盤中大漲約4.95%，富世達、鴻勁、致茂等個股領軍。AI晶片出貨量攀升帶動先進封裝與高端測試產能持續吃緊，資金回流設備股。",
+      "impact": "對你的意義：先進封裝供應鏈吃緊意味著台廠AI相關合作夥伴的交期與成本壓力上升；評估AI NPC或雲端推理功能時，需考量底層算力緊缺對服務可靠性與成本的中長期影響。",
+      "date": "2026-10-28",
+      "source": "CMoney",
+      "link": "https://www.cmoney.tw/notes/note-detail.aspx?nid=1283577",
+      "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "國研院x汎銓科技：High-NA EUV製程分析突破，台廠叩關1.4奈米",
-      "summary": "國研院國儀中心與汎銓科技宣布在High-NA EUV製程結構分析取得技術突破，可協助台灣材料廠切入1.4奈米以下製程供應鏈，具備量產驗證能力。",
-      "impact": "台灣半導體材料分析能量持續升級，鞏固先進製程壁壘；雖非直接遊戲業新聞，但反映台灣在AI晶片供應鏈的技術護城河，長期有利維持台廠在全球AI生態系的議價地位。",
-      "date": "2026-10-27",
-      "source": "Yahoo奇摩新聞",
-      "link": "https://tw.news.yahoo.com/%E5%9C%8B%E7%A0%94%E9%99%A2%E6%94%9C%E6%89%8B%E6%B1%8E%E9%8A%93%E7%A7%91%E6%8A%80-%E5%8A%A9%E6%94%BB%E5%8D%8A%E5%B0%8E%E9%AB%94%E5%85%88%E9%80%B2%E8%A3%BD%E7%A8%8B%E6%9D%90%E6%96%99%E9%A9%97%E8%AD%89-091500707.html"
+      "title": "精測Q3法說：HPC佔比升至65.9%，年增53.4%創歷史新高",
+      "summary": "精測電子2026年第三季營收突破19億元，年增53.4%，HPC（高效能運算）類測試佔比從去年約50%提升至65.9%。市場傳言TPU封裝良率問題，公司表示工程驗證端未受影響。",
+      "impact": "對你的意義：精測業績反映AI晶片測試需求持續爆發，台廠在AI硬體供應鏈的地位穩固；對手遊企劃而言，AI基礎設施成熟速度加快，雲端AI工具的成本與穩定性未來可望改善。",
+      "date": "2026-10-28",
+      "source": "U-Analyze 法說摘要",
+      "link": "https://uanalyze.com.tw/articles/1320957883",
+      "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "季辛格攜六家AI新創來台，布局AI記憶體、光互連與先進封裝",
-      "summary": "前英特爾執行長季辛格代表Playground Global再度訪台，帶領六家被投資公司發表AI記憶體、矽光子CPO（共封裝光學）及供電管理等技術進展，點名台灣供應鏈為最關鍵整合夥伴。",
-      "impact": "AI算力瓶頸正從GPU轉移至記憶體頻寬與光互連，台灣封裝廠（日月光、矽格）是最直接受益者；顯示台灣正從「代工製造」升級為「AI算力整合樞紐」的結構性轉變。",
-      "date": "2026-10-27",
-      "source": "風傳媒",
-      "link": "https://storm.mg/article/11176270"
+      "title": "舊金山實體AI峰會：台灣製造優勢受矚目，機器人商業化加速",
+      "summary": "舊金山舉行的實體AI（Physical AI）峰會上，投資界認為台灣、日本及東南亞在機器人商業化與實體AI產業化中將扮演重要角色，台灣供應鏈的精密製造能力被多次點名。",
+      "impact": "對你的意義：實體AI若加速商業化，將為手遊IP授權及週邊硬體開拓新型態應用場景；同時部分AI運算資源可能移向端側（Edge AI），對雲端串流遊戲架構是潛在的長期變數。",
+      "date": "2026-10-28",
+      "source": "yam蕃薯藤新聞",
+      "link": "https://n.yam.com/Article/20261028466341",
+      "link_text": "原文連結"
     },
     {
-      "category": "strategy",
-      "title": "全球首例：香港SFC批准代幣化公募基金二級市場交易",
-      "summary": "香港證監會於10月26日批准ChinaAMC旗下港幣及美元數位貨幣市場基金，在SFC持牌虛擬資產平台（PantherTrade）開放7×24小時二級市場交易，為全球首創監管框架落地案例。",
-      "impact": "香港在代幣化金融產品監管取得全球領先，後續整合HKMA代幣化存款基礎設施（Project Ensemble）；若台灣金管會跟進相關框架，可能影響遊戲業Web3支付與虛擬資產合規路線。",
+      "category": "work",
+      "title": "香港SFC發布零售基金新守則指引，11月1日生效",
+      "summary": "香港證監會（SFC）2026-10-28發布指引，協助基金業界準備修訂版《單位信託及互惠基金守則》，11月1日起生效。同日SFC宣布歡迎「整合基金平台」（Integrated Fund Platform）平台及代理服務正式啟動。",
+      "impact": "對你的意義：SFC持續推進傳統基金監管現代化，與代幣化基金政策並行推進，香港逐步建立合規的數位金融生態；若公司有考慮香港作為虛擬道具或遊戲點數跨境結算場域，此監管方向值得持續追蹤。",
+      "date": "2026-10-28",
+      "source": "SFC 香港證監會",
+      "link": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR176",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "香港SFC首次批准代幣化公募基金進行二級市場交易",
+      "summary": "香港證監會於2026年10月26日批准首批向公眾發售的代幣化基金進行二級市場交易，被業界視為虛擬資產監管里程碑，象徵代幣化金融產品正式進入零售市場流通。",
+      "impact": "對你的意義：代幣化資產合規化進程加速，區塊鏈遊戲資產、NFT道具等在監管框架下的流通路徑逐漸清晰；對評估是否在香港推出NFT相關功能或代幣化遊戲資產的決策有直接參考價值。",
       "date": "2026-10-26",
-      "source": "香港證監會官網 / The Standard HK",
-      "link": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR174"
+      "source": "SFC 香港證監會",
+      "link": "https://www.sfc.hk/en/News-and-announcements/Policy-statements-and-announcements",
+      "link_text": "原文連結"
     }
   ],
   "intl": [
     {
       "id": "must-1",
       "category": "work",
-      "title": "Apple歐盟App Store抽成降至26%，DMA強制費率10月生效",
-      "orig_title": "Apple EU App Store Unified Fee Schedule Takes Effect October 2026 Under DMA",
-      "summary": "Apple歐盟統一費率於2026年10月1日生效：標準IAP抽成降至26%（原30%），App內替代支付20%，外連網頁結帳15%；小型開發者及訂閱滿一年者享更低費率。第三方分發渠道另設5% Core Technology Commission。",
-      "impact": "對手遊開發者最實際的選項是「外連網頁結帳15%」——歐盟玩家可導至自家官方充值頁，省下11個百分點；替代支付仍需付20%，實際幫助有限。評估歐盟區是否值得建立獨立的網頁付款流程。",
+      "title": "Apple EU App Store抽成降至26%，第三方支付享20%",
+      "orig_title": "Apple replaces EU app fee with flat 5% commission",
+      "summary": "2026年10月1日起，Apple修訂歐盟地區App Store費率：標準內購抽成從30%降至26%，採用第三方支付享20%，外鏈結帳15%；另以5%統一費率取代過去按下載計算的Core Technology Fee。為DMA法規持續施壓下的最新費率架構。",
+      "impact": "對你的意義：若公司旗下手遊有出海歐盟計畫，新費率結構意味著透過第三方支付可顯著降低平台抽成；評估外鏈或自建支付的成本效益窗口已開，建議財務與法務同步評估導入歐區的最佳時機。",
       "date": "2026-10-01",
-      "source": "FunnelFox / Fora Software",
-      "link": "https://blog.funnelfox.com/apple-app-store-fees-2026-eu-dma/"
-    },
-    {
-      "category": "work",
-      "title": "Google Play Epic和解後費率降至20%，Android平台成本優勢擴大",
-      "orig_title": "Google Play Drops Standard Rate to 20% After Epic Settlement",
-      "summary": "Google Play在Epic Games反壟斷訴訟和解後推出新費率結構：標準IAP 20%（原30%），訂閱採10%+5%兩段式計費，小開發者另有更低費率。",
-      "impact": "Android與iOS（非歐盟）費率差距從0拉開至10個百分點，Android平台邊際成本優勢明顯；若產品有全球化規劃，可重新評估iOS/Android的行銷資源與收益分配比例。",
-      "date": "2026-10-01",
-      "source": "ASO Agency",
-      "link": "https://asoagency.io/blogs/app-store-fees-2026"
+      "source": "BetaNews",
+      "link": "https://betanews.com/article/apple-eu-app-store-commission-fee/",
+      "link_text": "原文連結"
     },
     {
       "id": "must-2",
-      "category": "industry",
-      "title": "Aion 2全球版Steam峰值近40萬，NH投顧仍評「低於預期」下調目標價",
-      "orig_title": "AION 2 Peaks at 398K Steam Players; NH Investment Cuts NCsoft Target, Labels Global Launch 'Below Expectations'",
-      "summary": "NCSoft Aion 2全球版10月5日正式上線（PC/Steam），SteamDB峰值397,905名同時在線；但上線後評價僅62%正面（12,687則），NH Investment & Securities隨即將NCsoft目標價下調至₩320,000，預估Q3營收年增108%但季減2.7%，獲利季減38.5%。",
-      "impact": "Aion 2案例揭示「首週流量」與「產品評價」的落差風險：即使峰值接近40萬，評價不佳仍讓資本市場失望。台灣手遊若規劃全球化，應優先建立海外玩家試玩回饋機制，而非只衝上線首週KPI。",
-      "date": "2026-10-08",
-      "source": "MMORPG.com / The Elec / BigGo Finance",
-      "link": "https://www.mmorpg.com/news/ncsoft-hits-all-time-quarterly-revenue-on-korean-aion-2-launch-and-sligthly-narrows-global-release-window-2000138064"
+      "category": "work",
+      "title": "OpenAI GPT-6.1 Terra上線，Pro 500計畫月費500美元",
+      "orig_title": "GPT-6.1 Terra and Pro 500 plan announced by OpenAI",
+      "summary": "OpenAI於10月26日在OpenRouter上線GPT-6.1 Terra及其Pro版本，隨後宣布每月500美元的Pro 500訂閱計畫，捆綁GPT-6 Astra Ultrafast與GPT-6.1 Sol Ultrafast版本存取權。",
+      "impact": "對你的意義：GPT系列持續迭代，AI工具鏈的效能與成本快速變動；若公司有使用AI輔助劇本生成、NPC對話或市場分析，應評估是否切換或採用多模型並用策略，以降低單一廠商依賴風險並控制訂閱成本。",
+      "date": "2026-10-26",
+      "source": "PricePerToken AI News",
+      "link": "https://pricepertoken.com/news/model-releases",
+      "link_text": "原文連結"
     },
     {
       "id": "must-3",
-      "category": "strategy",
-      "title": "Claude Duet研究預覽上線；OpenAI發布GPT-6.1 Terra，API降價50%",
-      "orig_title": "Anthropic Claude Duet Research Preview; OpenAI Releases GPT-6.1 Terra with 50% API Price Cut",
-      "summary": "Anthropic於10月21日推出Claude Duet研究預覽版，支援多標籤並行對話工作流，限美國Pro/Max用戶；OpenAI於10月26日發布GPT-6.1 Terra，定位中端、API定價較前代降約50%。",
-      "impact": "Duet的多標籤並行讓產品企劃可同時在不同分析框架下討論同一議題；API降價降低整合成本，建議評估在GDD撰寫、競品分析、用戶問卷整理等環節引入AI節點，現在成本比三個月前低得多。",
-      "date": "2026-10-26",
-      "source": "LM Market Cap / Local AI Zone Blog",
-      "link": "https://lmmarketcap.com/llm-updates"
+      "category": "industry",
+      "title": "Bandai Namco 34.6萬筆用戶電郵外洩，第三方供應商成缺口",
+      "orig_title": "Bandai Namco Data Breach Hits Over 300,000 Users as Third-Party Leak Exposes Millions of Records",
+      "summary": "Bandai Namco 2026-10-28揭露，旗下電郵發送服務供應商YmirLink遭入侵，導致約34.6萬筆用戶電子郵件地址外洩。公司確認密碼及支付資訊未受波及，已暫停服務並向日本個人資訊保護委員會申報。",
+      "impact": "對你的意義：此案凸顯手遊廠商對第三方SaaS（電郵行銷、推播服務）的依賴帶來的資安盲點；建議立即盤點公司使用的外部電郵推播服務廠商，確認其資安憑證、資料存取權限邊界與事故應對流程。",
+      "date": "2026-10-28",
+      "source": "Beebom / EvenThubs",
+      "link": "https://beebom.com/bandai-namco-data-breach-hits-over-300k-users",
+      "link_text": "原文連結"
     },
     {
-      "category": "strategy",
-      "title": "美中貿易停戰延至2027年1月，600億美元商品降稅協議達成",
-      "orig_title": "US-China Trade Truce Extended to January 2027; $60B Tariff Cuts Agreed After Trump-Xi Summit",
-      "summary": "習川峰會後美中宣布貿易停戰延長至2027年1月10日，雙方就600億美元商品達成降稅建議（美方降中方77類、中方降美方1,619類），稀土出口管制暫停措施維持，但具體落實時間表仍在協商。",
-      "impact": "短期貿易緊張緩解，手遊硬體周邊（主機、控制器）受惠；稀土問題懸而未決，台廠在AI晶片供應鏈的長期風險未根本解決。關注2027年1月10日停戰到期前是否再度延長。",
-      "date": "2026-09-26",
-      "source": "Axios / The Hill",
-      "link": "https://www.axios.com/2026/09/26/us-china-tariffs-trade-30-billion"
+      "category": "work",
+      "title": "Google Gemini 4 Carbon發布，宣稱11/15基準超越GPT-6 Astra",
+      "orig_title": "Google Launches Gemini 4 Carbon, Beats GPT-6 Astra on Most Benchmarks",
+      "summary": "Google發布Gemini 4 Carbon，為Gemini 4 Argon之後的新前沿模型，Google宣稱在所揭露的15項基準中，Carbon有11項超越GPT-6 Astra及Claude Opus 5.5。目前Carbon仍限網路安全測試人員存取。",
+      "impact": "對你的意義：三大AI前沿模型（GPT-6、Gemini 4、Claude Opus 5）進入效能白熱化競爭，每次新版本都可能改變最佳工具選擇；建議定期對公司AI工具鏈進行效能與成本評測，避免習慣性使用舊版而錯失生產力提升機會。",
+      "date": "近期",
+      "source": "OfficeChai",
+      "link": "https://officechai.com/ai/gemini-4-carbon-benchmarks",
+      "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "騰訊Roco Kingdom全球版封測啟動，五平台同步上線",
-      "orig_title": "Tencent Roco Kingdom Global Closed Beta 'Quack Quack Test' Launches October 27 Across PC, Console, Mobile",
-      "summary": "騰訊旗下Roco Kingdom全球版於10月27日啟動「Quack Quack Test」封測，支援PC、PS5、Xbox Series X|S及iOS/Android五平台，為gamescom 2026公布後首次公開測試。",
-      "impact": "Roco Kingdom是騰訊少見的跨平台休閒冒險IP，不走MOBA/MMORPG路線；五平台同步封測策略若評測正向，代表騰訊正在驗證非競技類全球IP的可行性，對台灣休閒手遊市場具參考意義。",
-      "date": "2026-10-27",
-      "source": "Play Asia Blog",
-      "link": "https://play.asia/blog/2026/10/27/releasing-this-week-october-27-2026/"
+      "title": "BLEACH Mirrors High iOS/Android全球上線，Kubo帶人親設10名新角色",
+      "orig_title": "BLEACH Mirrors High Now Available on iOS and Android",
+      "summary": "Bandai Namco Entertainment宣布手遊《BLEACH Mirrors High》於2026-10-28正式在iOS及Android上線，包含10名由原著作者久保帶人親自設計的新隊員，並確認助左院接雨作為首位限定抽卡角色，同時公開完整OP動畫。",
+      "impact": "對你的意義：BLEACH IP手遊化展示了「原著作者深度參與」的商業模式——Kubo親設角色有效提升玩家對正版授權的信任與期待感；對正在評估IP合作策略的手遊企劃，這是可參考的IP持有者強介入案例。",
+      "date": "2026-10-28",
+      "source": "PR Newswire",
+      "link": "https://www.prnewswire.com/news-releases/bandai-namco-entertainment-inc-bleach-mirrors-high-now-available-on-ios-and-android-302921792.html",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "Bandai Namco公布Gundam Battle Operation 3，PS5/PC免費遊戲",
+      "orig_title": "Bandai Namco Announces Mobile Suit Gundam Battle Operation 3 for PS5, PC",
+      "summary": "Bandai Namco在高達遊戲40週年紀念直播中公布《機動戰士鋼彈：戰場行動3》，定位PS5及PC免費遊玩（F2P）團隊動作遊戲，目前仍在開發中，尚未公布上市日期。",
+      "impact": "對你的意義：高達IP的長青展示了日本廠商善用週年節點重啟授權IP的策略，F2P定位符合大規模獲客邏輯；台廠在評估IP改編遊戲商業模式時，可參考日本廠商「自有IP深耕F2P主機市場」的趨勢。",
+      "date": "2026-10-28",
+      "source": "Anime News Network",
+      "link": "https://www.animenewsnetwork.com/news/2026-10-28/bandai-namco-announces-mobile-suit-gundam-battle-operation-3-game-for-ps5-pc/.243288",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "NCSoft首個亞文化RPG「Astrae Oratio」亮相東京電玩展",
+      "orig_title": "NCSoft, Nexon, Netmarble Take New Titles to Tokyo Game Show",
+      "summary": "NCSoft在2026年東京電玩展展示旗下首個亞文化（subculture）RPG「Astrae Oratio」，由製作《藍色封存》的團隊負責，象徵傳統MMORPG大廠正式跨入亞文化手遊市場。Netmarble帶來《境界觸發者：七強物種》與《Solo Leveling: Karma》新作。",
+      "impact": "對你的意義：MMORPG老牌廠NCSoft投入亞文化RPG，進一步壓縮該市場的藍海空間；若公司正在評估或已進入亞文化手遊，應留意NCSoft帶來的競爭壓力，以及IP授權（漫畫/輕小說）作為差異化的門檻已大幅提高。",
+      "date": "2026-09-16",
+      "source": "Seoul Economic Daily",
+      "link": "https://en.sedaily.com/technology/2026/09/16/ncsoft-nexon-netmarble-take-new-titles-to-tokyo-game-show",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "美中貿易停戰再延2個月，關稅格局進入穩定觀望期",
+      "orig_title": "China no longer buys US exports: Drawing the right lessons for the next Trump-Xi deal",
+      "summary": "美國財政部長9月23日表示，美中已同意將貿易停戰再延長2個月。目前美方對中國商品平均關稅為35.2%，涵蓋89%品項；中方對美商品反制關稅平均31.9%。雙方5月設立的貿易委員會仍在運作中。",
+      "impact": "對你的意義：美中貿易環境進入相對穩定的觀望期，短期大規模關稅衝擊機率下降；但高關稅結構長期化意味著美中兩地用戶ARPU的分化可能持續加大，出海美國或仰賴美國雲端服務的成本評估需納入此背景。",
+      "date": "2026-09-23",
+      "source": "PIIE",
+      "link": "https://www.piie.com/blogs/realtime-economics/2026/china-no-longer-buys-us-exports-drawing-right-lessons-next-trump-xi",
+      "link_text": "原文連結"
     }
   ]
 }
