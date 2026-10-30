@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="brief-date" content="2026-10-29">
+<title>每日新聞 Brief · 2026-10-29</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="date-nav" aria-label="日期切換">
+  <a class="date-btn" id="prev-day" href="#" title="前一天">◀</a>
+  <select class="date-select" id="date-select" aria-label="選擇日期">
+    <option value="2026-10-29">2026-10-29（週四）</option>
+  </select>
+  <a class="date-btn" id="next-day" href="#" title="後一天">▶</a>
+  <a class="date-btn latest-btn" href="./" title="跳到最新">🏠 最新</a>
+</nav>
+
+<header>
+  <h1>每日新聞 Brief</h1>
+  <div class="meta-line">
+    <span class="pill" id="current-date-pill">涵蓋日期：2026-10-29（週四）</span>
+    <span>更新：2026-10-30</span>
+    <span id="totals">台港澳 5 則 · 國際 7 則</span>
+  </div>
+</header>
+
+<section class="must-read">
+  <div class="must-read-title">🎯 今日必看 · 3 則</div>
+  <div class="must-read-grid">
+    <a class="must-read-item" href="#must-1">
+      <span class="num">01</span>
+      <span class="must-title">Apple 台灣 App Store 抽成降至 26%，10/31 起生效</span>
+      <span class="must-hint">回應公平交易委員會壓力，直接衝擊台灣手遊 IAP 收益計算</span>
+    </a>
+    <a class="must-read-item" href="#must-2">
+      <span class="num">02</span>
+      <span class="must-title">Google Gemini 4 Carbon 登頂 AI 排行，暫限資安防禦者</span>
+      <span class="must-hint">超越 Claude Opus 5.5 與 GPT-6 Astra，廣泛商業開放時程待定</span>
+    </a>
+    <a class="must-read-item" href="#must-3">
+      <span class="num">03</span>
+      <span class="must-title">台灣半導體年產值首破 9.1 兆，AI 量產週期縮至 3 個月</span>
+      <span class="must-hint">台積電直指台灣應從晶片代工躍升為全球 AI 神經樞紐</span>
+    </a>
+  </div>
+</section>
+
+<div class="filters">
+  <button class="chip active" data-filter="all">全部 <span class="chip-count">12</span></button>
+  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">1</span></button>
+  <button class="chip" data-filter="industry">📊 產業視野 <span class="chip-count">6</span></button>
+  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">5</span></button>
+  <input type="search" class="search-input" placeholder="搜尋標題或摘要…" id="search">
+  <div class="legend">
+    <span>🎯 工作直擊</span>
+    <span>📊 產業視野</span>
+    <span>🌏 策略背景</span>
+  </div>
+</div>
+
+<main>
+
+<section>
+  <h2>台港澳 <span class="count" data-count="tw">5 則</span></h2>
+  <div class="news-list" data-region="tw">
+    <article id="must-1" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">Apple 宣布台灣 App Store 標準 IAP 抽成從 30% 降至 26%</div>
+      <div class="summary">Apple 10/29 公布，iOS／iPadOS 台灣 App Store 的標準 In-App Purchase 及付費 App 抽成將從 30% 降至 26%，自 10/31 起生效。此舉是回應台灣公平交易委員會對 Apple 平台政策的調查壓力。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：台灣手遊每筆 IAP 可多留 4%，對中低單價抽卡包的利潤空間有直接改善；若遊戲已在台灣上架，需更新財務模型與開發商協議，並評估是否同步調整定價策略以提升轉換率。</div>
+      <div class="footer-meta">
+        <span>2026-10-29</span>
+        <span class="sep">·</span>
+        <span>Apple Developer News</span>
+        <span class="sep">·</span>
+        <a href="https://developer.apple.com/news/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="must-3" data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">TSIA 30 週年年會：台灣半導體年產值預估突破 9.1 兆，年增 40.9%</div>
+      <div class="summary">台灣半導體產業協會（TSIA）理事長侯永清在年會上宣布，今年台灣半導體產值預估突破 9.1 兆元，年增 40.9%，AI 晶片需求為主驅動力；同時呼籲政府評估重啟核電以應對供電瓶頸。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：台灣半導體產值高速增長代表 AI 算力投資持續飆升，雲端 AI 工具成本將因競爭加劇逐步下降，有利遊戲 AI 功能快速落地；但缺電風險若成真，可能間接推高台灣雲端主機費用，需追蹤供電政策走向。</div>
+      <div class="footer-meta">
+        <span>2026-10-29</span>
+        <span class="sep">·</span>
+        <span>鏡週刊 Mirror Media</span>
+        <span class="sep">·</span>
+        <a href="https://mirrormedia.mg/story/20261029-180fin-164739" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">台積電袁立本：AI 已進入爆發性規模化量產，倡建國家 AI 人才庫</div>
+      <div class="summary">台積電業務開發副總袁立本在 TSIA 年會指出，AI 產業已正式跨入商業落地量產週期，AI 伺服器上市週期縮至約一年、從試產到量產僅三個月；並倡議台灣建立國家 AI 人才庫，從晶片賦能者躍升為全球 AI 神經樞紐。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：AI 推理算力加速普及，手遊後端 AI（推薦系統、NPC 對話、玩家行為預測）的落地門檻持續降低；台灣 AI 人才競爭也將更激烈，產品企劃需提早規劃 AI 工具採購與人才培育路線。</div>
+      <div class="footer-meta">
+        <span>2026-10-29</span>
+        <span class="sep">·</span>
+        <span>中時電子報</span>
+        <span class="sep">·</span>
+        <a href="https://chinatimes.com/realtimenews/20261029003532-260410" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">台達電法說：AI 資料中心缺電已是必然，持續擴張不縮手</div>
+      <div class="summary">台達電董事長鄭平在第三季法說會表示，AI 超大規模資料中心急速擴張下，缺電已是必然趨勢，但不會因此停止擴張，持續以電源管理與散熱解決方案切入 AI DC 市場。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：AI 資料中心電力問題短期無解，意味著雲端算力成本存在結構性上漲壓力；若遊戲後端大量使用 AI 推論服務，需追蹤主要雲端供應商的電費傳導時程與備用方案。</div>
+      <div class="footer-meta">
+        <span>2026-10-29</span>
+        <span class="sep">·</span>
+        <span>鏡週刊 Mirror Media</span>
+        <span class="sep">·</span>
+        <a href="https://mirrormedia.mg/story/20261029-181fin-172701" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">香港重申 2026 年底前提交虛擬資產修法草案，涵蓋託管與資產管理</div>
+      <div class="summary">香港政府 10 月初再次確認，將在 2026 年底前提交虛擬資產服務提供者（VASP）發牌法例修訂草案，涵蓋交易、託管、投資意見及資產管理服務，金管局已於 4 月核發首兩張穩定幣牌照。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：香港虛擬資產監管框架日趨完善，若未來考慮在港發行具代幣化或 NFT 機制的遊戲內容，合規路徑將更清晰，但同步意味著合規成本門檻提升；現階段可納入產品合規規劃的參考時間軸。</div>
+      <div class="footer-meta">
+        <span>近期</span>
+        <span class="sep">·</span>
+        <span>KuCoin News</span>
+        <span class="sep">·</span>
+        <a href="https://www.kucoin.com/news/flash/hong-kong-government-reaffirms-2026-deadline-for-crypto-licensing-bill-amendment" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h2>國際 <span class="count" data-count="intl">7 則</span></h2>
+  <div class="news-list" data-region="intl">
+    <article id="must-2" data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">Google Gemini 4 Carbon 登頂 AI 排行，目前僅限資安防禦者使用</div>
+      <div class="orig-title">Gemini 4 Carbon Tops AI Rankings but Only Cyber Defenders Get It</div>
+      <div class="summary">Google 在 10/28 發布 Gemini 4 Carbon，在 Artificial Analysis Intelligence Index v5.0 以得分 59 超越 Anthropic Claude Opus 5.5（58）與 OpenAI GPT-6 Astra（57），但目前僅透過 Fairwind 計劃向特定網路安全防禦者開放，一般開發者與企業客戶上線時程未定。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：AI 模型競爭出現新一輪洗牌（Google &gt; Anthropic &gt; OpenAI），但限量策略代表企業實際可用時間延後；若正在評估 AI NPC 或內容生成引擎供應商，可先維持 Sonnet/Opus 5.5 路線，等 Carbon 廣泛開放後再比較成本效益。</div>
+      <div class="footer-meta">
+        <span>2026-10-28</span>
+        <span class="sep">·</span>
+        <span>The Next Web</span>
+        <span class="sep">·</span>
+        <a href="https://thenextweb.com/news/gemini-4-carbon-google-cybersecurity-model" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">美中貿易休戰多項豁免措施 11/9 到期，港口費與出口管制懸而未決</div>
+      <div class="orig-title">U.S.-China Trade Truce: Key November Deadlines Approach for Port Fees and Export Controls</div>
+      <div class="summary">美中貿易休戰的多項豁免措施將於 11/9 到期，包括針對中國船隻的港口費豁免（評論期 10/30 截止）及特定出口管制暫停令；若未在截止前延長，相關費用與管制將自 11/10 復效。9 月「30 換 30」框架的關稅削減細節尚未公布。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：若豁免到期、進出口成本上升，台廠從中國採購硬體或在中國代工出貨的供應鏈將面臨額外成本壓力；短期內需密切追蹤 USTR 於 11/10 前的最終決定。</div>
+      <div class="footer-meta">
+        <span>2026-10-28</span>
+        <span class="sep">·</span>
+        <span>Worldwide Logistics Group</span>
+        <span class="sep">·</span>
+        <a href="https://worldwidelogisticsltd.com/2026/10/28/u-s-china-trade-important-november-deadlines-approach/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Bandai Namco 34 萬用戶資料洩露，源自第三方 Email 服務商</div>
+      <div class="orig-title">Bandai Namco Data Breach Hits Over 300,000 Users as Third-Party Email Provider Exposed</div>
+      <div class="summary">Bandai Namco 10/29 承認，透過第三方 Email 服務商 YmirLink 的資安事件，約 34.6 萬名 The GUNDAM BASE 會員的 Email 地址與內部 ID 遭外洩；此為近期日系遊戲廠被攻擊系列事件之一，前有 Capcom（1,200 萬人）、Sony（260 萬人）。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：第三方電子郵件與 CRM 工具已成遊戲公司供應鏈資安弱點；若你們的玩家資料或行銷名單流經任何第三方平台，需盡快審視供應商的資安認證（SOC 2、ISO 27001）與合約責任條款。</div>
+      <div class="footer-meta">
+        <span>2026-10-29</span>
+        <span class="sep">·</span>
+        <span>Beebom</span>
+        <span class="sep">·</span>
+        <a href="https://beebom.com/bandai-namco-data-breach-hits-over-300k-users" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">OpenAI 推出 GPT-6.1 Terra，旗艦模型 Astra 因安全疑慮暫停開發</div>
+      <div class="orig-title">OpenAI Launches GPT-6.1 Terra as Safety Concerns Halt Development of More Capable Astra</div>
+      <div class="summary">OpenAI 在 10 月下旬推出 GPT-6.1 Terra，同時暫停開發更強大的 GPT-6.1 Astra，持續解決旗艦模型的安全性問題；Anthropic 同期更新 Sonnet 5.5，號稱提速 30%、降費 30%。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：AI 模型迭代進入「安全 vs. 速度」的拉鋸期，OpenAI 前沿開發趨於保守；Sonnet 5.5 降費 30% 對遊戲內批量 AI 生成（對話 NPC、動態劇情文本）的 API 成本直接下降，現在是重新評估採用時機的節點。</div>
+      <div class="footer-meta">
+        <span>近期</span>
+        <span class="sep">·</span>
+        <span>AI News Aggregator / au.finance.yahoo.com</span>
+        <span class="sep">·</span>
+        <a href="https://au.finance.yahoo.com/news/anthropic-google-openai-prepare-ai-144212018.html" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">日本手遊 IAP 年收突破 100 億美元，為韓國兩倍，RPG 主導三成市占</div>
+      <div class="orig-title">Japan Mobile Game Revenue Surpasses $10 Billion in 2026, More Than Double South Korea's</div>
+      <div class="summary">Sensor Tower 最新報告顯示，截至 2026 年 7 月的 12 個月，日本手遊 IAP 收入突破 100 億美元，年減 5.1%，仍遠超韓國同期（不到一半）；RPG 佔市場約三分之一，策略類約 24%，整體下載量年減 5.4% 至 5.85 億次。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：日本手遊市場規模仍是亞洲最大，但整體進入輕微下行，代表新進者必須以品質或創新 IP 才能搶份額；RPG 主導格局對台灣手遊開發者進軍日市的產品選型提供明確參考依據。</div>
+      <div class="footer-meta">
+        <span>2026-10-23</span>
+        <span class="sep">·</span>
+        <span>Sensor Tower / Inven Global</span>
+        <span class="sep">·</span>
+        <a href="https://www.invenglobal.com/articles/27606/japan-mobile-game-revenue-surpasses-10-billion-in-2026-more-than-double-south-koreas" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">BLEACH Mirrors High 手遊 iOS/Android 正式全球上線</div>
+      <div class="orig-title">BLEACH Mirrors High Now Available on iOS and Android</div>
+      <div class="summary">Bandai Namco Entertainment 10/28 正式推出《BLEACH Mirrors High》，在 iOS 和 Android 平台全球發行，以《死神》IP 為基礎的手遊正式進入市場競爭。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：大型日本 IP 改編手遊持續湧入市場，《死神》全球粉絲基礎龐大，首月數據可作為 IP 改編手遊市場反應的重要參考基準；持續追蹤其評分與收益排名，以評估亞洲玩家對動漫 IP 手遊的接受程度。</div>
+      <div class="footer-meta">
+        <span>2026-10-28</span>
+        <span class="sep">·</span>
+        <span>PR Newswire / Bandai Namco</span>
+        <span class="sep">·</span>
+        <a href="https://www.prnewswire.com/news-releases/bandai-namco-entertainment-inc-bleach-mirrors-high-now-available-on-ios-and-android-302921792.html" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Netmarble TGS 2026 三款新作排隊爆滿，日本市場攻勢積極</div>
+      <div class="orig-title">Netmarble Draws Long Lines at Tokyo Game Show 2026 With Three New Titles</div>
+      <div class="summary">Netmarble 在 TGS 2026 展出《Pearl in Blue》（首次可試玩）、《Shangri-La Frontier》及《Solo Leveling: Karma》，三款均引發長龍隊伍，號碼牌提早發完，顯示韓系廠商對日本市場的深度攻勢。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：韓系手遊廠以熱門日本/韓國 IP 為切入點積極攻打日本市場；若台灣手遊廠考慮進入日本，IP 授權深度與本地化精度已成為最關鍵的門檻，光靠遊戲質量難以突圍。</div>
+      <div class="footer-meta">
+        <span>2026-09-22</span>
+        <span class="sep">·</span>
+        <span>Seoul Economic Daily</span>
+        <span class="sep">·</span>
+        <a href="https://en.sedaily.com/technology/2026/09/22/netmarble-draws-long-lines-at-tokyo-game-show-with-three" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="page-footer">
+  <p><strong>篩選準則</strong>：結構變化 &gt; 單一事件 · 原始資料 &gt; 二手報導 · 與你工作相關 &gt; 一般熱度 · 避開紅媒（人民日報／新華社／環球時報／大公文匯等）與純口水新聞。</p>
+</footer>
+
+</div>
+
+<div class="toast" id="toast">已複製到剪貼簿</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
