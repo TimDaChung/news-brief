@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="brief-date" content="2026-11-03">
+<title>每日新聞 Brief · 2026-11-03</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="date-nav" aria-label="日期切換">
+  <a class="date-btn" id="prev-day" href="#" title="前一天">◀</a>
+  <select class="date-select" id="date-select" aria-label="選擇日期">
+    <option value="2026-11-03">2026-11-03（週二）</option>
+  </select>
+  <a class="date-btn" id="next-day" href="#" title="後一天">▶</a>
+  <a class="date-btn latest-btn" href="./" title="跳到最新">🏠 最新</a>
+</nav>
+
+<header>
+  <h1>每日新聞 Brief</h1>
+  <div class="meta-line">
+    <span class="pill" id="current-date-pill">涵蓋日期：2026-11-03（週二）</span>
+    <span>更新：2026-11-04</span>
+    <span id="totals">台港澳 4 則 · 國際 6 則</span>
+  </div>
+</header>
+
+<section class="must-read">
+  <div class="must-read-title">🎯 今日必看 · 3 則</div>
+  <div class="must-read-grid">
+    <a class="must-read-item" href="#must-1">
+      <span class="num">01</span>
+      <span class="must-title">Apple App Store 台灣降費 26%，10/31 正式生效</span>
+      <span class="must-hint">公平會壓力下開先例，台灣手遊開發者自動受益，未來通路結構變化值得持續追蹤</span>
+    </a>
+    <a class="must-read-item" href="#must-2">
+      <span class="num">02</span>
+      <span class="must-title">中國擬管制 40 項科技出口含 23 項 AI，意見截止 11/15</span>
+      <span class="must-hint">大型 AI 模型與晶片設計列入限制清單，中美科技脫鉤加速，定案後即生效</span>
+    </a>
+    <a class="must-read-item" href="#must-3">
+      <span class="num">03</span>
+      <span class="must-title">中美多項貿易休戰關鍵機制 11/10 同步到期</span>
+      <span class="must-hint">Affiliates Rule 管制、稀土暫停均屆滿，科技供應鏈再度面臨不確定性視窗</span>
+    </a>
+  </div>
+</section>
+
+<div class="filters">
+  <button class="chip active" data-filter="all">全部 <span class="chip-count">10</span></button>
+  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">1</span></button>
+  <button class="chip" data-filter="industry">📊 產業視野 <span class="chip-count">5</span></button>
+  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">4</span></button>
+  <input type="search" class="search-input" placeholder="搜尋標題或摘要…" id="search">
+  <div class="legend">
+    <span>🎯 工作直擊</span>
+    <span>📊 產業視野</span>
+    <span>🌏 策略背景</span>
+  </div>
+</div>
+
+<main>
+
+<section>
+  <h2>台港澳 <span class="count" data-count="tw">4 則</span></h2>
+  <div class="news-list" data-region="tw">
+    <article id="must-1" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">Apple App Store 台灣降費至 26%，10/31 正式生效，開發者自動適用</div>
+      <div class="summary">Apple 在公平交易委員會調查壓力下，將台灣區 App Store 標準抽成從 30% 降至 26%，10 月 31 日起正式生效，所有 iOS/iPadOS 開發者無需申請、自動適用。公平會表示將持續監督，可視情況重啟調查。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：台灣手遊開發者立即受益 4%，但現階段不含外部支付或替代市集開放。真正的結構性意義在於：公平會已建立介入 App Store 費率的案例，若未來範圍擴大到支付鏈，將大幅改變行動遊戲通路成本結構，企劃需持續追蹤後續監管動向。</div>
+      <div class="footer-meta">
+        <span>2026-10-31</span>
+        <span class="sep">·</span>
+        <span>9to5Mac / Focus Taiwan</span>
+        <span class="sep">·</span>
+        <a href="https://9to5mac.com/2026/10/29/apple-cuts-app-store-commission-in-taiwan-following-regulatory-discussions/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">四家台灣遊戲業者完成 FIDO 無密碼驗證場域測試，數位信任向產業推廣</div>
+      <div class="summary">宇峻奧汀、奇換橘子、鈊象電子、昱泉國際四家業者，在數位產業署指導與工研院協助下完成 FIDO 驗證場域測試，10/29 發表成果，並於台灣國際電玩展設推廣區向玩家宣導無密碼驗證。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：FIDO 無密碼登入若成遊戲業合規標準，帳號系統開發規格將受影響。現階段仍為自願導入，但數位發展部已加入 FIDO 聯盟，需關注後續是否出現法遵層面的強制要求，提早評估對現有帳號系統的改造成本。</div>
+      <div class="footer-meta">
+        <span>2026-11-02</span>
+        <span class="sep">·</span>
+        <span>工商時報</span>
+        <span class="sep">·</span>
+        <a href="https://www.ctee.com.tw/news/20261102700988-431204" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">環球晶發行 5 億美元可轉債，美光全額認購，10 年合作深度綁定</div>
+      <div class="summary">環球晶 11/3 董事會通過發行上限 5 億美元、10 年期私募可轉債（票息 0.5%），美光為唯一應募人，為雙方 7 月策略合作的資金具體落地，仍須股東會通過後正式發行。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：台灣半導體材料廠與美國記憶體龍頭長期綁定，顯示供應鏈去風險化持續深化。對遊戲業的間接意義：記憶體供給若趨於穩定，伺服器與 AI 推論成本短期暴漲的機率降低，AI 功能布局的基礎設施成本較可預期。</div>
+      <div class="footer-meta">
+        <span>2026-11-03</span>
+        <span class="sep">·</span>
+        <span>中央社</span>
+        <span class="sep">·</span>
+        <a href="https://www.cna.com.tw/news/afe/202611030215.aspx" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">HCLTech 白皮書：台灣掌握全球 90% 尖端晶片產能，AI 半導體地位難以取代</div>
+      <div class="summary">HCLTech 委託 Omdia 撰寫報告指出，台積電掌握全球逾 90% 尖端半導體產量，台灣 ODM 廠商占全球伺服器主機板產量近九成，整體從晶圓到機架的製造能力在短中期內難以被其他地區複製。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：AI 基礎設施高度集中台灣是雙面刃——地緣風險受外界高度關注，但也意味台灣在 AI 算力供應鏈具備強議價力。若未來評估雲端 AI 推論服務成本或選擇算力合作夥伴，台灣廠商相對具備成本與供應穩定優勢。</div>
+      <div class="footer-meta">
+        <span>2026-11-03</span>
+        <span class="sep">·</span>
+        <span>聯合新聞網</span>
+        <span class="sep">·</span>
+        <a href="https://money.udn.com/money/story/5612/9854969" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h2>國際 <span class="count" data-count="intl">6 則</span></h2>
+  <div class="news-list" data-region="intl">
+    <article id="must-2" data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">中國擬管制 40 項科技出口，23 項涉 AI 大模型與晶片設計，意見截止 11/15</div>
+      <div class="orig-title">China proposes export controls on 40 technologies including 23 AI items, public comment until Nov 15</div>
+      <div class="summary">中國商務部與科技部 10/16 發布草案，擬將 40 項技術列入出口管制目錄：14 項禁止出口（含以敏感國家數據訓練的大型 AI 模型）、26 項限制出口。草案含 AI、光伏、生醫三大領域，API 與 SaaS 形式提供服務不在管制範圍內。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：中國 AI 大模型若無法自由向海外輸出核心技術，將加速東南亞等市場轉向非中系 AI 解決方案。台廠若正在評估採用中系 AI 工具或模型，應提前審視供應鏈合規風險，避免未來被迫切換造成開發中斷。</div>
+      <div class="footer-meta">
+        <span>2026-10-16</span>
+        <span class="sep">·</span>
+        <span>The Next Web / TechNode</span>
+        <span class="sep">·</span>
+        <a href="https://thenextweb.com/news/china-ai-export-controls-draft" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="must-3" data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">中美貿易休戰多項關鍵機制 11/10 同步到期，科技供應鏈不確定性升高</div>
+      <div class="orig-title">US-China trade truce key suspensions expire November 10, 2026</div>
+      <div class="summary">美國「Affiliates Rule」出口管制擴張暫停、中國稀土出口許可暫停措施，以及多項關稅減免安排均預計 11/10 到期；中國另擬於 11/18 對無人機零件實施新出口限制，市場高度關注後續政策走向。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：半導體與 AI 晶片出口管制若重啟，台灣供應商夾在中美之間的壓力倍增。對遊戲業而言，若雲端與 AI 服務成本因地緣衝擊而波動，AI 功能落地規劃需保留彈性預算，並避免對單一供應商形成強依賴。</div>
+      <div class="footer-meta">
+        <span>2026-11-03</span>
+        <span class="sep">·</span>
+        <span>Everstream Analytics</span>
+        <span class="sep">·</span>
+        <a href="https://www.everstream.ai/risk-centers/tariff-tracker-update-for-29-october-2026/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Nintendo Switch 2 十一月強攻：Zelda 時之笛重製版、Stellar Blade Complete Edition 11/5 上市</div>
+      <div class="orig-title">Nintendo Switch 2 November 2026: Zelda Ocarina of Time remake and Stellar Blade Complete Edition launch Nov 5</div>
+      <div class="summary">任天堂 Switch 2 十一月陣容包括《薩爾達傳說：時之笛》重製版及《Stellar Blade Complete Edition》均於 11/5 發售，《皮克敏 4 Switch 2 版》於 11/12 跟進，年末攻勢密集。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：任天堂年末多款重量級作品集中上市，消費者注意力將高度被主機平台吸走。若公司在 11 月有新活動或版本更新，建議錯開發售日週邊時段，或強化差異化定位，避免被主機話題稀釋。</div>
+      <div class="footer-meta">
+        <span>2026-11-03</span>
+        <span class="sep">·</span>
+        <span>Nintendo / GameSpot</span>
+        <span class="sep">·</span>
+        <a href="https://www.gamespot.com/articles/the-biggest-new-game-releases-of-november-2026/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Netmarble 以《Mon Gil: Star Dive》11 月進軍日本 DMM GAMES，吸血鬼 MMORPG 也已入場</div>
+      <div class="orig-title">Netmarble brings Mon Gil: Star Dive to Japan via DMM GAMES in November 2026</div>
+      <div class="summary">韓國 Netmarble 11 月透過 DMM GAMES 將旗下新作《Mon Gil: Star Dive》導入日本市場；其吸血鬼 MMORPG《Vampir》已於今年 7 月進入日本，韓廠動漫 IP 策略持續深耕年值約 110 億美元的日本行動遊戲市場。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：韓廠以動漫 IP 路線密集攻日，競爭強度持續攀升。可留意 Netmarble 選擇 DMM GAMES 作為通路夥伴（而非自行上架），這種本地化發行策略對台廠進軍日本市場具有參考價值。</div>
+      <div class="footer-meta">
+        <span>2026-11-03</span>
+        <span class="sep">·</span>
+        <span>ad-hoc-news / Korea Times</span>
+        <span class="sep">·</span>
+        <a href="https://www.ad-hoc-news.de/boerse/news/nebenwerte/netmarble-stock-broadens-game-reach-across-japan-and-consoles/70436913" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">中國遊戲廠商集體現身 Gamescom 2026，米哈遊、網易加速海外多平台布局</div>
+      <div class="orig-title">Chinese game developers including miHoYo and NetEase expand overseas console presence at Gamescom 2026</div>
+      <div class="summary">Gamescom 2026 中國廠商聲勢強勁：米哈遊發布次世代新作《Nodusfall》首段 Demo 與冬季新作《Petit Planet》；網易《Once Human》攜新預告登陸 PS5 與 Xbox；騰訊攜 6 款作品參展並完成 Ubisoft 11.6 億歐元策略投資。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：中系廠商以 IP 多平台化策略持續搶佔海外玩家，手遊 IP 向主機延伸已是顯著趨勢而非例外。若公司旗下 IP 有多平台潛力，可觀察網易與米哈遊此波主機策略的市場反應，作為評估成本效益的參考基準。</div>
+      <div class="footer-meta">
+        <span>2026-11-03</span>
+        <span class="sep">·</span>
+        <span>36Kr Global / KR Asia</span>
+        <span class="sep">·</span>
+        <a href="https://eu.36kr.com/en/p/3565236976532360" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">AI 前沿競賽持續：Google Gemini 4 Carbon 上線，Claude 5.5 / GPT-6 系列近期到位</div>
+      <div class="orig-title">Google Gemini 4 Carbon releases; Claude 5.5 and GPT-6 family round out recent frontier AI updates</div>
+      <div class="summary">Google 10/28 推出 Gemini 4 Carbon（現僅對安全防禦合作夥伴開放）；Anthropic Claude Opus 5.5 於 9/22 發布、Haiku 5.5 於 10/7 跟進；OpenAI GPT-6.1 Terra 10/26 上線，三大廠前沿模型能力差距持續收窄。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：AI 輔助設計工具（文本生成、圖像、流程自動化）能力天花板持續上升，現在評估工具鏈時要考量未來一季內模型迭代帶來的功能跳升；與其鎖定特定模型，不如優先選擇支援 API 切換的工具整合方式以保持靈活性。</div>
+      <div class="footer-meta">
+        <span>2026-10-28</span>
+        <span class="sep">·</span>
+        <span>AI Release Tracker / CNBC</span>
+        <span class="sep">·</span>
+        <a href="https://aireleasetracker.com/latest" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="page-footer">
+  <p><strong>篩選準則</strong>：結構變化 &gt; 單一事件 · 原始資料 &gt; 二手報導 · 與你工作相關 &gt; 一般熱度 · 避開紅媒（人民日報／新華社／環球時報／大公文匯等）與純口水新聞。</p>
+</footer>
+
+</div>
+
+<div class="toast" id="toast">已複製到剪貼簿</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

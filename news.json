@@ -1,132 +1,122 @@
 {
-  "date": "2026-11-02",
-  "weekday": "週一",
+  "date": "2026-11-03",
+  "weekday": "週二",
   "must_read": [
-    { "title": "Anthropic 申請 IPO，計劃向日本機構出售 35 億美元股份", "hint": "Claude 背後公司即將上市，AI 工具鏈定價與穩定性進入商業化加速階段", "article_id": "must-1" },
-    { "title": "台灣擬立法：未授權出口 Nvidia AI 晶片至中國將入刑", "hint": "出口管制從行政罰升至刑事責任，台灣 AI 晶片出口管制立場向美靠攏", "article_id": "must-2" },
-    { "title": "NetEase 旗下名越工作室（Nagoshi Studio）宣告關閉", "hint": "中系資本扶植日本頂級創作者工作室模式再現失敗，日本開發人才流向將重整", "article_id": "must-3" }
+    { "title": "Apple App Store 台灣降費 26%，10/31 正式生效", "hint": "公平會壓力下開先例，台灣手遊開發者自動受益，未來通路結構變化值得持續追蹤", "article_id": "must-1" },
+    { "title": "中國擬管制 40 項科技出口含 23 項 AI，意見截止 11/15", "hint": "大型 AI 模型與晶片設計列入限制清單，中美科技脫鉤加速，定案後即生效", "article_id": "must-2" },
+    { "title": "中美多項貿易休戰關鍵機制 11/10 同步到期", "hint": "Affiliates Rule 管制、稀土暫停均屆滿，科技供應鏈再度面臨不確定性視窗", "article_id": "must-3" }
   ],
   "tw": [
     {
-      "category": "industry",
-      "title": "四家台灣遊戲業者完成 FIDO 數位信任驗證，成果正式發表",
-      "summary": "宇峻奧汀、奇換橘子、鈊象電子、昱泉國際在數位產業署指導下，完成遊戲場域帳號安全 FIDO 驗證，成果於 10 月 29 日發表。驗證範疇涵蓋帳號管理、密碼保全與線上交易安全。",
-      "impact": "對你的意義：遊戲帳號安全標準正往無密碼驗證方向移動，若主管機關未來推廣更多業者導入，新作開發期需同步評估 FIDO 登入流程設計；這也可能成為台灣上架審查的軟性要求。",
-      "date": "2026-10-29",
-      "source": "工商時報 / 聯合財經網",
-      "link": "https://money.udn.com/money/story/11799/9850897"
-    },
-    {
-      "id": "must-2",
-      "category": "strategy",
-      "title": "台灣擬立法：未授權出口 Nvidia AI 晶片至中國將入刑",
-      "summary": "立法院委員會就修正草案舉行聽證，擬將未授權出口先進 AI 晶片至中國列為刑事罪。案由源自 Nvidia B300 伺服器遭轉出事件，若通過則台灣 AI 晶片出口管制將從行政罰升至刑事責任。",
-      "impact": "對你的意義：台灣管制立場明確向美靠攏，中長期影響大陸遊戲公司取得高階 GPU 的成本與管道，進而影響其 AI NPC、畫面算力需求；台廠若有中國伺服器業務亦需重新評估合規風險。",
-      "date": "2026-11-02",
-      "source": "Asia Times",
-      "link": "https://asiatimes.com/2026/11/taiwan-to-criminalize-nvidia-ai-chip-smuggling-to-china"
-    },
-    {
-      "category": "strategy",
-      "title": "DIGITIMES 董事長：台韓應合作而非競爭，共同應對 AI 晶片供應鏈重組",
-      "summary": "DIGITIMES 董事長黃欽勇於 11 月 2 日撰文，主張隨 AI 晶片供應鏈日益複雜，台灣與韓國企業應尋求合作路徑而非正面競爭，以因應地緣壓力下的產業鏈重組。",
-      "impact": "對你的意義：台韓 AI 晶片生態走向整合對遊戲雲端 GPU 資源的長期供應與定價有正面意義；這也反映半導體產業鏈正在地緣壓力下持續重整，AI 服務成本的波動風險相對受控。",
-      "date": "2026-11-02",
-      "source": "DIGITIMES",
-      "link": "https://digitimes.com/news/a20261102PD218/taiwan-competition-chairman-digitimes-industrial.html"
+      "id": "must-1",
+      "category": "work",
+      "title": "Apple App Store 台灣降費至 26%，10/31 正式生效，開發者自動適用",
+      "summary": "Apple 在公平交易委員會調查壓力下，將台灣區 App Store 標準抽成從 30% 降至 26%，10 月 31 日起正式生效，所有 iOS/iPadOS 開發者無需申請、自動適用。公平會表示將持續監督，可視情況重啟調查。",
+      "impact": "對你的意義：台灣手遊開發者立即受益 4%，但現階段不含外部支付或替代市集開放。真正的結構性意義在於：公平會已建立介入 App Store 費率的案例，若未來範圍擴大到支付鏈，將大幅改變行動遊戲通路成本結構，企劃需持續追蹤後續監管動向。",
+      "date": "2026-10-31",
+      "source": "9to5Mac / Focus Taiwan",
+      "link": "https://9to5mac.com/2026/10/29/apple-cuts-app-store-commission-in-taiwan-following-regulatory-discussions/",
+      "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "香港金融科技周：SFC 公布 AI 監管原則、HKMA 推 Project SAGE 代理式 AI 框架",
-      "summary": "香港證監會行政總裁梁鳳儀宣布，將就高自主性 AI 應用制定以原則為本的指引，強調人類問責。金管局同日推出 Project SAGE（代理式金融 AI 治理框架），並與港科大發布後量子密碼學（PQC）工具包協助銀行轉型。",
-      "impact": "對你的意義：香港 AI 治理框架與後量子加密標準同步推進，若公司在港有支付或金融業務，需追蹤合規時程；AI 代理監管框架普及後也將影響遊戲客服自動化的法律責任邊界。",
+      "title": "四家台灣遊戲業者完成 FIDO 無密碼驗證場域測試，數位信任向產業推廣",
+      "summary": "宇峻奧汀、奇換橘子、鈊象電子、昱泉國際四家業者，在數位產業署指導與工研院協助下完成 FIDO 驗證場域測試，10/29 發表成果，並於台灣國際電玩展設推廣區向玩家宣導無密碼驗證。",
+      "impact": "對你的意義：FIDO 無密碼登入若成遊戲業合規標準，帳號系統開發規格將受影響。現階段仍為自願導入，但數位發展部已加入 FIDO 聯盟，需關注後續是否出現法遵層面的強制要求，提早評估對現有帳號系統的改造成本。",
       "date": "2026-11-02",
-      "source": "HKMA / SFC",
-      "link": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-3/"
+      "source": "工商時報",
+      "link": "https://www.ctee.com.tw/news/20261102700988-431204",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "環球晶發行 5 億美元可轉債，美光全額認購，10 年合作深度綁定",
+      "summary": "環球晶 11/3 董事會通過發行上限 5 億美元、10 年期私募可轉債（票息 0.5%），美光為唯一應募人，為雙方 7 月策略合作的資金具體落地，仍須股東會通過後正式發行。",
+      "impact": "對你的意義：台灣半導體材料廠與美國記憶體龍頭長期綁定，顯示供應鏈去風險化持續深化。對遊戲業的間接意義：記憶體供給若趨於穩定，伺服器與 AI 推論成本短期暴漲的機率降低，AI 功能布局的基礎設施成本較可預期。",
+      "date": "2026-11-03",
+      "source": "中央社",
+      "link": "https://www.cna.com.tw/news/afe/202611030215.aspx",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "strategy",
+      "title": "HCLTech 白皮書：台灣掌握全球 90% 尖端晶片產能，AI 半導體地位難以取代",
+      "summary": "HCLTech 委託 Omdia 撰寫報告指出，台積電掌握全球逾 90% 尖端半導體產量，台灣 ODM 廠商占全球伺服器主機板產量近九成，整體從晶圓到機架的製造能力在短中期內難以被其他地區複製。",
+      "impact": "對你的意義：AI 基礎設施高度集中台灣是雙面刃——地緣風險受外界高度關注，但也意味台灣在 AI 算力供應鏈具備強議價力。若未來評估雲端 AI 推論服務成本或選擇算力合作夥伴，台灣廠商相對具備成本與供應穩定優勢。",
+      "date": "2026-11-03",
+      "source": "聯合新聞網",
+      "link": "https://money.udn.com/money/story/5612/9854969",
+      "link_text": "原文連結"
     }
   ],
   "intl": [
     {
-      "id": "must-1",
-      "category": "work",
-      "title": "Anthropic 申請 IPO，計劃向日本機構出售 35 億美元股份",
-      "orig_title": "Anthropic files for IPO, plans to sell up to $3.5B shares to Japanese investors",
-      "summary": "Anthropic 提交 IPO 文件，計劃向日本投資機構出售最多 35 億美元股份，整體 IPO 規模與估值尚未公開。同期也傳出下一代旗艦模型 Mythos 5.5 / Fable 5.5 的消息。",
-      "impact": "對你的意義：Claude 提供方進入 IPO 階段，治理透明度提高，但股東壓力將加速 API 定價商業化；依賴 Claude 做企劃輔助的用戶，需留意 API 定價與免費額度策略是否隨上市調整。",
-      "date": "2026-11-02",
-      "source": "The Signal / AI Weekly",
-      "link": "https://thesignal.substack.com/p/open-books-locked-models-and-picky"
-    },
-    {
+      "id": "must-2",
       "category": "strategy",
-      "title": "美中關稅休戰延至 2027 年 1 月 10 日，11 月 10 日多項截止日仍存不確定性",
-      "orig_title": "US-China tariff truce extended to January 10, 2027; November 10 deadlines remain uncertain",
-      "summary": "美國財政部長 Bessent 宣布，原訂 11 月 10 日到期的美中關稅休戰延至 2027 年 1 月 10 日。但 Section 301 部分排除項目（11 月 9 日到期）與中國稀土管制暫緩（11 月 10 日）等具體截止日是否一併延長仍不確定。",
-      "impact": "對你的意義：短期供應鏈成本衝擊風險下降，遊戲硬體與伺服器零組件採購成本暫穩；但若 11 月到期的出口管制條款未延長，AI 晶片出口限制將再度收緊，影響大陸遊戲公司的算力取得。",
-      "date": "2026-11-02",
-      "source": "China Briefing / Worldwide Logistics Group",
-      "link": "https://www.china-briefing.com/news/trump-xi-meeting-outcomes-and-implications/"
-    },
-    {
-      "category": "work",
-      "title": "Apple 歐盟 App Store 費率降至 26%，Google Play 擬自 6 月起調降至 20%",
-      "orig_title": "Apple EU App Store fees cut to 26%; Google Play plans to drop standard rate to 20% from June 2026",
-      "summary": "Apple 自 2026 年 10 月起在歐盟推出新費率結構，標準抽成降至 26%（含支付手續費）。報導指 Google Play 計劃自 2026 年 6 月 30 日起將標準抽成降至 20%，並引入替代支付通道選項。美國方面，Apple 30% 費率面對司法禁令但仍上訴中。",
-      "impact": "對你的意義：歐盟用戶 IAP 利潤空間改善，若公司有歐盟市場計劃，定價策略值得重新評估。Google Play 降費若全球跟進，整體 IAP 毛利結構將正向調整；需持續追蹤各市場適用費率版本。",
-      "date": "近期",
-      "source": "MakeInfluence / FunnelFox",
-      "link": "https://www.makeinfluence.com/en/academy/apple-and-googles-eu-app-store-fee-overhaul-what-it-means-for-creator-subscription-and-tipping-apps"
-    },
-    {
-      "category": "work",
-      "title": "OpenAI 發布 GPT-6 Rosalind Research：生物/藥物研發特化版，AI 工具進入垂直分化",
-      "orig_title": "OpenAI releases GPT-6 Rosalind Research for biology and drug discovery with relaxed dual-use restrictions",
-      "summary": "OpenAI 於 10 月 30 日發布 GPT-6 Rosalind Research，專為生物學與藥物研發設計，在受信任存取計劃下對生物查詢放寬限制。此為 GPT-6 系列的垂直特化分支。",
-      "impact": "對你的意義：OpenAI 模型進入垂直特化路線，顯示 AI 工具鏈正從通用型分化為領域專精版。未來遊戲企劃可能出現針對遊戲設計、劇本或用戶分析的特化 AI 工具，選型策略需更精細評估。",
-      "date": "2026-10-30",
-      "source": "AI Weekly",
-      "link": "https://aiweekly.co/ai-news-today"
-    },
-    {
-      "category": "industry",
-      "title": "騰訊完成 11.6 億歐元 Ubisoft Nova SAS 戰略投資",
-      "orig_title": "Tencent completes €1.16B strategic investment in Ubisoft Nova SAS",
-      "summary": "騰訊宣布完成對 Ubisoft Nova SAS 的 11.6 億歐元戰略投資，正式確立持股關係。",
-      "impact": "對你的意義：騰訊透過歐洲 IP 投資持續擴大全球遊戲版權布局，Ubisoft 旗下 IP 在亞洲市場的授權與改編開放度可能提升；同時也顯示大型中系平台在西方投資審查壓力下仍積極佈局，值得觀察後續監管反應。",
-      "date": "近期",
-      "source": "36Kr",
-      "link": "https://eu.36kr.com/en/p/3565236976532360"
+      "title": "中國擬管制 40 項科技出口，23 項涉 AI 大模型與晶片設計，意見截止 11/15",
+      "orig_title": "China proposes export controls on 40 technologies including 23 AI items, public comment until Nov 15",
+      "summary": "中國商務部與科技部 10/16 發布草案，擬將 40 項技術列入出口管制目錄：14 項禁止出口（含以敏感國家數據訓練的大型 AI 模型）、26 項限制出口。草案含 AI、光伏、生醫三大領域，API 與 SaaS 形式提供服務不在管制範圍內。",
+      "impact": "對你的意義：中國 AI 大模型若無法自由向海外輸出核心技術，將加速東南亞等市場轉向非中系 AI 解決方案。台廠若正在評估採用中系 AI 工具或模型，應提前審視供應鏈合規風險，避免未來被迫切換造成開發中斷。",
+      "date": "2026-10-16",
+      "source": "The Next Web / TechNode",
+      "link": "https://thenextweb.com/news/china-ai-export-controls-draft",
+      "link_text": "原文連結"
     },
     {
       "id": "must-3",
-      "category": "industry",
-      "title": "NetEase 旗下名越工作室（Nagoshi Studio）宣告關閉",
-      "orig_title": "Nagoshi Studio (backed by NetEase Games) shuts down",
-      "summary": "由前世嘉名製作人 Toshihiro Nagoshi 主導、NetEase Games 投資的 Nagoshi Studio 宣布關閉。",
-      "impact": "對你的意義：繼數家日本中系合資工作室關閉後再添一例，顯示中系資本扶植日本創意工作室的模式正在系統性失敗。日本頂尖開發人才流向與合作結構將重整；手遊公司若計劃尋找日本創意主導者合作，此時機可能出現人才窗口。",
-      "date": "2026-11-02",
-      "source": "Gematsu",
-      "link": "https://www.gematsu.com/"
+      "category": "strategy",
+      "title": "中美貿易休戰多項關鍵機制 11/10 同步到期，科技供應鏈不確定性升高",
+      "orig_title": "US-China trade truce key suspensions expire November 10, 2026",
+      "summary": "美國「Affiliates Rule」出口管制擴張暫停、中國稀土出口許可暫停措施，以及多項關稅減免安排均預計 11/10 到期；中國另擬於 11/18 對無人機零件實施新出口限制，市場高度關注後續政策走向。",
+      "impact": "對你的意義：半導體與 AI 晶片出口管制若重啟，台灣供應商夾在中美之間的壓力倍增。對遊戲業而言，若雲端與 AI 服務成本因地緣衝擊而波動，AI 功能落地規劃需保留彈性預算，並避免對單一供應商形成強依賴。",
+      "date": "2026-11-03",
+      "source": "Everstream Analytics",
+      "link": "https://www.everstream.ai/risk-centers/tariff-tracker-update-for-29-october-2026/",
+      "link_text": "原文連結"
     },
     {
       "category": "industry",
-      "title": "《Phantom Blade Zero》首 72 小時銷量破 400 萬份",
-      "orig_title": "Phantom Blade Zero sales top 4 million in 72 hours",
-      "summary": "S-GAME 開發的動作 RPG《Phantom Blade Zero》發售後 72 小時內銷量超過 400 萬份，為中國獨立工作室少見的高首發成績。",
-      "impact": "對你的意義：中國獨立工作室的動作 RPG 首周成績大幅提升市場標桿，玩家對中系高品質動作遊戲的接受度已達新高度；評估競品及格線時，這個數字是新的參考座標。",
-      "date": "近期",
-      "source": "Gematsu",
-      "link": "https://www.gematsu.com/"
+      "title": "Nintendo Switch 2 十一月強攻：Zelda 時之笛重製版、Stellar Blade Complete Edition 11/5 上市",
+      "orig_title": "Nintendo Switch 2 November 2026: Zelda Ocarina of Time remake and Stellar Blade Complete Edition launch Nov 5",
+      "summary": "任天堂 Switch 2 十一月陣容包括《薩爾達傳說：時之笛》重製版及《Stellar Blade Complete Edition》均於 11/5 發售，《皮克敏 4 Switch 2 版》於 11/12 跟進，年末攻勢密集。",
+      "impact": "對你的意義：任天堂年末多款重量級作品集中上市，消費者注意力將高度被主機平台吸走。若公司在 11 月有新活動或版本更新，建議錯開發售日週邊時段，或強化差異化定位，避免被主機話題稀釋。",
+      "date": "2026-11-03",
+      "source": "Nintendo / GameSpot",
+      "link": "https://www.gamespot.com/articles/the-biggest-new-game-releases-of-november-2026/",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "Netmarble 以《Mon Gil: Star Dive》11 月進軍日本 DMM GAMES，吸血鬼 MMORPG 也已入場",
+      "orig_title": "Netmarble brings Mon Gil: Star Dive to Japan via DMM GAMES in November 2026",
+      "summary": "韓國 Netmarble 11 月透過 DMM GAMES 將旗下新作《Mon Gil: Star Dive》導入日本市場；其吸血鬼 MMORPG《Vampir》已於今年 7 月進入日本，韓廠動漫 IP 策略持續深耕年值約 110 億美元的日本行動遊戲市場。",
+      "impact": "對你的意義：韓廠以動漫 IP 路線密集攻日，競爭強度持續攀升。可留意 Netmarble 選擇 DMM GAMES 作為通路夥伴（而非自行上架），這種本地化發行策略對台廠進軍日本市場具有參考價值。",
+      "date": "2026-11-03",
+      "source": "ad-hoc-news / Korea Times",
+      "link": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/netmarble-stock-broadens-game-reach-across-japan-and-consoles/70436913",
+      "link_text": "原文連結"
+    },
+    {
+      "category": "industry",
+      "title": "中國遊戲廠商集體現身 Gamescom 2026，米哈遊、網易加速海外多平台布局",
+      "orig_title": "Chinese game developers including miHoYo and NetEase expand overseas console presence at Gamescom 2026",
+      "summary": "Gamescom 2026 中國廠商聲勢強勁：米哈遊發布次世代新作《Nodusfall》首段 Demo 與冬季新作《Petit Planet》；網易《Once Human》攜新預告登陸 PS5 與 Xbox；騰訊攜 6 款作品參展並完成 Ubisoft 11.6 億歐元策略投資。",
+      "impact": "對你的意義：中系廠商以 IP 多平台化策略持續搶佔海外玩家，手遊 IP 向主機延伸已是顯著趨勢而非例外。若公司旗下 IP 有多平台潛力，可觀察網易與米哈遊此波主機策略的市場反應，作為評估成本效益的參考基準。",
+      "date": "2026-11-03",
+      "source": "36Kr Global / KR Asia",
+      "link": "https://eu.36kr.com/en/p/3565236976532360",
+      "link_text": "原文連結"
     },
     {
       "category": "strategy",
-      "title": "Netmarble 11 月將《Mon Gil: Star Dive》透過 DMM GAMES 進攻日本市場",
-      "orig_title": "Netmarble to launch Mon Gil: Star Dive in Japan via DMM GAMES in November 2026",
-      "summary": "Netmarble 宣布新作《Mon Gil: Star Dive》將於 11 月透過 DMM GAMES 在日本上市，同時適配 PC 與手機平台，預登錄已開啟。",
-      "impact": "對你的意義：韓系手遊選擇日本本土 PC 發行平台 DMM 而非直接走 App Store/Google Play，顯示日本市場對多元發行渠道的接受度提升。台灣遊戲廠商規劃日本發行時，DMM 可作為替代渠道納入評估。",
-      "date": "近期",
-      "source": "EDAILY",
-      "link": "https://en.edaily.co.kr/news/eda202608265189/"
+      "title": "AI 前沿競賽持續：Google Gemini 4 Carbon 上線，Claude 5.5 / GPT-6 系列近期到位",
+      "orig_title": "Google Gemini 4 Carbon releases; Claude 5.5 and GPT-6 family round out recent frontier AI updates",
+      "summary": "Google 10/28 推出 Gemini 4 Carbon（現僅對安全防禦合作夥伴開放）；Anthropic Claude Opus 5.5 於 9/22 發布、Haiku 5.5 於 10/7 跟進；OpenAI GPT-6.1 Terra 10/26 上線，三大廠前沿模型能力差距持續收窄。",
+      "impact": "對你的意義：AI 輔助設計工具（文本生成、圖像、流程自動化）能力天花板持續上升，現在評估工具鏈時要考量未來一季內模型迭代帶來的功能跳升；與其鎖定特定模型，不如優先選擇支援 API 切換的工具整合方式以保持靈活性。",
+      "date": "2026-10-28",
+      "source": "AI Release Tracker / CNBC",
+      "link": "https://aireleasetracker.com/latest",
+      "link_text": "原文連結"
     }
   ]
 }
