@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="brief-date" content="2026-11-09">
-<title>每日新聞 Brief · 2026-11-09</title>
+<meta name="brief-date" content="2026-11-10">
+<title>每日新聞 Brief · 2026-11-10</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
 <nav class="date-nav" aria-label="日期切換">
   <a class="date-btn" id="prev-day" href="#" title="前一天">◀</a>
   <select class="date-select" id="date-select" aria-label="選擇日期">
-    <option value="2026-11-09">2026-11-09（週一）</option>
+    <option value="2026-11-10">2026-11-10（週二）</option>
   </select>
   <a class="date-btn" id="next-day" href="#" title="後一天">▶</a>
   <a class="date-btn latest-btn" href="./" title="跳到最新">🏠 最新</a>
@@ -22,9 +22,9 @@
 <header>
   <h1>每日新聞 Brief</h1>
   <div class="meta-line">
-    <span class="pill" id="current-date-pill">涵蓋日期：2026-11-09（週一）</span>
-    <span>更新：2026-11-10</span>
-    <span id="totals">台港澳 2 則 · 國際 6 則</span>
+    <span class="pill" id="current-date-pill">涵蓋日期：2026-11-10（週二）</span>
+    <span>更新：2026-11-11</span>
+    <span id="totals">台港澳 4 則 · 國際 6 則</span>
   </div>
 </header>
 
@@ -33,27 +33,27 @@
   <div class="must-read-grid">
     <a class="must-read-item" href="#must-1">
       <span class="num">01</span>
-      <span class="must-title">Apple 台灣 App Store 抽成降至 26%</span>
-      <span class="must-hint">手遊發行成本直接下降，iOS 收益試算要更新</span>
+      <span class="must-title">Claude Fable 5.2 / Mythos 5.2 正式上線</span>
+      <span class="must-hint">速度快30%、數學定理驗證首測成功，定價已出，企劃工具整合時機到了</span>
     </a>
     <a class="must-read-item" href="#must-2">
       <span class="num">02</span>
-      <span class="must-title">Anthropic 發布 Claude Fable 5.2 與 Mythos 5.2</span>
-      <span class="must-hint">現行最強通用模型更新，企劃 AI 工具可升級</span>
+      <span class="must-title">Apple 美國佣金實質降至0%，歐盟改為26%</span>
+      <span class="must-hint">Epic 判決落地，遊戲 IAP 成本結構出現根本性轉變，台廠需重訂美區定價策略</span>
     </a>
     <a class="must-read-item" href="#must-3">
       <span class="num">03</span>
-      <span class="must-title">中美貿易休戰再延 2 個月至 2027/1/10</span>
-      <span class="must-hint">稀土出口管制豁免同步延長，半導體供應鏈短期壓力紓解</span>
+      <span class="must-title">中國《未成年人網路保護規定》草案意見截止，遊戲業靜待定稿</span>
+      <span class="must-hint">含年齡識別與強制未成年模式，台廠中國版本 IAP 與推播邏輯需提前梳理</span>
     </a>
   </div>
 </section>
 
 <div class="filters">
-  <button class="chip active" data-filter="all">全部 <span class="chip-count">8</span></button>
-  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">2</span></button>
-  <button class="chip" data-filter="industry">📊 產業視野 <span class="chip-count">4</span></button>
-  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">2</span></button>
+  <button class="chip active" data-filter="all">全部 <span class="chip-count">10</span></button>
+  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">4</span></button>
+  <button class="chip" data-filter="industry">📊 產業視野 <span class="chip-count">3</span></button>
+  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">3</span></button>
   <input type="search" class="search-input" placeholder="搜尋標題或摘要…" id="search">
   <div class="legend">
     <span>🎯 工作直擊</span>
@@ -65,33 +65,61 @@
 <main>
 
 <section>
-  <h2>台港澳 <span class="count" data-count="tw">2 則</span></h2>
+  <h2>台港澳 <span class="count" data-count="tw">4 則</span></h2>
   <div class="news-list" data-region="tw">
+    <article id="must-3" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">中國《未成年人網路保護規定》草案意見截止，遊戲業靜待定稿</div>
+      <div class="summary">國家互聯網信息辦公室 9 月 18 日公布草案，意見徵集截止日為 10 月 17 日。草案涵蓋年齡識別機制與未成年人模式強制啟動，尚未正式施行，後續正式稿可能調整現行版號審批配套要求。現行規定仍為 2021 年的未成年人每週限玩3小時框架。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：一旦定稿，台廠在中國上架的遊戲若含抽卡、深夜推播或無限充值，皆需重新評估未成年合規流程。建議提前梳理遊戲內 IAP 觸發邏輯與推播時段設定，預留3-6個月改版時間。</div>
+      <div class="footer-meta">
+        <span>2026-10-17</span>
+        <span class="sep">·</span>
+        <span>Top Orange / 國家互聯網信息辦公室</span>
+        <span class="sep">·</span>
+        <a href="https://toporange.cloud/blog/youxi-banhao-chuban-hegui-2026/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">TSMC 10 月營收年增近 60%，AI 晶片需求推動歷史新高</div>
+      <div class="summary">台積電公告 10 月合併營收 NT$5,868.9 億元，年增 59.7%。法人預估 Q4 年增率可達 63%，主要受益於 Nvidia、Apple AI 晶片訂單持續放量，先進封裝產能同步吃緊。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：台積電持續滿載意味著 AI 裝置硬體生態擴張節奏不變，手遊進入 AI NPC、即時語音、端側推理等新功能的硬體可行性視窗持續開大。長線對裝置普及有利。</div>
+      <div class="footer-meta">
+        <span>2026-11-10</span>
+        <span class="sep">·</span>
+        <span>Business Today</span>
+        <span class="sep">·</span>
+        <a href="https://www.businesstoday.com.my/2026/11/10/tsmc-october-sales-jump-60-as-ai-chip-demand-sustains-growth/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
     <article data-category="industry">
       <span class="tag tag-industry">📊 產業視野</span>
-      <div class="title">台經院：台灣半導體 2027 年產值估達 11.8 兆元</div>
-      <div class="summary">台經院11月9日景氣展望研討會預估，受AI算力需求持續擴大，2027年台灣半導體產值將達11.8兆新台幣，年增約21.5%，首度突破10兆大關。工研院同口徑估值亦達11.8兆。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>AI投資正從「夢想期」走向「檢驗期」，市場開始要求AI應用必須變現。台廠若能在這波需求轉型中切入終端AI應用（如手遊AI NPC、生成式內容），將比單純供應算力硬體更能受益。</div>
+      <div class="title">TSMC 董事會批准分別投資 Anthropic 與 OpenAI 最多 5 億美元</div>
+      <div class="summary">據路透社報導，台積電董事會已批准各投資 Anthropic 與 OpenAI 最多 5 億美元，以深化與主要 AI 客戶的策略綁定，同時考慮擴大業務至先進 AI 記憶體晶片製造。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：台積電從晶片代工廠轉型為 AI 生態投資方，台灣在全球 AI 工具鏈的話語權將持續提升。同時顯示 Anthropic 和 OpenAI 的算力需求長期受台積電支撐，模型供應穩定度有結構性保障。</div>
       <div class="footer-meta">
-        <span>2026-11-09</span>
+        <span>2026-11-10</span>
         <span class="sep">·</span>
-        <span>Yahoo財經</span>
+        <span>Analytics Insight</span>
         <span class="sep">·</span>
-        <a href="https://tw.news.yahoo.com/ai%E9%9C%80%E6%B1%82%E7%BA%8C%E6%92%90-%E5%8F%B0%E7%B6%93%E9%99%A2%E4%BC%B0%E6%98%8E%E5%B9%B4%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%94%A2%E5%80%BC%E8%A1%9D11-8%E5%85%86%E5%85%83-100756666.html" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://www.analyticsinsight.net/news/tsmc-plans-usd-1-billion-investment-in-anthropic-and-openai" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
     <article data-category="strategy">
       <span class="tag tag-strategy">🌏 策略背景</span>
-      <div class="title">香港 SFC：30% 持牌機構已部署代理式 AI，年內提交虛擬資產發牌草案</div>
-      <div class="summary">香港金融科技周後，SFC公布調查顯示20家持牌中介機構中30%已實際部署代理式AI，SFC明確要求建立人工監控機制。財庫局副秘書長宣布將在2026年內向立法會提交虛擬資產全面發牌草案。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>香港以「代理式AI+虛擬資產發牌」雙軌構建新金融秩序。若有評估進入香港FinTech或Web3賽道的計畫，現在是研究SFC合規路徑的最佳時間點。SFC對AI「人機責任邊界」的監管邏輯，也值得做AI遊戲應用企劃者參考。</div>
+      <div class="title">香港金管局金融科技周：AI 監管邊界明確化，代幣化擴大至穩定幣試點</div>
+      <div class="summary">金管局在 11 月初金融科技周公布多項措施：推出 SAGE 計畫（代理式 AI 銀行應用）、後量子密碼工具包、Ensemble 代幣化結算擴展至24小時穩定幣試點，轉數快年底接通銀聯國際。SFC 要求機構明確界定 AI 可存取資料與行動範圍，強調每個 AI 決策流程必須有人負責。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：香港正快速建立 AI 在金融服務的監管邊界，若遊戲公司未來涉及香港玩家充值、虛擬資產或穩定幣兌換，需留意「AI 決策需有人承擔責任」的原則，可能影響自動化客服或 AI 客服審核流程的合規設計。</div>
       <div class="footer-meta">
-        <span>2026-11-04</span>
+        <span>2026-11-02</span>
         <span class="sep">·</span>
-        <span>21財經</span>
+        <span>香港金融管理局</span>
         <span class="sep">·</span>
-        <a href="https://m.21jingji.com/article/20261104/herald/6eae5f8d0898d2ef0afae98454f0552f.html" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://www.hkma.gov.hk/chi/news-and-media/press-releases/2026/11/20261102-3" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
@@ -103,91 +131,91 @@
   <div class="news-list" data-region="intl">
     <article id="must-1" data-category="work">
       <span class="tag tag-work">🎯 工作直擊</span>
-      <div class="title">Apple 台灣 App Store 抽成從 30% 降至 26%</div>
-      <div class="orig-title">App Store Fees and Commission Rates in 2026: Apple EU Changes</div>
-      <div class="summary">Apple於10月31日起調降台灣App Store標準抽成至26%（原30%）。歐盟地區降至15%，美國因法院命令，消費者亦可在App外付款、平台不得抽成。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>對手遊發行的直接影響：台灣市場每筆IAP到手金額提升，iOS收益試算要更新。同時可觀察Google Play台灣是否跟進調降，以及各平台區域差異化策略對跨平台布局的影響。</div>
+      <div class="title">Anthropic 發布 Claude Fable 5.2 與 Mythos 5.2，速度快30%、費馬定理驗證成功</div>
+      <div class="orig-title">From Wearable Agent To Heavy Coding: Top AI Releases From Meta, Google, OpenAI, And Anthropic</div>
+      <div class="summary">Anthropic 於 11 月 9 日發布 Fable 5.2（全面上線，付費用戶額度提升）和 Mythos 5.2（僅限核准機構），輸出速度比前版快30%，定價 $8/M 輸入、$40/M 輸出。官方稱 1,000 個 Fable 5.2 Agent 在 30 小時內完成費馬最後定理的電腦可驗證形式轉譯，數學推理能力大幅躍升。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：速度提升30%+定價穩定，把 Fable 整合進企劃工具流程（需求文件生成、UX 文案、本地化）的 token 成本不升反降。數學推理提升讓遊戲數值平衡分析、掉落率驗算的 AI 輔助可行性更高。現在是系統性導入的好時機。</div>
       <div class="footer-meta">
-        <span>2026-10-31</span>
+        <span>2026-11-09</span>
         <span class="sep">·</span>
-        <span>FunnelFox</span>
+        <span>ETV Bharat / AI Weekly</span>
         <span class="sep">·</span>
-        <a href="https://blog.funnelfox.com/apple-app-store-fees-2026-eu-dma/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://www.etvbharat.com/en/technology/major-ai-upgrades-meta-muse-openai-dot-multi-device-support-google-maps-platform-in-ai-studio-and-claude-fable-mythos-enn26111002884" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
     <article id="must-2" data-category="work">
       <span class="tag tag-work">🎯 工作直擊</span>
-      <div class="title">Anthropic 發布 Claude Fable 5.2 與 Mythos 5.2</div>
-      <div class="orig-title">Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds</div>
-      <div class="summary">Anthropic於11月9日發布通用旗艦模型Claude Fable 5.2，以及限定網路安全與生命科學用途的Mythos 5.2。標準API定價：輸入$8/百萬tokens、輸出$40/百萬tokens。公司IPO傳聞同步升溫。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>Fable 5.2可立即用於日常企劃工作（文案、競品分析、資料整理）；若有評估Claude API接入遊戲的計畫，現在是測試最新能力的好時機。IPO進程值得追蹤，可能影響Claude定價策略穩定性。</div>
+      <div class="title">Apple 美國市場佣金實質降至0%，歐盟自10月起改為26%</div>
+      <div class="orig-title">App Store Cost 2026: $99 Is Just the Start (Full Budget)</div>
+      <div class="summary">依據 Epic v. Apple 法院禁令，Apple 目前在美國市場對 App IAP 抽成降至 0%。歐盟地區自 2026 年 10 月 1 日起調整為標準 26%、小型開發商 15%。兩地費率結構出現大幅分歧，最終美國裁決時程待定。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：美國市場若維持 0% 佣金，台廠可考慮在美區給予更優惠的充值定價或提高收益率；歐盟 26% 比標準 30% 下降，整體對海外發行毛利有正面影響。現在應更新各區 IAP 定價模型並追蹤法院最終裁決時間點。</div>
       <div class="footer-meta">
-        <span>2026-11-09</span>
+        <span>2026-10-01</span>
         <span class="sep">·</span>
-        <span>CNBC</span>
+        <span>GroovyWeb</span>
         <span class="sep">·</span>
-        <a href="https://cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://www.groovyweb.co/blog/how-much-does-it-cost-app-store" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
-    <article id="must-3" data-category="strategy">
+    <article data-category="strategy">
       <span class="tag tag-strategy">🌏 策略背景</span>
-      <div class="title">中美貿易休戰再延 2 個月：24% 關稅暫停＋稀土豁免延至 2027/1/10</div>
-      <div class="orig-title">China Extends Pause on 24% US Tariffs to January, Keeps 10% Rate</div>
-      <div class="summary">中國11月9日宣布，對美貨物24%額外關稅的暫停期限再延2個月至2027年1月10日，10%底率維持不變。稀土出口管制豁免與港口費用暫停同步延長。川習預計下週於深圳APEC場邊會面。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>短期利多：稀土斷鏈風險再降，台廠可縮短備貨週期。但10%底率維持，意味貿易成本未完全回到2024年前水準。APEC會面結果將決定明年Q1採購策略是否需要調整，建議持續追蹤。</div>
+      <div class="title">美中貿易休戰延期至 2027 年 1 月，中國稀土出口管制 11 月 10 日生效</div>
+      <div class="orig-title">China's November 2026 Export-Control Cliff: What Happens on Nov 10 and Nov 27</div>
+      <div class="summary">美中廣泛貿易休戰從原定 11 月 10 日到期延長至 2027 年 1 月 10 日，中國同步延長暫停對美 24% 加徵關稅兩個月（維持10%基礎稅）。但中國稀土出口管制法律日期仍為 11 月 10 日與 27 日，178 項 Section 301 豁免於 11 月 10 日到期，尚無延長公告。APEC 領導人峰會 11 月 18-19 日在深圳舉行，川習會預計登場。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：短期供應鏈衝擊有限，但稀土管制生效意味著高階手機晶片磁性材料成本可能上漲，間接影響中高階 Android 設備普及速度。若目標市場仰賴中高階 Android 旗艦機玩家，需留意此趨勢對畫質設定策略的長期影響。</div>
       <div class="footer-meta">
-        <span>2026-11-09</span>
+        <span>2026-11-10</span>
         <span class="sep">·</span>
-        <span>Bloomberg</span>
+        <span>Materials Dispatch / FX Street</span>
         <span class="sep">·</span>
-        <a href="https://bloomberg.com/news/articles/2026-11-09/china-extends-pause-on-24-us-tariffs-to-january-keeps-10-rate" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://www.materialsdispatch.com/en/blog/china-november-2026-export-control-cliff" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">Anthropic 警告：AI 模型演進速度已超出安全措施跟進能力</div>
+      <div class="orig-title">Anthropic warns AI models advancing faster than safety measures can keep up</div>
+      <div class="summary">Anthropic 公開表示，旗下 AI 模型的能力提升速度已超越公司建立足夠安全機制的速度。此聲明與 Fable 5.2 發布同步，引發業界對 AI 快速部署與監管滯後的廣泛討論。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：AI 能力快速演進 + 安全措施滯後，意味著未來遊戲中 AI 生成內容（NPC 對話、動態劇情、使用者生成內容審核）可能面臨更嚴格的平台或政府審查。現在導入 AI 功能需同步設計人工審核閥門，以備未來合規要求。</div>
+      <div class="footer-meta">
+        <span>2026-11-10</span>
+        <span class="sep">·</span>
+        <span>Crypto Briefing</span>
+        <span class="sep">·</span>
+        <a href="https://cryptobriefing.com/anthropic-warns-ai-models-advancing-faster-than-safety-measures-can-keep-up/" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
     <article data-category="industry">
       <span class="tag tag-industry">📊 產業視野</span>
-      <div class="title">任天堂 Q2 淨利下滑 29%，Switch 2 銷量動能明顯降溫</div>
-      <div class="orig-title">Nintendo quarterly net profit drops 29%</div>
-      <div class="summary">任天堂Q2淨利年減29%，遠遜於分析師預估的822億日元。Switch 2上半年銷量約650萬台，低於前年同期的1040萬台。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>Switch 2已脫離「發售期狂熱」，硬體增長趨勢降溫。若有在Switch 2平台的發行計畫，市場滲透率預估應下修；任天堂可能加大軟體端投資刺激硬體銷售，第一方競爭壓力或上升。</div>
+      <div class="title">Nexon x Tencent：DNF 宇宙動作 RPG Project OVERKILL 進軍中國 PC 市場</div>
+      <div class="orig-title">Nexon and Tencent Partner to Bring Project OVERKILL to China</div>
+      <div class="summary">Nexon 子公司 Neople 與騰訊於 11 月 10 日簽署協議，將以《地下城與勇士》宇宙為背景的線上動作 RPG Project OVERKILL 帶進中國 PC 平台，雙方將深度本地化開發，發行時程未定。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：DNF IP 在中國的強大基礎加上 Neople 本地化策略，代表韓系 IP × 騰訊通路合作模式仍具高度可行性。若你的手遊考慮進軍中國，觀察此案版號申請進度可作為路徑參考；同時顯示 PC 端仍是中國大型 IP 首選進場格式。</div>
       <div class="footer-meta">
-        <span>2026-11-07</span>
+        <span>2026-11-10</span>
         <span class="sep">·</span>
-        <span>Manila Times</span>
+        <span>Games Press</span>
         <span class="sep">·</span>
-        <a href="https://www.manilatimes.net/2026/11/07/business/foreign-business/nintendo-quarterly-net-profit-drops-29/2464237" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://gamespress.com/en-US/Nexon-and-Tencent-Partner-to-Bring-Project-OVERKILL-to-China" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
     <article data-category="industry">
       <span class="tag tag-industry">📊 產業視野</span>
-      <div class="title">Bandai Namco 確認參與《薩爾達傳說：時之笛》Switch 2 重製視覺製作</div>
-      <div class="orig-title">Bandai Namco Confirms It Worked on Zelda: Ocarina of Time Remake's Visuals and Art Assets</div>
-      <div class="summary">Bandai Namco Studios確認為11月5日推出的Switch 2重製版《薩爾達傳說：時之笛》製作了角色、場景、動畫、過場與UI等大量美術資產，任天堂主導開發，Monolith Soft亦協助製作。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>跨廠IP重製合作模式持續延伸：一線發行商借助外部美術工作室加速開發。這一模式對中型遊戲廠商提供了切入高知名度IP的協作機會，也說明任天堂正更積極地拓展外包生態。</div>
+      <div class="title">NCSoft Q2 營收年增101%，韓廠集體搶攻日本次文化手遊市場</div>
+      <div class="orig-title">NCSoft, Nexon, Netmarble Take New Titles to Tokyo Game Show</div>
+      <div class="summary">NCSoft Q2 2026 營收年增101.5%至7,705億韓元，Netmarble 年增4.4%至7,492億韓元。東京電玩展韓廠出席數量年增2.5倍，NCSoft 首款次文化 RPG《Astrae Oratio》（Blue Archive 團隊新作）首度亮相，Netmarble 展出《Solo Leveling: Karma》等日本向手遊。日本手遊市場年收入約100億美元，年降5.1%但仍為全球最大單市場。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：韓廠集體向次文化轉型且財務強勁回升，日本玩家對韓系次文化手遊接受度持續提升。台廠若想進入日本市場，次文化二次元定位已是必選項，且競爭正在加劇——需要在差異化 IP 或特定子類型上找到切入點。</div>
       <div class="footer-meta">
-        <span>2026-11-09</span>
+        <span>2026-09-16</span>
         <span class="sep">·</span>
-        <span>Nintendo Wire</span>
+        <span>Seoul Economic Daily</span>
         <span class="sep">·</span>
-        <a href="https://nintendowire.com/news/2026/11/09/bandai-namco-confirms-involvement-with-zelda-ocarina-of-time-remake/" target="_blank" rel="noopener noreferrer">原文連結</a>
-        <button class="copy-btn" title="複製摘要">📋 複製</button>
-      </div>
-    </article>
-    <article data-category="industry">
-      <span class="tag tag-industry">📊 產業視野</span>
-      <div class="title">SEGA 伺服器遭駭，日本電玩廳停業逾週；Bandai Namco 11/9 起試恢復</div>
-      <div class="orig-title">Japanese arcades suffer week-long blackout following Sega server hack — Bandai Namco titles resume trial operations</div>
-      <div class="summary">SEGA遭到伺服器入侵，導致日本全國電玩廳停業超過一週。班代南夢宮旗下遊戲於11月9日起陸續試恢復線上功能，SEGA產品仍在維護中，遊戲機線上功能持續中斷。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>這起事件凸顯街機與連線遊戲基礎設施的安全脆弱性。對台廠而言，提醒伺服器安全應列入發行前清單。SEGA業務中斷可能使部分日本街機玩家流向手遊，是短期行銷機會視窗值得觀察。</div>
-      <div class="footer-meta">
-        <span>2026-11-09</span>
-        <span class="sep">·</span>
-        <span>Tom's Hardware</span>
-        <span class="sep">·</span>
-        <a href="https://www.tomshardware.com/video-games/japanese-arcades-suffer-week-long-blackout-following-sega-server-hack-bandai-namco-titles-resume-trial-operations-as-sega-games-remain-offline" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://en.sedaily.com/technology/2026/09/16/ncsoft-nexon-netmarble-take-new-titles-to-tokyo-game-show" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
