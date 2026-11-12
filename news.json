@@ -1,122 +1,121 @@
 {
-  "date": "2026-11-10",
-  "weekday": "週二",
+  "date": "2026-11-11",
+  "weekday": "週三",
   "must_read": [
-    { "title": "Claude Fable 5.2 / Mythos 5.2 正式上線", "hint": "速度快30%、數學定理驗證首測成功，定價已出，企劃工具整合時機到了", "article_id": "must-1" },
-    { "title": "Apple 美國佣金實質降至0%，歐盟改為26%", "hint": "Epic 判決落地，遊戲 IAP 成本結構出現根本性轉變，台廠需重訂美區定價策略", "article_id": "must-2" },
-    { "title": "中國《未成年人網路保護規定》草案意見截止，遊戲業靜待定稿", "hint": "含年齡識別與強制未成年模式，台廠中國版本 IAP 與推播邏輯需提前梳理", "article_id": "must-3" }
+    { "title": "Apple台灣抽成降至26%，每筆收益提升5.7%", "hint": "公平會壓力使Apple讓步，與日本、EU看齊，台灣遊戲開發者自動受益", "article_id": "must-1" },
+    { "title": "Anthropic發布Fable 5.2並啟動IPO路演", "hint": "Claude新旗艦模型聲稱登頂評測榜且比5.1便宜，企業AI工具包Sheets/Meetings/Whiteboards同步揭幕", "article_id": "must-2" },
+    { "title": "G-Star 2026：韓國三大廠缺席，中國廠填位創紀錄", "hint": "NCSoft/Netmarble/Nexon轉攻日本，中廠創G-Star最多展位，東亞競爭格局重組", "article_id": "must-3" }
   ],
   "tw": [
     {
-      "id": "must-3",
+      "id": "must-1",
       "category": "work",
-      "title": "中國《未成年人網路保護規定》草案意見截止，遊戲業靜待定稿",
-      "summary": "國家互聯網信息辦公室 9 月 18 日公布草案，意見徵集截止日為 10 月 17 日。草案涵蓋年齡識別機制與未成年人模式強制啟動，尚未正式施行，後續正式稿可能調整現行版號審批配套要求。現行規定仍為 2021 年的未成年人每週限玩3小時框架。",
-      "impact": "對你的意義：一旦定稿，台廠在中國上架的遊戲若含抽卡、深夜推播或無限充值，皆需重新評估未成年合規流程。建議提前梳理遊戲內 IAP 觸發邏輯與推播時段設定，預留3-6個月改版時間。",
-      "date": "2026-10-17",
-      "source": "Top Orange / 國家互聯網信息辦公室",
-      "link": "https://toporange.cloud/blog/youxi-banhao-chuban-hegui-2026/",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "work",
-      "title": "TSMC 10 月營收年增近 60%，AI 晶片需求推動歷史新高",
-      "summary": "台積電公告 10 月合併營收 NT$5,868.9 億元，年增 59.7%。法人預估 Q4 年增率可達 63%，主要受益於 Nvidia、Apple AI 晶片訂單持續放量，先進封裝產能同步吃緊。",
-      "impact": "對你的意義：台積電持續滿載意味著 AI 裝置硬體生態擴張節奏不變，手遊進入 AI NPC、即時語音、端側推理等新功能的硬體可行性視窗持續開大。長線對裝置普及有利。",
-      "date": "2026-11-10",
-      "source": "Business Today",
-      "link": "https://www.businesstoday.com.my/2026/11/10/tsmc-october-sales-jump-60-as-ai-chip-demand-sustains-growth/",
-      "link_text": "原文連結"
+      "title": "Apple台灣App Store抽成降至26%，10月31日自動生效",
+      "summary": "Apple於10月29日宣布，台灣App Store標準抽成從30%降至26%，10月31日起自動套用，開發者無需申請。此舉源自台灣公平交易委員會啟動調查後Apple主動提出承諾，公平會以「暫停調查」方式受理，非正式結案，仍保有後續追究空間。",
+      "impact": "對你的意義：台灣市場每千元收入多回約40元，年化效益對本地發行商實質可感。公平會仍在觀察期，替代付款議題可能成下一波施壓目標——可能推動更大的平台開放，建議持續追蹤後續監管動向。",
+      "date": "2026-10-31",
+      "source": "MacRumors / Inven Global",
+      "link": "https://www.macrumors.com/2026/10/29/app-store-fees-taiwan/"
     },
     {
       "category": "industry",
-      "title": "TSMC 董事會批准分別投資 Anthropic 與 OpenAI 最多 5 億美元",
-      "summary": "據路透社報導，台積電董事會已批准各投資 Anthropic 與 OpenAI 最多 5 億美元，以深化與主要 AI 客戶的策略綁定，同時考慮擴大業務至先進 AI 記憶體晶片製造。",
-      "impact": "對你的意義：台積電從晶片代工廠轉型為 AI 生態投資方，台灣在全球 AI 工具鏈的話語權將持續提升。同時顯示 Anthropic 和 OpenAI 的算力需求長期受台積電支撐，模型供應穩定度有結構性保障。",
-      "date": "2026-11-10",
-      "source": "Analytics Insight",
-      "link": "https://www.analyticsinsight.net/news/tsmc-plans-usd-1-billion-investment-in-anthropic-and-openai",
-      "link_text": "原文連結"
+      "title": "台灣遊戲業FIDO無密碼驗證成果發表，產官攜手建數位信任基石",
+      "summary": "數發部數位產業署指導下，4家核心遊戲業者於10月29日完成FIDO場域驗證成果發表，展示在帳號安全與無密碼登入的應用成果；遊戲產業振興會同時宣布11月14日免費資訊月論壇開放報名。",
+      "impact": "對你的意義：FIDO驗證正從試驗走向規範化，遊戲登入架構需考量無密碼支援的技術接入；若產業後續將FIDO列為合規條件，接入成本與改版時程需提前規劃，建議納入下一次平台安全架構討論。",
+      "date": "2026-10-29",
+      "source": "聯合新聞網",
+      "link": "https://money.udn.com/money/story/11799/9850897"
     },
     {
       "category": "strategy",
-      "title": "香港金管局金融科技周：AI 監管邊界明確化，代幣化擴大至穩定幣試點",
-      "summary": "金管局在 11 月初金融科技周公布多項措施：推出 SAGE 計畫（代理式 AI 銀行應用）、後量子密碼工具包、Ensemble 代幣化結算擴展至24小時穩定幣試點，轉數快年底接通銀聯國際。SFC 要求機構明確界定 AI 可存取資料與行動範圍，強調每個 AI 決策流程必須有人負責。",
-      "impact": "對你的意義：香港正快速建立 AI 在金融服務的監管邊界，若遊戲公司未來涉及香港玩家充值、虛擬資產或穩定幣兌換，需留意「AI 決策需有人承擔責任」的原則，可能影響自動化客服或 AI 客服審核流程的合規設計。",
-      "date": "2026-11-02",
-      "source": "香港金融管理局",
-      "link": "https://www.hkma.gov.hk/chi/news-and-media/press-releases/2026/11/20261102-3",
-      "link_text": "原文連結"
+      "title": "台經院預估2027年台灣半導體產值衝11.8兆，AI算力需求撐盤",
+      "summary": "台經院11月9日發布預測，2026年台灣半導體產值約9.76兆元，2027年可達11.8兆元（年增21.5%），驅動力為AI伺服器算力需求旺盛及台積電2奈米先進製程放量。工研院預估IC封測明年突破兆元門檻。",
+      "impact": "對你的意義：AI基建投資仍在爬升期，AI工具長期成本下降空間仍在；台灣在地緣政治敏感期持續是全球供應鏈焦點，間接提升台廠在國際合作談判中的可信度與議價能力。",
+      "date": "2026-11-09",
+      "source": "聯合新聞網",
+      "link": "https://udn.com/news/story/7240/9870045"
+    },
+    {
+      "category": "work",
+      "title": "中國網信辦未成年人網路保護草案意見徵集截止，正式版待出爐",
+      "summary": "《國務院關於保障未成年人健康安全使用網絡的規定（徵求意見稿）》意見截止日為10月17日，草案沿用現行防沉迷框架（平日禁玩、假日限1小時），未將抽卡、簽到、限時禮包等機制列為違法，正式版本尚未公布。",
+      "impact": "對你的意義：草案若原文生效，對現有台廠陸服設計衝擊有限；但正式版存在加嚴可能，建議追蹤網信辦公告，提前評估未成年模式的內容篩選與消費上限設計是否需調整，尤其是抽卡機率公示義務。",
+      "date": "2026-10-17",
+      "source": "知乎 / 網信辦公開意見稿",
+      "link": "https://zhuanlan.zhihu.com/p/2086462378842051535"
+    },
+    {
+      "category": "strategy",
+      "title": "香港SFC宣布為高自主性AI制定原則指引，HKMA啟動SAGE代理式金融治理",
+      "summary": "香港SFC在金融科技周指出，將針對算法交易與AI輔助投資建立可解釋性要求，算法不得免除信義責任；HKMA同步推出SAGE計畫（Supervisory Advisory Group on Emerging Technology），就銀行導入代理式AI發布討論文件，代幣化存款24小時交易也正式上線。",
+      "impact": "對你的意義：金融AI監管框架化速度在香港明顯加快，若遊戲整合加密支付或NFT功能，香港合規路徑將同步收緊；代理式AI的治理討論也預示遊戲NPC、客服AI的未來監管走向，值得追蹤。",
+      "date": "2026-11-05",
+      "source": "BoringCompliance / Phemex",
+      "link": "https://phemex.com/news/article/hk-sfc-plans-cybersecurity-framework-for-licensed-institutions-to-counter-aidriven-threats-102062"
     }
   ],
   "intl": [
     {
-      "id": "must-1",
-      "category": "work",
-      "title": "Anthropic 發布 Claude Fable 5.2 與 Mythos 5.2，速度快30%、費馬定理驗證成功",
-      "orig_title": "From Wearable Agent To Heavy Coding: Top AI Releases From Meta, Google, OpenAI, And Anthropic",
-      "summary": "Anthropic 於 11 月 9 日發布 Fable 5.2（全面上線，付費用戶額度提升）和 Mythos 5.2（僅限核准機構），輸出速度比前版快30%，定價 $8/M 輸入、$40/M 輸出。官方稱 1,000 個 Fable 5.2 Agent 在 30 小時內完成費馬最後定理的電腦可驗證形式轉譯，數學推理能力大幅躍升。",
-      "impact": "對你的意義：速度提升30%+定價穩定，把 Fable 整合進企劃工具流程（需求文件生成、UX 文案、本地化）的 token 成本不升反降。數學推理提升讓遊戲數值平衡分析、掉落率驗算的 AI 輔助可行性更高。現在是系統性導入的好時機。",
-      "date": "2026-11-09",
-      "source": "ETV Bharat / AI Weekly",
-      "link": "https://www.etvbharat.com/en/technology/major-ai-upgrades-meta-muse-openai-dot-multi-device-support-google-maps-platform-in-ai-studio-and-claude-fable-mythos-enn26111002884",
-      "link_text": "原文連結"
-    },
-    {
       "id": "must-2",
       "category": "work",
-      "title": "Apple 美國市場佣金實質降至0%，歐盟自10月起改為26%",
-      "orig_title": "App Store Cost 2026: $99 Is Just the Start (Full Budget)",
-      "summary": "依據 Epic v. Apple 法院禁令，Apple 目前在美國市場對 App IAP 抽成降至 0%。歐盟地區自 2026 年 10 月 1 日起調整為標準 26%、小型開發商 15%。兩地費率結構出現大幅分歧，最終美國裁決時程待定。",
-      "impact": "對你的意義：美國市場若維持 0% 佣金，台廠可考慮在美區給予更優惠的充值定價或提高收益率；歐盟 26% 比標準 30% 下降，整體對海外發行毛利有正面影響。現在應更新各區 IAP 定價模型並追蹤法院最終裁決時間點。",
-      "date": "2026-10-01",
-      "source": "GroovyWeb",
-      "link": "https://www.groovyweb.co/blog/how-much-does-it-cost-app-store",
-      "link_text": "原文連結"
+      "title": "Anthropic發布Claude Fable 5.2、同步啟動IPO路演",
+      "orig_title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2, launches IPO investor roadshow",
+      "summary": "11月9日Anthropic發布Fable 5.2與Mythos 5.2；11月10日舉辦產品發表，推出Claude Sheets、Claude Meetings、Claude Whiteboards等企業協作工具；同時開放IPO投資人路演，股票最快下週開始交易。Fable 5.2據報在Artificial Analysis評測中排名第一，定價低於5.1。",
+      "impact": "對你的意義：Fable 5.2若評測數字成立且比前版便宜，企劃工具整合AI的成本可能下降。Sheets/Meetings/Whiteboards三款工具直接瞄準企業工作流，遊戲企劃的AI協作場景（會議摘要、設計文件、白板腦力激盪）正式有了產品化方案，可在正式上市後優先試用Meetings。",
+      "date": "2026-11-10",
+      "source": "AI Weekly / Cryptobriefing",
+      "link": "https://cryptobriefing.com/openai-anthropic-reveal-new-ai-models-products-in-week-45-of-2026/"
+    },
+    {
+      "category": "work",
+      "title": "OpenAI推ChatGPT Businesses beta，企業可驗證帳號並部署產品客服Agent",
+      "orig_title": "OpenAI launches ChatGPT Businesses beta with verified profiles and product agents; Control Room safety feature added",
+      "summary": "OpenAI推出ChatGPT Businesses beta，允許美國符資格企業認證帳號並部署AI Agent回答產品問題，現限電商與線上服務業。同步發布Control Room安全機制，可在約35秒內中斷研究模型輸出（尚未覆蓋ChatGPT與API端）。",
+      "impact": "對你的意義：企業AI代理人的B端基礎設施加速成形，遊戲客服與玩家互動的AI整合路徑愈趨清晰；Control Room的安全機制顯示OpenAI正在快速發展中補強可控性，間接說明agent部署的安全討論將成常態。",
+      "date": "2026-11-10",
+      "source": "AI Weekly",
+      "link": "https://aiweekly.co/ai-news-today"
+    },
+    {
+      "category": "work",
+      "title": "Google Gemini 4 Carbon向付費API與AI Ultra用戶正式開放",
+      "orig_title": "Google Gemini 4 Carbon goes live for paid API and AI Ultra subscribers at $2/$10 per million tokens",
+      "summary": "Google Gemini 4 Carbon正式對付費API及AI Ultra用戶開放，定價$2/百萬輸入Token、$10/百萬輸出Token；同步推出Gemini for Healthcare美國預覽，合作機構含Northwell Health與史丹佛醫學院。",
+      "impact": "對你的意義：三大AI廠商（Anthropic、OpenAI、Google）在同一週內集中推出新品，工具選型窗口收窄。建議以實際遊戲企劃工作流（文案生成、設計稿讀取、多輪對話）評估三者成本效益，而非單看評測排名。",
+      "date": "2026-11-10",
+      "source": "AI Weekly",
+      "link": "https://aiweekly.co/ai-news-today"
+    },
+    {
+      "id": "must-3",
+      "category": "industry",
+      "title": "G-Star 2026：NCSoft/Netmarble/Nexon缺席，中國廠商填滿展位創歷年最多",
+      "orig_title": "G-Star 2026 opens without Korea's top three; Chinese publishers set attendance record",
+      "summary": "韓國最大遊戲展G-Star（11月19-22日，釜山BEXCO）Nexon、NCSoft、Netmarble均未設展位，三大廠轉赴Tokyo Game Show攻打日本次文化市場；中國廠商今年在BTC館佔8個展位，創G-Star歷年最多紀錄；主贊助商首次由AI敘事平台Crack（Wrtn Technologies）擔任，非遊戲公司首度主贊G-Star 22年來。",
+      "impact": "對你的意義：韓廠集中資源轉攻日本（NCSoft的《Astrae Oratio》、Netmarble的《Pearl in Blue》），G-Star正轉型為中國廠商試水國際的平台。台廠若在東亞市場競爭，需同時觀察韓廠日本布局與中廠在韓的大量曝光，這兩個方向都可能搶佔原屬台灣IP的次文化用戶。",
+      "date": "2026-11-11",
+      "source": "Korea Herald / The Herald Business",
+      "link": "https://www.koreaherald.com/article/10843078"
     },
     {
       "category": "strategy",
-      "title": "美中貿易休戰延期至 2027 年 1 月，中國稀土出口管制 11 月 10 日生效",
-      "orig_title": "China's November 2026 Export-Control Cliff: What Happens on Nov 10 and Nov 27",
-      "summary": "美中廣泛貿易休戰從原定 11 月 10 日到期延長至 2027 年 1 月 10 日，中國同步延長暫停對美 24% 加徵關稅兩個月（維持10%基礎稅）。但中國稀土出口管制法律日期仍為 11 月 10 日與 27 日，178 項 Section 301 豁免於 11 月 10 日到期，尚無延長公告。APEC 領導人峰會 11 月 18-19 日在深圳舉行，川習會預計登場。",
-      "impact": "對你的意義：短期供應鏈衝擊有限，但稀土管制生效意味著高階手機晶片磁性材料成本可能上漲，間接影響中高階 Android 設備普及速度。若目標市場仰賴中高階 Android 旗艦機玩家，需留意此趨勢對畫質設定策略的長期影響。",
+      "title": "中美關稅休戰延長至2027年1月，稀土出口管制豁免同步續期",
+      "orig_title": "China extends tariff truce and rare earth export curb waiver to January 10, 2027; US extends 178 Section 301 exclusions",
+      "summary": "11月10日，中國宣布將24%附加關稅暫停及稀土出口管制豁免延長至2027年1月10日；美國USTR同步延長178項301條款關稅排除至2027年1月9日。兩個月緩衝期維持現狀，部分稀土管制是否正式公告仍有技術性爭議。",
+      "impact": "對你的意義：短期內遊戲硬體（顯示模組、馬達用稀土磁體）供應鏈壓力緩解；但兩個月後若無協議，管制重啟風險仍在。APEC峰會前夕的川習會可能影響後續走向，建議11月底前關注峰會成果作為下一個觀察點。",
       "date": "2026-11-10",
-      "source": "Materials Dispatch / FX Street",
-      "link": "https://www.materialsdispatch.com/en/blog/china-november-2026-export-control-cliff",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "strategy",
-      "title": "Anthropic 警告：AI 模型演進速度已超出安全措施跟進能力",
-      "orig_title": "Anthropic warns AI models advancing faster than safety measures can keep up",
-      "summary": "Anthropic 公開表示，旗下 AI 模型的能力提升速度已超越公司建立足夠安全機制的速度。此聲明與 Fable 5.2 發布同步，引發業界對 AI 快速部署與監管滯後的廣泛討論。",
-      "impact": "對你的意義：AI 能力快速演進 + 安全措施滯後，意味著未來遊戲中 AI 生成內容（NPC 對話、動態劇情、使用者生成內容審核）可能面臨更嚴格的平台或政府審查。現在導入 AI 功能需同步設計人工審核閥門，以備未來合規要求。",
-      "date": "2026-11-10",
-      "source": "Crypto Briefing",
-      "link": "https://cryptobriefing.com/anthropic-warns-ai-models-advancing-faster-than-safety-measures-can-keep-up/",
-      "link_text": "原文連結"
+      "source": "Epoch Times / US News",
+      "link": "https://www.theepochtimes.com/china/china-extends-pause-on-us-tariffs-rare-earth-curbs-for-another-2-months-6122442"
     },
     {
       "category": "industry",
-      "title": "Nexon x Tencent：DNF 宇宙動作 RPG Project OVERKILL 進軍中國 PC 市場",
-      "orig_title": "Nexon and Tencent Partner to Bring Project OVERKILL to China",
-      "summary": "Nexon 子公司 Neople 與騰訊於 11 月 10 日簽署協議，將以《地下城與勇士》宇宙為背景的線上動作 RPG Project OVERKILL 帶進中國 PC 平台，雙方將深度本地化開發，發行時程未定。",
-      "impact": "對你的意義：DNF IP 在中國的強大基礎加上 Neople 本地化策略，代表韓系 IP × 騰訊通路合作模式仍具高度可行性。若你的手遊考慮進軍中國，觀察此案版號申請進度可作為路徑參考；同時顯示 PC 端仍是中國大型 IP 首選進場格式。",
-      "date": "2026-11-10",
-      "source": "Games Press",
-      "link": "https://gamespress.com/en-US/Nexon-and-Tencent-Partner-to-Bring-Project-OVERKILL-to-China",
-      "link_text": "原文連結"
-    },
-    {
-      "category": "industry",
-      "title": "NCSoft Q2 營收年增101%，韓廠集體搶攻日本次文化手遊市場",
-      "orig_title": "NCSoft, Nexon, Netmarble Take New Titles to Tokyo Game Show",
-      "summary": "NCSoft Q2 2026 營收年增101.5%至7,705億韓元，Netmarble 年增4.4%至7,492億韓元。東京電玩展韓廠出席數量年增2.5倍，NCSoft 首款次文化 RPG《Astrae Oratio》（Blue Archive 團隊新作）首度亮相，Netmarble 展出《Solo Leveling: Karma》等日本向手遊。日本手遊市場年收入約100億美元，年降5.1%但仍為全球最大單市場。",
-      "impact": "對你的意義：韓廠集體向次文化轉型且財務強勁回升，日本玩家對韓系次文化手遊接受度持續提升。台廠若想進入日本市場，次文化二次元定位已是必選項，且競爭正在加劇——需要在差異化 IP 或特定子類型上找到切入點。",
-      "date": "2026-09-16",
-      "source": "Seoul Economic Daily",
-      "link": "https://en.sedaily.com/technology/2026/09/16/ncsoft-nexon-netmarble-take-new-titles-to-tokyo-game-show",
-      "link_text": "原文連結"
+      "title": "GTA VI 11月19日登陸主機，Switch 2持續擴充IP復刻陣容",
+      "orig_title": "GTA VI launches November 19 on consoles; Nintendo Switch 2 expands classic IP remaster lineup",
+      "summary": "GTA VI定檔11月19日在PS5/Xbox Series正式上市，為11月最大主機發行事件；Nintendo Switch 2已於11月5日發行《薩爾達傳說：時之笛》復刻版，以經典IP持續擴充11月陣容。",
+      "impact": "對你的意義：GTA VI上市前後玩家注意力高度集中於主機端，同期手遊行銷CPM成本可能受壓，建議評估是否錯開重大活動期；Nintendo的IP復刻策略說明高知名度舊IP在新平台的商業可行性，台廠在規劃自有IP再利用時可參考此模型。",
+      "date": "2026-11-11",
+      "source": "How To Video Game",
+      "link": "https://howtovideogame.com/games-coming-out-november-2026/"
     }
   ]
 }
