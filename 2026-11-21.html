@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="brief-date" content="2026-11-21">
+<title>每日新聞 Brief · 2026-11-21</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="date-nav" aria-label="日期切換">
+  <a class="date-btn" id="prev-day" href="#" title="前一天">◀</a>
+  <select class="date-select" id="date-select" aria-label="選擇日期">
+    <option value="2026-11-21">2026-11-21（週六）</option>
+  </select>
+  <a class="date-btn" id="next-day" href="#" title="後一天">▶</a>
+  <a class="date-btn latest-btn" href="./" title="跳到最新">🏠 最新</a>
+</nav>
+
+<header>
+  <h1>每日新聞 Brief</h1>
+  <div class="meta-line">
+    <span class="pill" id="current-date-pill">涵蓋日期：2026-11-21（週六）</span>
+    <span>更新：2026-11-22</span>
+    <span id="totals">台港澳 3 則 · 國際 7 則</span>
+  </div>
+</header>
+
+<section class="must-read">
+  <div class="must-read-title">🎯 今日必看 · 3 則</div>
+  <div class="must-read-grid">
+    <a class="must-read-item" href="#must-1">
+      <span class="num">01</span>
+      <span class="must-title">米哈遊 Varsapura 31分鐘次世代Demo公開</span>
+      <span class="must-hint">次世代視覺標準再度拉高，企劃必看的競品美術與設計決策素材</span>
+    </a>
+    <a class="must-read-item" href="#must-2">
+      <span class="num">02</span>
+      <span class="must-title">G-STAR 2026：韓三大廠缺席，海外收益首次超過五成</span>
+      <span class="must-hint">海外優先策略成業界共識，韓廠在日本市場的強攻直接衝擊台廠競爭空間</span>
+    </a>
+    <a class="must-read-item" href="#must-3">
+      <span class="num">03</span>
+      <span class="must-title">美財長貝森特：Nvidia晶片出口管制已足夠，不需進一步加碼</span>
+      <span class="must-hint">AI算力政策短期趨於穩定，台廠雲端AI採購計畫暫無需調整</span>
+    </a>
+  </div>
+</section>
+
+<div class="filters">
+  <button class="chip active" data-filter="all">全部 <span class="chip-count">10</span></button>
+  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">2</span></button>
+  <button class="chip" data-filter="industry">📊 產業視野 <span class="chip-count">5</span></button>
+  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">3</span></button>
+  <input type="search" class="search-input" placeholder="搜尋標題或摘要…" id="search">
+  <div class="legend">
+    <span>🎯 工作直擊</span>
+    <span>📊 產業視野</span>
+    <span>🌏 策略背景</span>
+  </div>
+</div>
+
+<main>
+
+<section>
+  <h2>台港澳 <span class="count" data-count="tw">3 則</span></h2>
+  <div class="news-list" data-region="tw">
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">資訊月：台灣四大遊戲業者完成FIDO無密碼認證，數產署展示遊戲業數位信任成果</div>
+      <div class="summary">台灣遊戲產業振興會攜手宇峻奧汀、奇換橘子、鈊象電子、昱泉國際，在數位發展部數位產業署指導及工研院輔助下完成FIDO無密碼驗證場域驗證，於資訊月展示互動成果，聚焦推廣遊戲帳號無密碼登入機制。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>FIDO認證有效降低帳號盜用風險，對玩家信任度具正面效益。若數產署未來推廣更廣的合規要求，提前導入的業者具備先行優勢。可評估旗下產品登入流程的FIDO相容性，並觀察數產署後續是否將此列入友善遊戲評選或補助條件。</div>
+      <div class="footer-meta">
+        <span>2026-11-21</span>
+        <span class="sep">·</span>
+        <span>工商時報 / UDN</span>
+        <span class="sep">·</span>
+        <a href="https://money.udn.com/money/story/11799/9875342" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">TSMC 發表 AI Design Kit（ADK）：AI代理協助晶片設計，宣稱生產力提升3–5倍</div>
+      <div class="summary">台積電於11月OIP技術研討會上發表AI Design Kit（ADK），以AI代理程式協助晶片設計決策，結合自家製程設計套件，宣稱可將數位設計生產力提升3至5倍；ADK為TSMC廠商支援工具集的全新項目。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>AI代理正快速滲透半導體設計端，與遊戲業AI代理用於企劃、美術、QA的趨勢同步加速。ADK的落地證明「AI代理大幅提效」在高複雜度技術工作中是真實可行的，建議以此為參考評估團隊內部AI代理工具的導入廣度與深度。</div>
+      <div class="footer-meta">
+        <span>2026-11-06</span>
+        <span class="sep">·</span>
+        <span>MyNavi Tech+</span>
+        <span class="sep">·</span>
+        <a href="https://news.mynavi.jp/techplus/article/20261106-5269182/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">香港虛擬資產立法草案刊憲，12月2日立法首讀：加密經紀顧問資管托管全納入SFC</div>
+      <div class="summary">《2026年虛擬資產服務法例（修訂）條例草案》已於11月20日刊憲，將加密資產的經紀、投資顧問、資產管理及托管服務全數納入香港SFC發牌框架，預計12月2日進行立法會首讀。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>香港持續擴大虛擬資產監管覆蓋面。遊戲業以NFT或代幣化道具切入港台市場的合規門檻將進一步提高。如有評估港台虛擬商品市場計畫，需密切追蹤立法進程與最終通過版本，12月2日首讀是關鍵觀察節點。</div>
+      <div class="footer-meta">
+        <span>2026-11-20</span>
+        <span class="sep">·</span>
+        <span>CoinDesk</span>
+        <span class="sep">·</span>
+        <a href="https://www.coindesk.com/policy/2026/11/20/hong-kong-moves-to-extend-crypto-licensing-rules-to-brokers-advisers-and-custodians" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h2>國際 <span class="count" data-count="intl">7 則</span></h2>
+  <div class="news-list" data-region="intl">
+    <article id="must-1" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">米哈遊 HoYoverse 次世代新作 Varsapura 公開31分鐘實機Demo，競品視覺標準再拉高</div>
+      <div class="orig-title">miHoYo / HoYoverse Unveils Next-Gen Varsapura 31-Minute In-Game Gameplay Demo</div>
+      <div class="summary">米哈遊旗下HoYoverse於11月21日公開次世代新作Varsapura長達31分鐘的實機試玩影片，展示超高擬真美術風格、AI生成環境細節及新型開放世界互動設計；同期另一款新作Honkai: Nexus Anima最終封測將於11月25日啟動。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>米哈遊再度以高規格Demo重設市場視覺預期。Varsapura的次世代規格意味著手遊美術門檻將再度被墊高，尤其是環境細節密度和動態互動規格。建議完整觀看31分鐘Demo，拆解其環境敘事、UI節奏與技能演出設計，作為下一款產品美術規劃的競品參考框架。</div>
+      <div class="footer-meta">
+        <span>2026-11-21</span>
+        <span class="sep">·</span>
+        <span>36Kr EN</span>
+        <span class="sep">·</span>
+        <a href="https://eu.36kr.com/en/p/3565236976532360" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="must-2" data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">G-STAR 2026 韓三大廠缺席釜山展，海外收益首次突破整體半數</div>
+      <div class="orig-title">Korean Game Show G-STAR 2026 Runs Without Nexon, NC, Netmarble as Overseas Sales Top Half of Revenue</div>
+      <div class="summary">韓國最大遊戲展G-STAR 2026於11月21日起在釜山舉行，Nexon、NCSoft、Netmarble三大廠商繼續缺席；數據顯示三家業者合計海外收益首次突破整體收益50%，日本市場為主要驅動力，業界分析此舉反映「海外優先」策略主導資源分配。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>韓國頂級遊戲廠商以實際行動展示海外優先策略——日本與東南亞才是主戰場，本土展會已非推廣重心。台廠在日本市場同樣面臨NCSoft、Netmarble、Nexon的正面競爭壓力加劇，建議評估三家廠商目前在日本的陣容布局與發行節奏，找出差異化切入點。</div>
+      <div class="footer-meta">
+        <span>2026-11-21</span>
+        <span class="sep">·</span>
+        <span>TechTimes</span>
+        <span class="sep">·</span>
+        <a href="https://www.techtimes.com/articles/331245/20261121/korean-game-show-g-star-2026-runs-without-nexon-nc-netmarble-overseas-sales-top-half-revenue.htm" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="must-3" data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">美財長貝森特：Nvidia AI晶片出口管制已足夠，遠端算力存取漏洞已封堵，不需進一步限制</div>
+      <div class="orig-title">US treasury secretary says no further restrictions needed for Nvidia chip exports to China</div>
+      <div class="summary">美國財政部長貝森特11月20日接受CNBC訪問時表示，針對Nvidia晶片出口至中國的現行限制已足夠，遠端運算存取漏洞已由BIS 11月16日新規關閉；另BIS已停止H200系列對中出口，核准總量約85–90萬枚。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>貝森特的表態讓晶片出口限制的短期走向趨於穩定。對遊戲業而言，主要AI工具供應商（AWS/GCP/Azure）在現行規範下的可用性短期不受衝擊，可依現有規劃繼續推進AI工具整合；但2027年1月貿易休戰到期後的格局仍需保持備援計畫。</div>
+      <div class="footer-meta">
+        <span>2026-11-20</span>
+        <span class="sep">·</span>
+        <span>DTnext</span>
+        <span class="sep">·</span>
+        <a href="https://dtnext.in/news/world/us-treasury-secretary-says-no-further-restrictions-needed-for-nvidia-chip-exports-to-china" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">NCSoft Q3財報轉虧為盈：海外收益佔54%創新高，休閒手遊與日本市場帶動成長</div>
+      <div class="orig-title">NCSoft Swings to Q3 Profit as Overseas, Casual Game Sales Surge</div>
+      <div class="summary">NCSoft 2026年Q3財報轉虧為盈，海外收益佔總收益54%創歷史新高，主要由手機休閒遊戲及日本市場帶動；東京電玩展新作Astrae Oratio現場吸引約3萬名玩家體驗，日本布局初步見效。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>NCSoft由傳統MMORPG轉型休閒手遊＋日本市場策略初見成效。這與台灣廠商在日本的目標客群高度重疊，日本競爭正在加速升溫。建議分析NCSoft在日本主打的題材類型、商業化設計與發行節奏，作為台廠差異化定位的參考依據。</div>
+      <div class="footer-meta">
+        <span>2026-11-11</span>
+        <span class="sep">·</span>
+        <span>Seoul Economic Daily</span>
+        <span class="sep">·</span>
+        <a href="https://en.sedaily.com/business/2026/11/11/ncsoft-swings-to-q3-profit-as-overseas-casual-game-sales" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">騰訊完成Ubisoft 11.6億歐元策略投資，深化全球遊戲IP版圖布局</div>
+      <div class="orig-title">Tencent Strategic Investment Buys €1.16B of Ubisoft Shares</div>
+      <div class="summary">騰訊完成對Ubisoft旗下Vantage Studios的11.6億歐元策略投資，成為重要股東。本次投資是騰訊持續擴大全球遊戲版圖戰略的一部分，Ubisoft同期面臨股東壓力要求重組。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>騰訊以資本深化在歐洲遊戲IP版圖的布局，Ubisoft旗下IP若由騰訊協助在亞洲發行，可能衝擊台廠正在開發的類似動作冒險或開放世界題材。建議持續追蹤騰訊全球IP版圖擴張策略，尤其是Ubisoft與騰訊合作在亞洲市場的後續發行計畫。</div>
+      <div class="footer-meta">
+        <span>近期</span>
+        <span class="sep">·</span>
+        <span>36Kr EN</span>
+        <span class="sep">·</span>
+        <a href="https://eu.36kr.com/en/p/3565236976532360" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">OpenAI 發布 GPT-6.2 Astra 與 Sol：新旗艦上線，Sol 以 $2/$10 主打高性價比</div>
+      <div class="orig-title">OpenAI releases GPT-6.2 Astra and Sol — week 45 2026</div>
+      <div class="summary">OpenAI於11月17日發布GPT-6.2系列，包含Astra（$8/$40 per million tokens，新旗艦）與Sol（$2/$10，輕量高效版本）；兩款均可於ChatGPT及API存取（Plus、Pro、Enterprise用戶）。同週Google Gemini 4 Neon（$3/$15）亦上線，AI模型定價競爭持續加速。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>GPT-6.2 Sol 以 $2/$10 定價主打高性價比，是重新評估現有AI工具選型的好時機——Sol（$2/$10）與Gemini 4 Neon（$3/$15）都值得跑遊戲企劃常見任務的基準測試（文案生成、多語翻譯、競品摘要、QA自動化），找出每個任務最具成本效益的模型配置。</div>
+      <div class="footer-meta">
+        <span>2026-11-17</span>
+        <span class="sep">·</span>
+        <span>Crypto Briefing</span>
+        <span class="sep">·</span>
+        <a href="https://cryptobriefing.com/openai-anthropic-reveal-new-ai-models-products-in-week-45-of-2026/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">GTA VI 首周末登場：PS5 / Xbox Series 評分99，定義新世代主機遊戲品質基準</div>
+      <div class="orig-title">Grand Theft Auto VI launches November 19, 2026 — Metacritic 99</div>
+      <div class="summary">Rockstar Games的GTA VI於11月19日正式在PS5與Xbox Series X|S推出，Metacritic評分高達99分，為本世代最高分作品。首周末玩家數量與討論熱度打破多項平台紀錄；PC版本尚未公布上線日期。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>GTA VI以頂級製作規格重新定義玩家對沉浸式開放世界的預期，間接提高所有類型遊戲的「值不值得玩」門檻。對手遊企劃而言，玩家的時間競爭壓力加劇——需更清楚回答自家產品在玩家注意力爭奪戰中的差異化價值主張。</div>
+      <div class="footer-meta">
+        <span>2026-11-19</span>
+        <span class="sep">·</span>
+        <span>Wikipedia / GameSpot</span>
+        <span class="sep">·</span>
+        <a href="https://en.wikipedia.org/wiki/2026_in_video_games" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="page-footer">
+  <p><strong>篩選準則</strong>：結構變化 &gt; 單一事件 · 原始資料 &gt; 二手報導 · 與你工作相關 &gt; 一般熱度 · 避開紅媒（人民日報／新華社／環球時報／大公文匯等）與純口水新聞。</p>
+</footer>
+
+</div>
+
+<div class="toast" id="toast">已複製到剪貼簿</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
