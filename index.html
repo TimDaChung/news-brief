@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="brief-date" content="2026-11-22">
-<title>每日新聞 Brief · 2026-11-22</title>
+<meta name="brief-date" content="2026-11-23">
+<title>每日新聞 Brief · 2026-11-23</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
 <nav class="date-nav" aria-label="日期切換">
   <a class="date-btn" id="prev-day" href="#" title="前一天">◀</a>
   <select class="date-select" id="date-select" aria-label="選擇日期">
-    <option value="2026-11-22">2026-11-22（週日）</option>
+    <option value="2026-11-23">2026-11-23（週一）</option>
   </select>
   <a class="date-btn" id="next-day" href="#" title="後一天">▶</a>
   <a class="date-btn latest-btn" href="./" title="跳到最新">🏠 最新</a>
@@ -22,38 +22,38 @@
 <header>
   <h1>每日新聞 Brief</h1>
   <div class="meta-line">
-    <span class="pill" id="current-date-pill">涵蓋日期：2026-11-22（週日）</span>
-    <span>更新：2026-11-23</span>
-    <span id="totals">台港澳 4 則 · 國際 8 則</span>
+    <span class="pill" id="current-date-pill">涵蓋日期：2026-11-23（週一）</span>
+    <span>更新：2026-11-24</span>
+    <span id="totals">台港澳 5 則 · 國際 6 則</span>
   </div>
 </header>
 
 <section class="must-read">
   <div class="must-read-title">🎯 今日必看 · 3 則</div>
   <div class="must-read-grid">
-    <a class="must-read-item" href="#must-1">
+    <a class="must-read-item" href="#tw-1">
       <span class="num">01</span>
-      <span class="must-title">Apple美國App Store開放link-out結帳，目前零佣金</span>
-      <span class="must-hint">iOS手遊付費策略的十年最大變化——現在就該評估直購渠道</span>
+      <span class="must-title">歐盟擬禁未成年遊戲抽卡付費</span>
+      <span class="must-hint">Digital Fairness Act 直接衝擊現行抽卡付費設計</span>
     </a>
-    <a class="must-read-item" href="#must-3">
+    <a class="must-read-item" href="#intl-1">
       <span class="num">02</span>
-      <span class="must-title">GTA6首日37.9億美元：玩家注意力黑洞效應啟動</span>
-      <span class="must-hint">主機大作創造超級娛樂事件；你的留存機制能撐過這6–12個月嗎？</span>
+      <span class="must-title">OpenAI 發 GPT-6.2，提議業界設 AI 發展邊界</span>
+      <span class="must-hint">新模型降價，同時討論 AI 開發天花板</span>
     </a>
-    <a class="must-read-item" href="#must-2">
+    <a class="must-read-item" href="#intl-2">
       <span class="num">03</span>
-      <span class="must-title">美國BIS新規封堵第三國算力漏洞，東南亞數據中心受影響</span>
-      <span class="must-hint">確認你的AI pipeline供應商是否在管制範圍內</span>
+      <span class="must-title">美擴大 AI 晶片出口管制，台積電三星暫停中國出貨</span>
+      <span class="must-hint">美中技術脫鉤進一步，台廠出口壁壘升高</span>
     </a>
   </div>
 </section>
 
 <div class="filters">
-  <button class="chip active" data-filter="all">全部 <span class="chip-count">12</span></button>
-  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">2</span></button>
+  <button class="chip active" data-filter="all">全部 <span class="chip-count">11</span></button>
+  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">4</span></button>
   <button class="chip" data-filter="industry">📊 產業視野 <span class="chip-count">4</span></button>
-  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">6</span></button>
+  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">3</span></button>
   <input type="search" class="search-input" placeholder="搜尋標題或摘要…" id="search">
   <div class="legend">
     <span>🎯 工作直擊</span>
@@ -65,61 +65,75 @@
 <main>
 
 <section>
-  <h2>台港澳 <span class="count" data-count="tw">4 則</span></h2>
+  <h2>台港澳 <span class="count" data-count="tw">5 則</span></h2>
   <div class="news-list" data-region="tw">
-    <article data-category="strategy">
-      <span class="tag tag-strategy">🌏 策略背景</span>
-      <div class="title">台積電暫停部分中國先進製程訂單，回應美國出口管制新規</div>
-      <div class="summary">台積電告知部分中國客戶停止16nm及以上先進製程新訂單，遵守美國商務部11月19日生效的AI晶片出口管制新規。中國市場約占台積電Q3營收5%。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>台廠在規則轉換期間的生產排程與客戶關係管理值得持續追蹤；短期衝擊有限，但「台積電是否能持續服務中國AI客戶」的長期問號開始具體化，這直接決定台灣AI硬體生態的走向。</div>
+    <article id="tw-1" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">歐盟提新法案擬禁未成年遊戲付費抽卡</div>
+      <div class="summary">歐盟委員會於11月11日正式提出《Digital Fairness Act》，擬禁止向16歲以下未成年人提供付費隨機獎勵機制（loot box），並限制其他暗黑設計，法案須經歐洲議會及成員國商議後才生效。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：若台廠遊戲有進軍歐洲市場計畫，現行抽卡付費設計需提前評估合規成本；即使短期無影響，此一立法趨勢也可能影響日後全球各市場未成年保護法規走向，建議盡早規劃未成年玩家付費機制的替代方案。</div>
       <div class="footer-meta">
-        <span>2026-11-22</span>
+        <span>2026-11-15</span>
         <span class="sep">·</span>
-        <span>Yahoo Finance</span>
+        <span>unwire.hk</span>
         <span class="sep">·</span>
-        <a href="https://finance.yahoo.com/technology/ai/articles/tsmc-halting-china-chip-orders-131332877.html" target="_blank" rel="noopener noreferrer">原文連結</a>
-        <button class="copy-btn" title="複製摘要">📋 複製</button>
-      </div>
-    </article>
-    <article data-category="strategy">
-      <span class="tag tag-strategy">🌏 策略背景</span>
-      <div class="title">台積電股價週跌逾22%，台股TAIEX創數十年最慘單週跌幅</div>
-      <div class="summary">台積電ADR週跌約7%，台北股市11/22收盤NT$2,000，自10月高點回落約22.78%；台股TAIEX當週下跌6.23%，為數十年來最大單週跌幅，主因為全球AI股賣壓及晶片出口管制疑慮。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>台股重挫顯示全球AI題材降溫速度超出預期；若此情緒蔓延，台灣科技業的投資信心可能短暫收縮，間接影響AI工具、雲服務的採購預算。</div>
-      <div class="footer-meta">
-        <span>2026-11-22</span>
-        <span class="sep">·</span>
-        <span>Taipei Times</span>
-        <span class="sep">·</span>
-        <a href="https://www.taipeitimes.com/News/biz/archives/2026/11/23/2003868205" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://unwire.hk/2026/11/15/eu-digital-fairness-act-dark-pattern-loot-box-proposal/game-channel/" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
     <article data-category="industry">
       <span class="tag tag-industry">📊 產業視野</span>
-      <div class="title">香港《2026年虛擬資產服務立法修訂草案》預計12月2日立法會首讀</div>
-      <div class="summary">港府草案將加密貨幣經紀、投資顧問、資產管理及託管服務納入SFC發牌或登記範圍，預計12月2日立法會首讀。截至9月，SFC已批准17款代幣化零售產品，資管規模達13億美元。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>香港Web3監管框架加速成型；若台灣遊戲公司有意布局代幣化道具或NFT遊戲資產，現在觀察香港如何落地是最佳時機，也有助預判台灣監管機構的未來方向。</div>
+      <div class="title">Google Play 公布 2026 台灣年度最佳遊戲，本土製作《幻牌交鋒》獲獎</div>
+      <div class="summary">Google Play 於11月21日公布2026年台灣年度最佳App與遊戲榜單，年度最佳台灣製作遊戲由元位果凍開發的卡牌對戰遊戲《幻牌交鋒》獲得。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：台灣本土獨立製作卡牌遊戲登上 Google Play 年度榜，代表台灣玩家對策略卡牌類型有一定接受度，值得拆解其核心機制與社群運作方式作為台廠自製遊戲的本土化參考。</div>
+      <div class="footer-meta">
+        <span>2026-11-21</span>
+        <span class="sep">·</span>
+        <span>T客邦</span>
+        <span class="sep">·</span>
+        <a href="https://www.techbang.com/posts/134975-google-play-2026-taiwan-best-apps-games-winners" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">台灣遊戲產業完成 FIDO 無密碼驗證場域，數產署推動資安新標準</div>
+      <div class="summary">台灣遊戲產業振興會攜手四家遊戲業者，在數位產業署指導下完成FIDO無密碼驗證場域驗證，並於2026資訊月（11月12日）展示成果，未來遊戲登入驗證流程將有所改變。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：FIDO成為台灣遊戲產業資安方向之後，登入體驗與帳號安全架構將走向無密碼模式；若你負責的遊戲有短期資安更新或登入改版計畫，可將FIDO相容性納入需求評估，同時無密碼驗證也有助降低帳號被盜的客訴率。</div>
+      <div class="footer-meta">
+        <span>2026-11-12</span>
+        <span class="sep">·</span>
+        <span>聯合新聞網</span>
+        <span class="sep">·</span>
+        <a href="https://money.udn.com/money/story/11799/9875342" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">香港擴大虛擬資產監管，四類服務納入 SFC 發牌</div>
+      <div class="summary">香港政府11月20日刊憲《2026年虛擬資產服務（修訂）法案》，擬將虛擬資產交易、顧問、資產管理及託管四類服務納入SFC發牌制度，12月2日首讀；SFC 並於11月23日對 DA YUE Financial Group 發出限制通知。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：若遊戲有加密貨幣支付或虛擬資產兌換功能計畫，香港市場的法律框架將全面收緊；即使現階段無規劃，此法也是全球趨勢的縮影，各市場陸續跟進可能性高，宜持續追蹤對遊戲內虛擬貨幣的監管影響。</div>
       <div class="footer-meta">
         <span>2026-11-20</span>
         <span class="sep">·</span>
-        <span>CoinDesk</span>
+        <span>蕃薯藤新聞</span>
         <span class="sep">·</span>
-        <a href="https://www.coindesk.com/policy/2026/11/20/hong-kong-moves-to-extend-crypto-licensing-rules-to-brokers-advisers-and-custodians" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://n.yam.com/Article/20261121370999" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
-    <article data-category="industry">
-      <span class="tag tag-industry">📊 產業視野</span>
-      <div class="title">台灣Q3商品貿易順差創歷史新高，AI設備出口為主要動力</div>
-      <div class="summary">台灣Q3商品貿易順差刷新歷史紀錄，外貿分析指出AI相關裝置（伺服器、晶片、封裝測試）出口需求持續強勁為主要貢獻因素。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>台灣AI供應鏈的全球戰略地位再獲數據支撐；但順差過大可能引發新台幣升值壓力，間接拉升出口廠商成本，科技業匯率風險管理值得留意。</div>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">SEMI 總裁：台灣半導體供應鏈至 2029 年仍供不應求</div>
+      <div class="summary">SEMI台灣區總裁11月23日表示，受AI算力需求強勁帶動，台灣半導體供應鏈預計至2028至2029年仍將呈現供不應求局面；台積電亦確認未見客戶調整訂單或出貨，AI成長趨勢不變。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：AI算力資源長期仍將緊張，遊戲公司若考慮自建AI推論基礎設施，成本不會快速下降；使用雲端AI API（如 OpenAI、Google）仍是短至中期最具效益的方案，可繼續加速 AI 工具在工作流程中的應用。</div>
       <div class="footer-meta">
         <span>2026-11-23</span>
         <span class="sep">·</span>
-        <span>Taipei Times</span>
+        <span>工商時報</span>
         <span class="sep">·</span>
-        <a href="https://www.taipeitimes.com/News/biz/archives/2026/11/23/2003868202" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://www.ctee.com.tw/news/20261123701733-430503" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
@@ -127,125 +141,95 @@
 </section>
 
 <section>
-  <h2>國際 <span class="count" data-count="intl">8 則</span></h2>
+  <h2>國際 <span class="count" data-count="intl">6 則</span></h2>
   <div class="news-list" data-region="intl">
-    <article id="must-1" data-category="work">
+    <article id="intl-1" data-category="work">
       <span class="tag tag-work">🎯 工作直擊</span>
-      <div class="title">Apple美國App Store開放link-out結帳，目前零佣金</div>
-      <div class="orig-title">Apple US App Store Link-Out Purchases Now Live, Commission Pending Court Ruling</div>
-      <div class="summary">2026年11月11日起，美國App Store允許開發者在App內嵌入外部支付連結，iOS買家可跳轉至開發者自有網站完成購買；法院仍在審理佣金費率，現階段不收取。Google Play亦有類似機制但費率規則不同。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>這是iOS平台付費生態十數年來最大的結構性變化之一：有機會繞開30%抽成建立直購渠道，但要在未知的未來佣金與現在提前投資直購基礎設施之間做出決策。建議現在評估是否在App內建link-out落地頁，並追蹤法院最終裁定。</div>
+      <div class="title">OpenAI 發布 GPT-6.2，首席科學家提議設 AI 開發邊界</div>
+      <div class="orig-title">OpenAI releases GPT-6.2 Astra &amp; Sol; chief scientist proposes AI development limits</div>
+      <div class="summary">OpenAI 於11月17日推出 GPT-6.2 Astra（$8/百萬輸入 token）與更便宜的 GPT-6.2 Sol；首席科學家 Jakub Pachocki 11月22日提議設立業界共識的AI開發邊界，Sam Altman 表示支持。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：GPT-6.2 Sol 的低價版本讓遊戲企劃導入AI協作工具的成本門檻再降低；「AI開發邊界」共識一旦成形，意味下一代模型的進步幅度可能趨於收斂，現在搭建的AI工作流程可能具有更長的生命週期，值得加速部署而非繼續觀望。</div>
       <div class="footer-meta">
-        <span>2026-11-11</span>
+        <span>2026-11-17</span>
         <span class="sep">·</span>
-        <span>payments-playbook.com</span>
+        <span>cryptobriefing.com</span>
         <span class="sep">·</span>
-        <a href="https://payments-playbook.com/guides/app-store-fees" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://cryptobriefing.com/openai-anthropic-reveal-new-ai-models-products-in-week-45-of-2026/" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
-    <article id="must-2" data-category="strategy">
+    <article id="intl-2" data-category="strategy">
       <span class="tag tag-strategy">🌏 策略背景</span>
-      <div class="title">美國BIS新規生效：封堵中國透過第三國數據中心取得AI算力的漏洞</div>
-      <div class="orig-title">US BIS Interim Rule: AI Chip Export Controls Extended to Third-Country Data Centers</div>
-      <div class="summary">美國商務部11月16日頒布中間最終規則並於11月19日生效，要求向中國或管制清單企業提供超過1,200萬TPP算力的境外數據中心業者取得出口許可證；新加坡、馬來西亞、泰國、印尼、巴西列入管制，現有業者有90天緩衝期至2027年2月17日。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>全球AI算力的地緣政治分割正在加速；若公司AI pipeline依賴東南亞雲資源（AWS Singapore、GCP Jakarta等），現在應確認供應商合規狀態。長期看，台灣在「美國信任的算力節點」中地位反而可能提升。</div>
+      <div class="title">美擴大 AI 晶片出口管制，台積電三星暫停中國客戶出貨</div>
+      <div class="orig-title">US tightens AI chip export controls; TSMC and Samsung pause China shipments</div>
+      <div class="summary">美國商務部11月16日發布新規，要求向可能為中國提供AI算力的海外資料中心出口AI晶片需申請許可；新規11月19日生效後，台積電與三星已暫停向中國客戶出貨特定處理器，北京宣告反制。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：美中技術脫鉤持續深化，中國雲端算力資源受限可能加速部分中資遊戲公司外移，間接改變亞洲手遊市場的競爭格局；台廠若有使用中國雲端服務的遊戲，也需評估替代方案的穩定性，避免服務中斷風險。</div>
       <div class="footer-meta">
-        <span>2026-11-19</span>
+        <span>2026-11-20</span>
         <span class="sep">·</span>
-        <span>TechCrunch</span>
+        <span>DigiTimes</span>
         <span class="sep">·</span>
-        <a href="https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/" target="_blank" rel="noopener noreferrer">原文連結</a>
-        <button class="copy-btn" title="複製摘要">📋 複製</button>
-      </div>
-    </article>
-    <article id="must-3" data-category="industry">
-      <span class="tag tag-industry">📊 產業視野</span>
-      <div class="title">GTA6首日零售額37.9億美元，重寫全球娛樂銷售史</div>
-      <div class="orig-title">GTA VI Day-One Retail Sales Hit $3.79B, Shattering Entertainment Records</div>
-      <div class="summary">Rockstar Games《GTA6》11/22上市，預購3,250萬套，首日零售額達37.9億美元，約為GTA5首日的5倍，超越任何電影、音樂、遊戲的首日紀錄。台灣代理為宏碁遊戲，標準版售價2,320元。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>此規模印證主機大作仍能創造「超級娛樂事件」。對手遊企劃而言，真正的問題是：當一大批核心玩家接下來6–12個月深陷GTA6，你的日常活動設計、留存機制、付費節奏是否能在玩家注意力被瓜分的情況下維持指標？</div>
-      <div class="footer-meta">
-        <span>2026-11-22</span>
-        <span class="sep">·</span>
-        <span>Taipei Times / ABC News</span>
-        <span class="sep">·</span>
-        <a href="https://www.taipeitimes.com/News/world/archives/2026/11/22/2003868194" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://www.digitimes.com/news/a20261123VL200/investment-tsmc-equipment-chips-sk-hynix.html" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
     <article data-category="strategy">
       <span class="tag tag-strategy">🌏 策略背景</span>
-      <div class="title">川習APEC深圳峰會：貿易休戰延至2027年1月，科技與台灣懸而未決</div>
-      <div class="orig-title">Trump-Xi Shenzhen APEC Summit: Trade Truce Extended to Jan 2027, Tech and Taiwan Unresolved</div>
-      <div class="summary">中美元首APEC深圳峰會達成「穩定行動計畫」框架，中方將關稅暫停延至2027年1月10日，美方同步暫停港口費；稀土出口管制、AI晶片規則及台灣議題未公開解決。川普、習近平、普丁並舉行三方罕見會談。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>貿易休戰延期讓台廠短期出口壓力略減，但科技冷戰的結構性對立仍在加深——稀土仍比正常供應少75%，AI晶片管制持續擴大——「穩定」更多是時間換空間，不是轉折點。台廠應繼續以「地緣風險常態化」規劃供應鏈。</div>
+      <div class="title">Anthropic 上市，代碼 ANT，募資逾 930 億美元</div>
+      <div class="orig-title">Anthropic IPO: stock starts trading as ANT, raises ~$93.5 billion</div>
+      <div class="summary">AI公司 Anthropic 以每股83美元上市，股票代碼 ANT，透過完整行使承銷商選擇權共募資約935億美元，成為近年規模最大的科技IPO之一；同步宣布縮短安全漏洞修復窗口從90天至30天，1月1日起生效。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：Anthropic 上市後面臨更大的商業化壓力，Claude 系列模型的定價與功能路線圖可能轉趨積極；若你的工作流程有使用或評估 Claude API，宜持續關注其產品更新與定價策略調整，IPO後的策略調整往往在半年內顯現。</div>
       <div class="footer-meta">
         <span>2026-11-20</span>
         <span class="sep">·</span>
-        <span>CNBC</span>
+        <span>The Signal</span>
         <span class="sep">·</span>
-        <a href="https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html" target="_blank" rel="noopener noreferrer">原文連結</a>
-        <button class="copy-btn" title="複製摘要">📋 複製</button>
-      </div>
-    </article>
-    <article data-category="industry">
-      <span class="tag tag-industry">📊 產業視野</span>
-      <div class="title">NCSoft Q3轉虧為盈，海外銷售占54%，日本子文化手遊策略見效</div>
-      <div class="orig-title">NCSoft Swings to Q3 Profit as Overseas, Casual Game Sales Surge</div>
-      <div class="summary">NCSoft Q3營收686.5億韓元、營業利潤119.6億韓元，海外收入比例創新高達54%；公司上調2026全年營收至2.8兆韓元，未來計劃推出10款新作，日本市場子文化手遊（如Astrae Oratio）為核心成長引擎。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>韓系大廠以「子文化IP × 日本手遊市場」組合正在驗證成效；若台灣手遊考慮出海日本，這份數據是難得的同業對標，特別是IP包裝方式與日本玩家接受度的相關性值得深入研究。</div>
-      <div class="footer-meta">
-        <span>2026-11-11</span>
-        <span class="sep">·</span>
-        <span>Seoul Economic Daily</span>
-        <span class="sep">·</span>
-        <a href="https://en.sedaily.com/business/2026/11/11/ncsoft-swings-to-q3-profit-as-overseas-casual-game-sales" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://thesignal.substack.com/p/anthropic-floats-openai-chips-in" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
     <article data-category="work">
       <span class="tag tag-work">🎯 工作直擊</span>
-      <div class="title">Google Gemini 4 Neon上線，11月AI模型密集競賽：OpenAI、Anthropic相繼更新</div>
-      <div class="orig-title">Google Gemini 4 Neon Launched; November AI Model Race Intensifies with OpenAI, Anthropic Updates</div>
-      <div class="summary">Google 11/18發布Gemini 4 Neon（$3/$15 per 1M tokens）；OpenAI 11/17發布GPT-6.2 Astra及Sol；Anthropic Claude Fable 5.2於11/9上線（$8/$40 per 1M tokens）。三大廠在同一個月內相繼更新旗艦模型。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>11月是2026年AI模型競賽最密集的月份之一。對AI工具整合中的企劃人員而言，Gemini 4 Neon在成本上明顯低於Claude Fable（$3 vs $8 input），是值得測試的選項；GPT-6.2 Sol定位「日常任務」的定價策略也值得評估是否替換現有工作流程。</div>
+      <div class="title">Google Gemini 4 Neon 發布，推理成本大幅下降</div>
+      <div class="orig-title">Google releases Gemini 4 Neon at $3/$15 per million tokens</div>
+      <div class="summary">Google 於11月18日發布 Gemini 4 Neon，定價為每百萬輸入 token $3、輸出 $15，Tasks agent 在多個國家開放免費使用；AI Ultra 訂戶同步獲得 Genie 4 存取權限。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：Gemini 4 Neon 的低成本讓企業在產品設計、文案生成等 AI 工作流程中有了更具競爭力的選擇；與 GPT-6.2 Sol 並列，現在是評估遊戲企劃 AI 助手方案的好時機，可透過小規模試驗比較兩者在中文指令跟隨上的表現再做決策。</div>
       <div class="footer-meta">
         <span>2026-11-18</span>
         <span class="sep">·</span>
-        <span>llm-stats.com</span>
+        <span>mlq.ai</span>
         <span class="sep">·</span>
-        <a href="https://llm-stats.com/ai-news" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://mlq.ai/news/the-ai-week-cheaper-models-ai-found-bugs-and-governments-closing-in/" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
-    <article data-category="strategy">
-      <span class="tag tag-strategy">🌏 策略背景</span>
-      <div class="title">騰訊Hy4大模型發布安全報告：770B MoE，《王者榮耀》已整合AI debug</div>
-      <div class="orig-title">Tencent Publishes Hy4 AI Safety Report: 770B MoE Model with Honor of Kings Integration</div>
-      <div class="summary">騰訊11/21發布82頁Hy4系統安全報告，聲稱規模770B MoE、為中國排名第二的大模型；已應用於《王者榮耀》debug pipeline，支援Unreal/Unity/Godot引擎。生物風險評分低於高危門檻，但鏈式推理監控規避率達40%。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>中國頂級遊戲公司正在將自製大模型深度整合到遊戲開發流程，而非只用作外掛功能。這代表「AI輔助遊戲開發」已從概念走向規模落地；台廠在此方面的組織投入模式值得觀察與比較。</div>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">騰訊躍升全球最大遊戲公司，Honor of Kings 上半年吸金逾 10 億美元</div>
+      <div class="orig-title">Tencent becomes world's largest gaming company; Honor of Kings earns $1B+ in H1 2026</div>
+      <div class="summary">Bloomberg報導，中國遊戲企業已稱霸全球1210億美元手遊市場，騰訊成為全球最大遊戲公司；Honor of Kings 在2026年上半年的收益估計超過10億美元；美國正在調查騰訊持有 Riot Games 和 Epic Games 股份的合規性。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：中國廠商以資金和市場規模壓制西方競爭者，台廠在全球市場需更精準定位差異化；騰訊對 Riot/Epic 投資若遭強制撤資，可能衝擊 Valorant、Fortnite 等平台的全球授權與合作關係，值得持續觀察對遊戲生態的連帶影響。</div>
       <div class="footer-meta">
-        <span>2026-11-21</span>
+        <span>2026-11-18</span>
         <span class="sep">·</span>
-        <span>The Decoder</span>
+        <span>BusinessWorld / Bloomberg</span>
         <span class="sep">·</span>
-        <a href="https://the-decoder.com/tencent-releases-hy4-with-vision-and-computer-use-claims-second-place-among-chinese-ai-models/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://bworldonline.com/bloomberg/2026/11/18/794736/us-loses-grip-on-121-billion-mobile-gaming-sector-to-china/" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
-    <article data-category="strategy">
-      <span class="tag tag-strategy">🌏 策略背景</span>
-      <div class="title">中國稀土出口管制暫停延期，但供給較正常水準仍低75%</div>
-      <div class="orig-title">China Extends Rare Earth Export Control Suspension, But Supply Still 75% Below Normal</div>
-      <div class="summary">中國同意延長對美稀土出口管制的暫停期，但根據CSIS數據，目前實際稀土供應量仍比正常水準低約75%；2027年1月10日之後的後續情況尚不明確。</div>
-      <div class="impact"><span class="impact-label">對你的意義</span>稀土供應緊縮仍是全球科技供應鏈潛在衝擊源；台廠若有使用稀土相關元件（如馬達、感測器、電池），Q1供應鏈風險敞口需提前評估，尤其是若1月10日後暫停結束。</div>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Bandai Namco 多款遊戲入圍 The Game Awards 2026，ACE COMBAT 8 領銜</div>
+      <div class="orig-title">Bandai Namco honored with nominations at The Game Awards 2026</div>
+      <div class="summary">Bandai Namco 11月23日公布，旗下《ACE COMBAT 8》、《The Blood of Dawnwalker》（入圍 Best RPG 及 Best Narrative）、《My Hero Academia: All's Justice》（入圍 Best Fighting Game）等多款遊戲獲 TGA 2026 提名。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：TGA 入圍名單反映2026年遊戲業界的品質標桿，《Blood of Dawnwalker》入圍 Best Narrative 顯示敘事設計仍是高分遊戲核心要素；Bandai Namco 多IP平行出擊的策略可作為授權IP遊戲規劃的參考案例。</div>
       <div class="footer-meta">
-        <span>2026-11-22</span>
+        <span>2026-11-23</span>
         <span class="sep">·</span>
-        <span>Thompson Hine SmartTrade</span>
+        <span>Bandai Namco Europe</span>
         <span class="sep">·</span>
-        <a href="https://www.thompsonhinesmartrade.com/2026/11/china-extends-suspension-of-rare-earth-export-controls/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <a href="https://en.bandainamcoent.eu/news/bandai-namco-honored-nominations-the-game-awards" target="_blank" rel="noopener noreferrer">原文連結</a>
         <button class="copy-btn" title="複製摘要">📋 複製</button>
       </div>
     </article>
