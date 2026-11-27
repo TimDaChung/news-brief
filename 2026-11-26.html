@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="brief-date" content="2026-11-26">
+<title>每日新聞 Brief · 2026-11-26</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="date-nav" aria-label="日期切換">
+  <a class="date-btn" id="prev-day" href="#" title="前一天">◀</a>
+  <select class="date-select" id="date-select" aria-label="選擇日期">
+    <option value="2026-11-26">2026-11-26（週四）</option>
+  </select>
+  <a class="date-btn" id="next-day" href="#" title="後一天">▶</a>
+  <a class="date-btn latest-btn" href="./" title="跳到最新">🏠 最新</a>
+</nav>
+
+<header>
+  <h1>每日新聞 Brief</h1>
+  <div class="meta-line">
+    <span class="pill" id="current-date-pill">涵蓋日期：2026-11-26（週四）</span>
+    <span>更新：2026-11-27</span>
+    <span id="totals">台港澳 5 則 · 國際 8 則</span>
+  </div>
+</header>
+
+<section class="must-read">
+  <div class="must-read-title">🎯 今日必看 · 3 則</div>
+  <div class="must-read-grid">
+    <a class="must-read-item" href="#intl-1">
+      <span class="num">01</span>
+      <span class="must-title">美國宣布新關稅方案，台灣列入目標</span>
+      <span class="must-hint">川普提出15–35%新關稅涵蓋台灣出口品，明年1月25日舉行聽證，市場高度緊張</span>
+    </a>
+    <a class="must-read-item" href="#tw-1">
+      <span class="num">02</span>
+      <span class="must-title">台積電收緊中國AI晶片出口，16nm以下需美國許可</span>
+      <span class="must-hint">台積電要求中國晶片設計客戶取得美國出口許可，部分訂單已暫停，台廠供應鏈壓力升溫</span>
+    </a>
+    <a class="must-read-item" href="#intl-3">
+      <span class="num">03</span>
+      <span class="must-title">OpenAI、Anthropic逾24名員工警告新模型安全風險</span>
+      <span class="must-hint">業內人士要求暫停訓練，Dario Amodei回應：「不發布不代表更安全」，AI行業走向關鍵時刻</span>
+    </a>
+  </div>
+</section>
+
+<div class="filters">
+  <button class="chip active" data-filter="all">全部 <span class="chip-count">13</span></button>
+  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">3</span></button>
+  <button class="chip" data-filter="industry">📊 產業視野 <span class="chip-count">6</span></button>
+  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">4</span></button>
+  <input type="search" class="search-input" placeholder="搜尋標題或摘要…" id="search">
+  <div class="legend">
+    <span>🎯 工作直擊</span>
+    <span>📊 產業視野</span>
+    <span>🌏 策略背景</span>
+  </div>
+</div>
+
+<main>
+
+<section>
+  <h2>台港澳 <span class="count" data-count="tw">5 則</span></h2>
+  <div class="news-list" data-region="tw">
+    <article id="tw-1" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">台積電收緊中國AI晶片出口，16nm以下製程須取得美國許可</div>
+      <div class="summary">據消息人士透露，台積電已要求中國晶片設計客戶針對16奈米及以下先進製程訂單取得美國出口許可，否則部分訂單將暫停。此舉呼應美國新一輪出口管制，針對透過台廠間接取得先進運算資源的漏洞。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：中國AI晶片研發受阻，可能短期壓縮中國手遊廠（如米哈遊、網易）使用本土AI工具的進程，同時台廠出口壓力上升。若管制進一步升級，使用中國雲端AI服務的台灣遊戲商需提早評估備案方案。</div>
+      <div class="footer-meta">
+        <span>2026-11-20</span>
+        <span class="sep">·</span>
+        <span>Taipei Times</span>
+        <span class="sep">·</span>
+        <a href="https://www.taipeitimes.com/News/biz/archives/2026/11/20/2003868041" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">台經院11月景氣報告：整體偏謹慎，AI運算需求仍為主要支撐</div>
+      <div class="summary">台灣經濟研究院（TIER）11月26日景氣報告顯示，業者信心趨向謹慎，主因部分美國州對資料中心案審查延長。但明年預定投產設施多數已在興建，台灣晶圓代工、先進封裝與測試廠稼動率有望維持高位。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：台灣AI基礎建設週期延長訊號，短期不影響手遊開發商使用雲端AI工具的成本；但若AI伺服器供給趨緊，第三方AI API費率可能逐步走高，提前議定長期合約有其必要。</div>
+      <div class="footer-meta">
+        <span>2026-11-26</span>
+        <span class="sep">·</span>
+        <span>Taipei Times</span>
+        <span class="sep">·</span>
+        <a href="https://www.taipeitimes.com/News/biz/archives/2026/11/26/2003868385" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">台灣遊戲產業四業者完成FIDO數位信任驗證，數產署主導推廣</div>
+      <div class="summary">宇峻奧汀、奇換橘子、鈊象電子及昱泉國際完成數位產業署主導的FIDO無密碼驗證場域驗證，結果於成果發表會公開。此為台灣遊戲業界首批完成資安合規認證的業者。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：主管機關開始要求遊戲業者強化帳號安全標準，FIDO認證可能成未來投標或合規門檻。現階段以中小型業者為主，大型業者可觀望後跟進，但需評估導入時程與後端改造成本。</div>
+      <div class="footer-meta">
+        <span>2026-11-02</span>
+        <span class="sep">·</span>
+        <span>工商時報</span>
+        <span class="sep">·</span>
+        <a href="https://www.ctee.com.tw/news/20261102700988-431204" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">香港擴大虛擬資產監管範圍，SFC發牌延伸至經紀、顧問、託管等服務</div>
+      <div class="summary">香港政府11月20日刊憲《2026年虛擬資產服務法例（修訂）條例草案》，將SFC發牌範圍擴大至經紀、諮詢、資產管理及託管業務，銀行及儲值支付機構提供虛擬資產服務亦須向SFC註冊。草案預計12月2日提交立法會首讀。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：若手遊有虛擬貨幣兌換、NFT或數位資產相關功能在港推出，需評估是否觸及新發牌範疇；香港作為台廠出海跳板，合規成本提高，部分功能設計需提前調整。</div>
+      <div class="footer-meta">
+        <span>2026-11-20</span>
+        <span class="sep">·</span>
+        <span>商傳媒</span>
+        <span class="sep">·</span>
+        <a href="https://sunmedia.tw/news/Industry-information/1795213717-%E9%A6%99%E6%B8%AF%E6%93%B4%E5%A4%A7%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3%E7%9B%A3%E7%AE%A1%E3%80%80%E7%B6%93%E7%B4%80%E9%A1%A7%E5%95%8F%E8%A8%97%E7%AE%A1%E7%AD%89%E5%9B%9B%E5%A4%A7%E6%9C%8D%E5%8B%99%E7%B4%8D%E5%85%A5%E7%99%BC%E7%89%8C" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">香港SFC：AI發展速度已超過監管制定能力，計劃針對高自主AI制訂實務指引</div>
+      <div class="summary">香港證監會行政總裁梁鳳儀在金融科技週公開表示，前沿AI模型及代理式AI的演進速度已超過監管機構的立規節奏。SFC已列出四大AI監管重點，包括投資者保障與網路安全，並計劃針對高自主AI應用制訂實務指引，同時強化持牌機構網路安全框架。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：香港金融監管對AI的態度趨向積極，以AI驅動推薦或個人化功能的遊戲商若在港進行任何金融相關活動（如儲值卡、VIP訂閱），需留意後續合規動向。</div>
+      <div class="footer-meta">
+        <span>2026-11-02</span>
+        <span class="sep">·</span>
+        <span>RTHK</span>
+        <span class="sep">·</span>
+        <a href="https://news.rthk.hk/rthk/ch/component/k2/1876218-20261102.htm" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h2>國際 <span class="count" data-count="intl">8 則</span></h2>
+  <div class="news-list" data-region="intl">
+    <article id="intl-1" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">美國宣布新關稅方案，針對台灣、中國、歐盟等補貼產能，明年1月25日舉行聽證</div>
+      <div class="orig-title">Trump Targets China's Global Trade Dominance With New Tariffs, Raising Risk of Wider Trade Tensions</div>
+      <div class="summary">川普政府11月26日宣布新一輪Section 301關稅方案，以「補貼過剩產能」為由擬對中國、歐盟、台灣等地商品加徵15–35%關稅，約涵蓋六成美國進口品。中國相關關稅可能在現有25%基礎上再加20%，若談判破裂則威脅倍增至40%。聽證期定於明年1月25日。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：台廠出口美國的硬體與軟體服務面臨更高成本壓力；若關稅正式落地，遊戲用伺服器硬體、美區上架費用等可能受波及。現階段仍在公開意見期，密切關注1月聽證結果以決定是否需調整美區定價或採購策略。</div>
+      <div class="footer-meta">
+        <span>2026-11-26</span>
+        <span class="sep">·</span>
+        <span>Modern Diplomacy / Reuters</span>
+        <span class="sep">·</span>
+        <a href="https://moderndiplomacy.eu/2026/11/26/trump-targets-chinas-global-trade-dominance-with-new-tariffs-raising-risk-of-wider-trade-tensions/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="intl-2" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">美國擴大AI伺服器出口管制，Nvidia指示東南亞合作夥伴停止出貨</div>
+      <div class="orig-title">US Chip Export Controls Expand: Nvidia Halts AI Server Shipments to Southeast Asia</div>
+      <div class="summary">新一輪美國出口管制要求對馬來西亞、新加坡、泰國、印尼及巴西的AI伺服器出貨取得許可證，以防止中國企業繞道取得高端算力。Nvidia已指示製造合作夥伴暫停對上述市場的相關出貨。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：東南亞（尤其新加坡、馬來西亞）是台廠出海常用的雲端運算節點，若當地GPU雲服務供應商受限，可能造成AI推論或訓練成本上升。短期可評估備援至日本、韓國或歐洲區節點。</div>
+      <div class="footer-meta">
+        <span>2026-11-26</span>
+        <span class="sep">·</span>
+        <span>Dimerco / Business Standard</span>
+        <span class="sep">·</span>
+        <a href="https://dimerco.com/us-tariff-update-2026/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="intl-3" data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">OpenAI、Anthropic逾24名員工連署警告新模型安全風險，部分人要求暫停訓練</div>
+      <div class="orig-title">OpenAI and Anthropic Researchers Warn New AI Models May Be Too Powerful to Release Safely</div>
+      <div class="summary">Axios報導，超過24名OpenAI與Anthropic員工警告即將推出的新模型存在重大安全疑慮，部分人要求暫停訓練。Anthropic方面回應：「暫停發布並不等於讓模型更安全。」CEO Dario Amodei也同日公開否認AI將接管人類治理的相關言論。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：前沿AI安全爭議升溫，可能導致新一代模型發布時程延後或能力受限，直接影響2027年初AI工具升級預期。企劃部門若有依賴新模型的AI創作或NPC對話計劃，需預留緩衝期並評估備選方案。</div>
+      <div class="footer-meta">
+        <span>2026-11-26</span>
+        <span class="sep">·</span>
+        <span>Axios / 9to5Google</span>
+        <span class="sep">·</span>
+        <a href="https://9to5google.com/2026/11/24/openai-anthropic-new-models-safety-concerns-report/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">Google DeepMind聯合創辦人：2028年前出現「最低限度AGI」的可能性超過五成</div>
+      <div class="orig-title">Google DeepMind Co-founder Shane Legg: Over 50% Chance of Minimal AGI Before 2028</div>
+      <div class="summary">Google DeepMind聯合創辦人Shane Legg公開表示，他認為2028年前出現「最低限度AGI」（minimal AGI）的機率超過50%。此一預測時間表比多數主流估計更為激進，引發業界廣泛討論。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：若2028年前確實出現接近AGI能力的模型，遊戲AI的天花板將大幅提升——從動態關卡生成到全自動本地化均有可能實現。現在開始布局AI工具整合能力，有助在下一波產品週期搶得先機。</div>
+      <div class="footer-meta">
+        <span>2026-11-26</span>
+        <span class="sep">·</span>
+        <span>AI News Aggregators</span>
+        <span class="sep">·</span>
+        <a href="https://llm-stats.com/ai-news" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">中國外資遊戲版號上半年僅核准35款，年減39%，外資進入難度持續攀升</div>
+      <div class="orig-title">China Approves Only 35 Foreign Game Titles in H1 2026, Down 39% Year-on-Year</div>
+      <div class="summary">據Niko Partners數據，2026年上半年中國NPPA核准外資遊戲版號僅35款，年減39%；同期國內版號則增長21%至917款。韓國政府已正式要求中方公平對待韓國遊戲審核，但中方未承諾具體配額。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：台廠直接申請中國版號的難度持續提升，合作發行仍是唯一可行路徑；外資版號稀缺也意味著中國合作夥伴的議價能力增強。短期建議優先評估台灣、東南亞及日韓市場，而非把資源押在中國版號時程上。</div>
+      <div class="footer-meta">
+        <span>2026-11-19</span>
+        <span class="sep">·</span>
+        <span>TechTimes / Niko Partners</span>
+        <span class="sep">·</span>
+        <a href="https://www.techtimes.com/articles/331065/20261119/seoul-says-china-will-treat-korean-games-equally-license-review-no-quota-promised.htm" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">米哈遊新IP《Varsapura》公開31分鐘試玩Demo，蔡浩宇親自監製</div>
+      <div class="orig-title">miHoYo Reveals 31-Minute Varsapura Gameplay Demo, Overseen by Co-founder Cai Haoyu</div>
+      <div class="summary">米哈遊11月21日公開新作《Varsapura》長達31分鐘的試玩片段，以Unreal Engine 5開發，由聯合創辦人蔡浩宇親自主導。這是繼《原神》《星穹鐵道》後米哈遊最受關注的新IP布局。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：《Varsapura》以高品質視覺與開放世界設計為訴求，預示米哈遊對全球市場的新一輪品質競賽。台廠若在ACG或二次元賽道，需留意這款產品的用戶搶佔效應，提前評估上線時機與差異化策略。</div>
+      <div class="footer-meta">
+        <span>2026-11-21</span>
+        <span class="sep">·</span>
+        <span>36kr / Gaming Route</span>
+        <span class="sep">·</span>
+        <a href="https://eu.36kr.com/en/p/3565236976532360" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">韓國NCSoft Q3轉虧為盈，調升2026全年營收展望至2.8兆韓元</div>
+      <div class="orig-title">NCSoft Swings to Q3 Profit as Overseas and Casual Game Sales Surge</div>
+      <div class="summary">NCSoft公布Q3財報，營業利益達119.6億韓元，結束連續虧損，主因海外市場收入與休閒遊戲業務雙雙成長。公司同步調升2026年全年營收展望至2.8兆韓元。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：NCSoft轉型休閒與海外市場的策略開始見效，代表「MMORPG重度依賴」模式的轉型可行性得到驗證。台廠若在開發中重度IP轉輕度或休閒版本，可參考NCSoft的轉型路徑作為方向依據。</div>
+      <div class="footer-meta">
+        <span>2026-11-11</span>
+        <span class="sep">·</span>
+        <span>Seoul Economic Daily</span>
+        <span class="sep">·</span>
+        <a href="https://en.sedaily.com/business/2026/11/11/ncsoft-swings-to-q3-profit-as-overseas-casual-game-sales" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Netmarble計劃11月在日本DMM GAMES上線《Mon Gil: Star Dive》，拓展日本手遊版圖</div>
+      <div class="orig-title">Netmarble to Launch Mon Gil: Star Dive on Japan's DMM GAMES Platform in November</div>
+      <div class="summary">Netmarble宣布與日本平台DMM GAMES合作，計劃11月將《Mon Gil: Star Dive》引入日本市場。DMM GAMES是日本重要的成人向及一般手遊發行平台，觸及本地大量玩家。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：韓國大廠頻繁透過在地化平台（DMM、Yahoo Games）打入日本，不再依賴Google Play/App Store為唯一通路。台廠若有日本上線計劃，可研究DMM Games合作模式作為補充發行管道，尤其針對18+或利基族群的作品。</div>
+      <div class="footer-meta">
+        <span>2026-11-26</span>
+        <span class="sep">·</span>
+        <span>ad-hoc-news / Netmarble</span>
+        <span class="sep">·</span>
+        <a href="https://www.ad-hoc-news.de/boerse/news/nebenwerte/netmarble-stock-broadens-game-reach-across-japan-and-consoles/70436913" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="page-footer">
+  <p><strong>篩選準則</strong>：結構變化 &gt; 單一事件 · 原始資料 &gt; 二手報導 · 與你工作相關 &gt; 一般熱度 · 避開紅媒（人民日報／新華社／環球時報／大公文匯等）與純口水新聞。</p>
+</footer>
+
+</div>
+
+<div class="toast" id="toast">已複製到剪貼簿</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
