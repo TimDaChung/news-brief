@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="brief-date" content="2026-11-27">
+<title>每日新聞 Brief · 2026-11-27</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="date-nav" aria-label="日期切換">
+  <a class="date-btn" id="prev-day" href="#" title="前一天">◀</a>
+  <select class="date-select" id="date-select" aria-label="選擇日期">
+    <option value="2026-11-27">2026-11-27（週五）</option>
+  </select>
+  <a class="date-btn" id="next-day" href="#" title="後一天">▶</a>
+  <a class="date-btn latest-btn" href="./" title="跳到最新">🏠 最新</a>
+</nav>
+
+<header>
+  <h1>每日新聞 Brief</h1>
+  <div class="meta-line">
+    <span class="pill" id="current-date-pill">涵蓋日期：2026-11-27（週五）</span>
+    <span>更新：2026-11-28</span>
+    <span id="totals">台港澳 2 則 · 國際 6 則</span>
+  </div>
+</header>
+
+<section class="must-read">
+  <div class="must-read-title">🎯 今日必看 · 3 則</div>
+  <div class="must-read-grid">
+    <a class="must-read-item" href="#tw-1">
+      <span class="num">01</span>
+      <span class="must-title">台積電推出AI晶片設計工具包，開發週期從18個月壓至12個月</span>
+      <span class="must-hint">TSMC開放AI系統存取自家設計規則與歷史資料，A14製程套件11月底交付，推論晶片迭代速度即將加快</span>
+    </a>
+    <a class="must-read-item" href="#intl-1">
+      <span class="num">02</span>
+      <span class="must-title">美中貿易休戰延至2027年1月，川習深圳峰會無具體協議</span>
+      <span class="must-hint">布山協議展期至明年1月10日，10%附加關稅維持，企業僅多了六週視窗，根本不確定性未消除</span>
+    </a>
+    <a class="must-read-item" href="#intl-2">
+      <span class="num">03</span>
+      <span class="must-title">騰訊開源Hy-MT3遊戲在地化翻譯模型，支援102語言、錯誤率降74%</span>
+      <span class="must-hint">與《王者榮耀》團隊合作訓練，三款尺寸免費開源，可直接用於多語版本開發</span>
+    </a>
+  </div>
+</section>
+
+<div class="filters">
+  <button class="chip active" data-filter="all">全部 <span class="chip-count">8</span></button>
+  <button class="chip" data-filter="work">🎯 工作直擊 <span class="chip-count">4</span></button>
+  <button class="chip" data-filter="industry">📊 產業視野 <span class="chip-count">2</span></button>
+  <button class="chip" data-filter="strategy">🌏 策略背景 <span class="chip-count">2</span></button>
+  <input type="search" class="search-input" placeholder="搜尋標題或摘要…" id="search">
+  <div class="legend">
+    <span>🎯 工作直擊</span>
+    <span>📊 產業視野</span>
+    <span>🌏 策略背景</span>
+  </div>
+</div>
+
+<main>
+
+<section>
+  <h2>台港澳 <span class="count" data-count="tw">2 則</span></h2>
+  <div class="news-list" data-region="tw">
+    <article id="tw-1" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">台積電推出AI晶片設計工具包，目標將開發週期從18個月壓縮至12個月</div>
+      <div class="summary">台積電11月27日宣布推出AI設計工具包，讓AI系統可存取台積電設計規則與歷史資料，提升晶片設計效率。A14製程設計套件（版本0.9）預計11月底提供客戶，風險生產目標在2027年底。若成功落地，可大幅縮短IC設計端的研發週期。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：晶片開發效率提升意味著AI推論晶片迭代速度加快，硬體瓶頸對AI應用的制約週期將從18個月縮短至12個月以下。對遊戲開發商而言，AI NPC、動態生成等功能的推論成本下降趨勢將提前到來，現在布局的長期ROI比預期更好。</div>
+      <div class="footer-meta">
+        <span>2026-11-27</span>
+        <span class="sep">·</span>
+        <span>Token Post / TSMC</span>
+        <span class="sep">·</span>
+        <a href="https://www.tokenpost.com/news/technology/63611" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">台積電：AI推論需求將驅動晶片市場數年，對深度修正不擔心</div>
+      <div class="summary">台積電高層11月25日在慕尼黑活動表示，AI晶片需求在推論段（inference）帶動下將維持強勁數年，並對外駁斥AI市場深度修正的擔憂，指出先進晶片供給持續跟不上AI應用需求成長速度。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：推論需求長期看漲代表雲端AI API成本不會短期崩跌，以第三方AI推論服務驅動的遊戲功能在中期費用仍維持相對穩定。這同時也確認了長期合約鎖定或評估在地部署小型推論模型的方向是對的。</div>
+      <div class="footer-meta">
+        <span>2026-11-25</span>
+        <span class="sep">·</span>
+        <span>Digitimes</span>
+        <span class="sep">·</span>
+        <a href="https://www.digitimes.com/news/a20261125VL222/tsmc-ai-inference-chips-demand-design.html" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h2>國際 <span class="count" data-count="intl">6 則</span></h2>
+  <div class="news-list" data-region="intl">
+    <article id="intl-1" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">美中貿易休戰再延至2027年1月10日，川習深圳APEC峰會無具體進展</div>
+      <div class="orig-title">US-China Trade Truce Extended to Jan 2027 After Shenzhen APEC Summit Yields No Deal</div>
+      <div class="summary">美中布山貿易休戰協議延長至2027年1月10日。原定11月10日到期的附加關稅暫緩措施獲展期，但現行10%附加關稅維持不變。川普與習近平於深圳APEC峰會會談，未達成任何具體貿易協議，30億美元互惠減讓方案討論中但未落地。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：休戰展期給台灣遊戲業爭取了約六週的相對穩定視窗，但根本不確定性未消除。若1月10日前談判仍無進展，新一輪關稅升溫風險隨即回升。現在是確認美區採購方案、伺服器硬體合約與定價策略的最後緩衝期。</div>
+      <div class="footer-meta">
+        <span>2026-11-27</span>
+        <span class="sep">·</span>
+        <span>Baker McKenzie / Tariffs Tool</span>
+        <span class="sep">·</span>
+        <a href="https://www.tariffstool.com/guides/us-china-trade-truce-extended-january-2027" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article id="intl-2" data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">騰訊開源Hy-MT3遊戲在地化翻譯模型，支援102語言，錯誤率較前代降74%</div>
+      <div class="orig-title">Tencent's Hy-MT3 Expands Open Translation to 102 Languages, Slashing Errors by 74%</div>
+      <div class="summary">騰訊11月24日開源第三代翻譯模型Hy-MT3，語言覆蓋從38種擴展至102種，以Apache 2.0授權釋出（1.8B、7B、30B-A3B三款）。模型與《王者榮耀》本地化團隊合作訓練，專門保留遊戲特有佔位符、富文本標籤與術語一致性；30B版在騰訊自評基準中超越Gemini 3.1 Pro。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：這是目前最強的免費開源遊戲在地化翻譯工具，重點在對東南亞、中東等長尾語言的覆蓋。台廠若有多語言版本需求，可立即試用取代部分付費翻譯服務。建議先在內部小批量測試後再全面導入，因評測基準為騰訊自評，需獨立驗證。</div>
+      <div class="footer-meta">
+        <span>2026-11-24</span>
+        <span class="sep">·</span>
+        <span>Alpha Signal / Tencent Hunyuan</span>
+        <span class="sep">·</span>
+        <a href="https://alphasignal.ai/news/tencent-s-hy-mt3-expands-open-translation-to-102-languages-slashing-errors-by-74" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">Anthropic完成史上最大IPO，市值逾1兆美元；上市首週股價即跌破發行價</div>
+      <div class="orig-title">Anthropic IPO: $83 Pricing, ANT Ticker, Nasdaq Listing — Stock Falls Below Issue Price Within a Week</div>
+      <div class="summary">Anthropic 11月19日在Nasdaq以每股83美元掛牌（代號ANT），募資逾810億美元，刷新史上最大IPO紀錄，估值約1.27–1.5兆美元。上市首日股價高達111.5美元，但至11月25日已跌至82.79美元，低於發行價。台積電子公司亦認購約5億美元股份。創辦人持有51%表決權。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：Anthropic上市後財報透明度提升，Claude API的商業可持續性有公開市場支撐。首週破發意味著市場對AI基礎模型的盈利時程仍持謹慎，可能延緩API漲價的壓力。台積電押注Anthropic代表台灣科技生態對AI平台的戰略對賭；長期來看，IPO後充足的資本讓Claude能力仍會持續升級。</div>
+      <div class="footer-meta">
+        <span>2026-11-19</span>
+        <span class="sep">·</span>
+        <span>Yahoo Finance / MEXC</span>
+        <span class="sep">·</span>
+        <a href="https://finance.yahoo.com/technology/article/anthropic-ipo-stock-price-revealed-tomorrow-will-begin-trading-nov-19-195110850.html" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="strategy">
+      <span class="tag tag-strategy">🌏 策略背景</span>
+      <div class="title">AI數學里程碑：Anthropic數學家借助Claude宣稱完成黎曼假設形式化證明，Google Cogentic同日發布六篇論文</div>
+      <div class="orig-title">AI Math Milestones: Anthropic Mathematician Claims Riemann Hypothesis Proof With Claude; Google Cogentic Releases Six Formal Papers</div>
+      <div class="summary">11月27日，Anthropic數學家Levent Alpöge宣稱借助Claude完成黎曼假設的Lean形式化證明（約1700萬行程式碼），尚未獨立驗證；Google Research的Cogentic多智能體系統同日發布六篇形式化數學論文；OpenAI亦發布矩陣乘法指數下界的Lean驗證證明。三大AI實驗室同天競相展示數學推理能力。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：短期對遊戲開發影響有限，但若AI在複雜推理領域能力獲驗證，代表AI協作創作（關卡邏輯驗證、劇情一致性、規則生成）的天花板遠超預期。現在開始熟悉Claude與AI推理工具的企劃，在下一代AI能力落地時將有先行優勢。需等待學術界獨立驗證再採信黎曼假設相關宣稱。</div>
+      <div class="footer-meta">
+        <span>2026-11-27</span>
+        <span class="sep">·</span>
+        <span>AI Briefing Daily</span>
+        <span class="sep">·</span>
+        <a href="https://aibriefing.dev/story/a0536674f59b/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="work">
+      <span class="tag tag-work">🎯 工作直擊</span>
+      <div class="title">中國延長稀土出口管制暫停令；美國AI反蒸餾新規導致中國智譜AI GLM-5.5延遲發布</div>
+      <div class="orig-title">China Extends Rare Earth Export Control Suspension; US Anti-Distillation Rules Delay Zhipu AI GLM-5.5</div>
+      <div class="summary">中國延長對美稀土相關出口管制的暫停令，緩解短期供應鏈壓力。另一方面，美國商務部新規要求對超過門檻規模的海外AI運算叢集取得許可；OpenAI與Anthropic加強反蒸餾保護措施，已導致中國智譜AI（Zhipu AI）旗下GLM-5.5模型發布計劃延後。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：稀土管制暫停短期利好硬體供應穩定。反蒸餾措施強化則代表中國AI廠商自研能力受阻，使用中國AI雲服務的台廠在未來6–12個月可能面臨能力差距擴大。若企業AI工具仰賴中國API，需評估是否切換至國際API以維持能力領先。</div>
+      <div class="footer-meta">
+        <span>2026-11-27</span>
+        <span class="sep">·</span>
+        <span>Thompson Hines Smart Trade / AI Briefing Daily</span>
+        <span class="sep">·</span>
+        <a href="https://www.thompsonhinesmartrade.com/2026/11/china-extends-suspension-of-rare-earth-export-controls/" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+    <article data-category="industry">
+      <span class="tag tag-industry">📊 產業視野</span>
+      <div class="title">Bandai Namco 解散旗下Reflector Entertainment工作室，預計認列逾2100萬歐元虧損</div>
+      <div class="orig-title">Bandai Namco Dissolves Reflector Entertainment Studio, Expects €21M Loss</div>
+      <div class="summary">Bandai Namco宣布解散旗下加拿大工作室Reflector Entertainment，該工作室為《Unknown 9: Awakening》的開發商。此次解散預計造成逾2100萬歐元一次性損失，屬Bandai Namco近期系列工作室調整的一環。</div>
+      <div class="impact"><span class="impact-label">對你的意義</span>對你的意義：大型日系發行商持續清理非核心工作室資產，顯示全球主機市場收縮壓力下，外購IP或買斷工作室的槓桿策略正被重新評估。台廠若有與日系發行商合作規劃，了解日系大廠當前的財務風控心態至關重要——合作條件與IP授權要求可能趨嚴。</div>
+      <div class="footer-meta">
+        <span>2026-11-11</span>
+        <span class="sep">·</span>
+        <span>EGW News / Bandai Namco</span>
+        <span class="sep">·</span>
+        <a href="https://egw.news/tag/bandai-namco" target="_blank" rel="noopener noreferrer">原文連結</a>
+        <button class="copy-btn" title="複製摘要">📋 複製</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="page-footer">
+  <p><strong>篩選準則</strong>：結構變化 &gt; 單一事件 · 原始資料 &gt; 二手報導 · 與你工作相關 &gt; 一般熱度 · 避開紅媒（人民日報／新華社／環球時報／大公文匯等）與純口水新聞。</p>
+</footer>
+
+</div>
+
+<div class="toast" id="toast">已複製到剪貼簿</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
